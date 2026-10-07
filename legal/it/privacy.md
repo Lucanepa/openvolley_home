@@ -501,9 +501,9 @@ riceve una copia di queste garanzie.
 | Copie di sicurezza caricate | 30 giorni |
 | Registri dell'app caricati | Fino alla cancellazione del suo account |
 | Registro attività di una partita (server) | 24 mesi, o fino alla cancellazione della partita; prima su richiesta |
-| Registro attività senza partita (server) | 90 giorni; cancellato con il suo account |
+| Registro attività senza partita (server) | 90 giorni; le voci registrate con il suo account vengono cancellate con esso |
 | Cronologia degli eventi (eventi annullati e corretti) | Con la partita, come parte del verbale della partita |
-| Registro attività sul dispositivo | Voci caricate 180 giorni (al massimo 100 000); voci non ancora caricate fino al caricamento (al massimo 200 000); file giornalieri 30 giorni, al massimo 50 MB |
+| Registro attività sul dispositivo | Voci caricate 180 giorni (al massimo 100 000); voci non ancora caricate fino al caricamento (al massimo 200 000); al massimo 30 file giornalieri e 50 MB |
 | Registro d'uso (solo sul dispositivo) | OpenVolley dalla 2.4.0: 30 giorni, al massimo 50 000 voci |
 | File di registro dell'app desktop (solo sul dispositivo) | Al massimo cinque file precedenti da 5 MB ciascuno |
 | Firma sul telefono (server o portatile) | Solo nella memoria di lavoro; link valido 10 minuti, firma eliminata al più tardi 5 minuti dopo la firma |

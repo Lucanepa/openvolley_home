@@ -467,9 +467,9 @@ copy of these safeguards.
 | Uploaded backup copies | 30 days |
 | Uploaded app logs | Until you delete your account |
 | Activity log of a match (server) | 24 months, or until the match is deleted; earlier on request |
-| Activity log without a match (server) | 90 days; deleted with your account |
+| Activity log without a match (server) | 90 days; entries recorded under your account are deleted with it |
 | Event history (undone and corrected events) | With the match, as part of the match record |
-| Activity log on the device | Uploaded entries 180 days (at most 100,000); entries not yet uploaded until they are uploaded (at most 200,000); daily files 30 days, at most 50 MB |
+| Activity log on the device | Uploaded entries 180 days (at most 100,000); entries not yet uploaded until they are uploaded (at most 200,000); at most 30 daily files and 50 MB |
 | Interaction log (on the device only) | OpenVolley from 2.4.0: 30 days, at most 50,000 entries |
 | Desktop app log file (on the device only) | At most five older files of 5 MB each |
 | Signature on a phone (server or laptop) | In memory only; link valid 10 minutes, signature discarded at the latest 5 minutes after signing |

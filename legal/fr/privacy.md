@@ -527,9 +527,9 @@ prestataires. Vous pouvez me demander une copie de ces garanties.
 | Copies de sauvegarde téléversées | 30 jours |
 | Journaux de l'application téléversés | Jusqu'à la suppression de votre compte |
 | Journal d'activité d'un match (serveur) | 24 mois, ou jusqu'à la suppression du match ; plus tôt sur demande |
-| Journal d'activité sans match (serveur) | 90 jours ; effacé avec votre compte |
+| Journal d'activité sans match (serveur) | 90 jours ; les entrées enregistrées sous votre compte sont effacées avec lui |
 | Historique des événements (événements annulés et corrigés) | Avec le match, comme partie du procès-verbal du match |
-| Journal d'activité sur l'appareil | Entrées envoyées 180 jours (au plus 100 000) ; entrées pas encore envoyées jusqu'à leur envoi (au plus 200 000) ; fichiers quotidiens 30 jours, au plus 50 Mo |
+| Journal d'activité sur l'appareil | Entrées envoyées 180 jours (au plus 100 000) ; entrées pas encore envoyées jusqu'à leur envoi (au plus 200 000) ; au plus 30 fichiers quotidiens et 50 Mo |
 | Journal d'utilisation (uniquement sur l'appareil) | OpenVolley à partir de 2.4.0 : 30 jours, au plus 50 000 entrées |
 | Fichier journal de l'application de bureau (uniquement sur l'appareil) | Au plus cinq anciens fichiers de 5 Mo chacun |
 | Signature sur un téléphone (serveur ou ordinateur portable) | Uniquement en mémoire vive ; lien valable 10 minutes, signature supprimée au plus tard 5 minutes après la signature |

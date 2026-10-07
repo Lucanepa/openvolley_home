@@ -501,9 +501,9 @@ Anfrage erhalten Sie eine Kopie dieser Garantien.
 | Hochgeladene Sicherungskopien | 30 Tage |
 | Hochgeladene App-Protokolle | Bis Sie Ihr Konto löschen |
 | Aktivitätsprotokoll eines Spiels (Server) | 24 Monate oder bis das Spiel gelöscht wird; auf Anfrage früher |
-| Aktivitätsprotokoll ohne Spiel (Server) | 90 Tage; mit Ihrem Konto gelöscht |
+| Aktivitätsprotokoll ohne Spiel (Server) | 90 Tage; die unter Ihrem Konto aufgezeichneten Einträge werden mit dem Konto gelöscht |
 | Ereignisgeschichte (rückgängig gemachte und korrigierte Ereignisse) | Mit dem Spiel, als Teil des Spielberichts |
-| Aktivitätsprotokoll auf dem Gerät | Übertragene Einträge 180 Tage (höchstens 100 000); noch nicht übertragene bis zur Übertragung (höchstens 200 000); Tagesdateien 30 Tage, höchstens 50 MB |
+| Aktivitätsprotokoll auf dem Gerät | Übertragene Einträge 180 Tage (höchstens 100 000); noch nicht übertragene bis zur Übertragung (höchstens 200 000); höchstens 30 Tagesdateien und 50 MB |
 | Bedienprotokoll (nur auf dem Gerät) | OpenVolley ab 2.4.0: 30 Tage, höchstens 50 000 Einträge |
 | Protokolldatei der Desktop-App (nur auf dem Gerät) | Höchstens fünf ältere Dateien zu je 5 MB |
 | Unterschrift auf dem Telefon (Server oder Laptop) | Nur im Arbeitsspeicher; Link 10 Minuten gültig, Unterschrift spätestens 5 Minuten nach dem Unterschreiben verworfen |
