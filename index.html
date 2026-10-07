@@ -1,127 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" translate="no">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Openvolley Apps</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="landing.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <!-- Icons: inline SVG copied from lucide-static 1.52.0, ISC License, Copyright (c) Lucide Icons and Contributors. https://lucide.dev -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>OpenVolley – open source volleyball eScoresheet</title>
+  <meta name="description" content="OpenVolley is a free, open source electronic scoresheet for indoor and beach volleyball, with referee, bench and livescore dashboards. In the browser, on Windows, Linux and Android.">
+  <meta name="theme-color" content="#e2001a">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://openvolley.app/">
+
+  <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OpenVolley">
+  <meta property="og:title" content="OpenVolley – open source volleyball eScoresheet">
+  <meta property="og:description" content="Free electronic scoresheet for indoor and beach volleyball, with referee, bench and livescore dashboards.">
+  <meta property="og:url" content="https://openvolley.app/">
+  <meta property="og:image" content="https://openvolley.app/assets/brand/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="OpenVolley logo: a black volleyball with one red panel, next to the word OpenVolley">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="assets/fonts/inter-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="landing.css">
 </head>
 
 <body>
-    <div class="container" id="main-container">
-        <img id="hero-ball" src="ball.png" alt="Openvolley Ball" class="hero-image">
-        <h1 class="title">Openvolley eScoresheet</h1>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-        <div class="main-options">
-            <div class="option-card" onclick="openMenu('indoor')">
-                <img src="indoor_icon.png" alt="Indoor Icon" class="option-icon"
-                    style="aspect-ratio:1; width:180px; object-fit: contain;">
-                <div class="option-title">Indoor Volleyball</div>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="OpenVolley home">
+        <img src="assets/brand/openvolley-lockup.svg" alt="OpenVolley" width="149" height="32" draggable="false">
+      </a>
+      <nav class="topnav" aria-label="Sections">
+        <a href="#apps">Apps</a>
+        <a href="#download">Download</a>
+        <a class="nav-optional" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="card hero" aria-labelledby="hero-title">
+      <div class="hero-body">
+        <p class="eyebrow">Open source · FIVB and Swiss Volley rules</p>
+        <h1 id="hero-title">OpenVolley eScoresheet</h1>
+        <p class="lead">The electronic scoresheet for indoor and beach volleyball. Score on a laptop or tablet, and let referees, benches and fans follow the match live.</p>
+        <ul class="chips" aria-label="Highlights">
+          <li class="chip"><svg class="icon lucide-monitor-smartphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8"/><path d="M10 19v-3.96 3.15"/><path d="M7 19h5"/><rect width="6" height="10" x="16" y="12" rx="2"/></svg>Browser, Windows, Linux and Android</li>
+          <li class="chip"><svg class="icon lucide-wifi-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20h.01"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/><path d="M5 12.859a10 10 0 0 1 5.17-2.69"/><path d="M19 12.859a10 10 0 0 0-2.007-1.523"/><path d="M2 8.82a15 15 0 0 1 4.177-2.643"/><path d="M22 8.82a15 15 0 0 0-11.288-3.764"/><path d="m2 2 20 20"/></svg>Works offline in the hall</li>
+          <li class="chip"><svg class="icon lucide-scale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/></svg>Free, GPL-3.0</li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://app.openvolley.app">Open the eScoresheet<svg class="icon lucide-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+          <a class="btn btn-ghost" href="#download"><svg class="icon lucide-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>Download</a>
+        </div>
+      </div>
+      <img class="hero-mark" src="assets/brand/openvolley-mark.svg" alt="" width="220" height="220" draggable="false">
+    </section>
+
+    <section class="section" id="apps" aria-labelledby="apps-title">
+      <div class="section-head">
+        <p class="eyebrow">Apps</p>
+        <h2 id="apps-title">Everything around the match</h2>
+        <p class="section-lead">Each app runs in the browser – open it on the device that needs it.</p>
+      </div>
+      <div class="apps-grid">
+      <section class="card" aria-labelledby="indoor-title">
+        <div class="product-head">
+          <img src="assets/brand/openvolley-mark.svg" alt="" width="44" height="44">
+          <div>
+            <p class="eyebrow">Indoor volleyball</p>
+            <h3 id="indoor-title">OpenVolley eScoresheet</h3>
+          </div>
+        </div>
+        <ul class="rows">
+          <li>
+            <a class="row" href="https://app.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-notebook-pen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/><path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/><path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">eScoresheet <span class="row-host">app.openvolley.app</span></span>
+                <span class="row-desc">Score a match: match setup, rosters, coin toss, rallies, sanctions and signatures.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://referee.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-whistle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 6v4"/><path d="M21 6a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.675A7 7 0 1 1 9 6z"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Referee dashboard <span class="row-host">referee.openvolley.app</span></span>
+                <span class="row-desc">The live match on a tablet or phone for the 1st and 2nd referee.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://bench.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Bench dashboard <span class="row-host">bench.openvolley.app</span></span>
+                <span class="row-desc">The live match for the team bench.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://roster.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-file-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M16 22a4 4 0 0 0-8 0"/><circle cx="12" cy="15" r="3"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Roster upload <span class="row-host">roster.openvolley.app</span></span>
+                <span class="row-desc">Teams send their roster to the scorer before the match.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://livescore.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-radio" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M16.247 7.761a6 6 0 0 1 0 8.478"/><path d="M19.075 4.933a10 10 0 0 1 0 14.134"/><path d="M4.925 19.067a10 10 0 0 1 0-14.134"/><path d="M7.753 16.239a6 6 0 0 1 0-8.478"/><circle cx="12" cy="12" r="2"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Livescore <span class="row-host">livescore.openvolley.app</span></span>
+                <span class="row-desc">Follow a match live from anywhere.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://scoresheet.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-database" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Scoresheet archive <span class="row-host">scoresheet.openvolley.app</span></span>
+                <span class="row-desc">Finished matches and their scoresheets.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://manager.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-user-cog" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 15H6a4 4 0 0 0-4 4v2"/><path d="m14.305 16.53.923-.382"/><path d="m15.228 13.852-.923-.383"/><path d="m16.852 12.228-.383-.923"/><path d="m16.852 17.772-.383.924"/><path d="m19.148 12.228.383-.923"/><path d="m19.53 18.696-.382-.924"/><path d="m20.772 13.852.924-.383"/><path d="m20.772 16.148.924.383"/><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Manager <span class="row-host">manager.openvolley.app</span></span>
+                <span class="row-desc">Accounts, invite codes, official games and saved teams, for admins and competition managers.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+        <div class="apps-col">
+      <section class="card" aria-labelledby="beach-title">
+        <div class="product-head">
+          <img src="assets/openbeach-mark.png" alt="" width="44" height="44">
+          <div>
+            <p class="eyebrow">Beach volleyball</p>
+            <h3 id="beach-title">OpenBeach eScoresheet</h3>
+          </div>
+        </div>
+        <ul class="rows">
+          <li>
+            <a class="row" href="https://beach.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-notebook-pen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/><path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/><path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">eScoresheet <span class="row-host">beach.openvolley.app</span></span>
+                <span class="row-desc">Score a beach volleyball match.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://referee-beach.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-whistle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 6v4"/><path d="M21 6a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.675A7 7 0 1 1 9 6z"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Referee dashboard <span class="row-host">referee-beach.openvolley.app</span></span>
+                <span class="row-desc">The live match for the referees.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://livescore-beach.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-radio" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M16.247 7.761a6 6 0 0 1 0 8.478"/><path d="M19.075 4.933a10 10 0 0 1 0 14.134"/><path d="M4.925 19.067a10 10 0 0 1 0-14.134"/><path d="M7.753 16.239a6 6 0 0 1 0-8.478"/><circle cx="12" cy="12" r="2"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Livescore <span class="row-host">livescore-beach.openvolley.app</span></span>
+                <span class="row-desc">Follow a beach match live from anywhere.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="row" href="https://scoresheet-beach.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-database" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Scoresheet archive <span class="row-host">scoresheet-beach.openvolley.app</span></span>
+                <span class="row-desc">Finished beach matches and their scoresheets.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="card" aria-labelledby="rules-title">
+        <div class="product-head">
+          <img src="assets/readvolley-mark.png" alt="" width="44" height="44">
+          <div>
+            <p class="eyebrow">Rules database</p>
+            <h3 id="rules-title">ReadVolley</h3>
+          </div>
+        </div>
+        <ul class="rows">
+          <li>
+            <a class="row" href="https://readvolley.openvolley.app">
+              <span class="row-icon"><svg class="icon lucide-book-open-text" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v16"/><path d="M16 13h2"/><path d="M16 9h2"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/><path d="M6 13h2"/><path d="M6 9h2"/></svg></span>
+              <span class="row-body">
+                <span class="row-title">Volleyball rules <span class="row-host">readvolley.openvolley.app</span></span>
+                <span class="row-desc">Look up the official rules of the game.</span>
+              </span>
+              <svg class="icon row-go lucide-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="download" aria-labelledby="download-title">
+      <div class="section-head">
+        <p class="eyebrow">Download</p>
+        <h2 id="download-title">Install the eScoresheet</h2>
+        <p class="section-lead">For the scorer’s table, also without internet. The desktop app serves the referee, bench and livescore dashboards to tablets on the hall network.</p>
+      </div>
+      <div class="downloads">
+        <article class="card download">
+          <div class="download-top">
+            <span class="row-icon"><svg class="icon lucide-monitor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg></span>
+            <div>
+              <h3>Windows</h3>
+              <p class="meta">64-bit installer</p>
             </div>
-
-            <div class="option-card" onclick="openMenu('beach')" 
-                 onmouseenter="changeBall('beach')" 
-                 onmouseleave="changeBall('indoor')">
-                <img src="openbeach_no_bg.png" alt="Beach Icon" class="option-icon"
-                    style="aspect-ratio:1; width:180px; object-fit: contain;">
-                <div class="option-title">Beach Volleyball</div>
+          </div>
+          <p class="desc">Download and run the installer. Windows may show a SmartScreen notice for a new app: “More info” → “Run anyway”.</p>
+          <a class="btn btn-ghost btn-sm" href="https://get.openvolley.app/#windows"><svg class="icon lucide-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>Download for Windows</a>
+        </article>
+        <article class="card download">
+          <div class="download-top">
+            <span class="row-icon"><svg class="icon lucide-square-terminal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m7 11 2-2-2-2"/><path d="M11 13h4"/><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/></svg></span>
+            <div>
+              <h3>Linux</h3>
+              <p class="meta">Debian, Ubuntu, Mint · APT</p>
             </div>
+          </div>
+          <p class="desc">Install with one command from the signed APT repository. Updates come with the system updates.</p>
+          <a class="btn btn-ghost btn-sm" href="https://get.openvolley.app/#linux"><svg class="icon lucide-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>Install on Linux</a>
+        </article>
+        <article class="card download">
+          <div class="download-top">
+            <span class="row-icon"><svg class="icon lucide-tablet-smartphone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="10" height="14" x="3" y="8" rx="2"/><path d="M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4"/><path d="M8 18h.01"/></svg></span>
+            <div>
+              <h3>Android</h3>
+              <p class="meta">Tablets · F-Droid or APK</p>
+            </div>
+          </div>
+          <p class="desc">Add the OpenVolley repository to F-Droid for automatic updates, or install the APK directly.</p>
+          <a class="btn btn-ghost btn-sm" href="https://get.openvolley.app/#android"><svg class="icon lucide-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>Install on Android</a>
+        </article>
+      </div>
+      <p class="note"><svg class="icon lucide-shield-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><span>All packages, signing keys and fingerprints are on <a href="https://get.openvolley.app">get.openvolley.app</a>. Source code on <a href="https://github.com/Lucanepa/openvolley">GitHub</a>.</span></p>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Questions or feedback?</h2>
+      </div>
+      <div class="card contact">
+        <div>
+          <h3>Write to support</h3>
+          <p>Problems during a match, ideas, or help setting up your club or league.</p>
         </div>
-
-        <h2 class="subtitle">ReadVolley - Rules database</h2>
-        
-        <a href="https://readvolley.openvolley.app" class="option-card readvolley-card" 
-           style="text-decoration: none; color: inherit;"
-           onmouseenter="changeBall('readvolley')" 
-           onmouseleave="changeBall('indoor')">
-            <img src="readvolley.png" alt="Readvolley Icon" class="option-icon"
-                style="aspect-ratio:1; width:180px; object-fit: contain;">
-            <div class="option-title">Readvolley</div>
-        </a>
-    </div>
-
-    <!-- Indoor Menu -->
-    <div class="sub-menu" id="menu-indoor">
-        <button class="close-menu" onclick="closeMenu('indoor')" aria-label="Close Indoor Menu">
-            <i class="bi bi-x-lg"></i>
-        </button>
-        <div class="menu-grid">
-            <a href="https://app.openvolley.app" class="menu-item highlight">
-              <img src="indoor_icon.png" alt="Indoor Icon" class="option-icon"
-                    style="aspect-ratio:1; width:180px; object-fit: contain;">
-                <div>
-                    <div class="item-title">Main eScoresheet</div>
-                </div>
-            </a>
-
-            <a href="https://referee.openvolley.app" class="menu-item">
-                <img src="referee_icon.png" class="item-icon" alt="Referee" style="filter: brightness(0) invert(1);">
-                <div class="item-title">Referee Dashboard</div>
-            </a>
-
-            <a href="https://bench.openvolley.app" class="menu-item">
-                <i class="bi bi-people item-icon"></i>
-                <div class="item-title">Bench Dashboard</div>
-            </a>
-
-            <a href="https://roster.openvolley.app" class="menu-item">
-                <i class="bi bi-file-earmark-person item-icon"></i>
-                <div class="item-title">Roster Upload</div>
-            </a>
-
-            <a href="https://livescore.openvolley.app" class="menu-item">
-                <i class="bi bi-broadcast item-icon"></i>
-                <div class="item-title">Livescore</div>
-            </a>
-
-            <a href="https://scoresheet.openvolley.app" class="menu-item">
-                <i class="bi bi-database item-icon"></i>
-                <div class="item-title">Scoresheet DB</div>
-            </a>
+        <div class="actions">
+          <a class="btn btn-ghost" href="mailto:support@openvolley.app"><svg class="icon lucide-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>support@openvolley.app</a>
         </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>OpenVolley · free software under the <a href="https://github.com/Lucanepa/openvolley/blob/main/LICENSE">GPL-3.0</a> · <a href="https://github.com/Lucanepa/openvolley">Source code</a></p>
+      <p>Icons: <a href="https://lucide.dev">Lucide</a> (ISC) · Font: <a href="https://rsms.me/inter/">Inter</a> (SIL OFL 1.1)</p>
     </div>
-
-    <!-- Beach Menu -->
-    <div class="sub-menu" id="menu-beach">
-        <button class="close-menu" onclick="closeMenu('beach')" aria-label="Close Beach Menu">
-            <i class="bi bi-x-lg"></i>
-        </button>
-        <div class="menu-grid">
-            <a href="https://beach.openvolley.app" class="menu-item highlight">
-                <img src="openbeach_no_bg.png" alt="Beach Icon" class="option-icon"
-                    style="aspect-ratio:1; width:180px; object-fit: contain;">
-                <div>
-                    <div class="item-title">Main eScoresheet</div>
-                </div>
-            </a>
-
-            <a href="https://referee-beach.openvolley.app" class="menu-item">
-                <img src="referee_icon.png" class="item-icon" alt="Referee" style="filter: brightness(0) invert(1);">
-                <div class="item-title">Referee Dashboard</div>
-            </a>
-
-            <a href="https://beach-scoreboard.openvolley.app" class="menu-item">
-                <i class="bi bi-display item-icon"></i>
-                <div class="item-title">Scoreboard</div>
-            </a>
-
-            <a href="https://beach-livescore.openvolley.app" class="menu-item">
-                <i class="bi bi-broadcast item-icon"></i>
-                <div class="item-title">Livescore</div>
-            </a>
-
-            <a href="https://scoresheet-beach.openvolley.app/" class="menu-item">
-                <i class="bi bi-database item-icon"></i>
-                <div class="item-title">Scoresheet DB</div>
-            </a>
-        </div>
-    </div>
-
-    <script src="landing.js"></script>
+  </footer>
 </body>
 
 </html>
