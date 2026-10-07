@@ -14,5 +14,5 @@
 # While a value still shows the placeholder, the pages print it highlighted
 # and the build prints a warning.
 
-address: [ADRESSE / ADDRESS]
-jurisdiction: [GERICHTSSTAND / PLACE OF JURISDICTION]
+address: Wiedingstrasse 87a | 8045 Zürich
+jurisdiction: Zürich
