@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects. Short English paths for the legal pages
+# (the pages themselves are built by legal/build.mjs).
+/privacy  /en/privacy  301
+/imprint  /en/imprint  301
+/terms    /en/terms    301

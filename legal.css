@@ -1,0 +1,361 @@
+/* Legal pages (privacy, legal notice, terms, open source), on top of
+ * landing.css. volleyui reading page: a kicker over a big title, the text in
+ * one white card at a readable measure, the table of contents beside it from
+ * lg and folded above it on phones. Light only, stone neutrals; red is not
+ * used here except in the logo.
+ */
+
+:root {
+  --slate-900: #0f172a; /* volleyui: selection is inverted neutral */
+  --amber-50: #fffbeb;
+  --amber-300: #fcd34d;
+  --amber-900: #78350f;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+/* ---------- Language switch (volleyui Segmented "pill") ---------- */
+
+.lang-switch {
+  display: inline-flex;
+  flex: none;
+  padding: 2px;
+  border: 1px solid var(--stone-200);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.lang-switch a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--stone-500);
+  text-decoration: none;
+  transition: background-color 150ms, color 150ms;
+}
+
+.lang-switch a:hover {
+  color: var(--stone-800);
+}
+
+.lang-switch a[aria-current="page"] {
+  background: var(--slate-900);
+  color: #fff;
+}
+
+/* ---------- Title ---------- */
+
+.legal-main {
+  padding-top: 8px;
+}
+
+.legal-head {
+  margin-bottom: 20px;
+}
+
+.legal-head .eyebrow {
+  color: var(--stone-600); /* on the stone page: AA */
+}
+
+.legal-head h1 {
+  margin: 4px 0 0;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--stone-900);
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.legal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin: 10px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--stone-600);
+}
+
+.legal-meta strong {
+  font-weight: 600;
+  color: var(--stone-800);
+}
+
+.legal-meta .chip {
+  min-height: 24px;
+  background: #fff;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Layout ---------- */
+
+.legal-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+/* ---------- Table of contents ---------- */
+
+.toc {
+  padding: 4px 0;
+}
+
+.toc summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  padding: 0 16px;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 15px;
+}
+
+.toc summary::-webkit-details-marker {
+  display: none;
+}
+
+.toc-chevron {
+  color: var(--stone-500);
+  transition: transform 150ms;
+}
+
+.toc[open] .toc-chevron {
+  transform: rotate(180deg);
+}
+
+.toc ol {
+  margin: 0;
+  padding: 0 8px 8px;
+  list-style: none;
+}
+
+.toc a {
+  display: block;
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--stone-600);
+  text-decoration: none;
+  transition: background-color 150ms, color 150ms;
+}
+
+.toc a:hover {
+  background: var(--stone-100);
+  color: var(--stone-900);
+}
+
+/* ---------- The text ---------- */
+
+.legal-doc {
+  padding: 4px 16px 20px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--stone-700);
+  overflow-wrap: break-word;
+}
+
+.legal-doc > :first-child {
+  margin-top: 16px;
+}
+
+.legal-doc h2 {
+  margin: 28px 0 10px;
+  padding-top: 24px;
+  border-top: 1px solid var(--stone-100);
+  font-size: 17px;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--stone-900);
+  scroll-margin-top: 16px;
+}
+
+.legal-doc > h2:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.legal-doc h3 {
+  margin: 20px 0 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--stone-900);
+}
+
+.legal-doc p,
+.legal-doc ul,
+.legal-doc ol {
+  margin: 0 0 12px;
+  max-width: 44rem;
+}
+
+.legal-doc ul,
+.legal-doc ol {
+  padding-left: 20px;
+}
+
+.legal-doc li + li {
+  margin-top: 6px;
+}
+
+.legal-doc li::marker {
+  color: var(--stone-400);
+}
+
+.legal-doc strong {
+  font-weight: 600;
+  color: var(--stone-900);
+}
+
+.legal-doc a {
+  color: var(--stone-800);
+  text-decoration: underline;
+  text-decoration-color: var(--stone-300);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 150ms;
+}
+
+.legal-doc a:hover {
+  text-decoration-color: var(--stone-600);
+}
+
+.legal-doc a {
+  overflow-wrap: anywhere;
+}
+
+.legal-doc code {
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--stone-100);
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  color: var(--stone-800);
+  overflow-wrap: anywhere;
+}
+
+/* Placeholder still to fill in (legal/operator.txt) */
+.placeholder {
+  padding: 1px 4px;
+  border: 1px dashed var(--amber-300);
+  border-radius: 4px;
+  background: var(--amber-50);
+  color: var(--amber-900);
+  font-weight: 600;
+}
+
+/* ---------- Tables (volleyui table head; scroll sideways on phones) ---------- */
+
+.table-wrap {
+  margin: 4px 0 16px;
+  overflow-x: auto;
+  border: 1px solid var(--stone-200);
+  border-radius: 12px;
+}
+
+.legal-doc table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.legal-doc th {
+  padding: 8px 12px;
+  background: var(--stone-50);
+  border-bottom: 1px solid var(--stone-200);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--stone-500);
+  white-space: nowrap;
+}
+
+.legal-doc td {
+  padding: 10px 12px;
+  vertical-align: top;
+  min-width: 9rem;
+}
+
+.legal-doc tbody tr + tr td {
+  border-top: 1px solid var(--stone-100);
+}
+
+.legal-doc td:first-child {
+  color: var(--stone-900);
+  font-weight: 500;
+}
+
+/* ---------- Breakpoints ---------- */
+
+@media (min-width: 640px) {
+  .legal-head h1 {
+    font-size: 30px;
+  }
+
+  .legal-doc {
+    padding: 8px 32px 28px;
+  }
+
+  .legal-doc > :first-child {
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .legal-layout {
+    grid-template-columns: 15rem minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .toc {
+    position: sticky;
+    top: 16px;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+  }
+
+  .toc summary {
+    min-height: 40px;
+  }
+
+  .legal-doc {
+    padding: 8px 40px 32px;
+  }
+}
+
+@media print {
+  .lang-switch,
+  .toc,
+  .footer .legal-links {
+    display: none;
+  }
+
+  .legal-layout {
+    display: block;
+  }
+
+  .legal-doc {
+    padding: 0;
+    border: 0;
+    font-size: 11pt;
+  }
+
+  .legal-doc a {
+    text-decoration: none;
+  }
+}

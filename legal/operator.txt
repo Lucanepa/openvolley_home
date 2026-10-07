@@ -1,0 +1,18 @@
+# The one place for the operator details on the legal pages.
+#
+# legal/build.mjs puts these values into the markdown of every language,
+# where the texts say [ADRESSE / ADDRESS] or
+# [GERICHTSSTAND / PLACE OF JURISDICTION]. Fill them in here once; do not edit
+# the placeholders in legal/*/*.md.
+#
+# address: street and number, then postcode and town. Use "|" between the
+#          lines. Without the name and the country; the pages add those.
+#          Example format: Musterstrasse 1 | 8000 Zürich
+# jurisdiction: the town for the place of jurisdiction in the terms, without
+#          "Switzerland". Example format: Zürich
+#
+# While a value still shows the placeholder, the pages print it highlighted
+# and the build prints a warning.
+
+address: [ADRESSE / ADDRESS]
+jurisdiction: [GERICHTSSTAND / PLACE OF JURISDICTION]

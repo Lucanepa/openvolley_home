@@ -617,6 +617,18 @@ main {
   margin: 0;
 }
 
+/* Legal links (privacy, legal notice, terms, open source): own first line */
+.footer .legal-links {
+  flex-basis: 100%;
+  font-size: 13px;
+}
+
+.footer .legal-links a[aria-current="page"] {
+  color: var(--stone-900);
+  font-weight: 600;
+  text-decoration: none;
+}
+
 /* ---------- Breakpoints: phone, sm (640), lg (1024) ---------- */
 
 @media (max-width: 639.98px) {
