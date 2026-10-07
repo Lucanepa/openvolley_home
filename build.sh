@@ -20,6 +20,7 @@ cp CNAME "$OUTPUT_DIR/" 2>/dev/null || true
 
 # Images: brand (OpenVolley logo A, og:image), OpenBeach and ReadVolley marks
 cp -r assets "$OUTPUT_DIR/"
+rm -f "$OUTPUT_DIR/assets/README.md"
 
 # Inter Variable, optical-size build (Display cut), latin + latin-ext
 if [ ! -d "$FONT_SRC/files" ]; then
