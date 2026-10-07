@@ -43,7 +43,10 @@
 
   --brand: #e2001a;      /* red-600 in volleyui */
   --brand-dark: #be0014; /* red-700: hover */
-  --focus: rgb(248 113 113 / 0.6); /* red-400/60 focus ring */
+  /* red-500 focus ring (volleyui's input ring). The kit's red-400/60 ring is
+     about 2:1 on white and stone-100; red-500 is 3.8:1 / 3.4:1, which meets
+     WCAG 1.4.11 for a focus indicator on a public page. */
+  --focus: #ef4444;
 
   --shadow-card: 0 1px 2px -1px rgb(28 25 23 / 0.06), 0 6px 20px -8px rgb(28 25 23 / 0.12);
   --shadow-card-lg: 0 2px 4px -2px rgb(28 25 23 / 0.08), 0 16px 40px -12px rgb(28 25 23 / 0.16);
@@ -209,7 +212,14 @@ main {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--stone-400);
+  /* stone-500, not the kit's stone-400 (2.5:1): these labels carry meaning
+     (indoor / beach / rules) and need WCAG AA 4.5:1 on white. */
+  color: var(--stone-500);
+}
+
+/* On the stone page background stone-500 drops to 4.4:1, so one step darker. */
+.section-head .eyebrow {
+  color: var(--stone-600);
 }
 
 .section-head h2 {
@@ -462,7 +472,7 @@ main {
 .row-host {
   font-size: 12px;
   font-weight: 500;
-  color: var(--stone-400);
+  color: var(--stone-500); /* 4.8:1 on white; stone-400 was 2.5:1 */
   overflow-wrap: anywhere;
 }
 
@@ -593,7 +603,7 @@ main {
   padding-bottom: max(24px, env(safe-area-inset-bottom, 0px));
   font-size: 12px;
   line-height: 1.6;
-  color: var(--stone-500);
+  color: var(--stone-600); /* stone-500 is 4.4:1 on the stone-100 page */
 }
 
 .footer .wrap {
