@@ -1,6 +1,6 @@
 # Privacy policy
 
-**OpenVolley and OpenBeach** · Version 1.0 · As of 7 October 2026
+**OpenVolley and OpenBeach** · Version 1.1 · As of 7 October 2026
 
 This policy is available in German, English, French and Italian. The German
 version is binding.
@@ -18,6 +18,9 @@ version is binding.
   names, the score and shirt numbers are public, for beach volleyball also the
   players' names, as well as the referees' names for official matches.
   **Dates of birth, licence numbers and signatures are never public.**
+- The OpenVolley app keeps an activity log of each match, without PINs or
+  passwords. When you are signed in it goes to the server. What you click or
+  type stays on your device (section 5).
 - The server is in Germany (Hetzner). Cloudflare (USA) delivers the websites
   and forwards the traffic to the server.
 - You can ask for access, correction or deletion at any time:
@@ -80,9 +83,8 @@ for their data processing.
 
 **Without signing in**, the app stores everything only on your device:
 matches, teams, rosters with dates of birth, sets, match events, lists of
-officials, settings and a local log of how the app was used (for
-troubleshooting; you can download it yourself). Matches stay stored until you
-delete them or clear the app data.
+officials, settings and the app's logs (see below). Matches stay stored until
+you delete them or clear the app data.
 
 **Live transfer, also without signing in.** As soon as a match is created,
 the browser and Android apps send it (teams, rosters, score, events) to my
@@ -101,13 +103,65 @@ It also uploads:
   delete your account.
 - **Scoresheets** as files (PDF and data), see section 7.
 
+**Activity log (OpenVolley from version 2.4.0).** For the integrity of the
+scoresheet and for troubleshooting, the app records what happens on the
+device: points and other match events, undo and corrections (what was
+changed, when and why), sets and match status, signatures and approvals (only
+the role and that they happened), remarks (only their length), roster changes
+(only the shirt number), results of uploads to the server, app errors
+(message and place in the program), the app starting, updating and quitting,
+and signing in and out. Each entry carries a random identifier of the device
+(created by the app, not linked to the hardware), the app version, the
+platform and, when you are signed in, your account. **Never recorded** are
+PINs, passwords, sign-in tokens, signature images, dates of birth, email
+addresses, phone and licence numbers; when someone changes such a field by
+hand, the log only says that it was changed. In free text (error messages,
+values of changes) runs of six or more digits and numbers next to words such
+as "PIN", "code" or "password" are blanked out. The log therefore contains no
+more personal data than the scoresheet itself (shirt numbers, officials'
+names in a correction). You can view it in the app and save it as a file (CSV
+or JSON).
+
+**Where the activity log is kept:** on your device; in the desktop and
+Android apps also as daily files in the folder `OpenVolley/logs` (desktop: in
+your user folder next to the backup files, Android: in the "Documents"
+folder, see below). When you are signed in, the app uploads it to my server,
+including the entries made on this device without signing in. There, the
+entries of a match can be read by the account that recorded the match, the
+accounts that entered the game PIN and the administrators; entries without a
+match are seen only by the administrators. When a match is deleted on the
+server, its entries are deleted with it. How long entries are kept is in
+section 16; I delete them earlier on request (section 19).
+
+**Event history (OpenVolley from version 2.4.0).** When a point or another
+event is undone or corrected, the app records the old event (for a change
+also the new one) with the reason, time, device identifier, app version and
+account. If the event was already on the server, the server does not delete
+it but marks it as void and keeps the change, so the course of the match
+stays traceable. The event history belongs to the match and is deleted with
+it. On the server only the administrators see it.
+
+**Interaction log: what you click or type stays on your device.** For
+troubleshooting, the app records on the device what you click and type (also
+text in input fields, for example names). This log is never uploaded. You can
+download it yourself (in the settings, or at the end of a match in the ZIP
+file) and send it to support, for example. In OpenVolley from version 2.4.0 it
+records no input in password and PIN fields and no PINs shown on screen, and
+it is deleted after 30 days or beyond 50,000 entries.
+
 **Desktop app.** The desktop app also keeps automatic backup files of matches
 in your user folder (Linux: `~/.local/share/OpenVolley/backups`, Windows:
 `%APPDATA%\OpenVolley\backups`). They contain names and dates of birth, but no
-PINs, and are deleted after 30 days.
+PINs, and are deleted after 30 days. From version 2.4.0 the OpenVolley
+desktop app also writes a technical log file (`desktop.log`) to the folder
+`OpenVolley/logs`: start and quit, update checks and downloads, links and
+downloads opened (address without parameters, save location), the number of
+connected tablets, and errors. It stays on your device, is never uploaded and
+contains no PINs, sign-in tokens or hotspot passwords. At most five older
+files of 5 MB each are kept.
 
-**Android app.** The Android app puts its backup files in the public
-"Documents" folder. **These files remain after the app is uninstalled, and on
+**Android app.** The Android app puts its backup files and the daily files of
+the activity log in the public "Documents" folder. **These files remain after the app is uninstalled, and on
 Android 10 and older other apps can read them too.** Delete them yourself if
 needed. If you have turned on Google device backup, Android may also back up
 the app data (with rosters) to your Google account; Google's terms apply to
@@ -152,11 +206,12 @@ people I appoint).
 
 **Deleting your account:** you can delete your account yourself in the app at
 any time. This deletes the account, profile, sessions, approval PIN, redeemed
-invite codes and your uploaded backup copies and app logs. **What remains** are
-official records that others have an interest in: scoresheets you recorded,
-approvals you gave (with your name as it appears on the scoresheet), saved
-teams and tournaments, and entries in the change log (section 14). Your
-account is unlinked from these entries. You can have what remains deleted
+invite codes, your uploaded backup copies and app logs, and your activity log
+entries without a match. **What remains** are official records that others
+have an interest in: scoresheets you recorded, approvals you gave (with your
+name as it appears on the scoresheet), saved teams and tournaments, entries in
+the change log (section 14), and the activity log and event history of
+matches (section 5). Your account is unlinked from these entries. You can have what remains deleted
 under section 19, as far as the scoresheet does not need it.
 
 ## 7. Match data and scoresheets
@@ -165,7 +220,7 @@ under section 19, as far as the scoresheet does not need it.
 short name, colour), rosters with shirt number, first and last name, date of
 birth and libero or captain flag, team staff (role, name, date of birth),
 officials (referees, scorer, line judges with name, country, date of birth),
-**signatures** (as images drawn on the device), coin toss, the course of the
+**signatures** (as images drawn on the device or on a phone), coin toss, the course of the
 match with all events, substitutions and sanctions, results and later
 corrections.
 
@@ -203,6 +258,22 @@ name at the time of approval, the time, the approved result, and a
 pseudonymised hash of the IP address and of the device (to detect misuse).
 Approvals are part of the match record. You see your own approvals; the
 match's scorer and the administrators see them too.
+
+**Signing on a phone (OpenVolley from version 2.4.0):** instead of on the
+scorer's device, a person can sign on their own phone. The device shows a QR
+code with a link to my server (`backend.openvolley.app`) or, in venue mode, to
+the laptop on the local network. The link is valid for 10 minutes and for one
+signature only. The phone needs no account and no app. The page shows the
+game number, the teams, the date, the role and, if known, the name of the
+person signing. The phone sends only the lines of the signature (no image).
+The server or laptop holds this data in memory only, passes the signature on
+to the scorer's device and discards it at the latest 5 minutes after signing;
+nothing is stored in the database. The phone stores nothing: no cookies and
+no local storage; the link is kept only in the browser tab during the session
+and is deleted at the end. Only the scorer's device turns it into the
+signature image. Like a signature drawn there, it is part of the match, with a
+note that it was signed on a phone (route and time). Through the server this
+requires the scorer to be signed in with a scorer or referee role.
 
 **Sending match info by email:** when you send the match info to an email
 address in the app, the game number, game PIN, teams, date and venue go to
@@ -347,6 +418,9 @@ request needs it.
   approved, closed or reopened matches, added co-editors or changed
   tournament entries, and when. The entries can contain co-editors' email
   addresses and beach team names. Only administrators see this log.
+- **Signing on a phone:** the server logs only the steps (started, opened,
+  signed, closed) with the role and a short identifier, never the link, the
+  signature, names or teams.
 
 ## 15. Recipients and processors
 
@@ -392,6 +466,13 @@ copy of these safeguards.
 | Change log | As long as needed for accountability; deletion on request is considered |
 | Uploaded backup copies | 30 days |
 | Uploaded app logs | Until you delete your account |
+| Activity log of a match (server) | 24 months, or until the match is deleted; earlier on request |
+| Activity log without a match (server) | 90 days; deleted with your account |
+| Event history (undone and corrected events) | With the match, as part of the match record |
+| Activity log on the device | Uploaded entries 180 days (at most 100,000); entries not yet uploaded until they are uploaded (at most 200,000); daily files 30 days, at most 50 MB |
+| Interaction log (on the device only) | OpenVolley from 2.4.0: 30 days, at most 50,000 entries |
+| Desktop app log file (on the device only) | At most five older files of 5 MB each |
+| Signature on a phone (server or laptop) | In memory only; link valid 10 minutes, signature discarded at the latest 5 minutes after signing |
 | Server logs | Overwritten by size (days to a few weeks) |
 | Live data (server and venue mode) | In memory only; on the server discarded 24 hours after the last activity |
 | Backups | Up to about 6 months (section 18) |
@@ -420,8 +501,8 @@ for their child.
   there for up to 90 days, and in monthly snapshots **for up to about
   6 months**. Deleted data can therefore remain in these encrypted backups for
   up to about 6 months; they are used only to restore the service.
-- Backup files of the desktop app can only be read by your user account and
-  contain no PINs.
+- Backup and log files of the desktop app can only be read by your user
+  account and contain no PINs.
 
 No system is perfectly secure. If you find a security issue, please report it
 to support@openvolley.app.
@@ -436,7 +517,7 @@ You have the right to:
 - **object** to the processing;
 - **restrict** the processing, for example while a correction is checked;
 - **receive** your data in a common format or have it transferred (the apps
-  also let you download backup copies and scoresheets);
+  also let you download backup copies, scoresheets and the activity log);
 - **withdraw consent** at any time (for example for the update check on
   Android).
 
@@ -461,9 +542,9 @@ Where the GDPR applies, I rely on:
   the features you use.
 - **Legitimate interests** (Art. 6(1)(f) GDPR): correct and verifiable
   official match records for clubs, the association and officials (rosters,
-  dates of birth to check eligibility, signatures, approvals), livescore for
-  the public, running tournaments, security and protection against misuse,
-  backups.
+  dates of birth to check eligibility, signatures, approvals, activity log and
+  event history), livescore for the public, running tournaments,
+  troubleshooting, security and protection against misuse, backups.
 - **Consent** (Art. 6(1)(a) GDPR): the optional date of birth in the account,
   the update check of the directly installed Android app.
 
