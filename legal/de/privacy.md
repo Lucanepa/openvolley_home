@@ -1,6 +1,6 @@
 # Datenschutzerklärung
 
-**OpenVolley und OpenBeach** · Version 1.1 · Stand: 7. Oktober 2026
+**OpenVolley und OpenBeach** · Version 1.2 · Stand: 13. Oktober 2026
 
 Diese Erklärung gibt es auf Deutsch, Englisch, Französisch und Italienisch.
 Massgebend ist die deutsche Fassung.
@@ -202,6 +202,14 @@ Ihrer eigenen Angaben im Spielbericht (Name, Land, Geburtsdatum).
 Administrator schaltet sie frei, oder Sie lösen einen Einladungscode ein. Dabei
 wird gespeichert, wer welchen Code wann eingelöst hat.
 
+**Vereine (OpenVolley):** Eine Administratorin oder ein Administrator, oder ein
+Einladungscode, kann Ihr Konto einem oder mehreren Vereinen zuordnen. Sie führen
+dann die offiziellen Heimspiele dieser Vereine. Gespeichert wird, zu welchen
+Vereinen Ihr Konto gehört, wer es zugeordnet hat und wann, bis der Verein oder
+die Zuordnung entfernt wird oder Sie das Konto löschen. Die App zum Spiel
+führen behält eine Kopie Ihrer Vereine auf Ihrem Gerät, damit sie ein Spiel auch
+offline prüfen kann; die Kopie wird beim Abmelden gelöscht.
+
 **Anmeldung:** Nach der Anmeldung speichert Ihr Browser ein Anmelde-Token. Auf
 dem Server liegt nur ein Hash davon. Eine Sitzung gilt 30 Tage ab der letzten
 Nutzung, höchstens 90 Tage, und endet beim Abmelden, beim Ändern des Passworts
@@ -265,9 +273,12 @@ Administrator kann es wieder öffnen.
 **Spielbericht-Dateien:** Am Ende eines Spiels lädt die App den Spielbericht
 als PDF und als Datei mit den Spieldaten hoch. Lesen kann ihn nur das Konto,
 das ihn hochgeladen hat (über `scoresheet.openvolley.app`), sowie die
-Administration. Wird dieses Konto gelöscht, bleibt die Datei als
-Spielaufzeichnung gespeichert, ist aber für niemanden mehr abrufbar, bis eine
-Administratorin oder ein Administrator den Zugriff wieder vergibt.
+Administration und die Wettbewerbsverantwortlichen der jeweiligen App
+(OpenVolley oder OpenBeach), die das PDF im Manager öffnen können. Jedes
+Öffnen wird mit ihrem Konto im Protokoll festgehalten. Wird das hochladende
+Konto gelöscht, bleibt die Datei als Spielaufzeichnung gespeichert; das PDF
+können dann nur noch die Administration und die Wettbewerbsverantwortlichen
+öffnen.
 
 **Freigabe mit PIN:** Offizielle können das Resultat zusätzlich zur
 Unterschrift mit einem persönlichen Freigabe-PIN bestätigen. Gespeichert

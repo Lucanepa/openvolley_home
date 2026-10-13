@@ -1,6 +1,6 @@
 # Privacy policy
 
-**OpenVolley and OpenBeach** · Version 1.1 · As of 7 October 2026
+**OpenVolley and OpenBeach** · Version 1.2 · As of 13 October 2026
 
 This policy is available in German, English, French and Italian. The German
 version is binding.
@@ -188,6 +188,13 @@ your own details on the scoresheet (name, country, date of birth).
 **New accounts** start without a role. An administrator approves them, or you
 redeem an invite code. The system records who redeemed which code and when.
 
+**Clubs (OpenVolley):** an administrator, or an invite code, can assign your
+account to one or more clubs. You then score the official home games of these
+clubs. The system stores which clubs your account belongs to, who assigned
+them and when, until the club or the assignment is removed or you delete the
+account. The scoring app keeps a copy of your clubs on your device, so it can
+check a game offline; the copy is removed when you sign out.
+
 **Sign-in:** after you sign in, your browser stores a sign-in token. The
 server holds only a hash of it. A session lasts 30 days from last use, at most
 90 days, and ends when you sign out, change your password or delete the
@@ -246,9 +253,12 @@ the person who recorded it. Only an administrator can reopen it.
 
 **Scoresheet files:** at the end of a match the app uploads the scoresheet as
 a PDF and as a file with the match data. Only the account that uploaded it can
-read it (through `scoresheet.openvolley.app`), plus the administrators. If that
-account is deleted, the file stays stored as the match record but nobody can
-open it until an administrator grants access again.
+read it (through `scoresheet.openvolley.app`), plus the administrators and the
+competition managers of that app (OpenVolley or OpenBeach), who can open the
+PDF in the manager. Every time they open one, it is recorded in the audit log
+with their account. If the uploading account is deleted, the file stays stored
+as the match record; only the administrators and competition managers can
+still open the PDF.
 
 **Approval with a PIN:** officials can confirm the result with a personal
 approval PIN in addition to their signature. Stored are: the PIN as a

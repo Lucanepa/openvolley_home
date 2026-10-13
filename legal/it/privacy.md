@@ -1,6 +1,6 @@
 # Informativa sulla protezione dei dati
 
-**OpenVolley e OpenBeach** · Versione 1.1 · Aggiornata al 7 ottobre 2026
+**OpenVolley e OpenBeach** · Versione 1.2 · Aggiornata al 13 ottobre 2026
 
 Questa informativa esiste in tedesco, inglese, francese e italiano. Fa fede
 la versione tedesca.
@@ -201,6 +201,14 @@ precompilazione dei suoi dati nel referto (nome, paese, data di nascita).
 abilita, oppure lei utilizza un codice d'invito. Il sistema registra chi ha
 utilizzato quale codice e quando.
 
+**Società (OpenVolley):** un amministratore, o un codice d'invito, può
+assegnare il suo account a una o più società. Lei referta allora le partite
+ufficiali in casa di queste società. Il sistema registra a quali società
+appartiene il suo account, chi l'ha assegnato e quando, finché la società o
+l'assegnazione viene rimossa o lei elimina l'account. L'app di refertazione
+conserva una copia delle sue società sul suo dispositivo, per poter verificare
+una partita anche offline; la copia viene eliminata quando lei si disconnette.
+
 **Accesso:** dopo l'accesso il suo browser salva un token di accesso. Sul
 server si trova solo un hash di esso. Una sessione dura 30 giorni dall'ultimo
 utilizzo, al massimo 90 giorni, e termina con l'uscita, il cambio della
@@ -264,9 +272,12 @@ può riaprirla.
 
 **File dei referti:** alla fine della partita l'app carica il referto in PDF e
 come file con i dati della partita. Può leggerlo solo l'account che l'ha
-caricato (tramite `scoresheet.openvolley.app`) e gli amministratori. Se questo
-account viene cancellato, il file resta conservato come verbale della partita,
-ma nessuno può più aprirlo finché un amministratore non ripristina l'accesso.
+caricato (tramite `scoresheet.openvolley.app`), gli amministratori e i
+responsabili competizione dell'app interessata (OpenVolley o OpenBeach),
+che possono aprire il PDF nel manager. Ogni apertura viene annotata nel
+registro con il loro account. Se l'account che l'ha caricato viene cancellato,
+il file resta conservato come verbale della partita; solo gli amministratori e
+i responsabili competizione possono ancora aprire il PDF.
 
 **Approvazione con PIN:** gli ufficiali di gara possono confermare il
 risultato, oltre che con la firma, con un PIN di approvazione personale.

@@ -1,6 +1,6 @@
 # Déclaration de protection des données
 
-**OpenVolley et OpenBeach** · Version 1.1 · État au 7 octobre 2026
+**OpenVolley et OpenBeach** · Version 1.2 · État au 13 octobre 2026
 
 Cette déclaration existe en allemand, anglais, français et italien. Seule la
 version allemande fait foi.
@@ -220,6 +220,14 @@ de vos propres données sur la feuille de match (nom, pays, date de naissance).
 valide, ou vous utilisez un code d'invitation. Le système enregistre qui a
 utilisé quel code et quand.
 
+**Clubs (OpenVolley) :** un administrateur, ou un code d'invitation, peut
+rattacher votre compte à un ou plusieurs clubs. Vous tenez alors les matchs
+officiels à domicile de ces clubs. Le système enregistre à quels clubs votre
+compte appartient, qui l'a rattaché et quand, jusqu'à ce que le club ou le
+rattachement soit supprimé ou que vous supprimiez le compte. L'application de
+marque garde une copie de vos clubs sur votre appareil pour vérifier un match
+hors ligne ; la copie est supprimée à la déconnexion.
+
 **Connexion :** après la connexion, votre navigateur enregistre un jeton de
 connexion. Le serveur n'en garde qu'un hachage. Une session dure 30 jours
 après la dernière utilisation, 90 jours au plus, et se termine à la
@@ -284,10 +292,13 @@ même la personne qui l'a saisi. Seul un administrateur peut le rouvrir.
 **Fichiers des feuilles de match :** à la fin du match, l'application
 téléverse la feuille de match en PDF et sous forme de fichier de données.
 Seul le compte qui l'a téléversée peut la lire (via
-`scoresheet.openvolley.app`), ainsi que les administrateurs. Si ce compte est
-supprimé, le fichier reste conservé comme procès-verbal du match, mais
-personne ne peut plus l'ouvrir jusqu'à ce qu'un administrateur rétablisse
-l'accès.
+`scoresheet.openvolley.app`), ainsi que les administrateurs et les
+responsables de compétition de l'application concernée (OpenVolley ou
+OpenBeach), qui peuvent ouvrir le PDF dans le gestionnaire. Chaque ouverture
+est inscrite au journal avec leur compte. Si le compte qui l'a téléversée est
+supprimé, le fichier reste conservé comme procès-verbal du match ; seuls les
+administrateurs et les responsables de compétition peuvent encore ouvrir le
+PDF.
 
 **Validation avec NIP :** les officiels peuvent confirmer le résultat, en plus
 de leur signature, avec un NIP de validation personnel. Sont enregistrés : le
