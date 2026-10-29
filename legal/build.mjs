@@ -13,12 +13,15 @@
 // legal/operator.txt, the one place to fill them in.
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
-import { dirname, join } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
+// Run by build.sh it writes the pages; imported (support/build.mjs) it only
+// lends ROUTES, legalLinksHtml and slug.
+const MAIN = Boolean(process.argv[1]) && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 const OUT = process.argv[2];
-if (!OUT) {
+if (MAIN && !OUT) {
   console.error('usage: node legal/build.mjs <outdir>');
   process.exit(2);
 }
@@ -204,7 +207,7 @@ function joinLines(lines) {
 
 // ---------- blocks ----------
 
-function slug(text) {
+export function slug(text) {
   return text
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
@@ -461,4 +464,4 @@ function build() {
   }
 }
 
-build();
+if (MAIN) build();

@@ -1,0 +1,700 @@
+/* Support pages (openvolley.app/support, rendered by support/build.mjs), on
+ * top of landing.css and legal.css (language switch, table of contents).
+ * The same volleyui look: a hero card with the search, then one white card
+ * per help section (video, questions), the guides and the contact form.
+ * Red only for the one primary action per surface (Contact support, Send).
+ */
+
+:root {
+  /* Text fields and choices: 3.4:1 on white, for WCAG 1.4.11 (stone-300 is 1.5:1) */
+  --input-border: #8f8984;
+  --red-50: #fef2f2;
+  --red-200: #fecaca;
+  --red-700: #b91c1c;
+  --red-800: #991b1b;
+  --emerald-600: #059669;
+}
+
+/* The form, its errors and the file list have their own display */
+[hidden] {
+  display: none !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Hero with the search ---------- */
+
+.support-hero {
+  padding: 20px;
+  border-radius: 24px;
+  box-shadow: var(--shadow-card-lg);
+}
+
+.support-hero h1 {
+  margin: 6px 0 0;
+  font-size: 26px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--stone-900);
+}
+
+.support-hero .lead {
+  margin: 10px 0 0;
+  max-width: 40rem;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--stone-600);
+}
+
+.search {
+  position: relative;
+  max-width: 32rem;
+  margin-top: 16px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  color: var(--stone-500);
+  pointer-events: none;
+}
+
+.search input {
+  width: 100%;
+  height: 44px;
+  padding: 0 14px 0 40px;
+  border: 1px solid var(--input-border);
+  border-radius: 12px;
+  background: #fff;
+  font: inherit;
+  font-size: 15px;
+  color: var(--stone-900);
+}
+
+.search input::placeholder,
+.field input::placeholder,
+.field textarea::placeholder {
+  color: var(--stone-500);
+}
+
+.support-hero .actions {
+  margin-top: 16px;
+}
+
+/* ---------- Layout: contents beside the sections from lg ---------- */
+
+.support-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  margin-top: 24px;
+}
+
+.support-content {
+  min-width: 0;
+}
+
+.toc .toc-sep {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--stone-100);
+}
+
+.search-status:empty {
+  display: none;
+}
+
+.search-status {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--stone-600);
+}
+
+.search-status a {
+  color: var(--stone-800);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--stone-300);
+  text-underline-offset: 3px;
+}
+
+/* ---------- One help section ---------- */
+
+.help-sections {
+  display: grid;
+  gap: 16px;
+}
+
+.help-section {
+  padding: 16px;
+  scroll-margin-top: 16px;
+}
+
+.help-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+}
+
+.help-head h2 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--stone-900);
+}
+
+.help-video {
+  margin: 14px 0 0;
+}
+
+.help-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: var(--stone-900);
+}
+
+.help-video figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--stone-500);
+}
+
+.help-video .chip {
+  min-height: 24px;
+  font-variant-numeric: tabular-nums;
+}
+
+.faq-title {
+  margin: 18px 0 2px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--stone-500);
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--stone-100);
+  scroll-margin-top: 16px;
+}
+
+.faq-item summary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 0;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 600;
+  color: var(--stone-900);
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-chevron {
+  margin-top: 2px;
+  color: var(--stone-500);
+  transition: transform 150ms;
+}
+
+.faq-item[open] .faq-chevron {
+  transform: rotate(180deg);
+}
+
+.faq-item p {
+  margin: -2px 0 0;
+  padding-bottom: 14px;
+  max-width: 44rem;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--stone-700);
+}
+
+.faq-item a,
+.help-screens a,
+.consent a,
+.section-lead a,
+.downloads-card a,
+.app-links a,
+.form-alert a {
+  color: var(--stone-800);
+  text-decoration: underline;
+  text-decoration-color: var(--stone-300);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 150ms;
+  overflow-wrap: anywhere;
+}
+
+.faq-item a:hover,
+.consent a:hover,
+.section-lead a:hover,
+.downloads-card a:hover,
+.app-links a:hover {
+  text-decoration-color: var(--stone-600);
+}
+
+.help-screens {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 14px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--stone-500);
+}
+
+.help-screens .icon {
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  color: var(--stone-400);
+}
+
+.help-screens strong {
+  font-weight: 500;
+  color: var(--stone-700);
+}
+
+/* While searching: only the matching questions, no videos */
+.is-searching .help-video,
+.is-searching .help-screens {
+  display: none;
+}
+
+.is-searching .help-sections {
+  gap: 12px;
+}
+
+/* ---------- Guides, downloads, which app ---------- */
+
+.support-block .card + .card {
+  margin-top: 16px;
+}
+
+.support-block .section-head {
+  scroll-margin-top: 16px;
+}
+
+.downloads-card {
+  padding: 16px;
+}
+
+.downloads-card h3,
+.card-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--stone-900);
+}
+
+.downloads-card p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--stone-600);
+}
+
+.downloads-card .actions {
+  margin-top: 12px;
+}
+
+.card-title {
+  padding: 16px 16px 4px;
+}
+
+.app-rows {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 16px;
+}
+
+.app-row + .app-row {
+  border-top: 1px solid var(--stone-100);
+}
+
+.app-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ---------- Contact form ---------- */
+
+.contact-card {
+  padding: 16px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 18px;
+  max-width: 40rem;
+}
+
+.field {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.field > label:not(.btn),
+.field > legend,
+.field > .label {
+  display: block;
+  margin-bottom: 6px;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--stone-800);
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--stone-500);
+}
+
+.field input[type="email"],
+.field input[type="text"],
+.field select,
+.field textarea {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--input-border);
+  border-radius: 12px;
+  background: #fff;
+  font: inherit;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--stone-900);
+}
+
+.field textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.field select {
+  appearance: none;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2378716c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px 16px;
+  cursor: pointer;
+}
+
+.field input[aria-invalid="true"],
+.field select[aria-invalid="true"],
+.field textarea[aria-invalid="true"] {
+  border-color: var(--brand);
+}
+
+.field-hint {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--stone-500);
+}
+
+.field-error {
+  display: flex;
+  gap: 6px;
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--red-700);
+}
+
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 14px 0 12px;
+  border: 1px solid var(--input-border);
+  border-radius: 10px;
+  background: #fff;
+  font-size: 14px;
+  color: var(--stone-800);
+  cursor: pointer;
+}
+
+.choice input {
+  margin: 0;
+  accent-color: var(--slate-900);
+}
+
+.choice:has(input:checked) {
+  border-color: var(--slate-900);
+  background: var(--stone-50);
+  font-weight: 500;
+}
+
+.choice:has(input:focus-visible),
+.file-button:has(input:focus-visible) {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px var(--focus);
+}
+
+.file-button {
+  position: relative;
+  cursor: pointer;
+}
+
+.file-button input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-list {
+  display: grid;
+  gap: 6px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.file-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 40px;
+  padding: 4px 4px 4px 12px;
+  border-radius: 10px;
+  background: var(--stone-100);
+  font-size: 13px;
+  color: var(--stone-800);
+}
+
+.file-list .file-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-list .file-size {
+  flex: none;
+  color: var(--stone-500);
+  font-variant-numeric: tabular-nums;
+}
+
+.file-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--stone-600);
+  cursor: pointer;
+}
+
+.file-remove:hover {
+  background: var(--stone-200);
+  color: var(--stone-900);
+}
+
+/* The honeypot: off screen, out of the tab order, hidden from screen readers */
+.hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.consent {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--stone-600);
+}
+
+.form-alert {
+  padding: 12px 14px;
+  border: 1px solid var(--red-200);
+  border-radius: 12px;
+  background: var(--red-50);
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--red-800);
+}
+
+.form-alert p {
+  margin: 0;
+}
+
+.form-alert p + p {
+  margin-top: 6px;
+}
+
+.form-alert a {
+  color: var(--red-800);
+  font-weight: 600;
+  text-decoration-color: var(--red-200);
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.form-actions .btn {
+  border: 0;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn[disabled] {
+  opacity: 0.7;
+  cursor: progress;
+}
+
+.form-done {
+  max-width: 40rem;
+  padding: 4px 0;
+  outline: none;
+}
+
+.form-done .done-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--emerald-600);
+}
+
+.form-done h3 {
+  margin: 12px 0 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--stone-900);
+}
+
+.form-done p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--stone-700);
+}
+
+.form-done .btn {
+  margin-top: 16px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ---------- Breakpoints ---------- */
+
+@media (min-width: 640px) {
+  .support-hero {
+    padding: 32px;
+  }
+
+  .support-hero h1 {
+    font-size: 34px;
+  }
+
+  .help-section,
+  .contact-card {
+    padding: 20px 24px 24px;
+  }
+
+  .downloads-card {
+    padding: 20px;
+  }
+
+  .card-title {
+    padding: 20px 20px 4px;
+  }
+
+  .app-row {
+    padding: 12px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .support-layout {
+    grid-template-columns: 15rem minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .support-hero {
+    padding: 40px;
+  }
+
+  .support-hero h1 {
+    font-size: 38px;
+  }
+}
+
+@media print {
+  .search,
+  .support-hero .actions,
+  .help-video,
+  .help-head .btn,
+  #contact {
+    display: none;
+  }
+}
