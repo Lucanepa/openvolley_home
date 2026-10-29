@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T16:55:12.125Z",
+  "generatedAt": "2026-10-29T20:03:14.041Z",
   "appVersion": "3.0.6",
   "languages": [
     "en",
@@ -21,6 +21,15 @@
       },
       "video": {
         "id": "home",
+        "title": {
+          "en": "Home",
+          "de": "Startseite",
+          "fr": "Accueil",
+          "it": "Home"
+        },
+        "durationSec": 54.8,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/home.mp4",
         "poster": "https://openvolley.app/support/videos/home.jpg",
         "subtitles": {
@@ -172,10 +181,10 @@
             "it": "Come cambio la lingua o le impostazioni?"
           },
           "answer": {
-            "en": "The language is in the menu (☰) of the header. The other settings are in “Options”: on Home, or in the scoring screen under Menu › Options.",
-            "de": "Die Sprache findest du im Menü (☰) in der Kopfzeile. Die übrigen Einstellungen sind in den «Optionen»: auf der Startseite oder auf dem Erfassungsbildschirm unter Menü › Optionen.",
-            "fr": "La langue se trouve dans le menu (☰) de l'en-tête. Les autres réglages sont dans les « Options » : sur l'accueil, ou sur l'écran de saisie sous Menu › Options.",
-            "it": "La lingua è nel menu (☰) dell'intestazione. Le altre impostazioni sono nelle «Opzioni»: sulla home, oppure nella schermata del punteggio in Menu › Opzioni."
+            "en": "The language is in the menu (☰) of the header. The other settings are in “Options”: on Home, or in the scoring screen under Match › Options.",
+            "de": "Die Sprache findest du im Menü (☰) in der Kopfzeile. Die übrigen Einstellungen sind in den «Optionen»: auf der Startseite oder auf dem Erfassungsbildschirm unter Spiel › Optionen.",
+            "fr": "La langue se trouve dans le menu (☰) de l'en-tête. Les autres réglages sont dans les « Options » : sur l'accueil, ou sur l'écran de saisie sous Match › Options.",
+            "it": "La lingua è nel menu (☰) dell'intestazione. Le altre impostazioni sono nelle «Opzioni»: sulla home, oppure nella schermata del punteggio in Partita › Opzioni."
           }
         }
       ]
@@ -191,6 +200,15 @@
       },
       "video": {
         "id": "setup",
+        "title": {
+          "en": "Match setup",
+          "de": "Spiel einrichten",
+          "fr": "Préparer le match",
+          "it": "Preparare la partita"
+        },
+        "durationSec": 50.5,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/setup.mp4",
         "poster": "https://openvolley.app/support/videos/setup.jpg",
         "subtitles": {
@@ -372,10 +390,10 @@
             "it": "Dove sono i PIN per i tablet?"
           },
           "answer": {
-            "en": "The game PIN is on the match info page (“Create match” or “Edit”), where “Send PIN by email” can send it to you. Keep it: you need it to delete or restore the match. The referee and bench PINs are in “Connect tablets”. During the match, Menu › Show PINs shows them all.",
-            "de": "Die Spiel-PIN steht auf der Seite der Spielinfo («Spiel erstellen» oder «Bearbeiten»); «PIN per E-Mail senden» schickt sie dir. Bewahre sie auf: Du brauchst sie, um das Spiel zu löschen oder wiederherzustellen. Die PINs von Schiedsrichter und Bänken sind in «Tablets verbinden». Während des Spiels zeigt Menü › PINs anzeigen alle.",
-            "fr": "Le PIN du match figure sur la page des informations du match (« Créer le match » ou « Modifier ») ; « Envoyer PIN par email » vous l'envoie. Gardez-le : il sert à supprimer ou restaurer le match. Les PIN de l'arbitre et des bancs sont dans « Connecter des tablettes ». Pendant le match, Menu › Afficher les codes PIN les montre tous.",
-            "it": "Il PIN partita è nella pagina delle info partita («Crea partita» o «Modifica»); «Invia PIN via email» te lo invia. Conservalo: serve per eliminare o ripristinare la partita. I PIN dell'arbitro e delle panchine sono in «Collega tablet». Durante la partita, Menu › Mostra PIN li mostra tutti."
+            "en": "The game PIN is on the match info page (“Create match” or “Edit”), where “Send PIN by email” can send it to you. Keep it: you need it to delete or restore the match. The referee and bench PINs are in “Connect tablets”. During the match, Match › Show PINs shows them all.",
+            "de": "Die Spiel-PIN steht auf der Seite der Spielinfo («Spiel erstellen» oder «Bearbeiten»); «PIN per E-Mail senden» schickt sie dir. Bewahre sie auf: Du brauchst sie, um das Spiel zu löschen oder wiederherzustellen. Die PINs von Schiedsrichter und Bänken sind in «Tablets verbinden». Während des Spiels zeigt Spiel › PINs anzeigen alle.",
+            "fr": "Le PIN du match figure sur la page des informations du match (« Créer le match » ou « Modifier ») ; « Envoyer PIN par email » vous l'envoie. Gardez-le : il sert à supprimer ou restaurer le match. Les PIN de l'arbitre et des bancs sont dans « Connecter des tablettes ». Pendant le match, Match › Afficher les codes PIN les montre tous.",
+            "it": "Il PIN partita è nella pagina delle info partita («Crea partita» o «Modifica»); «Invia PIN via email» te lo invia. Conservalo: serve per eliminare o ripristinare la partita. I PIN dell'arbitro e delle panchine sono in «Collega tablet». Durante la partita, Partita › Mostra PIN li mostra tutti."
           }
         },
         {
@@ -406,6 +424,15 @@
       },
       "video": {
         "id": "coin-toss",
+        "title": {
+          "en": "Coin toss and line-ups",
+          "de": "Auslosung und Aufstellung",
+          "fr": "Tirage au sort et compositions",
+          "it": "Sorteggio e formazioni"
+        },
+        "durationSec": 70.1,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/coin-toss.mp4",
         "poster": "https://openvolley.app/support/videos/coin-toss.jpg",
         "subtitles": {
@@ -561,6 +588,15 @@
       },
       "video": {
         "id": "scoring",
+        "title": {
+          "en": "Scoring",
+          "de": "Punkte erfassen",
+          "fr": "Marquer les points",
+          "it": "Segnare i punti"
+        },
+        "durationSec": 49.2,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/scoring.mp4",
         "poster": "https://openvolley.app/support/videos/scoring.jpg",
         "subtitles": {
@@ -662,10 +698,10 @@
             "it": "Dove vedo chi serve e la rotazione?"
           },
           "answer": {
-            "en": "The ball marks the serving team, and the court shows each team's positions I to VI. The app rotates a team when it wins the service back. A wrong rotation is fixed in Menu › Corrections with “Fix the line-up”.",
-            "de": "Der Ball markiert das aufschlagende Team, und das Feld zeigt die Positionen I bis VI jedes Teams. Die App lässt ein Team rotieren, wenn es den Aufschlag zurückgewinnt. Eine falsche Rotation korrigierst du unter Menü › Korrekturen mit «Aufstellung korrigieren».",
-            "fr": "Le ballon marque l'équipe au service, et le terrain montre les positions I à VI de chaque équipe. L'app fait tourner une équipe quand elle reprend le service. Une rotation fausse se corrige dans Menu › Corrections avec « Corriger la formation ».",
-            "it": "Il pallone indica la squadra al servizio, e il campo mostra le posizioni da I a VI di ogni squadra. L'app fa ruotare una squadra quando riconquista il servizio. Una rotazione sbagliata si corregge in Menu › Correzioni con «Correggi la formazione»."
+            "en": "The ball marks the serving team, and the court shows each team's positions I to VI. The app rotates a team when it wins the service back. A wrong rotation is fixed in Match › Corrections with “Fix the line-up”.",
+            "de": "Der Ball markiert das aufschlagende Team, und das Feld zeigt die Positionen I bis VI jedes Teams. Die App lässt ein Team rotieren, wenn es den Aufschlag zurückgewinnt. Eine falsche Rotation korrigierst du unter Spiel › Korrekturen mit «Aufstellung korrigieren».",
+            "fr": "Le ballon marque l'équipe au service, et le terrain montre les positions I à VI de chaque équipe. L'app fait tourner une équipe quand elle reprend le service. Une rotation fausse se corrige dans Match › Corrections avec « Corriger la formation ».",
+            "it": "Il pallone indica la squadra al servizio, e il campo mostra le posizioni da I a VI di ogni squadra. L'app fa ruotare una squadra quando riconquista il servizio. Una rotazione sbagliata si corregge in Partita › Correzioni con «Correggi la formazione»."
           }
         },
         {
@@ -692,10 +728,10 @@
             "it": "Come cambio una decisione sul punteggio?"
           },
           "answer": {
-            "en": "After a point, tap “Decision change”: give the point to the other team, or replay the rally with no point. During a rally, “Replay rally” replays it. Older mistakes are fixed in Menu › Corrections.",
-            "de": "Tippe nach einem Punkt auf «Entscheidungsänderung»: Gib den Punkt dem anderen Team, oder wiederhole den Ballwechsel ohne Punkt. Während eines Ballwechsels wiederholt «Ballwechsel wiederholen» ihn. Ältere Fehler korrigierst du unter Menü › Korrekturen.",
-            "fr": "Après un point, appuyez sur « Changement de décision » : donnez le point à l'autre équipe, ou rejouez l'échange sans point. Pendant un échange, « Rejouer l'échange » le fait rejouer. Les erreurs plus anciennes se corrigent dans Menu › Corrections.",
-            "it": "Dopo un punto, tocca «Cambio decisione»: dai il punto all'altra squadra, oppure ripeti lo scambio senza punto. Durante uno scambio, «Ripeti scambio» lo fa ripetere. Gli errori più vecchi si correggono in Menu › Correzioni."
+            "en": "After a point, tap “Decision change”: give the point to the other team, or replay the rally with no point. During a rally, “Replay rally” replays it. Older mistakes are fixed in Match › Corrections.",
+            "de": "Tippe nach einem Punkt auf «Entscheidungsänderung»: Gib den Punkt dem anderen Team, oder wiederhole den Ballwechsel ohne Punkt. Während eines Ballwechsels wiederholt «Ballwechsel wiederholen» ihn. Ältere Fehler korrigierst du unter Spiel › Korrekturen.",
+            "fr": "Après un point, appuyez sur « Changement de décision » : donnez le point à l'autre équipe, ou rejouez l'échange sans point. Pendant un échange, « Rejouer l'échange » le fait rejouer. Les erreurs plus anciennes se corrigent dans Match › Corrections.",
+            "it": "Dopo un punto, tocca «Cambio decisione»: dai il punto all'altra squadra, oppure ripeti lo scambio senza punto. Durante uno scambio, «Ripeti scambio» lo fa ripetere. Gli errori più vecchi si correggono in Partita › Correzioni."
           }
         },
         {
@@ -707,10 +743,10 @@
             "it": "Cosa mostra il display del punteggio?"
           },
           "answer": {
-            "en": "The points of the set, the sets won and the serving team. Each team's side shows its time-outs (TO) and substitutions (SUB) in this set. Menu › Show sanctions and results lists every set.",
-            "de": "Die Punkte des Satzes, die gewonnenen Sätze und das aufschlagende Team. Die Seite jedes Teams zeigt seine Timeouts (TO) und Wechsel (AUS) in diesem Satz. Menü › Sanktionen und Ergebnisse anzeigen listet jeden Satz.",
-            "fr": "Les points du set, les sets gagnés et l'équipe au service. Le côté de chaque équipe montre ses temps morts (TM) et ses remplacements (RMP) dans ce set. Menu › Afficher sanctions et résultats liste chaque set.",
-            "it": "I punti del set, i set vinti e la squadra al servizio. Il lato di ogni squadra mostra i suoi timeout (TO) e le sostituzioni (SOS) in questo set. Menu › Mostra sanzioni e risultati elenca ogni set."
+            "en": "The points of the set, the sets won and the serving team. Each team's side shows its time-outs (TO) and substitutions (SUB) in this set. Match › Show sanctions and results lists every set.",
+            "de": "Die Punkte des Satzes, die gewonnenen Sätze und das aufschlagende Team. Die Seite jedes Teams zeigt seine Timeouts (TO) und Wechsel (AUS) in diesem Satz. Spiel › Sanktionen und Ergebnisse anzeigen listet jeden Satz.",
+            "fr": "Les points du set, les sets gagnés et l'équipe au service. Le côté de chaque équipe montre ses temps morts (TM) et ses remplacements (RMP) dans ce set. Match › Afficher sanctions et résultats liste chaque set.",
+            "it": "I punti del set, i set vinti e la squadra al servizio. Il lato di ogni squadra mostra i suoi timeout (TO) e le sostituzioni (SOS) in questo set. Partita › Mostra sanzioni e risultati elenca ogni set."
           }
         },
         {
@@ -756,6 +792,15 @@
       },
       "video": {
         "id": "subs-timeouts",
+        "title": {
+          "en": "Substitutions, time-outs and liberos",
+          "de": "Wechsel, Auszeiten und Libero",
+          "fr": "Remplacements, temps morts et libéros",
+          "it": "Sostituzioni, timeout e libero"
+        },
+        "durationSec": 37.6,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/subs-timeouts.mp4",
         "poster": "https://openvolley.app/support/videos/subs-timeouts.jpg",
         "subtitles": {
@@ -911,6 +956,15 @@
       },
       "video": {
         "id": "sanctions",
+        "title": {
+          "en": "Sanctions",
+          "de": "Sanktionen",
+          "fr": "Sanctions",
+          "it": "Sanzioni"
+        },
+        "durationSec": 57.9,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/sanctions.mp4",
         "poster": "https://openvolley.app/support/videos/sanctions.jpg",
         "subtitles": {
@@ -1042,10 +1096,10 @@
             "it": "Ho registrato la sanzione sbagliata: come la correggo?"
           },
           "answer": {
-            "en": "If it is the last action, tap “Undo”. Otherwise open Menu › Corrections: in the “Sanctions” card, edit or remove it, or tap “Add sanction”. The correction log shows the change to the referee.",
-            "de": "Ist es die letzte Aktion, tippe auf «Rückgängig». Sonst öffne Menü › Korrekturen: In der Karte «Sanktionen» bearbeitest oder entfernst du sie, oder du tippst auf «Sanktion hinzufügen». Das Korrekturprotokoll zeigt die Änderung dem Schiedsrichter.",
-            "fr": "Si c'est la dernière action, appuyez sur « Annuler ». Sinon, ouvrez Menu › Corrections : dans la carte « Sanctions », modifiez-la ou supprimez-la, ou appuyez sur « Ajouter une sanction ». Le journal des corrections montre la modification à l'arbitre.",
-            "it": "Se è l'ultima azione, tocca «Annulla». Altrimenti apri Menu › Correzioni: nella scheda «Sanzioni» modificala o rimuovila, oppure tocca «Aggiungi sanzione». Il registro delle correzioni mostra la modifica all'arbitro."
+            "en": "If it is the last action, tap “Undo”. Otherwise open Match › Corrections: in the “Sanctions” card, edit or remove it, or tap “Add sanction”. The correction log shows the change to the referee.",
+            "de": "Ist es die letzte Aktion, tippe auf «Rückgängig». Sonst öffne Spiel › Korrekturen: In der Karte «Sanktionen» bearbeitest oder entfernst du sie, oder du tippst auf «Sanktion hinzufügen». Das Korrekturprotokoll zeigt die Änderung dem Schiedsrichter.",
+            "fr": "Si c'est la dernière action, appuyez sur « Annuler ». Sinon, ouvrez Match › Corrections : dans la carte « Sanctions », modifiez-la ou supprimez-la, ou appuyez sur « Ajouter une sanction ». Le journal des corrections montre la modification à l'arbitre.",
+            "it": "Se è l'ultima azione, tocca «Annulla». Altrimenti apri Partita › Correzioni: nella scheda «Sanzioni» modificala o rimuovila, oppure tocca «Aggiungi sanzione». Il registro delle correzioni mostra la modifica all'arbitro."
           }
         }
       ]
@@ -1061,6 +1115,15 @@
       },
       "video": {
         "id": "set-end",
+        "title": {
+          "en": "Set end, interval and tie-break",
+          "de": "Satzende, Satzpause und Entscheidungssatz",
+          "fr": "Fin de set, pause et tie-break",
+          "it": "Fine set, intervallo e tie-break"
+        },
+        "durationSec": 36,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/set-end.mp4",
         "poster": "https://openvolley.app/support/videos/set-end.jpg",
         "subtitles": {
@@ -1201,6 +1264,15 @@
       },
       "video": {
         "id": "match-end",
+        "title": {
+          "en": "Match end",
+          "de": "Spielende",
+          "fr": "Fin du match",
+          "it": "Fine partita"
+        },
+        "durationSec": 44,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/match-end.mp4",
         "poster": "https://openvolley.app/support/videos/match-end.jpg",
         "subtitles": {
@@ -1347,10 +1419,10 @@
             "it": "Come scarico i dati della partita?"
           },
           "answer": {
-            "en": "“Confirm and approve” saves the match data as a JSON file, together with the PDF. During the match: Menu › Download game data (JSON). The file can restore the match.",
-            "de": "«Bestätigen und genehmigen» speichert die Spieldaten als JSON-Datei, zusammen mit dem PDF. Während des Spiels: Menü › Spieldaten herunterladen (JSON). Mit der Datei lässt sich das Spiel wiederherstellen.",
-            "fr": "« Confirmer et approuver » enregistre les données du match dans un fichier JSON, avec le PDF. Pendant le match : Menu › Télécharger les données du match (JSON). Le fichier permet de restaurer le match.",
-            "it": "«Conferma e approva» salva i dati della partita in un file JSON, insieme al PDF. Durante la partita: Menu › Scarica i dati della partita (JSON). Con il file si può ripristinare la partita."
+            "en": "“Confirm and approve” saves the match data as a JSON file, together with the PDF. During the match: Match › Download game data (JSON). The file can restore the match.",
+            "de": "«Bestätigen und genehmigen» speichert die Spieldaten als JSON-Datei, zusammen mit dem PDF. Während des Spiels: Spiel › Spieldaten herunterladen (JSON). Mit der Datei lässt sich das Spiel wiederherstellen.",
+            "fr": "« Confirmer et approuver » enregistre les données du match dans un fichier JSON, avec le PDF. Pendant le match : Match › Télécharger les données du match (JSON). Le fichier permet de restaurer le match.",
+            "it": "«Conferma e approva» salva i dati della partita in un file JSON, insieme al PDF. Durante la partita: Partita › Scarica i dati della partita (JSON). Con il file si può ripristinare la partita."
           }
         },
         {
@@ -1396,6 +1468,15 @@
       },
       "video": {
         "id": "corrections",
+        "title": {
+          "en": "Corrections",
+          "de": "Korrekturen",
+          "fr": "Corrections",
+          "it": "Correzioni"
+        },
+        "durationSec": 44.6,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/corrections.mp4",
         "poster": "https://openvolley.app/support/videos/corrections.jpg",
         "subtitles": {
@@ -1457,10 +1538,10 @@
             "it": "Dove correggo un errore?"
           },
           "answer": {
-            "en": "During the match: Menu › Corrections. At the match end: the “Corrections” button. Each correction is saved when you confirm it and listed in the correction log for the referee.",
-            "de": "Während des Spiels: Menü › Korrekturen. Am Spielende: die Schaltfläche «Korrekturen». Jede Korrektur wird gespeichert, wenn du sie bestätigst, und im Korrekturprotokoll für den Schiedsrichter aufgeführt.",
-            "fr": "Pendant le match : Menu › Corrections. À la fin du match : le bouton « Corrections ». Chaque correction est enregistrée quand vous la confirmez et figure dans le journal des corrections pour l'arbitre.",
-            "it": "Durante la partita: Menu › Correzioni. A fine partita: il pulsante «Correzioni». Ogni correzione viene salvata quando la confermi e compare nel registro delle correzioni per l'arbitro."
+            "en": "During the match: Match › Corrections. At the match end: the “Corrections” button. Each correction is saved when you confirm it and listed in the correction log for the referee.",
+            "de": "Während des Spiels: Spiel › Korrekturen. Am Spielende: die Schaltfläche «Korrekturen». Jede Korrektur wird gespeichert, wenn du sie bestätigst, und im Korrekturprotokoll für den Schiedsrichter aufgeführt.",
+            "fr": "Pendant le match : Match › Corrections. À la fin du match : le bouton « Corrections ». Chaque correction est enregistrée quand vous la confirmez et figure dans le journal des corrections pour l'arbitre.",
+            "it": "Durante la partita: Partita › Correzioni. A fine partita: il pulsante «Correzioni». Ogni correzione viene salvata quando la confermi e compare nel registro delle correzioni per l'arbitro."
           }
         },
         {
@@ -1472,10 +1553,10 @@
             "it": "Ho dimenticato un punto durante il set?"
           },
           "answer": {
-            "en": "In Menu › Corrections, tap “Add a missed point” for the team. It is added at the current score with its rotation and service, as the point button does. If the last point went to the wrong team, tap “Last point went to the wrong team”.",
-            "de": "Tippe unter Menü › Korrekturen beim Team auf «Vergessenen Punkt hinzufügen». Er wird beim aktuellen Spielstand mit Rotation und Aufschlag eingetragen, wie mit der Punkt-Schaltfläche. Ging der letzte Punkt an das falsche Team, tippe auf «Letzter Punkt ging an die falsche Mannschaft».",
-            "fr": "Dans Menu › Corrections, appuyez sur « Ajouter un point oublié » pour l'équipe. Il est ajouté au score actuel avec sa rotation et son service, comme avec le bouton de point. Si le dernier point est allé à la mauvaise équipe, appuyez sur « Le dernier point a été donné à la mauvaise équipe ».",
-            "it": "In Menu › Correzioni, tocca «Aggiungi un punto dimenticato» per la squadra. Viene aggiunto al punteggio attuale con rotazione e servizio, come con il pulsante del punto. Se l'ultimo punto è andato alla squadra sbagliata, tocca «L'ultimo punto è andato alla squadra sbagliata»."
+            "en": "In Match › Corrections, tap “Add a missed point” for the team. It is added at the current score with its rotation and service, as the point button does. If the last point went to the wrong team, tap “Last point went to the wrong team”.",
+            "de": "Tippe unter Spiel › Korrekturen beim Team auf «Vergessenen Punkt hinzufügen». Er wird beim aktuellen Spielstand mit Rotation und Aufschlag eingetragen, wie mit der Punkt-Schaltfläche. Ging der letzte Punkt an das falsche Team, tippe auf «Letzter Punkt ging an die falsche Mannschaft».",
+            "fr": "Dans Match › Corrections, appuyez sur « Ajouter un point oublié » pour l'équipe. Il est ajouté au score actuel avec sa rotation et son service, comme avec le bouton de point. Si le dernier point est allé à la mauvaise équipe, appuyez sur « Le dernier point a été donné à la mauvaise équipe ».",
+            "it": "In Partita › Correzioni, tocca «Aggiungi un punto dimenticato» per la squadra. Viene aggiunto al punteggio attuale con rotazione e servizio, come con il pulsante del punto. Se l'ultimo punto è andato alla squadra sbagliata, tocca «L'ultimo punto è andato alla squadra sbagliata»."
           }
         },
         {
@@ -1577,10 +1658,10 @@
             "it": "Posso cambiare un roster durante la partita?"
           },
           "answer": {
-            "en": "Yes: Menu › Edit home roster or Edit away roster. Changes after the coin toss are logged in the corrections and in the remarks.",
-            "de": "Ja: Menü › Heim-Aufstellung bearbeiten oder Gast-Aufstellung bearbeiten. Änderungen nach der Auslosung werden in den Korrekturen und in den Bemerkungen protokolliert.",
-            "fr": "Oui : Menu › Modifier la composition domicile ou Modifier la composition visiteur. Les changements faits après le tirage au sort sont notés dans les corrections et dans les remarques.",
-            "it": "Sì: Menu › Modifica rosa squadra casa o Modifica rosa squadra ospite. Le modifiche dopo il sorteggio vengono registrate nelle correzioni e nelle osservazioni."
+            "en": "Yes: Match › Edit home roster or Edit away roster. Changes after the coin toss are logged in the corrections and in the remarks.",
+            "de": "Ja: Spiel › Heim-Aufstellung bearbeiten oder Gast-Aufstellung bearbeiten. Änderungen nach der Auslosung werden in den Korrekturen und in den Bemerkungen protokolliert.",
+            "fr": "Oui : Match › Modifier la composition domicile ou Modifier la composition visiteur. Les changements faits après le tirage au sort sont notés dans les corrections et dans les remarques.",
+            "it": "Sì: Partita › Modifica rosa squadra casa o Modifica rosa squadra ospite. Le modifiche dopo il sorteggio vengono registrate nelle correzioni e nelle osservazioni."
           }
         }
       ]
@@ -1596,6 +1677,15 @@
       },
       "video": {
         "id": "connections",
+        "title": {
+          "en": "Connecting tablets",
+          "de": "Tablets verbinden",
+          "fr": "Connecter les tablettes",
+          "it": "Collegare i tablet"
+        },
+        "durationSec": 36.6,
+        "width": 1920,
+        "height": 672,
         "mp4": "https://openvolley.app/support/videos/connections.mp4",
         "poster": "https://openvolley.app/support/videos/connections.jpg",
         "subtitles": {
@@ -1791,6 +1881,15 @@
       },
       "video": {
         "id": "referee",
+        "title": {
+          "en": "The referee tablet",
+          "de": "Das Schiedsrichter-Tablet",
+          "fr": "La tablette de l'arbitre",
+          "it": "Il tablet dell'arbitro"
+        },
+        "durationSec": 37.8,
+        "width": 1920,
+        "height": 672,
         "mp4": "https://openvolley.app/support/videos/referee.mp4",
         "poster": "https://openvolley.app/support/videos/referee.jpg",
         "subtitles": {
@@ -1941,6 +2040,15 @@
       },
       "video": {
         "id": "bench",
+        "title": {
+          "en": "The bench tablet",
+          "de": "Das Bank-Tablet",
+          "fr": "La tablette du banc",
+          "it": "Il tablet della panchina"
+        },
+        "durationSec": 36.8,
+        "width": 1920,
+        "height": 672,
         "mp4": "https://openvolley.app/support/videos/bench.mp4",
         "poster": "https://openvolley.app/support/videos/bench.jpg",
         "subtitles": {
@@ -2091,6 +2199,15 @@
       },
       "video": {
         "id": "livescore",
+        "title": {
+          "en": "Livescore and scoreboard screen",
+          "de": "Livescore und Anzeigetafel",
+          "fr": "Livescore et tableau d'affichage",
+          "it": "Livescore e tabellone"
+        },
+        "durationSec": 32.7,
+        "width": 1920,
+        "height": 672,
         "mp4": "https://openvolley.app/support/videos/livescore.mp4",
         "poster": "https://openvolley.app/support/videos/livescore.jpg",
         "subtitles": {
@@ -2226,6 +2343,15 @@
       },
       "video": {
         "id": "handover",
+        "title": {
+          "en": "Continuing on another device",
+          "de": "Auf einem anderen Gerät weiterführen",
+          "fr": "Continuer sur un autre appareil",
+          "it": "Continuare su un altro dispositivo"
+        },
+        "durationSec": 61.1,
+        "width": 1920,
+        "height": 672,
         "mp4": "https://openvolley.app/support/videos/handover.mp4",
         "poster": "https://openvolley.app/support/videos/handover.jpg",
         "subtitles": {
@@ -2302,10 +2428,10 @@
             "it": "Dove trovo il PIN partita?"
           },
           "answer": {
-            "en": "On Home under “Game PIN”, on the match info page of the match setup (“Send PIN by email” sends it to you), and in the scoring screen under Menu › Show PINs.",
-            "de": "Auf der Startseite unter «Spiel-PIN», auf der Seite der Spielinfo in der Spieleinrichtung («PIN per E-Mail senden» schickt sie dir) und auf dem Erfassungsbildschirm unter Menü › PINs anzeigen.",
-            "fr": "À l'accueil sous « PIN du match », sur la page des informations du match dans la configuration (« Envoyer PIN par email » vous l'envoie) et sur l'écran de saisie sous Menu › Afficher les codes PIN.",
-            "it": "Sulla home sotto «PIN partita», nella pagina delle info partita nella configurazione («Invia PIN via email» te lo invia) e nella schermata del punteggio in Menu › Mostra PIN."
+            "en": "On Home under “Game PIN”, on the match info page of the match setup (“Send PIN by email” sends it to you), and in the scoring screen under Match › Show PINs.",
+            "de": "Auf der Startseite unter «Spiel-PIN», auf der Seite der Spielinfo in der Spieleinrichtung («PIN per E-Mail senden» schickt sie dir) und auf dem Erfassungsbildschirm unter Spiel › PINs anzeigen.",
+            "fr": "À l'accueil sous « PIN du match », sur la page des informations du match dans la configuration (« Envoyer PIN par email » vous l'envoie) et sur l'écran de saisie sous Match › Afficher les codes PIN.",
+            "it": "Sulla home sotto «PIN partita», nella pagina delle info partita nella configurazione («Invia PIN via email» te lo invia) e nella schermata del punteggio in Partita › Mostra PIN."
           }
         },
         {
@@ -2396,6 +2522,15 @@
       },
       "video": {
         "id": "sync-offline",
+        "title": {
+          "en": "Online, offline and sync",
+          "de": "Online, offline und Synchronisierung",
+          "fr": "En ligne, hors ligne et synchronisation",
+          "it": "Online, offline e sincronizzazione"
+        },
+        "durationSec": 39.5,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/sync-offline.mp4",
         "poster": "https://openvolley.app/support/videos/sync-offline.jpg",
         "subtitles": {
@@ -2591,6 +2726,15 @@
       },
       "video": {
         "id": "install-updates",
+        "title": {
+          "en": "Installing and updating",
+          "de": "Installieren und aktualisieren",
+          "fr": "Installer et mettre à jour",
+          "it": "Installare e aggiornare"
+        },
+        "durationSec": 31.1,
+        "width": 1280,
+        "height": 872,
         "mp4": "https://openvolley.app/support/videos/install-updates.mp4",
         "poster": "https://openvolley.app/support/videos/install-updates.jpg",
         "subtitles": {
