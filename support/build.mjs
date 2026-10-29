@@ -670,6 +670,9 @@ function contactHtml(sections, lang, ui) {
     .join('\n                ');
   const accept = 'image/*,.pdf,.txt,.log,.csv,.json,.ndjson';
   const consent = fill(t(f.consent, lang), { email: mail, privacy: `<a href="${privacySupportHref(lang)}">${t(f.privacy, lang)}</a>` });
+  // No action and Send disabled: support.js enables Send and posts to config.api. Without
+  // JavaScript nothing can be posted (the backend's JSON never shows); the noscript line
+  // gives the address.
   return `<section class="section support-block" id="contact" aria-labelledby="contact-title">
         <div class="section-head">
           <p class="eyebrow">${t(ui.contactEyebrow, lang)}</p>
@@ -677,7 +680,7 @@ function contactHtml(sections, lang, ui) {
           <p class="section-lead">${fill(t(ui.contactLead, lang), { email: mail })}</p>
         </div>
         <div class="card contact-card">
-          <form id="contact-form" class="contact-form" action="${CONTACT_API}" method="post" enctype="multipart/form-data" novalidate>
+          <form id="contact-form" class="contact-form" method="post" enctype="multipart/form-data" novalidate>
             <input type="hidden" name="source" value="website">
             <input type="hidden" name="language" value="${lang}">
             <div class="field">
@@ -724,7 +727,7 @@ function contactHtml(sections, lang, ui) {
             <p class="consent">${consent}</p>
             <div class="form-alert" id="cf-alert" role="alert" hidden></div>
             <div class="form-actions">
-              <button class="btn btn-primary" type="submit" id="cf-send">${icon('send')}<span>${t(f.send, lang)}</span></button>
+              <button class="btn btn-primary" type="submit" id="cf-send" disabled>${icon('send')}<span>${t(f.send, lang)}</span></button>
             </div>
             <noscript><p class="field-hint">${fill(t(f.noscript, lang), { email: mail })}</p></noscript>
           </form>
@@ -774,6 +777,7 @@ function page(lang, data) {
   // What support.js needs: its texts, the limits and where the form goes
   const config = {
     lang,
+    api: CONTACT_API,
     email: CONTACT_EMAIL,
     maxFiles: MAX_FILES,
     maxFilesMb: MAX_FILES_MB,

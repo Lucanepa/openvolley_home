@@ -608,6 +608,11 @@
 
 .btn[disabled] {
   opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Sending; without JavaScript Send stays disabled */
+[aria-busy="true"] .btn[disabled] {
   cursor: progress;
 }
 

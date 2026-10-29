@@ -2,7 +2,8 @@
 // question search, "Ask about this", the language switch, the video
 // posters, and the contact form, which posts to the backend's /api/contact
 // (escoresheet/backend/lib/contact.js in the openvolley repository). No
-// dependencies; the page works without it except for the search and the form.
+// dependencies; the page works without it except for the search and the form
+// (its Send button stays disabled and the form has no action: nothing is posted).
 
 (() => {
   'use strict';
@@ -136,6 +137,8 @@
   const sendLabel = send.querySelector('span');
   const sendText = sendLabel.textContent;
   const doneBox = $('cf-done');
+  // Disabled in the page, so that without this script the form cannot be posted
+  send.disabled = false;
 
   // The backend's checks (lib/contact.js): the address, the kinds of file
   const EMAIL = /^[^\s@<>()[\]\\,;:"]+@[^\s@<>()[\]\\,;:"]+\.[^\s@<>()[\]\\,;:"]+$/;
@@ -358,7 +361,7 @@
     let res = null;
     let answer = {};
     try {
-      res = await fetch(form.action, { method: 'POST', body, signal: ctrl.signal });
+      res = await fetch(config.api, { method: 'POST', body, signal: ctrl.signal });
       answer = await res.json().catch(() => ({}));
     } catch {
       res = null;
