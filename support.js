@@ -129,6 +129,8 @@
   const supportTypes = $('cf-support-type');
   const severityField = $('cf-severity-field');
   const severity = $('cf-severity');
+  const matchField = $('cf-match-field');
+  const matchRunning = $('cf-match');
   const area = $('cf-area');
   const email = $('cf-email');
   const message = $('cf-message');
@@ -161,11 +163,14 @@
     }
   }
 
-  // Support: its type; a bug report: its severity too (required)
+  // Support: its type; a bug report: its severity too (required). "A match is running":
+  // for every type once one is chosen, as in the app's dialog
   const supportType = () => form.querySelector('input[name="supportType"]:checked')?.value || '';
+  const matchTicked = () => !matchField.hidden && matchRunning.checked;
   const syncType = () => {
     const support = type.value === 'support';
     supportTypes.hidden = !support;
+    matchField.hidden = !type.value;
     severityField.hidden = !(support && supportType() === 'bug');
     if (severityField.hidden) setError(severity, '');
   };
@@ -269,7 +274,7 @@
   function mailtoHref(v) {
     const typeText = type.selectedIndex > 0 ? type.options[type.selectedIndex].text : '';
     const areaText = area.selectedIndex > 0 ? area.options[area.selectedIndex].text : '';
-    const subject = ['[OpenVolley]', typeText, areaText].filter(Boolean).join(' ');
+    const subject = [matchTicked() ? '[OpenVolley – match running]' : '[OpenVolley]', typeText, areaText].filter(Boolean).join(' ');
     return `mailto:${config.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(v.comments.slice(0, 1500))}`;
   }
 
@@ -359,6 +364,8 @@
     };
     const body = new FormData();
     for (const [k, value] of Object.entries(v)) body.append(k, value);
+    // The backend makes the ticket P1
+    if (matchTicked()) body.append('matchRunning', '1');
     body.append('source', 'website');
     body.append('language', config.lang);
     body.append('platform', 'web');

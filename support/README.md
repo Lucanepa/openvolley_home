@@ -67,9 +67,12 @@ It posts `multipart/form-data` to `https://backend.openvolley.app/api/contact`
 (`escoresheet/backend/lib/contact.js`), the same contract as the app's
 Support & feedback dialog: `contactType`, `area` (a section id or `other`),
 `supportType`, `severity` (1-4, asked for a bug report only, with the app's
-labels), `email`, `comments`, `source=website`, `language`, `platform=web`,
-`url`, `userAgent`, `timestamp`, the honeypot `website` and up to 5 `files`
-(10 MB together). The backend mails support@openvolley.app with Reply-To the
-user, which FreeScout (support.openvolley.app) reads. support.js sends it; the form has no `action` and its Send button is disabled until the
-script runs, so without JavaScript nothing is posted and the page says to
-write to support@openvolley.app.
+labels), `email`, `comments`, `matchRunning=1` when "A match is running right
+now" is ticked (any type, as in the app; the backend makes the ticket P1),
+`source=website`, `language`, `platform=web`, `url`, `userAgent`,
+`timestamp`, the honeypot `website` and up to 5 `files` (10 MB together). The
+backend mails support@openvolley.app with Reply-To the user, which FreeScout
+(support.openvolley.app) reads. support.js sends it; the form has no
+`action` and its Send button is disabled until the script runs, so without
+JavaScript nothing is posted and the page says to write to
+support@openvolley.app.

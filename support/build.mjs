@@ -69,8 +69,8 @@ const APPS = [
 ];
 
 // The page's own words. The form's labels follow the app's Support & feedback
-// dialog (supportFeedback.* in the app's locales; the severities word for
-// word, as the app sends the same 1-4). German says "du" like the app's help
+// dialog (supportFeedback.* in the app's locales; the severities and "A match
+// is running right now" word for word). German says "du" like the app's help
 // texts.
 const UI = {
   de: {
@@ -127,6 +127,8 @@ const UI = {
       severity: 'Wie schwerwiegend ist dieses Problem?',
       selectSeverity: 'Schweregrad auswählen...',
       severities: { 1: '1 - Tool funktioniert nicht mehr', 2: '2 - Sehr eingeschränkte Funktionalität', 3: '3 - Unannehmlichkeit', 4: '4 - Nice-to-have' },
+      matchRunning: 'Es läuft gerade ein Spiel',
+      matchRunningHint: 'Deine Nachricht wird dann als dringend markiert.',
       area: 'Welchen Bereich betrifft es?',
       selectArea: 'Bereich auswählen...',
       other: 'Etwas anderes',
@@ -225,6 +227,8 @@ const UI = {
       severity: 'How severe is this issue?',
       selectSeverity: 'Select severity...',
       severities: { 1: '1 - Tool breaks completely', 2: '2 - Very limited functionality', 3: '3 - Inconvenience', 4: '4 - Nice-to-have' },
+      matchRunning: 'A match is running right now',
+      matchRunningHint: 'Your message is then marked as urgent.',
       area: 'Which area is this about?',
       selectArea: 'Select area...',
       other: 'Something else',
@@ -323,6 +327,8 @@ const UI = {
       severity: 'Gravité du problème ?',
       selectSeverity: 'Niveau de gravité...',
       severities: { 1: '1 - Critique (application inutilisable)', 2: '2 - Majeur (fonctions limitées)', 3: '3 - Mineur (gênant)', 4: '4 - Suggestion (confort)' },
+      matchRunning: 'Un match est en cours en ce moment',
+      matchRunningHint: 'Votre message est alors marqué comme urgent.',
       area: 'Quel domaine est concerné ?',
       selectArea: 'Choisir le domaine...',
       other: 'Autre chose',
@@ -421,6 +427,8 @@ const UI = {
       severity: 'Quanto è grave questo problema?',
       selectSeverity: 'Seleziona gravità...',
       severities: { 1: '1 - Lo strumento non funziona', 2: '2 - Funzionalità molto limitata', 3: '3 - Inconveniente', 4: '4 - Nice-to-have' },
+      matchRunning: 'Una partita è in corso in questo momento',
+      matchRunningHint: 'Il tuo messaggio viene allora segnato come urgente.',
       area: 'Quale area riguarda?',
       selectArea: 'Seleziona area...',
       other: 'Altro',
@@ -690,7 +698,7 @@ function contactHtml(sections, lang, ui) {
   const consent = fill(t(f.consent, lang), { email: mail, privacy: `<a href="${privacySupportHref(lang)}">${t(f.privacy, lang)}</a>` });
   // No action and Send disabled: support.js enables Send and posts to config.api. Without
   // JavaScript nothing can be posted (the backend's JSON never shows); the noscript line
-  // gives the address. Severity: for a bug report only (then required).
+  // gives the address. Severity: for a bug report only; matchRunning: for every type, as in the app.
   return `<section class="section support-block" id="contact" aria-labelledby="contact-title">
         <div class="section-head">
           <p class="eyebrow">${t(ui.contactEyebrow, lang)}</p>
@@ -720,6 +728,12 @@ function contactHtml(sections, lang, ui) {
                 <option value="">${t(f.selectSeverity, lang)}</option>${severities}
               </select>
               <p class="field-error" id="cf-severity-error" hidden></p>
+            </div>
+            <div class="field" id="cf-match-field" hidden>
+              <div class="choices">
+                <label class="choice"><input type="checkbox" id="cf-match" name="matchRunning" value="1" aria-describedby="cf-match-hint"><span>${t(f.matchRunning, lang)}</span></label>
+              </div>
+              <p class="field-hint" id="cf-match-hint">${t(f.matchRunningHint, lang)}</p>
             </div>
             <div class="field">
               <label for="cf-area">${t(f.area, lang)} ${optional}</label>
