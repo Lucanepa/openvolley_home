@@ -10,7 +10,7 @@
 | terms.md | /nutzungsbedingungen | /en/terms | /fr/conditions | /it/condizioni |
 | opensource.md | /open-source | /en/open-source | /fr/open-source | /it/open-source |
 
-German is the binding version. The apps link to these URLs (openvolley:
+English is the binding version (since 29 October 2026; German before). The apps link to these URLs (openvolley:
 `escoresheet/frontend/src/legal/legalLinks.js`), so keep them stable.
 
 ## Address and place of jurisdiction
