@@ -687,8 +687,9 @@ main {
     padding: 10px 20px;
   }
 
+  /* Windows, macOS, Linux, Android: two by two */
   .downloads {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .contact {
