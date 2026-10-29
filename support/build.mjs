@@ -69,8 +69,9 @@ const APPS = [
 ];
 
 // The page's own words. The form's labels follow the app's Support & feedback
-// dialog (supportFeedback.* in the app's locales). German says "du" like the
-// app's help texts.
+// dialog (supportFeedback.* in the app's locales; the severities word for
+// word, as the app sends the same 1-4). German says "du" like the app's help
+// texts.
 const UI = {
   de: {
     name: 'Deutsch',
@@ -123,6 +124,9 @@ const UI = {
       types: { support: 'Support', feedback: 'Feedback', request: 'Funktionsanfrage' },
       supportType: 'Welche Art von Support brauchst du?',
       supportTypes: { bug: 'Fehlerbericht', help: 'Hilfe / Frage' },
+      severity: 'Wie schwerwiegend ist dieses Problem?',
+      selectSeverity: 'Schweregrad auswählen...',
+      severities: { 1: '1 - Tool funktioniert nicht mehr', 2: '2 - Sehr eingeschränkte Funktionalität', 3: '3 - Unannehmlichkeit', 4: '4 - Nice-to-have' },
       area: 'Welchen Bereich betrifft es?',
       selectArea: 'Bereich auswählen...',
       other: 'Etwas anderes',
@@ -148,6 +152,7 @@ const UI = {
       sending: 'Wird gesendet...',
       remove: '{name} entfernen',
       typeMissing: 'Wähle, wobei wir helfen können.',
+      severityMissing: 'Wähle, wie schwerwiegend das Problem ist.',
       emailInvalid: 'Bitte gib eine gültige E-Mail-Adresse ein.',
       messageMissing: 'Bitte beschreibe deine Frage oder dein Problem.',
       tooManyFiles: 'Du kannst bis zu {max} Dateien anhängen.',
@@ -217,6 +222,9 @@ const UI = {
       types: { support: 'Support', feedback: 'Feedback', request: 'Feature request' },
       supportType: 'What type of support do you need?',
       supportTypes: { bug: 'Bug report', help: 'Help / question' },
+      severity: 'How severe is this issue?',
+      selectSeverity: 'Select severity...',
+      severities: { 1: '1 - Tool breaks completely', 2: '2 - Very limited functionality', 3: '3 - Inconvenience', 4: '4 - Nice-to-have' },
       area: 'Which area is this about?',
       selectArea: 'Select area...',
       other: 'Something else',
@@ -242,6 +250,7 @@ const UI = {
       sending: 'Sending...',
       remove: 'Remove {name}',
       typeMissing: 'Choose what we can help you with.',
+      severityMissing: 'Choose how severe the problem is.',
       emailInvalid: 'Please enter a valid email address.',
       messageMissing: 'Please describe your question or problem.',
       tooManyFiles: 'You can attach up to {max} files.',
@@ -311,6 +320,9 @@ const UI = {
       types: { support: 'Support technique', feedback: 'Commentaire / avis', request: 'Suggestion de fonctionnalité' },
       supportType: 'Type de support ?',
       supportTypes: { bug: 'Signaler un problème', help: 'Aide / question' },
+      severity: 'Gravité du problème ?',
+      selectSeverity: 'Niveau de gravité...',
+      severities: { 1: '1 - Critique (application inutilisable)', 2: '2 - Majeur (fonctions limitées)', 3: '3 - Mineur (gênant)', 4: '4 - Suggestion (confort)' },
       area: 'Quel domaine est concerné ?',
       selectArea: 'Choisir le domaine...',
       other: 'Autre chose',
@@ -336,6 +348,7 @@ const UI = {
       sending: 'Envoi...',
       remove: 'Retirer {name}',
       typeMissing: 'Choisissez le type de demande.',
+      severityMissing: 'Choisissez la gravité du problème.',
       emailInvalid: 'Veuillez saisir une adresse e-mail valide.',
       messageMissing: 'Veuillez décrire votre question ou votre problème.',
       tooManyFiles: 'Vous pouvez joindre jusqu’à {max} fichiers.',
@@ -405,6 +418,9 @@ const UI = {
       types: { support: 'Supporto', feedback: 'Feedback', request: 'Richiesta funzionalità' },
       supportType: 'Di che tipo di supporto hai bisogno?',
       supportTypes: { bug: 'Segnalazione bug', help: 'Aiuto / domanda' },
+      severity: 'Quanto è grave questo problema?',
+      selectSeverity: 'Seleziona gravità...',
+      severities: { 1: '1 - Lo strumento non funziona', 2: '2 - Funzionalità molto limitata', 3: '3 - Inconveniente', 4: '4 - Nice-to-have' },
       area: 'Quale area riguarda?',
       selectArea: 'Seleziona area...',
       other: 'Altro',
@@ -430,6 +446,7 @@ const UI = {
       sending: 'Invio in corso...',
       remove: 'Rimuovi {name}',
       typeMissing: 'Scegli come possiamo aiutarti.',
+      severityMissing: 'Scegli quanto è grave il problema.',
       emailInvalid: 'Inserisci un indirizzo email valido.',
       messageMissing: 'Descrivi la tua domanda o il tuo problema.',
       tooManyFiles: 'Puoi allegare fino a {max} file.',
@@ -668,11 +685,12 @@ function contactHtml(sections, lang, ui) {
   const supportTypes = Object.entries(f.supportTypes)
     .map(([v, label]) => `<label class="choice"><input type="radio" name="supportType" value="${v}"><span>${t(label, lang)}</span></label>`)
     .join('\n                ');
+  const severities = Object.entries(f.severities).map(([v, label]) => `<option value="${v}">${t(label, lang)}</option>`).join('');
   const accept = 'image/*,.pdf,.txt,.log,.csv,.json,.ndjson';
   const consent = fill(t(f.consent, lang), { email: mail, privacy: `<a href="${privacySupportHref(lang)}">${t(f.privacy, lang)}</a>` });
   // No action and Send disabled: support.js enables Send and posts to config.api. Without
   // JavaScript nothing can be posted (the backend's JSON never shows); the noscript line
-  // gives the address.
+  // gives the address. Severity: for a bug report only (then required).
   return `<section class="section support-block" id="contact" aria-labelledby="contact-title">
         <div class="section-head">
           <p class="eyebrow">${t(ui.contactEyebrow, lang)}</p>
@@ -696,6 +714,13 @@ function contactHtml(sections, lang, ui) {
                 ${supportTypes}
               </div>
             </fieldset>
+            <div class="field" id="cf-severity-field" hidden>
+              <label for="cf-severity">${t(f.severity, lang)}</label>
+              <select id="cf-severity" name="severity" required aria-describedby="cf-severity-error">
+                <option value="">${t(f.selectSeverity, lang)}</option>${severities}
+              </select>
+              <p class="field-error" id="cf-severity-error" hidden></p>
+            </div>
             <div class="field">
               <label for="cf-area">${t(f.area, lang)} ${optional}</label>
               <select id="cf-area" name="area">

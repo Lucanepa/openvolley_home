@@ -127,6 +127,8 @@
   if (!form) return;
   const type = $('cf-type');
   const supportTypes = $('cf-support-type');
+  const severityField = $('cf-severity-field');
+  const severity = $('cf-severity');
   const area = $('cf-area');
   const email = $('cf-email');
   const message = $('cf-message');
@@ -159,12 +161,21 @@
     }
   }
 
+  // Support: its type; a bug report: its severity too (required)
+  const supportType = () => form.querySelector('input[name="supportType"]:checked')?.value || '';
   const syncType = () => {
-    supportTypes.hidden = type.value !== 'support';
+    const support = type.value === 'support';
+    supportTypes.hidden = !support;
+    severityField.hidden = !(support && supportType() === 'bug');
+    if (severityField.hidden) setError(severity, '');
   };
   type.addEventListener('change', () => {
     syncType();
     if (type.value) setError(type, '');
+  });
+  supportTypes.addEventListener('change', syncType);
+  severity.addEventListener('change', () => {
+    if (severity.value) setError(severity, '');
   });
   syncType();
   email.addEventListener('input', () => {
@@ -231,6 +242,7 @@
     const value = email.value.trim();
     const checks = [
       [type, type.value ? '' : text.typeMissing],
+      [severity, severityField.hidden || severity.value ? '' : text.severityMissing],
       [email, value.length <= 254 && EMAIL.test(value) ? '' : text.emailInvalid],
       [message, message.value.trim() ? '' : text.messageMissing],
     ];
@@ -298,7 +310,7 @@
     email.value = keep;
     files = [];
     renderFiles();
-    [type, email, message, fileInput].forEach((f) => setError(f, ''));
+    [type, severity, email, message, fileInput].forEach((f) => setError(f, ''));
     syncType();
     hideAlert();
     doneBox.hidden = true;
@@ -321,7 +333,8 @@
         syncType();
         setError(type, '');
       }
-      if (!form.querySelector('input[name="supportType"]:checked')) form.querySelector('input[name="supportType"][value="help"]').checked = true;
+      if (!supportType()) form.querySelector('input[name="supportType"][value="help"]').checked = true;
+      syncType();
       const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
       $('contact').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
       history.pushState(null, '', '#contact');
@@ -335,11 +348,12 @@
     hideAlert();
     if (!validate()) return;
 
-    const checked = form.querySelector('input[name="supportType"]:checked');
+    const support = type.value === 'support';
     const v = {
       contactType: type.value,
       area: area.value || 'other',
-      supportType: type.value === 'support' && checked ? checked.value : '',
+      supportType: support ? supportType() : '',
+      severity: severityField.hidden ? '' : severity.value,
       email: email.value.trim(),
       comments: message.value.trim(),
     };
