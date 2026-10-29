@@ -641,8 +641,16 @@ main {
   }
 }
 
-@media (max-width: 379.98px) {
+/* Phones: Contact leaves the nav first, then Download (the hero has its
+   button); Apps and Support stay */
+@media (max-width: 479.98px) {
   .topnav .nav-optional {
+    display: none;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .topnav .nav-optional-xs {
     display: none;
   }
 }
