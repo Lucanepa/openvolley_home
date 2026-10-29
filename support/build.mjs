@@ -2,7 +2,7 @@
 // Renders openvolley.app/support in DE (/support), EN, FR and IT from the
 // help of the app, section by section: each section of the app's "?" help
 // gets its video, its questions and an "Ask about this" button for the
-// contact form. Then the guides, "Which app for what" and the form, which
+// contact form. Then the downloads, "Which app for what" and the form, which
 // posts to the backend's /api/contact (support.js).
 //
 //   node support/build.mjs <outdir>     (build.sh passes dist)
@@ -10,7 +10,8 @@
 // Reads support/help.json (written by escoresheet/frontend/scripts/
 // export-help.mjs in the openvolley repository) and
 // support/videos/manifest.json (the recorded videos), and copies the videos
-// and the guide PDFs into <outdir>. See support/README.md for updating them.
+// (and the guide PDFs, when GUIDES lists any) into <outdir>. See
+// support/README.md for updating them.
 
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, statSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -42,10 +43,13 @@ const MAX_COMMENTS = 5000;
 const MAX_ASSET_BYTES = 25 * 1024 * 1024;
 const VIDEO_TARGET_BYTES = 6 * 1000 * 1000;
 
-const GUIDES = [
-  { key: 'quick', src: 'Openvolley eScoresheet Quick guide.pdf', file: 'openvolley-quick-guide.pdf', docLang: 'en' },
-  { key: 'rollout', src: 'Openvolley eScoresheet Roll-Out_DE.pdf', file: 'openvolley-roll-out-de.pdf', docLang: 'de' },
-];
+// The guide PDFs listed in the guides block and copied to /support/guides,
+// e.g. { key: 'quick', src: 'Openvolley eScoresheet Quick guide.pdf',
+// file: 'openvolley-quick-guide.pdf', docLang: 'en' }. None for now: the
+// Quick guide (January 2026) shows a real referee's name on its screenshots
+// and the old look, the roll-out deck is the plan of January. List a current
+// guide with invented names only.
+const GUIDES = [];
 
 const DOWNLOADS = [
   { label: 'Windows', href: 'https://get.openvolley.app/#windows', icon: 'monitor' },
@@ -92,7 +96,7 @@ const UI = {
     inApp: 'In der App: das «?» auf',
     ask: 'Frage dazu stellen',
     guidesTitle: 'Anleitungen und Downloads',
-    guidesLead: 'Die Anleitungen als PDF, die Apps zum Installieren und welche App auf welches Gerät gehört.',
+    guidesLead: 'Die Apps zum Installieren und welche App auf welches Gerät gehört.',
     guides: {
       quick: { title: 'Kurzanleitung', desc: 'Das eScoresheet Schritt für Schritt, mit Bildschirmfotos einer früheren Version (Januar 2026).' },
       rollout: { title: 'Roll-out-Info', desc: 'Was das eScoresheet bietet und die nächsten Schritte der Einführung.' },
@@ -186,7 +190,7 @@ const UI = {
     inApp: 'In the app: the “?” on',
     ask: 'Ask about this',
     guidesTitle: 'Guides and downloads',
-    guidesLead: 'The guides as PDF, the apps to install, and which app goes on which device.',
+    guidesLead: 'The apps to install, and which app goes on which device.',
     guides: {
       quick: { title: 'Quick guide', desc: 'The eScoresheet step by step, with screenshots of an earlier version (January 2026).' },
       rollout: { title: 'Roll-out info', desc: 'What the eScoresheet offers and the next steps of the roll-out.' },
@@ -280,7 +284,7 @@ const UI = {
     inApp: 'Dans l’application : le « ? » sur',
     ask: 'Poser une question',
     guidesTitle: 'Guides et téléchargements',
-    guidesLead: 'Les guides en PDF, les applications à installer et quelle application va sur quel appareil.',
+    guidesLead: 'Les applications à installer et quelle application va sur quel appareil.',
     guides: {
       quick: { title: 'Guide rapide', desc: 'L’eScoresheet pas à pas, avec des captures d’une version antérieure (janvier 2026).' },
       rollout: { title: 'Infos sur le déploiement', desc: 'Ce que propose l’eScoresheet et les prochaines étapes du déploiement.' },
@@ -374,7 +378,7 @@ const UI = {
     inApp: 'Nell’app: il «?» su',
     ask: 'Fai una domanda',
     guidesTitle: 'Guide e download',
-    guidesLead: 'Le guide in PDF, le app da installare e quale app va su quale dispositivo.',
+    guidesLead: 'Le app da installare e quale app va su quale dispositivo.',
     guides: {
       quick: { title: 'Guida rapida', desc: 'L’eScoresheet passo per passo, con schermate di una versione precedente (gennaio 2026).' },
       rollout: { title: 'Info sull’introduzione', desc: 'Cosa offre l’eScoresheet e i prossimi passi dell’introduzione.' },
@@ -634,11 +638,11 @@ function guidesHtml(lang, ui) {
           <h2 id="guides-title">${t(ui.guidesTitle, lang)}</h2>
           <p class="section-lead">${t(ui.guidesLead, lang)}</p>
         </div>
-        <div class="card">
+        ${guideRows ? `<div class="card">
           <ul class="rows">
             ${guideRows}
           </ul>
-        </div>
+        </div>` : ''}
         <div class="card downloads-card">
           <h3>${t(ui.downloadsTitle, lang)}</h3>
           <p>${t(ui.downloadsLead, lang).replace('get.openvolley.app', '<a href="https://get.openvolley.app">get.openvolley.app</a>')}</p>
@@ -708,7 +712,7 @@ function contactHtml(sections, lang, ui) {
             </div>
             <div class="field">
               <span class="label" id="cf-files-label">${t(f.attachments, lang)} ${optional}</span>
-              <label class="btn btn-ghost btn-sm file-button">${icon('paperclip')}<span>${t(f.attach, lang)}</span><input id="cf-files" name="files" type="file" multiple accept="${accept}" aria-labelledby="cf-files-label" aria-describedby="cf-files-hint cf-files-error"></label>
+              <label class="btn btn-ghost btn-sm file-button">${icon('paperclip')}<span id="cf-files-button">${t(f.attach, lang)}</span><input id="cf-files" name="files" type="file" multiple accept="${accept}" aria-labelledby="cf-files-label cf-files-button" aria-describedby="cf-files-hint cf-files-error"></label>
               <ul class="file-list" id="cf-file-list" hidden></ul>
               <p class="field-hint" id="cf-files-hint">${t(fill(f.attachHint, { max: MAX_FILES, mb: MAX_FILES_MB }), lang)}</p>
               <p class="field-error" id="cf-files-error" hidden></p>
@@ -895,9 +899,11 @@ function build() {
     }
   }
 
-  const guideDir = join(OUT, GUIDE_URL.slice(1));
-  mkdirSync(guideDir, { recursive: true });
-  for (const g of GUIDES) copyFileSync(join(ROOT, g.src), join(guideDir, g.file));
+  if (GUIDES.length) {
+    const guideDir = join(OUT, GUIDE_URL.slice(1));
+    mkdirSync(guideDir, { recursive: true });
+    for (const g of GUIDES) copyFileSync(join(ROOT, g.src), join(guideDir, g.file));
+  }
 
   const questions = data.help.sections.reduce((n, s) => n + s.faq.length, 0);
   console.log(`Support pages: ${LANGS.length} written (${data.help.sections.length} sections, ${questions} questions, ${videoFiles} video files, ${GUIDES.length} guides).`);

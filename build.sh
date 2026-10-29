@@ -39,7 +39,7 @@ node legal/build.mjs "$OUTPUT_DIR"
 
 # Support pages (/support, /en/support, /fr/support, /it/support) from the
 # app's help (support/help.json) and the videos (support/videos), which it
-# copies to /support/videos; the guide PDFs go to /support/guides
+# copies to /support/videos (guide PDFs listed in GUIDES go to /support/guides)
 node support/build.mjs "$OUTPUT_DIR"
 
 echo "Build complete! Output directory: $OUTPUT_DIR"

@@ -1,8 +1,9 @@
 # Support pages
 
 `build.sh` runs `node support/build.mjs dist`, which writes the support page
-in four languages and copies the videos and the guide PDFs. No dependencies
-beyond the site's own (`lucide-static` for the icons).
+in four languages and copies the videos (and the guide PDFs listed in
+`GUIDES`, none for now). No dependencies beyond the site's own
+(`lucide-static` for the icons).
 
 | Language | Page |
 |---|---|
@@ -16,7 +17,7 @@ Each page has one section per help section of the app, with the anchor
 `sanctions`, `set-end`, `match-end`, `corrections`, `connections`, `referee`,
 `bench`, `livescore`, `handover`, `sync-offline`, `install-updates`): the
 video, the questions (`#q-<id>-<question>` opens one) and "Ask about this",
-which opens the contact form with that area. Then the guides, "Which app for
+which opens the contact form with that area. Then the downloads, "Which app for
 what" and the contact form.
 
 The app's "?" help links to `https://openvolley.app/support#<id>`. The German
@@ -30,7 +31,7 @@ language, unless they picked one with the language switch.
 | `help.json` | The questions and answers per section, in en/de/fr/it | (built into the pages) |
 | `videos/<id>.mp4`, `<id>.jpg`, `<id>.<lang>.vtt` | One video per section, its poster and subtitles | /support/videos/ |
 | `videos/manifest.json` | The videos: titles, length, size, app version | (read by the build) |
-| `../Openvolley eScoresheet Quick guide.pdf`, `../Openvolley eScoresheet Roll-Out_DE.pdf` | The guides | /support/guides/ |
+| `GUIDES` in `build.mjs` | Guide PDFs from the repository root, none listed now: the Quick guide (January 2026) shows a real referee's name and the old look, the roll-out deck is the January plan. List only a current guide with invented names | /support/guides/ |
 | `../support.css`, `../support.js` | Style, search and contact form | /support.css, /support.js |
 
 The app streams the videos from `/support/videos/` too, so keep those names.
