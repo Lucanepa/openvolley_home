@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.754
+Chaque match commence sur l'accueil.
+
+2
+00:00:01.804 --> 00:00:03.581
+Appuyez sur "Nouveau match".
+
+3
+00:00:03.631 --> 00:00:06.294
+"Match officiel" : un match du calendrier, enregistré sur le serveur.
+
+4
+00:00:06.344 --> 00:00:09.010
+"Match amical" : pour s'entraîner avec des équipes d'exemple. Rien n'est envoyé.
+
+5
+00:00:09.060 --> 00:00:11.727
+"Match simplifié" : Non officiel · sans listes ni signatures.
+
+6
+00:00:11.777 --> 00:00:14.755
+Ici : "Match amical".
+
+7
+00:00:14.805 --> 00:00:18.252
+"Menu" → "Accueil" pour revenir. Le match reste sur l'appareil.
+
+8
+00:00:18.302 --> 00:00:20.876
+"Continuer le match" le rouvre.
+
+9
+00:00:20.926 --> 00:00:26.046
+"Supprimer le match" le retire de cet appareil.
+
+10
+00:00:26.096 --> 00:00:28.869
+Un match officiel : équipes, score, dernier enregistrement et son état.
+
+11
+00:00:28.919 --> 00:00:31.688
+"Tenu ici" : le serveur sait que cet appareil tient le match.
+
+12
+00:00:31.738 --> 00:00:38.738
+Pas de connexion ? Le score continue sur cet appareil.
+
+13
+00:00:41.205 --> 00:00:44.045
+"Modifications non envoyées" : pas encore sur le serveur. Elles partent dès que l'appareil est en ligne.
+
+14
+00:00:44.095 --> 00:00:46.046
+De nouveau en ligne : envoyées.
+
+15
+00:00:46.096 --> 00:00:48.769
+Le "PIN du match" permet à un autre appareil de continuer ce match.
+
+16
+00:00:48.819 --> 00:00:54.807
+"Restaurer le match" charge un match depuis le serveur ou un fichier de sauvegarde.

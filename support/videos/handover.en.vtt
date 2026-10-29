@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.951
+The scoring device (left) fails? Continue on another one (right).
+
+2
+00:00:02.001 --> 00:00:09.001
+You need the game PIN ("Match" → "Show PINs") and the game number (top).
+
+3
+00:00:10.589 --> 00:00:16.726
+On the other device: "Restore match", then the game number and the game PIN.
+
+4
+00:00:16.776 --> 00:00:23.776
+"Search cloud backups", pick the match, check it, "Confirm restore".
+
+5
+00:00:25.683 --> 00:00:31.107
+The right device scores now. The left one is told: "Scored on another device".
+
+6
+00:00:31.157 --> 00:00:33.491
+To score on the first device again: "Take back scoring here".
+
+7
+00:00:33.541 --> 00:00:38.809
+It loads the score from the server first. Compare it, then "Yes, take back scoring here".
+
+8
+00:00:38.859 --> 00:00:45.859
+The left device scores again; the right one stops at its next action.

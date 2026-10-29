@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.754
+Every match starts on Home.
+
+2
+00:00:01.804 --> 00:00:03.581
+Tap "New match".
+
+3
+00:00:03.631 --> 00:00:06.294
+"Official match": a game of the schedule, saved on the server.
+
+4
+00:00:06.344 --> 00:00:09.010
+"Test match": practice with sample teams. Nothing is sent.
+
+5
+00:00:09.060 --> 00:00:11.727
+"Easy match": Unofficial · no rosters or signatures.
+
+6
+00:00:11.777 --> 00:00:14.755
+Here: "Test match".
+
+7
+00:00:14.805 --> 00:00:18.252
+"Menu" → "Home" goes back. The match stays on this device.
+
+8
+00:00:18.302 --> 00:00:20.876
+"Continue match" opens it again.
+
+9
+00:00:20.926 --> 00:00:26.046
+"Delete match" removes it from this device.
+
+10
+00:00:26.096 --> 00:00:28.869
+An official match: teams, score, last saved and its state.
+
+11
+00:00:28.919 --> 00:00:31.688
+"Scoring here": the server knows this device scores it.
+
+12
+00:00:31.738 --> 00:00:38.738
+No connection? Scoring goes on, on this device.
+
+13
+00:00:41.205 --> 00:00:44.045
+"Unsent changes": not on the server yet. They are sent once online.
+
+14
+00:00:44.095 --> 00:00:46.046
+Back online: sent.
+
+15
+00:00:46.096 --> 00:00:48.769
+The "Game PIN" lets another device continue this match.
+
+16
+00:00:48.819 --> 00:00:54.807
+"Restore match" loads a match from the server or from a backup file.

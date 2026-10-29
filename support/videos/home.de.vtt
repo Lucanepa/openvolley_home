@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.754
+Jedes Spiel beginnt auf der Startseite.
+
+2
+00:00:01.804 --> 00:00:03.581
+Tippe auf "Neues Spiel".
+
+3
+00:00:03.631 --> 00:00:06.294
+"Offizielles Spiel": ein Spiel aus dem Spielplan, auf dem Server gespeichert.
+
+4
+00:00:06.344 --> 00:00:09.010
+"Testspiel": Üben mit Beispielteams. Nichts wird gesendet.
+
+5
+00:00:09.060 --> 00:00:11.727
+"Einfaches Spiel": Inoffiziell · ohne Kader und Unterschriften.
+
+6
+00:00:11.777 --> 00:00:14.755
+Hier: "Testspiel".
+
+7
+00:00:14.805 --> 00:00:18.252
+"Menü" → "Heim" führt zurück. Das Spiel bleibt auf dem Gerät.
+
+8
+00:00:18.302 --> 00:00:20.876
+"Spiel fortsetzen" öffnet es wieder.
+
+9
+00:00:20.926 --> 00:00:26.046
+"Spiel löschen" entfernt es von diesem Gerät.
+
+10
+00:00:26.096 --> 00:00:28.869
+Ein offizielles Spiel: Teams, Spielstand, zuletzt gespeichert und sein Status.
+
+11
+00:00:28.919 --> 00:00:31.688
+"Wird hier geführt": Der Server weiss, dass dieses Gerät das Spiel führt.
+
+12
+00:00:31.738 --> 00:00:38.738
+Keine Verbindung? Es wird auf diesem Gerät weiter gezählt.
+
+13
+00:00:41.205 --> 00:00:44.045
+"Nicht gesendete Änderungen": noch nicht auf dem Server. Sie gehen weg, sobald das Gerät online ist.
+
+14
+00:00:44.095 --> 00:00:46.046
+Wieder online: gesendet.
+
+15
+00:00:46.096 --> 00:00:48.769
+Mit der "Spiel-PIN" kann ein anderes Gerät dieses Spiel fortsetzen.
+
+16
+00:00:48.819 --> 00:00:54.807
+"Spiel wiederherstellen" lädt ein Spiel vom Server oder aus einer Backup-Datei.

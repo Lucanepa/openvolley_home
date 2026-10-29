@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.951
+Il dispositivo del segnapunti (a sinistra) si guasta? Continua su un altro (a destra).
+
+2
+00:00:02.001 --> 00:00:09.001
+Servono il PIN della partita ("Partita" → "Mostra PIN") e il suo numero (in alto).
+
+3
+00:00:10.589 --> 00:00:16.726
+Sull'altro dispositivo: "Ripristina partita", poi numero e PIN della partita.
+
+4
+00:00:16.776 --> 00:00:23.776
+"Cerca backup cloud", scegli la partita, controlla, "Conferma ripristino".
+
+5
+00:00:25.683 --> 00:00:31.107
+Ora referta il dispositivo di destra. Quello di sinistra viene avvisato: "Tenuta su un altro dispositivo".
+
+6
+00:00:31.157 --> 00:00:33.491
+Per refertare di nuovo sul primo dispositivo: "Riprendi la partita qui".
+
+7
+00:00:33.541 --> 00:00:38.809
+Prima carica il punteggio dal server. Confronta, poi "Sì, riprendi la partita qui".
+
+8
+00:00:38.859 --> 00:00:45.859
+Il dispositivo di sinistra referta di nuovo; quello di destra si ferma alla prossima azione.

@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.568
+In alto a sinistra: la connessione. Verde "Connesso": è tutto sul server.
+
+2
+00:00:02.618 --> 00:00:08.359
+Toccalo per i dettagli: server, relay, database, sincronizzazione.
+
+3
+00:00:08.409 --> 00:00:15.409
+Cade la connessione? Continua a refertare. Ogni modifica viene salvata sul dispositivo.
+
+4
+00:00:16.875 --> 00:00:22.572
+"waiting": modifiche non ancora sul server.
+
+5
+00:00:22.622 --> 00:00:25.103
+La connessione torna: vengono inviate da sole.
+
+6
+00:00:25.153 --> 00:00:31.415
+Nella home la partita mostra il suo stato: "Refertata qui".
+
+7
+00:00:31.465 --> 00:00:34.251
+"Su un altro dispositivo": ora un altro dispositivo referta questa partita.
+
+8
+00:00:34.301 --> 00:00:39.421
+"Continua partita" la apre in sola lettura, con "Riprendi la partita qui".

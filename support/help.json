@@ -1,0 +1,2916 @@
+{
+  "generatedAt": "2026-10-29T16:55:12.125Z",
+  "appVersion": "3.0.6",
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "it"
+  ],
+  "supportPage": "https://openvolley.app/support",
+  "videoBase": "https://openvolley.app/support/videos",
+  "sections": [
+    {
+      "id": "home",
+      "url": "https://openvolley.app/support#home",
+      "title": {
+        "en": "Home",
+        "de": "Startseite",
+        "fr": "Accueil",
+        "it": "Home"
+      },
+      "video": {
+        "id": "home",
+        "mp4": "https://openvolley.app/support/videos/home.mp4",
+        "poster": "https://openvolley.app/support/videos/home.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/home.en.vtt",
+          "de": "https://openvolley.app/support/videos/home.de.vtt",
+          "fr": "https://openvolley.app/support/videos/home.fr.vtt",
+          "it": "https://openvolley.app/support/videos/home.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "home",
+          "app": "scorer",
+          "name": {
+            "en": "Home",
+            "de": "Startseite",
+            "fr": "Accueil",
+            "it": "Home"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "createMatch",
+          "question": {
+            "en": "How do I create a new match?",
+            "de": "Wie erstelle ich ein neues Spiel?",
+            "fr": "Comment créer un nouveau match ?",
+            "it": "Come creo una nuova partita?"
+          },
+          "answer": {
+            "en": "Tap “New match” and choose “Official match”, “Test match” or “Easy match”. An official match has rosters, officials and signatures. A test match is for practice. An easy match is unofficial: no rosters and no signatures.",
+            "de": "Tippe auf «Neues Spiel» und wähle «Offizielles Spiel», «Testspiel» oder «Einfaches Spiel». Ein offizielles Spiel hat Kader, Offizielle und Unterschriften. Ein Testspiel ist zum Üben. Ein einfaches Spiel ist inoffiziell: keine Kader und keine Unterschriften.",
+            "fr": "Appuyez sur « Nouveau match » et choisissez « Match officiel », « Match amical » ou « Match simplifié ». Un match officiel a des effectifs, des officiels et des signatures. Un match amical sert à s'entraîner. Un match simplifié n'est pas officiel : pas d'effectifs ni de signatures.",
+            "it": "Tocca «Nuova partita» e scegli «Partita ufficiale», «Partita test» o «Partita semplice». Una partita ufficiale ha roster, ufficiali di gara e firme. Una partita test serve per esercitarsi. Una partita semplice non è ufficiale: niente roster e niente firme."
+          }
+        },
+        {
+          "id": "officialVsTest",
+          "question": {
+            "en": "What is the difference between official and test matches?",
+            "de": "Was ist der Unterschied zwischen offiziellen und Testspielen?",
+            "fr": "Quelle est la différence entre les matchs officiels et tests ?",
+            "it": "Qual è la differenza tra partite ufficiali e test?"
+          },
+          "answer": {
+            "en": "An official match needs both rosters (at least 6 players each), the officials and the signatures. When you are signed in, it is saved to the cloud for the referee, the livescore and the backups. A test match has invented teams for practice. It stays on this device and never goes to the cloud.",
+            "de": "Ein offizielles Spiel braucht beide Kader (je mindestens 6 Spieler), die Offiziellen und die Unterschriften. Bist du angemeldet, wird es in der Cloud gespeichert: für den Schiedsrichter, den Livescore und die Backups. Ein Testspiel hat erfundene Teams zum Üben. Es bleibt auf diesem Gerät und kommt nie in die Cloud.",
+            "fr": "Un match officiel demande les deux effectifs (au moins 6 joueurs chacun), les officiels et les signatures. Si vous êtes connecté, il est enregistré dans le cloud pour l'arbitre, le livescore et les sauvegardes. Un match amical a des équipes inventées pour s'entraîner. Il reste sur cet appareil et ne va jamais dans le cloud.",
+            "it": "Una partita ufficiale richiede i due roster (almeno 6 giocatori ciascuno), gli ufficiali di gara e le firme. Se hai effettuato l'accesso, viene salvata nel cloud per l'arbitro, il livescore e i backup. Una partita test ha squadre inventate per esercitarsi. Resta su questo dispositivo e non va mai nel cloud."
+          }
+        },
+        {
+          "id": "continueMatch",
+          "question": {
+            "en": "How do I continue a match?",
+            "de": "Wie führe ich ein Spiel weiter?",
+            "fr": "Comment reprendre un match ?",
+            "it": "Come continuo una partita?"
+          },
+          "answer": {
+            "en": "The app always opens on Home. The card at the top shows the match on this device: the teams, the score, when it was last saved and its state. Tap “Continue match” to go back in. A reload of the page goes straight back into the match.",
+            "de": "Die App öffnet immer auf der Startseite. Die Karte oben zeigt das Spiel auf diesem Gerät: die Teams, den Spielstand, wann es zuletzt gespeichert wurde und seinen Status. Tippe auf «Spiel fortsetzen», um weiterzumachen. Lädst du die Seite neu, bist du sofort wieder im Spiel.",
+            "fr": "L'app s'ouvre toujours sur l'accueil. La carte du haut montre le match de cet appareil : les équipes, le score, l'heure du dernier enregistrement et son état. Appuyez sur « Continuer le match » pour y retourner. Si vous rechargez la page, vous revenez directement dans le match.",
+            "it": "L'app si apre sempre sulla home. La scheda in alto mostra la partita di questo dispositivo: le squadre, il punteggio, l'ultimo salvataggio e il suo stato. Tocca «Continua partita» per rientrare. Se ricarichi la pagina, torni subito nella partita."
+          }
+        },
+        {
+          "id": "backgroundHome",
+          "question": {
+            "en": "Why did the app go back to Home?",
+            "de": "Warum ist die App wieder auf der Startseite?",
+            "fr": "Pourquoi l'app est-elle revenue à l'accueil ?",
+            "it": "Perché l'app è tornata alla home?"
+          },
+          "answer": {
+            "en": "After 15 minutes or more in the background (another app, the screen off), the app shows Home. Nothing is closed or deleted: tap “Continue match”. Time with the screen on, such as a long set break, does not count.",
+            "de": "Nach 15 Minuten oder mehr im Hintergrund (andere App, Bildschirm aus) zeigt die App die Startseite. Nichts wird geschlossen oder gelöscht: Tippe auf «Spiel fortsetzen». Zeit mit eingeschaltetem Bildschirm, etwa eine lange Satzpause, zählt nicht.",
+            "fr": "Après 15 minutes ou plus en arrière-plan (une autre app, l'écran éteint), l'app affiche l'accueil. Rien n'est fermé ni supprimé : appuyez sur « Continuer le match ». Le temps passé avec l'écran allumé, comme une longue pause entre les sets, ne compte pas.",
+            "it": "Dopo 15 minuti o più in secondo piano (un'altra app, lo schermo spento), l'app mostra la home. Niente viene chiuso o eliminato: tocca «Continua partita». Il tempo con lo schermo acceso, come una lunga pausa tra i set, non conta."
+          }
+        },
+        {
+          "id": "matchStates",
+          "question": {
+            "en": "What do the labels on a match mean?",
+            "de": "Was bedeuten die Hinweise bei einem Spiel?",
+            "fr": "Que signifient les indications sur un match ?",
+            "it": "Cosa significano le indicazioni su una partita?"
+          },
+          "answer": {
+            "en": "“Scoring here”: this device scores it. “On another device”: another device took the match over. “Closed on the server”: the match is approved or closed. “Not checked”: the app could not ask the server (offline, signed out or no answer). “Unsent changes”: some changes are not on the server yet. A closed or moved copy opens read-only.",
+            "de": "«Wird hier geführt»: Dieses Gerät führt das Spiel. «Auf anderem Gerät»: Ein anderes Gerät hat das Spiel übernommen. «Auf dem Server abgeschlossen»: Das Spiel ist genehmigt oder abgeschlossen. «Nicht geprüft»: Die App konnte den Server nicht fragen (offline, abgemeldet oder keine Antwort). «Nicht gesendete Änderungen»: Einige Änderungen sind noch nicht auf dem Server. Eine abgeschlossene oder übernommene Kopie öffnet nur zum Lesen.",
+            "fr": "« Tenu ici » : cet appareil tient le match. « Sur un autre appareil » : un autre appareil a repris le match. « Clôturé sur le serveur » : le match est approuvé ou clôturé. « Non vérifié » : l'app n'a pas pu interroger le serveur (hors ligne, déconnecté ou pas de réponse). « Modifications non envoyées » : certaines modifications ne sont pas encore sur le serveur. Une copie clôturée ou reprise s'ouvre en lecture seule.",
+            "it": "«Refertata qui»: questo dispositivo referta la partita. «Su un altro dispositivo»: un altro dispositivo ha preso la partita. «Chiusa sul server»: la partita è approvata o chiusa. «Non verificata»: l'app non ha potuto chiedere al server (offline, senza accesso o nessuna risposta). «Modifiche non inviate»: alcune modifiche non sono ancora sul server. Una copia chiusa o passata a un altro dispositivo si apre in sola lettura."
+          }
+        },
+        {
+          "id": "deleteMatch",
+          "question": {
+            "en": "How do I delete a match?",
+            "de": "Wie lösche ich ein Spiel?",
+            "fr": "Comment supprimer un match ?",
+            "it": "Come elimino una partita?"
+          },
+          "answer": {
+            "en": "Tap “Delete match”, or “Delete” in the “On this device” list. An official match asks for the game PIN. This deletes the match on this device and on the server. A copy that is closed on the server or scored on another device is only removed from this device. The dialog warns you when the copy holds changes the server does not have.",
+            "de": "Tippe auf «Spiel löschen» oder in der Liste «Auf diesem Gerät» auf «Löschen». Ein offizielles Spiel fragt nach der Spiel-PIN. Das löscht das Spiel auf diesem Gerät und auf dem Server. Eine Kopie, die auf dem Server abgeschlossen ist oder auf einem anderen Gerät geführt wird, wird nur von diesem Gerät entfernt. Der Dialog warnt dich, wenn die Kopie Änderungen enthält, die der Server nicht hat.",
+            "fr": "Appuyez sur « Supprimer le match », ou sur « Supprimer » dans la liste « Sur cet appareil ». Un match officiel demande le PIN du match. Cela supprime le match sur cet appareil et sur le serveur. Une copie clôturée sur le serveur ou tenue sur un autre appareil est seulement retirée de cet appareil. La boîte de dialogue vous avertit si la copie contient des modifications que le serveur n'a pas.",
+            "it": "Tocca «Elimina partita», oppure «Elimina» nell'elenco «Su questo dispositivo». Una partita ufficiale chiede il PIN partita. Così la partita viene eliminata su questo dispositivo e sul server. Una copia chiusa sul server o tenuta su un altro dispositivo viene solo rimossa da questo dispositivo. La finestra ti avvisa se la copia contiene modifiche che il server non ha."
+          }
+        },
+        {
+          "id": "cleanUp",
+          "question": {
+            "en": "What does “Clean up” do?",
+            "de": "Was macht «Aufräumen»?",
+            "fr": "Que fait « Nettoyer » ?",
+            "it": "Cosa fa «Riordina»?"
+          },
+          "answer": {
+            "en": "When the same game is on this device more than once, Home tells you. “Clean up” removes only the extra copies that hold nothing of their own. It asks first, and nothing changes on the server.",
+            "de": "Ist dasselbe Spiel mehrmals auf diesem Gerät, sagt es dir die Startseite. «Aufräumen» entfernt nur die weiteren Kopien, die nichts Eigenes enthalten. Es fragt vorher, und auf dem Server ändert sich nichts.",
+            "fr": "Quand le même match est plusieurs fois sur cet appareil, l'accueil vous le dit. « Nettoyer » retire seulement les copies en trop qui ne contiennent rien en propre. Il demande d'abord, et rien ne change sur le serveur.",
+            "it": "Quando la stessa partita è più volte su questo dispositivo, la home te lo dice. «Riordina» rimuove solo le copie in più che non contengono nulla di proprio. Chiede prima, e sul server non cambia nulla."
+          }
+        },
+        {
+          "id": "restoreMatch",
+          "question": {
+            "en": "How do I restore a match from backup?",
+            "de": "Wie stelle ich ein Spiel aus einem Backup wieder her?",
+            "fr": "Comment restaurer un match à partir d'une sauvegarde ?",
+            "it": "Come ripristino una partita da un backup?"
+          },
+          "answer": {
+            "en": "Tap “Restore match”. Choose “Restore from cloud backup” (game number and game PIN, then “Search cloud backups”) or “Restore from local file” (“Select backup file”). Check the “Restore preview”, then tap “Confirm restore”.",
+            "de": "Tippe auf «Spiel wiederherstellen». Wähle «Aus Cloud-Backup wiederherstellen» (Spielnummer und Spiel-PIN, dann «Cloud-Backups suchen») oder «Aus lokaler Datei wiederherstellen» («Backup-Datei auswählen»). Prüfe die «Wiederherstellungs-Vorschau» und tippe auf «Wiederherstellen».",
+            "fr": "Appuyez sur « Restaurer le match ». Choisissez « Restaurer depuis la sauvegarde cloud » (numéro et PIN du match, puis « Rechercher les sauvegardes cloud ») ou « Restaurer depuis un fichier local » (« Sélectionner le fichier de sauvegarde »). Vérifiez l'« Aperçu de la restauration », puis appuyez sur « Confirmer la restauration ».",
+            "it": "Tocca «Ripristina partita». Scegli «Ripristina da backup cloud» (numero partita e PIN partita, poi «Cerca backup cloud») o «Ripristina da file locale» («Seleziona file di backup»). Controlla l'«Anteprima ripristino», poi tocca «Conferma ripristino»."
+          }
+        },
+        {
+          "id": "settings",
+          "question": {
+            "en": "How do I change the language or settings?",
+            "de": "Wie ändere ich die Sprache oder Einstellungen?",
+            "fr": "Comment changer la langue ou les paramètres ?",
+            "it": "Come cambio la lingua o le impostazioni?"
+          },
+          "answer": {
+            "en": "The language is in the menu (☰) of the header. The other settings are in “Options”: on Home, or in the scoring screen under Menu › Options.",
+            "de": "Die Sprache findest du im Menü (☰) in der Kopfzeile. Die übrigen Einstellungen sind in den «Optionen»: auf der Startseite oder auf dem Erfassungsbildschirm unter Menü › Optionen.",
+            "fr": "La langue se trouve dans le menu (☰) de l'en-tête. Les autres réglages sont dans les « Options » : sur l'accueil, ou sur l'écran de saisie sous Menu › Options.",
+            "it": "La lingua è nel menu (☰) dell'intestazione. Le altre impostazioni sono nelle «Opzioni»: sulla home, oppure nella schermata del punteggio in Menu › Opzioni."
+          }
+        }
+      ]
+    },
+    {
+      "id": "setup",
+      "url": "https://openvolley.app/support#setup",
+      "title": {
+        "en": "Match setup",
+        "de": "Spieleinrichtung",
+        "fr": "Configuration du match",
+        "it": "Configurazione partita"
+      },
+      "video": {
+        "id": "setup",
+        "mp4": "https://openvolley.app/support/videos/setup.mp4",
+        "poster": "https://openvolley.app/support/videos/setup.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/setup.en.vtt",
+          "de": "https://openvolley.app/support/videos/setup.de.vtt",
+          "fr": "https://openvolley.app/support/videos/setup.fr.vtt",
+          "it": "https://openvolley.app/support/videos/setup.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "matchSetup",
+          "app": "scorer",
+          "name": {
+            "en": "Match setup",
+            "de": "Spieleinrichtung",
+            "fr": "Configuration du match",
+            "it": "Configurazione partita"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "loadSchedule",
+          "question": {
+            "en": "Can I load the game from the schedule?",
+            "de": "Kann ich das Spiel aus dem Spielplan laden?",
+            "fr": "Puis-je charger le match depuis le calendrier ?",
+            "it": "Posso caricare la partita dal calendario?"
+          },
+          "answer": {
+            "en": "Yes. On the “Match info” card, tap “Load match from schedule”. Choose the federation, the gender and the league, then the game. The app fills in the game number, the teams, the date, the time and the hall. It needs an internet connection. Then set the team colours and the short names.",
+            "de": "Ja. Tippe auf der Karte «Spielinfo» auf «Spiel aus dem Spielplan laden». Wähle Verband, Geschlecht und Liga, dann das Spiel. Die App trägt Spielnummer, Teams, Datum, Zeit und Halle ein. Dafür braucht es eine Internetverbindung. Lege danach die Teamfarben und die Kurznamen fest.",
+            "fr": "Oui. Sur la carte « Information match », appuyez sur « Charger match depuis le calendrier ». Choisissez la fédération, le genre et la ligue, puis le match. L'app remplit le numéro du match, les équipes, la date, l'heure et la salle. Une connexion internet est nécessaire. Réglez ensuite les couleurs et les noms courts des équipes.",
+            "it": "Sì. Sulla scheda «Info partita», tocca «Carica partita dal calendario». Scegli federazione, genere e campionato, poi la partita. L'app inserisce numero partita, squadre, data, ora e palestra. Serve una connessione internet. Poi imposta i colori e i nomi brevi delle squadre."
+          }
+        },
+        {
+          "id": "matchInfo",
+          "question": {
+            "en": "How do I fill in match information?",
+            "de": "Wie fülle ich die Spielinformationen aus?",
+            "fr": "Comment remplir les informations du match ?",
+            "it": "Come compilo le informazioni della partita?"
+          },
+          "answer": {
+            "en": "On the “Match info” card, tap “Create match” (later “Edit”). Enter the game number, date, time, city, hall and league, the match format, and both team names with their short names. All of them are needed.",
+            "de": "Tippe auf der Karte «Spielinfo» auf «Spiel erstellen» (später «Bearbeiten»). Gib Spielnummer, Datum, Zeit, Ort, Halle und Liga, das Spielformat sowie beide Teamnamen mit ihren Kurznamen ein. Alle Angaben sind nötig.",
+            "fr": "Sur la carte « Information match », appuyez sur « Créer le match » (plus tard « Modifier »). Saisissez le numéro du match, la date, l'heure, la ville, la salle et la ligue, le format du match, et les noms des deux équipes avec leurs noms courts. Tout est obligatoire.",
+            "it": "Sulla scheda «Info partita», tocca «Crea partita» (più tardi «Modifica»). Inserisci numero partita, data, ora, città, palestra e campionato, il formato della partita e i nomi delle due squadre con i loro nomi brevi. Servono tutti."
+          }
+        },
+        {
+          "id": "officials",
+          "question": {
+            "en": "Which officials must I enter?",
+            "de": "Welche Offiziellen muss ich eintragen?",
+            "fr": "Quels officiels dois-je saisir ?",
+            "it": "Quali ufficiali di gara devo inserire?"
+          },
+          "answer": {
+            "en": "The 1st referee and the scorer, with the scorer's date of birth. The 2nd referee, the assistant scorer and the line judges are optional. The 2nd referee and the assistant scorer sign at the match end when they are entered.",
+            "de": "Den 1. Schiedsrichter und den Schreiber, mit dem Geburtsdatum des Schreibers. 2. Schiedsrichter, Assistenz-Schreiber und Linienrichter sind freiwillig. Der 2. Schiedsrichter und der Assistenz-Schreiber unterschreiben am Spielende, wenn sie eingetragen sind.",
+            "fr": "Le 1er arbitre et le marqueur, avec la date de naissance du marqueur. Le 2nd arbitre, le marqueur adjoint et les juges de ligne sont facultatifs. Le 2nd arbitre et le marqueur adjoint signent à la fin du match s'ils sont saisis.",
+            "it": "Il 1° arbitro e il segnapunti, con la data di nascita del segnapunti. Il 2° arbitro, il segnapunti assistente e i giudici di linea sono facoltativi. Il 2° arbitro e il segnapunti assistente firmano a fine partita, se sono inseriti."
+          }
+        },
+        {
+          "id": "teamColors",
+          "question": {
+            "en": "How do I set the team names and colours?",
+            "de": "Wie lege ich Teamnamen und Farben fest?",
+            "fr": "Comment définir les noms et les couleurs des équipes ?",
+            "it": "Come imposto nomi e colori delle squadre?"
+          },
+          "answer": {
+            "en": "The team names and short names are in the match info. On each team's card, tap the shirt next to “Select colour” to pick the shirt colour. The app warns you when the two colours are close.",
+            "de": "Teamnamen und Kurznamen stehen in der Spielinfo. Tippe auf der Karte jedes Teams auf das Trikot neben «Farbe wählen», um die Trikotfarbe festzulegen. Die App warnt, wenn die beiden Farben sich ähneln.",
+            "fr": "Les noms et les noms courts des équipes se saisissent dans les informations du match. Sur la carte de chaque équipe, appuyez sur le maillot à côté de « Couleur de l'équipe » pour choisir sa couleur. L'app vous avertit si les deux couleurs se ressemblent.",
+            "it": "I nomi e i nomi brevi delle squadre sono nelle info partita. Sulla scheda di ogni squadra tocca la maglia accanto a «Seleziona colore» per sceglierne il colore. L'app ti avvisa se i due colori sono troppo simili."
+          }
+        },
+        {
+          "id": "addPlayers",
+          "question": {
+            "en": "How do I add players to a team roster?",
+            "de": "Wie füge ich Spieler zum Teamkader hinzu?",
+            "fr": "Comment ajouter des joueurs à la composition d'une équipe ?",
+            "it": "Come aggiungo giocatori alla rosa della squadra?"
+          },
+          "answer": {
+            "en": "Tap “Edit roster” on the team's card. In the “Add new player” row, enter the number (1-99), last name, first name and date of birth, then tap “Add”. A team needs at least 6 players, not counting the liberos, and at most 14.",
+            "de": "Tippe auf der Karte des Teams auf «Kader bearbeiten». Gib in der Zeile «Spieler hinzufügen» Nummer (1-99), Nachname, Vorname und Geburtsdatum ein und tippe auf «Hinzufügen». Ein Team braucht mindestens 6 Spieler ohne die Liberos und höchstens 14.",
+            "fr": "Appuyez sur « Modifier l'effectif » sur la carte de l'équipe. Dans la ligne « Ajouter un joueur », saisissez le numéro (1-99), le nom, le prénom et la date de naissance, puis appuyez sur « Ajouter ». Une équipe a besoin d'au moins 6 joueurs sans les libéros, et de 14 au plus.",
+            "it": "Tocca «Modifica roster» sulla scheda della squadra. Nella riga «Aggiungi giocatore» inserisci numero (1-99), cognome, nome e data di nascita, poi tocca «Aggiungi». Una squadra ha bisogno di almeno 6 giocatori senza contare i libero, e al massimo 14."
+          }
+        },
+        {
+          "id": "importPdf",
+          "question": {
+            "en": "How do I import a roster from PDF?",
+            "de": "Wie importiere ich einen Kader aus einer PDF?",
+            "fr": "Comment importer une composition à partir d'un PDF ?",
+            "it": "Come importo una rosa da PDF?"
+          },
+          "answer": {
+            "en": "In “Edit roster”, keep “Local” selected and tap “Upload PDF”. Choose the team's roster PDF, then tap “Import PDF”. Check what was imported: dates of birth, captain, liberos and bench officials.",
+            "de": "Lass in «Kader bearbeiten» «Lokal» ausgewählt und tippe auf «PDF hochladen». Wähle das Kader-PDF des Teams und tippe auf «PDF importieren». Prüfe das Ergebnis: Geburtsdaten, Captain, Liberos und Bankoffizielle.",
+            "fr": "Dans « Modifier l'effectif », laissez « Local » choisi et appuyez sur « Importer PDF ». Choisissez le PDF de l'effectif, puis confirmez l'import. Vérifiez le résultat : dates de naissance, capitaine, libéros et officiels du banc.",
+            "it": "In «Modifica roster», lascia selezionato «Locale» e tocca «Carica PDF». Scegli il PDF del roster della squadra, poi tocca «Importa PDF». Controlla cosa è stato importato: date di nascita, capitano, libero e ufficiali di panchina."
+          }
+        },
+        {
+          "id": "rosterUpload",
+          "question": {
+            "en": "Can the coach send the roster?",
+            "de": "Kann der Coach den Kader schicken?",
+            "fr": "L'entraîneur peut-il envoyer l'effectif ?",
+            "it": "L'allenatore può inviare il roster?"
+          },
+          "answer": {
+            "en": "Yes. In “Edit roster”, choose “Remote” and tap “Generate PIN”. Give the coach the game number and this upload PIN. The coach opens roster.openvolley.app, picks the game and the team, enters the PIN and uploads the roster PDF. “Roster uploaded” then appears (“Search for roster” checks for it): tap “Preview”, then “Accept” or “Reject”.",
+            "de": "Ja. Wähle in «Kader bearbeiten» «Remote» und tippe auf «PIN generieren». Gib dem Coach die Spielnummer und diese Upload-PIN. Der Coach öffnet roster.openvolley.app, wählt Spiel und Team, gibt die PIN ein und lädt das Kader-PDF hoch. Danach erscheint «Kader hochgeladen» («Kader suchen» prüft es): Tippe auf «Vorschau», dann auf «Akzeptieren» oder «Ablehnen».",
+            "fr": "Oui. Dans « Modifier l'effectif », choisissez « Distant » et appuyez sur « Générer PIN ». Donnez à l'entraîneur le numéro du match et ce code PIN. L'entraîneur ouvre roster.openvolley.app, choisit le match et l'équipe, saisit le PIN et envoie le PDF de l'effectif. L'effectif envoyé apparaît ensuite (« Chercher l'effectif » le vérifie) : appuyez sur « Aperçu », puis sur « Accepter » ou « Refuser ».",
+            "it": "Sì. In «Modifica roster», scegli «Remoto» e tocca «Genera PIN». Dai all'allenatore il numero partita e questo PIN per upload. L'allenatore apre roster.openvolley.app, sceglie la partita e la squadra, inserisce il PIN e carica il PDF del roster. Poi compare «Roster caricata» («Cerca rosa» la controlla): tocca «Anteprima», poi «Accetta» o «Rifiuta»."
+          }
+        },
+        {
+          "id": "liberos",
+          "question": {
+            "en": "How do I designate liberos?",
+            "de": "Wie bestimme ich Liberos?",
+            "fr": "Comment désigner les libéros ?",
+            "it": "Come designo i libero?"
+          },
+          "answer": {
+            "en": "In the roster, choose “Libero 1” or “Libero 2” in the libero column. A team has at most 2 liberos. With more than 12 players it needs 2.",
+            "de": "Wähle im Kader in der Libero-Spalte «Libero 1» oder «Libero 2». Ein Team hat höchstens 2 Liberos. Mit mehr als 12 Spielern braucht es 2.",
+            "fr": "Dans l'effectif, choisissez « Libéro 1 » ou « Libéro 2 » dans la colonne libéro. Une équipe a 2 libéros au plus. Avec plus de 12 joueurs, il lui en faut 2.",
+            "it": "Nel roster, scegli «Libero 1» o «Libero 2» nella colonna del libero. Una squadra ha al massimo 2 libero. Con più di 12 giocatori ne servono 2."
+          }
+        },
+        {
+          "id": "captain",
+          "question": {
+            "en": "How do I set the team captain?",
+            "de": "Wie setze ich den Teamkapitän?",
+            "fr": "Comment définir le capitaine de l'équipe ?",
+            "it": "Come imposto il capitano della squadra?"
+          },
+          "answer": {
+            "en": "Tap “C” next to the player in the roster. Each team needs one captain.",
+            "de": "Tippe im Kader neben dem Spieler auf «C». Jedes Team braucht einen Captain.",
+            "fr": "Appuyez sur « C » à côté du joueur dans l'effectif. Chaque équipe a besoin d'un capitaine.",
+            "it": "Tocca «C» accanto al giocatore nel roster. Ogni squadra ha bisogno di un capitano."
+          }
+        },
+        {
+          "id": "benchOfficials",
+          "question": {
+            "en": "How do I add bench officials?",
+            "de": "Wie füge ich Bankoffizielle hinzu?",
+            "fr": "Comment ajouter les officiels de banc ?",
+            "it": "Come aggiungo gli ufficiali di panchina?"
+          },
+          "answer": {
+            "en": "In “Edit roster”, tap “+ Add bench official”. Enter the coach, the assistant coaches, the physiotherapist and the doctor. A coach is needed, and a team has at most 5 bench officials.",
+            "de": "Tippe in «Kader bearbeiten» auf «+ Offiziellen hinzufügen». Trage Coach, Assistenz-Coaches, Physiotherapeut und Arzt ein. Ein Coach ist nötig, und ein Team hat höchstens 5 Bankoffizielle.",
+            "fr": "Dans « Modifier l'effectif », appuyez sur « + Ajouter officiel ». Saisissez l'entraîneur, les entraîneurs adjoints, le physiothérapeute et le médecin. Un entraîneur est obligatoire, et une équipe a 5 officiels du banc au plus.",
+            "it": "In «Modifica roster», tocca «+ Aggiungi ufficiale». Inserisci l'allenatore, gli allenatori in seconda, il fisioterapista e il medico. L'allenatore è obbligatorio, e una squadra ha al massimo 5 ufficiali di panchina."
+          }
+        },
+        {
+          "id": "pins",
+          "question": {
+            "en": "Where are the PINs for the tablets?",
+            "de": "Wo sind die PINs für die Tablets?",
+            "fr": "Où sont les PIN des tablettes ?",
+            "it": "Dove sono i PIN per i tablet?"
+          },
+          "answer": {
+            "en": "The game PIN is on the match info page (“Create match” or “Edit”), where “Send PIN by email” can send it to you. Keep it: you need it to delete or restore the match. The referee and bench PINs are in “Connect tablets”. During the match, Menu › Show PINs shows them all.",
+            "de": "Die Spiel-PIN steht auf der Seite der Spielinfo («Spiel erstellen» oder «Bearbeiten»); «PIN per E-Mail senden» schickt sie dir. Bewahre sie auf: Du brauchst sie, um das Spiel zu löschen oder wiederherzustellen. Die PINs von Schiedsrichter und Bänken sind in «Tablets verbinden». Während des Spiels zeigt Menü › PINs anzeigen alle.",
+            "fr": "Le PIN du match figure sur la page des informations du match (« Créer le match » ou « Modifier ») ; « Envoyer PIN par email » vous l'envoie. Gardez-le : il sert à supprimer ou restaurer le match. Les PIN de l'arbitre et des bancs sont dans « Connecter des tablettes ». Pendant le match, Menu › Afficher les codes PIN les montre tous.",
+            "it": "Il PIN partita è nella pagina delle info partita («Crea partita» o «Modifica»); «Invia PIN via email» te lo invia. Conservalo: serve per eliminare o ripristinare la partita. I PIN dell'arbitro e delle panchine sono in «Collega tablet». Durante la partita, Menu › Mostra PIN li mostra tutti."
+          }
+        },
+        {
+          "id": "proceed",
+          "question": {
+            "en": "How do I proceed to the coin toss?",
+            "de": "Wie gelange ich zum Münzwurf?",
+            "fr": "Comment passer au tirage au sort ?",
+            "it": "Come procedo al sorteggio?"
+          },
+          "answer": {
+            "en": "When every card is complete, tap “Coin toss” at the bottom. If it is greyed out, the warning next to it shows what is missing.",
+            "de": "Wenn alle Karten vollständig sind, tippe unten auf «Auslosung». Ist die Schaltfläche grau, zeigt die Warnung daneben, was fehlt.",
+            "fr": "Quand toutes les cartes sont complètes, appuyez sur « Tirage au sort » en bas. Si le bouton est grisé, l'avertissement à côté indique ce qui manque.",
+            "it": "Quando tutte le schede sono complete, tocca «Sorteggio» in basso. Se il pulsante è grigio, l'avviso accanto mostra cosa manca."
+          }
+        }
+      ]
+    },
+    {
+      "id": "coin-toss",
+      "url": "https://openvolley.app/support#coin-toss",
+      "title": {
+        "en": "Coin toss",
+        "de": "Auslosung",
+        "fr": "Tirage au sort",
+        "it": "Sorteggio"
+      },
+      "video": {
+        "id": "coin-toss",
+        "mp4": "https://openvolley.app/support/videos/coin-toss.mp4",
+        "poster": "https://openvolley.app/support/videos/coin-toss.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/coin-toss.en.vtt",
+          "de": "https://openvolley.app/support/videos/coin-toss.de.vtt",
+          "fr": "https://openvolley.app/support/videos/coin-toss.fr.vtt",
+          "it": "https://openvolley.app/support/videos/coin-toss.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "coinToss",
+          "app": "scorer",
+          "name": {
+            "en": "Coin toss",
+            "de": "Auslosung",
+            "fr": "Tirage au sort",
+            "it": "Sorteggio"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "record",
+          "question": {
+            "en": "How do I record the coin toss?",
+            "de": "Wie zeichne ich den Münzwurf auf?",
+            "fr": "Comment enregistrer le tirage au sort ?",
+            "it": "Come registro il sorteggio?"
+          },
+          "answer": {
+            "en": "Toss the coin with both captains first. Then set the result on this page: “Switch sides” puts each team on its side, “Switch serve” gives the first service to the right team.",
+            "de": "Mache zuerst die Auslosung mit beiden Captains. Trage dann das Ergebnis auf dieser Seite ein: «Teams» stellt jedes Team auf seine Seite, «Aufschlag» gibt den ersten Aufschlag dem richtigen Team.",
+            "fr": "Faites d'abord le tirage au sort avec les deux capitaines. Saisissez ensuite le résultat sur cette page : « Changer de côté » place chaque équipe de son côté, « Changer de service » donne le premier service à la bonne équipe.",
+            "it": "Fai prima il sorteggio con i due capitani. Poi inserisci il risultato in questa pagina: «Inverti squadre» mette ogni squadra dal suo lato, «Inverti servizio» dà il primo servizio alla squadra giusta."
+          }
+        },
+        {
+          "id": "sides",
+          "question": {
+            "en": "How do I choose court sides?",
+            "de": "Wie wähle ich die Spielfeldseiten?",
+            "fr": "Comment choisir les côtés du terrain ?",
+            "it": "Come scelgo i lati del campo?"
+          },
+          "answer": {
+            "en": "Team A is shown on the left, Team B on the right. Tap “Switch sides” to swap them.",
+            "de": "Team A steht links, Team B rechts. Tippe auf «Teams», um sie zu tauschen.",
+            "fr": "L'équipe A est à gauche, l'équipe B à droite. Appuyez sur « Changer de côté » pour les inverser.",
+            "it": "La squadra A è a sinistra, la squadra B a destra. Tocca «Inverti squadre» per scambiarle."
+          }
+        },
+        {
+          "id": "serve",
+          "question": {
+            "en": "How do I select which team serves first?",
+            "de": "Wie wähle ich aus, welches Team zuerst aufschlägt?",
+            "fr": "Comment choisir quelle équipe sert en premier ?",
+            "it": "Come scelgo quale squadra serve per prima?"
+          },
+          "answer": {
+            "en": "The ball shows the team that serves first. Tap “Switch serve” to give the service to the other team.",
+            "de": "Der Ball zeigt das Team, das zuerst aufschlägt. Tippe auf «Aufschlag», um den Aufschlag dem anderen Team zu geben.",
+            "fr": "Le ballon montre l'équipe qui sert en premier. Appuyez sur « Changer de service » pour donner le service à l'autre équipe.",
+            "it": "Il pallone indica la squadra che serve per prima. Tocca «Inverti servizio» per dare il servizio all'altra squadra."
+          }
+        },
+        {
+          "id": "signatures",
+          "question": {
+            "en": "Who signs before the match?",
+            "de": "Wer unterschreibt vor dem Spiel?",
+            "fr": "Qui signe avant le match ?",
+            "it": "Chi firma prima della partita?"
+          },
+          "answer": {
+            "en": "The coach and the captain of each team. Tap “Sign A” or “Sign B”, then “Coach” or “Captain”. They sign on the screen, or on their own phone with “Sign on phone”. An easy match needs no signatures.",
+            "de": "Coach und Captain jedes Teams. Tippe auf «Unterschrift A» oder «Unterschrift B», dann auf «Coach» oder «Captain». Sie unterschreiben auf dem Bildschirm oder mit «Auf dem Handy unterschreiben» auf dem eigenen Handy. Ein einfaches Spiel braucht keine Unterschriften.",
+            "fr": "L'entraîneur et le capitaine de chaque équipe. Appuyez sur « Signature équipe A » ou « Signature équipe B », puis sur « Entraîneur » ou « Capitaine ». Ils signent sur l'écran, ou sur leur propre téléphone avec « Signer sur le téléphone ». Un match simplifié n'a pas besoin de signatures.",
+            "it": "L'allenatore e il capitano di ogni squadra. Tocca «Firma A» o «Firma B», poi «Coach» o «Capitano». Firmano sullo schermo, oppure sul proprio telefono con «Firma sul telefono». Una partita semplice non ha bisogno di firme."
+          }
+        },
+        {
+          "id": "birthdates",
+          "question": {
+            "en": "Why does the app ask me to confirm birthdates?",
+            "de": "Warum soll ich Geburtsdaten bestätigen?",
+            "fr": "Pourquoi l'app me demande-t-elle de confirmer des dates de naissance ?",
+            "it": "Perché l'app mi chiede di confermare delle date di nascita?"
+          },
+          "answer": {
+            "en": "A date of birth on 1 January often comes from a bad import. The app lists these people. Check them before you go on.",
+            "de": "Ein Geburtsdatum am 1. Januar kommt oft von einem fehlerhaften Import. Die App listet diese Personen auf. Prüfe sie, bevor du weitermachst.",
+            "fr": "Une date de naissance au 1er janvier vient souvent d'un import erroné. L'app liste ces personnes. Vérifiez-les avant de continuer.",
+            "it": "Una data di nascita al 1° gennaio spesso viene da un'importazione sbagliata. L'app elenca queste persone. Controllale prima di continuare."
+          }
+        },
+        {
+          "id": "start",
+          "question": {
+            "en": "How do I start the match?",
+            "de": "Wie starte ich das Spiel?",
+            "fr": "Comment démarrer le match ?",
+            "it": "Come avvio la partita?"
+          },
+          "answer": {
+            "en": "When the sides, the service and the signatures are done, tap “Confirm coin toss result”. The app checks the connection and opens the scoring screen.",
+            "de": "Wenn Seiten, Aufschlag und Unterschriften stimmen, tippe auf «Seitenwahl bestätigen». Die App prüft die Verbindung und öffnet den Erfassungsbildschirm.",
+            "fr": "Quand les côtés, le service et les signatures sont faits, appuyez sur « Confirmer le tirage au sort ». L'app vérifie la connexion et ouvre l'écran de saisie.",
+            "it": "Quando lati, servizio e firme sono a posto, tocca «Conferma risultato coin toss». L'app controlla la connessione e apre la schermata del punteggio."
+          }
+        },
+        {
+          "id": "lineups",
+          "question": {
+            "en": "Where do I enter the starting line-ups?",
+            "de": "Wo trage ich die Startaufstellungen ein?",
+            "fr": "Où saisir les formations de départ ?",
+            "it": "Dove inserisco le formazioni iniziali?"
+          },
+          "answer": {
+            "en": "On the scoring screen, before the first rally of each set. Tap “Lineup” on each team's side and enter the six players for positions I to VI. Liberos are not in the starting line-up.",
+            "de": "Auf dem Erfassungsbildschirm, vor dem ersten Ballwechsel jedes Satzes. Tippe auf der Seite jedes Teams auf «Aufstellung» und trage die sechs Spieler für die Positionen I bis VI ein. Liberos gehören nicht zur Startaufstellung.",
+            "fr": "Sur l'écran de saisie, avant le premier échange de chaque set. Appuyez sur « Position de base » du côté de chaque équipe et saisissez les six joueurs des positions I à VI. Les libéros ne font pas partie de la formation de départ.",
+            "it": "Nella schermata del punteggio, prima del primo scambio di ogni set. Tocca «Formazione» dal lato di ogni squadra e inserisci i sei giocatori delle posizioni da I a VI. I libero non fanno parte della formazione iniziale."
+          }
+        },
+        {
+          "id": "gameCaptain",
+          "question": {
+            "en": "What if the team captain is not on court?",
+            "de": "Was, wenn der Captain nicht auf dem Feld ist?",
+            "fr": "Et si le capitaine n'est pas sur le terrain ?",
+            "it": "E se il capitano non è in campo?"
+          },
+          "answer": {
+            "en": "The line-up dialog has “Game captain” (optional): choose the player who acts as captain. With “Manage captain on court” in the options (on by default), the app asks for a game captain when the team captain is not on court.",
+            "de": "Der Aufstellungsdialog hat «Spielkapitän» (optional): Wähle den Spieler, der Captain ist. Mit «Kapitän auf dem Feld verwalten» in den Optionen (standardmässig an) fragt die App nach einem Spielkapitän, wenn der Captain nicht auf dem Feld ist.",
+            "fr": "La fenêtre de la formation propose « Capitaine de jeu » (facultatif) : choisissez le joueur qui fait office de capitaine. Avec « Gérer le capitaine de jeu » dans les options (activé par défaut), l'app demande un capitaine de jeu quand le capitaine n'est pas sur le terrain.",
+            "it": "La finestra della formazione ha «Capitano in gioco» (facoltativo): scegli il giocatore che fa da capitano. Con «Gestisci capitano in campo» nelle opzioni (attivo di base), l'app chiede un capitano in gioco quando il capitano non è in campo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "scoring",
+      "url": "https://openvolley.app/support#scoring",
+      "title": {
+        "en": "Scoring",
+        "de": "Punkte erfassen",
+        "fr": "Saisie des points",
+        "it": "Punteggio"
+      },
+      "video": {
+        "id": "scoring",
+        "mp4": "https://openvolley.app/support/videos/scoring.mp4",
+        "poster": "https://openvolley.app/support/videos/scoring.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/scoring.en.vtt",
+          "de": "https://openvolley.app/support/videos/scoring.de.vtt",
+          "fr": "https://openvolley.app/support/videos/scoring.fr.vtt",
+          "it": "https://openvolley.app/support/videos/scoring.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "scoreboard",
+          "app": "scorer",
+          "name": {
+            "en": "Scoreboard",
+            "de": "Punktetafel",
+            "fr": "Tableau de score",
+            "it": "Tabellone"
+          }
+        },
+        {
+          "id": "liveCorrections",
+          "app": "scorer",
+          "name": {
+            "en": "Corrections",
+            "de": "Korrekturen",
+            "fr": "Corrections",
+            "it": "Correzioni"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "lineup",
+          "question": {
+            "en": "How do I enter the line-up?",
+            "de": "Wie trage ich die Aufstellung ein?",
+            "fr": "Comment saisir la formation ?",
+            "it": "Come inserisco la formazione?"
+          },
+          "answer": {
+            "en": "Before the first rally of the set, tap “Lineup” on each team's side. Type the number for each position I to VI, or tap or drag a player from the list, then tap “Confirm”. Both teams need all six positions.",
+            "de": "Tippe vor dem ersten Ballwechsel des Satzes auf der Seite jedes Teams auf «Aufstellung». Tippe die Nummer für jede Position I bis VI ein, oder tippe oder ziehe einen Spieler aus der Liste, dann «Bestätigen». Beide Teams brauchen alle sechs Positionen.",
+            "fr": "Avant le premier échange du set, appuyez sur « Position de base » du côté de chaque équipe. Saisissez le numéro de chaque position I à VI, ou appuyez sur un joueur de la liste ou faites-le glisser, puis appuyez sur « Confirmer ». Les deux équipes ont besoin des six positions.",
+            "it": "Prima del primo scambio del set, tocca «Formazione» dal lato di ogni squadra. Scrivi il numero per ogni posizione da I a VI, oppure tocca o trascina un giocatore dall'elenco, poi tocca «Confermare». Le due squadre hanno bisogno di tutte e sei le posizioni."
+          }
+        },
+        {
+          "id": "startRally",
+          "question": {
+            "en": "How do I start the first rally?",
+            "de": "Wie starte ich den ersten Ballwechsel?",
+            "fr": "Comment démarrer le premier échange ?",
+            "it": "Come avvio il primo scambio?"
+          },
+          "answer": {
+            "en": "Enter both line-ups first. Tap “Start set” for the first rally of a set, then “Start rally” at each service whistle.",
+            "de": "Trage zuerst beide Aufstellungen ein. Tippe beim ersten Ballwechsel eines Satzes auf «Satz starten», danach bei jedem Aufschlagpfiff auf «Ballwechsel starten».",
+            "fr": "Saisissez d'abord les deux formations. Appuyez sur « Démarrer le set » pour le premier échange d'un set, puis sur « Lancer l'échange » à chaque coup de sifflet du service.",
+            "it": "Inserisci prima le due formazioni. Tocca «Inizia set» per il primo scambio di un set, poi «Inizia scambio» a ogni fischio del servizio."
+          }
+        },
+        {
+          "id": "awardPoint",
+          "question": {
+            "en": "How do I award a point?",
+            "de": "Wie vergebe ich einen Punkt?",
+            "fr": "Comment attribuer un point ?",
+            "it": "Come assegno un punto?"
+          },
+          "answer": {
+            "en": "When the rally ends, tap the point button of the team that won it. The app adds the point, moves the service and rotates the team that wins the service back.",
+            "de": "Wenn der Ballwechsel vorbei ist, tippe auf die Punkt-Schaltfläche des Teams, das ihn gewonnen hat. Die App zählt den Punkt, gibt den Aufschlag weiter und lässt das Team rotieren, das den Aufschlag zurückgewinnt.",
+            "fr": "À la fin de l'échange, appuyez sur le bouton de point de l'équipe qui l'a gagné. L'app ajoute le point, passe le service et fait tourner l'équipe qui reprend le service.",
+            "it": "Quando lo scambio finisce, tocca il pulsante del punto della squadra che l'ha vinto. L'app aggiunge il punto, passa il servizio e fa ruotare la squadra che riconquista il servizio."
+          }
+        },
+        {
+          "id": "doubleTap",
+          "question": {
+            "en": "I tapped twice: why was only one point given?",
+            "de": "Ich habe doppelt getippt: Warum gab es nur einen Punkt?",
+            "fr": "J'ai appuyé deux fois : pourquoi un seul point ?",
+            "it": "Ho toccato due volte: perché è arrivato un solo punto?"
+          },
+          "answer": {
+            "en": "Right after “Start rally” or a point button changes, the app ignores taps on these buttons for 450 ms. A double tap or a bouncing finger gives no second point and starts no new rally. The keyboard keys act at once. The options also have “Check accidental rally start” and “Check accidental point award”.",
+            "de": "Gleich nachdem «Ballwechsel starten» oder eine Punkt-Schaltfläche wechselt, ignoriert die App das Antippen dieser Schaltflächen für 450 ms. Ein Doppeltipp oder ein prellender Finger gibt keinen zweiten Punkt und startet keinen neuen Ballwechsel. Die Tasten der Tastatur wirken sofort. Die Optionen haben dazu «Versehentlichen Ballwechsel-Start prüfen» und «Versehentliche Punktvergabe prüfen».",
+            "fr": "Juste après le changement de « Lancer l'échange » ou d'un bouton de point, l'app ignore les appuis sur ces boutons pendant 450 ms. Un double appui ou un doigt qui rebondit ne donne pas de deuxième point et ne lance pas de nouvel échange. Les touches du clavier agissent tout de suite. Les options proposent aussi « Vérifier démarrage accidentel » et « Vérifier point accidentel ».",
+            "it": "Subito dopo che «Inizia scambio» o un pulsante del punto cambia, l'app ignora i tocchi su questi pulsanti per 450 ms. Un doppio tocco o un dito che rimbalza non dà un secondo punto e non fa partire un nuovo scambio. I tasti della tastiera agiscono subito. Le opzioni hanno anche «Controllo avvio accidentale» e «Controllo punto accidentale»."
+          }
+        },
+        {
+          "id": "serveRotation",
+          "question": {
+            "en": "How do I see who serves and the rotation?",
+            "de": "Wo sehe ich, wer aufschlägt, und die Rotation?",
+            "fr": "Où voir qui sert et la rotation ?",
+            "it": "Dove vedo chi serve e la rotazione?"
+          },
+          "answer": {
+            "en": "The ball marks the serving team, and the court shows each team's positions I to VI. The app rotates a team when it wins the service back. A wrong rotation is fixed in Menu › Corrections with “Fix the line-up”.",
+            "de": "Der Ball markiert das aufschlagende Team, und das Feld zeigt die Positionen I bis VI jedes Teams. Die App lässt ein Team rotieren, wenn es den Aufschlag zurückgewinnt. Eine falsche Rotation korrigierst du unter Menü › Korrekturen mit «Aufstellung korrigieren».",
+            "fr": "Le ballon marque l'équipe au service, et le terrain montre les positions I à VI de chaque équipe. L'app fait tourner une équipe quand elle reprend le service. Une rotation fausse se corrige dans Menu › Corrections avec « Corriger la formation ».",
+            "it": "Il pallone indica la squadra al servizio, e il campo mostra le posizioni da I a VI di ogni squadra. L'app fa ruotare una squadra quando riconquista il servizio. Una rotazione sbagliata si corregge in Menu › Correzioni con «Correggi la formazione»."
+          }
+        },
+        {
+          "id": "undo",
+          "question": {
+            "en": "How do I undo an action?",
+            "de": "Wie mache ich eine Aktion rückgängig?",
+            "fr": "Comment annuler une action ?",
+            "it": "Come annullo un'azione?"
+          },
+          "answer": {
+            "en": "Tap “Undo” and confirm. It takes back the last action of the current set: a point, a time-out, a substitution or a sanction. Tap it again to go further back.",
+            "de": "Tippe auf «Rückgängig» und bestätige. Das nimmt die letzte Aktion des laufenden Satzes zurück: einen Punkt, ein Timeout, einen Wechsel oder eine Sanktion. Tippe nochmals, um weiter zurückzugehen.",
+            "fr": "Appuyez sur « Annuler » et confirmez. Cela annule la dernière action du set en cours : un point, un temps mort, un remplacement ou une sanction. Appuyez encore pour remonter plus loin.",
+            "it": "Tocca «Annulla» e conferma. Annulla l'ultima azione del set in corso: un punto, un timeout, una sostituzione o una sanzione. Tocca di nuovo per tornare più indietro."
+          }
+        },
+        {
+          "id": "changeDecision",
+          "question": {
+            "en": "How do I change a scoring decision?",
+            "de": "Wie ändere ich eine Punkteentscheidung?",
+            "fr": "Comment changer une décision de score ?",
+            "it": "Come cambio una decisione sul punteggio?"
+          },
+          "answer": {
+            "en": "After a point, tap “Decision change”: give the point to the other team, or replay the rally with no point. During a rally, “Replay rally” replays it. Older mistakes are fixed in Menu › Corrections.",
+            "de": "Tippe nach einem Punkt auf «Entscheidungsänderung»: Gib den Punkt dem anderen Team, oder wiederhole den Ballwechsel ohne Punkt. Während eines Ballwechsels wiederholt «Ballwechsel wiederholen» ihn. Ältere Fehler korrigierst du unter Menü › Korrekturen.",
+            "fr": "Après un point, appuyez sur « Changement de décision » : donnez le point à l'autre équipe, ou rejouez l'échange sans point. Pendant un échange, « Rejouer l'échange » le fait rejouer. Les erreurs plus anciennes se corrigent dans Menu › Corrections.",
+            "it": "Dopo un punto, tocca «Cambio decisione»: dai il punto all'altra squadra, oppure ripeti lo scambio senza punto. Durante uno scambio, «Ripeti scambio» lo fa ripetere. Gli errori più vecchi si correggono in Menu › Correzioni."
+          }
+        },
+        {
+          "id": "scoreDisplay",
+          "question": {
+            "en": "What does the score display show?",
+            "de": "Was zeigt die Spielstandanzeige?",
+            "fr": "Que montre l'affichage du score ?",
+            "it": "Cosa mostra il display del punteggio?"
+          },
+          "answer": {
+            "en": "The points of the set, the sets won and the serving team. Each team's side shows its time-outs (TO) and substitutions (SUB) in this set. Menu › Show sanctions and results lists every set.",
+            "de": "Die Punkte des Satzes, die gewonnenen Sätze und das aufschlagende Team. Die Seite jedes Teams zeigt seine Timeouts (TO) und Wechsel (AUS) in diesem Satz. Menü › Sanktionen und Ergebnisse anzeigen listet jeden Satz.",
+            "fr": "Les points du set, les sets gagnés et l'équipe au service. Le côté de chaque équipe montre ses temps morts (TM) et ses remplacements (RMP) dans ce set. Menu › Afficher sanctions et résultats liste chaque set.",
+            "it": "I punti del set, i set vinti e la squadra al servizio. Il lato di ogni squadra mostra i suoi timeout (TO) e le sostituzioni (SOS) in questo set. Menu › Mostra sanzioni e risultati elenca ogni set."
+          }
+        },
+        {
+          "id": "shortcuts",
+          "question": {
+            "en": "What are the keyboard shortcuts?",
+            "de": "Was sind die Tastaturkürzel?",
+            "fr": "Quels sont les raccourcis clavier ?",
+            "it": "Quali sono le scorciatoie da tastiera?"
+          },
+          "answer": {
+            "en": "Switch on “Keyboard shortcuts” in the options. The keys are A and L for a point to the left or right team, Q and P for a time-out, X and N to exchange the liberos, Backspace for undo, Enter to start the rally or confirm, and Escape to cancel. Change them with “Configure keys” in the scoring screen's options.",
+            "de": "Schalte «Tastaturkürzel» in den Optionen ein. Die Tasten sind A und L für einen Punkt des linken oder rechten Teams, Q und P für ein Timeout, X und N zum Tauschen der Liberos, Backspace für Rückgängig, Enter zum Starten des Ballwechsels oder Bestätigen und Escape zum Abbrechen. Ändere sie mit «Tasten konfigurieren» in den Optionen des Erfassungsbildschirms.",
+            "fr": "Activez les « Raccourcis clavier » dans les options. Les touches sont A et L pour un point à l'équipe de gauche ou de droite, Q et P pour un temps mort, X et N pour échanger les libéros, Retour arrière pour annuler, Entrée pour lancer l'échange ou confirmer, et Échap pour annuler une fenêtre. Changez-les avec « Configuration des clés » dans les options de l'écran de saisie.",
+            "it": "Attiva le «Scorciatoie tastiera» nelle opzioni. I tasti sono A e L per un punto alla squadra di sinistra o di destra, Q e P per un timeout, X e N per scambiare i libero, Backspace per annullare, Invio per iniziare lo scambio o confermare ed Esc per chiudere. Cambiali con «Configurazione delle chiavi» nelle opzioni della schermata del punteggio."
+          }
+        },
+        {
+          "id": "phone",
+          "question": {
+            "en": "Can I score on a phone?",
+            "de": "Kann ich auf einem Handy erfassen?",
+            "fr": "Puis-je saisir sur un téléphone ?",
+            "it": "Posso refertare su un telefono?"
+          },
+          "answer": {
+            "en": "Yes. In the options, set “Screen mode” to “Auto” or the phone layout, and hold the phone upright. The score, the court, the time-outs, the substitutions and the point buttons fit on one screen.",
+            "de": "Ja. Stelle in den Optionen den «Bildschirmmodus» auf «Auto» oder die Handy-Ansicht und halte das Handy hochkant. Spielstand, Feld, Timeouts, Wechsel und Punkt-Schaltflächen passen auf einen Bildschirm.",
+            "fr": "Oui. Dans les options, réglez le « Mode d'écran » sur « Auto » ou sur la vue téléphone, et tenez le téléphone à la verticale. Le score, le terrain, les temps morts, les remplacements et les boutons de point tiennent sur un seul écran.",
+            "it": "Sì. Nelle opzioni imposta la «Modalita schermo» su «Auto» o sulla vista per telefono, e tieni il telefono in verticale. Punteggio, campo, timeout, sostituzioni e pulsanti del punto stanno in un'unica schermata."
+          }
+        }
+      ]
+    },
+    {
+      "id": "subs-timeouts",
+      "url": "https://openvolley.app/support#subs-timeouts",
+      "title": {
+        "en": "Substitutions, time-outs and liberos",
+        "de": "Wechsel, Timeouts und Libero",
+        "fr": "Remplacements, temps morts et libéros",
+        "it": "Sostituzioni, timeout e libero"
+      },
+      "video": {
+        "id": "subs-timeouts",
+        "mp4": "https://openvolley.app/support/videos/subs-timeouts.mp4",
+        "poster": "https://openvolley.app/support/videos/subs-timeouts.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/subs-timeouts.en.vtt",
+          "de": "https://openvolley.app/support/videos/subs-timeouts.de.vtt",
+          "fr": "https://openvolley.app/support/videos/subs-timeouts.fr.vtt",
+          "it": "https://openvolley.app/support/videos/subs-timeouts.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "scoreboard",
+          "app": "scorer",
+          "name": {
+            "en": "Scoreboard",
+            "de": "Punktetafel",
+            "fr": "Tableau de score",
+            "it": "Tabellone"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "timeout",
+          "question": {
+            "en": "How do I call a timeout?",
+            "de": "Wie rufe ich eine Auszeit?",
+            "fr": "Comment demander un temps mort ?",
+            "it": "Come chiamo un timeout?"
+          },
+          "answer": {
+            "en": "Between rallies, tap the team's “TO” box. Check the dialog and tap “Confirm time-out”: a 30-second countdown starts. “Stop timeout” ends it early. Each team has 2 time-outs per set; a third request is an improper request.",
+            "de": "Tippe zwischen zwei Ballwechseln auf das «TO»-Feld des Teams. Prüfe den Dialog und tippe auf «Timeout bestätigen»: Ein Countdown von 30 Sekunden startet. «Timeout beenden» beendet ihn früher. Jedes Team hat 2 Timeouts pro Satz; eine dritte Anfrage ist eine unzulässige Anfrage.",
+            "fr": "Entre deux échanges, appuyez sur la case « TM » de l'équipe. Vérifiez la boîte de dialogue et appuyez sur « Confirmer temps mort » : un compte à rebours de 30 secondes démarre. « Arrêter le temps mort » le termine plus tôt. Chaque équipe a 2 temps morts par set ; une troisième demande est une demande irrégulière.",
+            "it": "Tra due scambi, tocca la casella «TO» della squadra. Controlla la finestra e tocca «Conferma timeout»: parte un conto alla rovescia di 30 secondi. «Ferma timeout» lo chiude prima. Ogni squadra ha 2 timeout per set; una terza richiesta è una richiesta impropria."
+          }
+        },
+        {
+          "id": "substitution",
+          "question": {
+            "en": "How do I make a substitution?",
+            "de": "Wie mache ich eine Auswechslung?",
+            "fr": "Comment faire un remplacement ?",
+            "it": "Come faccio una sostituzione?"
+          },
+          "answer": {
+            "en": "Between rallies, tap the player on court and choose “Substitution”, then the player who comes in. Or drag a bench player onto the court player (long-press on a tablet). Then confirm.",
+            "de": "Tippe zwischen zwei Ballwechseln auf den Spieler auf dem Feld, wähle den Wechsel und dann den Spieler, der hineinkommt. Oder ziehe einen Bankspieler auf den Feldspieler (auf einem Tablet lange drücken). Dann bestätigen.",
+            "fr": "Entre deux échanges, appuyez sur le joueur sur le terrain, choisissez le remplacement puis le joueur qui entre. Ou faites glisser un joueur du banc sur le joueur du terrain (appui long sur une tablette). Confirmez ensuite.",
+            "it": "Tra due scambi, tocca il giocatore in campo, scegli la sostituzione e poi il giocatore che entra. Oppure trascina un giocatore della panchina sul giocatore in campo (pressione lunga su un tablet). Poi conferma."
+          }
+        },
+        {
+          "id": "subLimit",
+          "question": {
+            "en": "How many substitutions does a team have?",
+            "de": "Wie viele Wechsel hat ein Team?",
+            "fr": "Combien de remplacements une équipe a-t-elle ?",
+            "it": "Quante sostituzioni ha una squadra?"
+          },
+          "answer": {
+            "en": "Six per set. The “SUB” box counts them and turns amber at 5. A starting player can leave once and come back once, only for the player who replaced them. After the sixth, a further request is an improper request.",
+            "de": "Sechs pro Satz. Das «AUS»-Feld zählt sie und wird bei 5 gelb. Ein Startspieler kann einmal hinaus und einmal zurück, nur für den Spieler, der ihn ersetzt hat. Nach dem sechsten ist eine weitere Anfrage eine unzulässige Anfrage.",
+            "fr": "Six par set. La case « RMP » les compte et devient orange à 5. Un joueur de départ peut sortir une fois et revenir une fois, seulement à la place du joueur qui l'a remplacé. Après le sixième, une nouvelle demande est une demande irrégulière.",
+            "it": "Sei per set. La casella «SOS» le conta e diventa gialla a 5. Un giocatore della formazione iniziale può uscire una volta e rientrare una volta, solo al posto di chi l'ha sostituito. Dopo la sesta, un'altra richiesta è una richiesta impropria."
+          }
+        },
+        {
+          "id": "injury",
+          "question": {
+            "en": "A player is injured: what do I do?",
+            "de": "Ein Spieler ist verletzt: Was tun?",
+            "fr": "Un joueur est blessé : que faire ?",
+            "it": "Un giocatore si è infortunato: cosa faccio?"
+          },
+          "answer": {
+            "en": "Tap the player on court and choose “Injury”, then a substitute. If no legal substitution is possible, the app offers an exceptional substitution. After an exceptional substitution, that player cannot play again in this match.",
+            "de": "Tippe auf den Spieler auf dem Feld, wähle die Verletzung und dann einen Ersatz. Ist kein regulärer Wechsel möglich, bietet die App einen Ausnahmewechsel an. Nach einem Ausnahmewechsel darf dieser Spieler im Spiel nicht mehr spielen.",
+            "fr": "Appuyez sur le joueur sur le terrain, choisissez la blessure puis un remplaçant. Si aucun remplacement régulier n'est possible, l'app propose un remplacement exceptionnel. Après un remplacement exceptionnel, ce joueur ne peut plus jouer dans ce match.",
+            "it": "Tocca il giocatore in campo, scegli l'infortunio e poi un sostituto. Se nessuna sostituzione regolare è possibile, l'app propone una sostituzione eccezionale. Dopo una sostituzione eccezionale, quel giocatore non può più giocare in questa partita."
+          }
+        },
+        {
+          "id": "libero",
+          "question": {
+            "en": "How does the libero come in?",
+            "de": "Wie kommt der Libero ins Spiel?",
+            "fr": "Comment faire entrer le libéro ?",
+            "it": "Come entra il libero?"
+          },
+          "answer": {
+            "en": "Tap a back-row player (I, V or VI) and choose “Libero”, or drag the libero from the bench onto that player. Not the player who is about to serve. A rally must be played between two libero replacements.",
+            "de": "Tippe auf einen Spieler der hinteren Reihe (I, V oder VI) und wähle den Libero, oder ziehe den Libero von der Bank auf diesen Spieler. Nicht auf den Spieler, der gleich aufschlägt. Zwischen zwei Libero-Wechseln muss ein Ballwechsel gespielt werden.",
+            "fr": "Appuyez sur un joueur de la ligne arrière (I, V ou VI) et choisissez le libéro, ou faites glisser le libéro du banc sur ce joueur. Pas sur le joueur qui va servir. Un échange doit être joué entre deux remplacements de libéro.",
+            "it": "Tocca un giocatore della seconda linea (I, V o VI) e scegli il libero, oppure trascina il libero dalla panchina su quel giocatore. Non sul giocatore che sta per servire. Tra due sostituzioni del libero deve essere giocato uno scambio."
+          }
+        },
+        {
+          "id": "liberoOut",
+          "question": {
+            "en": "How does the libero leave the court?",
+            "de": "Wie verlässt der Libero das Feld?",
+            "fr": "Comment le libéro quitte-t-il le terrain ?",
+            "it": "Come esce il libero dal campo?"
+          },
+          "answer": {
+            "en": "Tap the libero on court and choose “Libero out”: the replaced player comes back. When the libero rotates to the front row, the app takes the libero out and asks you to confirm. “Exchange libero” swaps the two liberos.",
+            "de": "Tippe auf den Libero auf dem Feld und nimm ihn heraus: Der ersetzte Spieler kommt zurück. Rotiert der Libero in die vordere Reihe, nimmt ihn die App heraus und fragt dich zur Bestätigung. Mit dem Libero-Tausch wechseln die beiden Liberos.",
+            "fr": "Appuyez sur le libéro sur le terrain et faites-le sortir : le joueur remplacé revient. Quand le libéro tourne en ligne avant, l'app le fait sortir et vous demande de confirmer. L'échange de libéros fait permuter les deux libéros.",
+            "it": "Tocca il libero in campo e fallo uscire: rientra il giocatore sostituito. Quando il libero ruota in prima linea, l'app lo fa uscire e ti chiede di confermare. Lo scambio dei libero fa cambiare posto ai due libero."
+          }
+        },
+        {
+          "id": "liberoUnable",
+          "question": {
+            "en": "The libero cannot play any more?",
+            "de": "Der Libero kann nicht mehr spielen?",
+            "fr": "Le libéro ne peut plus jouer ?",
+            "it": "Il libero non può più giocare?"
+          },
+          "answer": {
+            "en": "Tap the libero and choose “Unable to play”: declared unable, or injury or illness. If the team has no other libero, the app lets you designate another player as the new libero.",
+            "de": "Tippe auf den Libero und wähle, dass er nicht mehr spielen kann: für spielunfähig erklärt oder Verletzung bzw. Krankheit. Hat das Team keinen anderen Libero, lässt dich die App einen anderen Spieler zum neuen Libero bestimmen.",
+            "fr": "Appuyez sur le libéro et indiquez qu'il ne peut plus jouer : déclaré inapte, ou blessure ou maladie. Si l'équipe n'a pas d'autre libéro, l'app vous laisse désigner un autre joueur comme nouveau libéro.",
+            "it": "Tocca il libero e indica che non può più giocare: dichiarato inabile, oppure infortunio o malattia. Se la squadra non ha un altro libero, l'app ti fa designare un altro giocatore come nuovo libero."
+          }
+        },
+        {
+          "id": "captainRing",
+          "question": {
+            "en": "Why is a number circled on the bench?",
+            "de": "Warum ist auf der Bank eine Nummer eingekreist?",
+            "fr": "Pourquoi un numéro est-il entouré sur le banc ?",
+            "it": "Perché un numero è cerchiato in panchina?"
+          },
+          "answer": {
+            "en": "The circle marks the team captain, as on the paper scoresheet. A libero who is captain has the circle next to the L1 or L2 tag.",
+            "de": "Der Kreis markiert den Captain, wie auf dem Papier-Matchblatt. Ist ein Libero Captain, steht der Kreis neben dem L1- oder L2-Zeichen.",
+            "fr": "Le cercle marque le capitaine, comme sur la feuille de match papier. Si un libéro est capitaine, le cercle est à côté de la marque L1 ou L2.",
+            "it": "Il cerchio indica il capitano, come sul referto cartaceo. Se il capitano è un libero, il cerchio è accanto al segno L1 o L2."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sanctions",
+      "url": "https://openvolley.app/support#sanctions",
+      "title": {
+        "en": "Sanctions",
+        "de": "Sanktionen",
+        "fr": "Sanctions",
+        "it": "Sanzioni"
+      },
+      "video": {
+        "id": "sanctions",
+        "mp4": "https://openvolley.app/support/videos/sanctions.mp4",
+        "poster": "https://openvolley.app/support/videos/sanctions.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/sanctions.en.vtt",
+          "de": "https://openvolley.app/support/videos/sanctions.de.vtt",
+          "fr": "https://openvolley.app/support/videos/sanctions.fr.vtt",
+          "it": "https://openvolley.app/support/videos/sanctions.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "scoreboard",
+          "app": "scorer",
+          "name": {
+            "en": "Scoreboard",
+            "de": "Punktetafel",
+            "fr": "Tableau de score",
+            "it": "Tabellone"
+          }
+        },
+        {
+          "id": "liveCorrections",
+          "app": "scorer",
+          "name": {
+            "en": "Corrections",
+            "de": "Korrekturen",
+            "fr": "Corrections",
+            "it": "Correzioni"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "sanction",
+          "question": {
+            "en": "How do I record a sanction?",
+            "de": "Wie zeichne ich eine Sanktion auf?",
+            "fr": "Comment enregistrer une sanction ?",
+            "it": "Come registro una sanzione?"
+          },
+          "answer": {
+            "en": "Tap the player on court and choose “Sanction”: “Warning” (yellow), “Penalty” (red), “Expulsion” (red and yellow together) or “Disqualification” (red and yellow apart). For a bench player or a bench official, tap them in the bench list. Then confirm.",
+            "de": "Tippe auf den Spieler auf dem Feld und öffne die Sanktionen: Warnung (gelb), Strafe (rot), Ausschluss (rot und gelb zusammen) oder Disqualifikation (rot und gelb getrennt). Für einen Bankspieler oder einen Bankoffiziellen tippe ihn in der Bankliste an. Dann bestätigen.",
+            "fr": "Appuyez sur le joueur sur le terrain et ouvrez les sanctions : avertissement (jaune), pénalité (rouge), expulsion (rouge et jaune ensemble) ou disqualification (rouge et jaune séparés). Pour un joueur du banc ou un officiel du banc, appuyez sur lui dans la liste du banc. Confirmez ensuite.",
+            "it": "Tocca il giocatore in campo e apri le sanzioni: avvertimento (giallo), penalità (rosso), espulsione (rosso e giallo insieme) o squalifica (rosso e giallo separati). Per un giocatore in panchina o un ufficiale di panchina, toccalo nell'elenco della panchina. Poi conferma."
+          }
+        },
+        {
+          "id": "teamSanctions",
+          "question": {
+            "en": "How do I record an improper request or a delay?",
+            "de": "Wie erfasse ich eine unzulässige Anfrage oder eine Verzögerung?",
+            "fr": "Comment saisir une demande irrégulière ou un retard ?",
+            "it": "Come registro una richiesta impropria o un ritardo?"
+          },
+          "answer": {
+            "en": "Under each team's “TO” and “SUB” boxes are “Improper request”, “Delay warning” and “Delay penalty”. On a small screen they are under “IR & delays”. The app writes them on the scoresheet and gives the penalty point.",
+            "de": "Unter den Feldern «TO» und «AUS» jedes Teams stehen «Unzulässige Anfrage», «Verzögerungswarnung» und «Verzögerungsstrafe». Auf einem kleinen Bildschirm sind sie unter «UA & Verzög.». Die App trägt sie ins Matchblatt ein und vergibt den Strafpunkt.",
+            "fr": "Sous les cases « TM » et « RMP » de chaque équipe se trouvent « Demande irrégulière », « Avertissement pour retard » et « Pénalité pour retard ». Sur un petit écran, ils sont sous « DI & retards ». L'app les inscrit sur la feuille de match et donne le point de pénalité.",
+            "it": "Sotto le caselle «TO» e «SOS» di ogni squadra ci sono «Richiesta impropria», «Avvertimento per ritardo» e «Penalità per ritardo». Su uno schermo piccolo sono sotto «RI & ritardi». L'app li scrive sul referto e assegna il punto di penalità."
+          }
+        },
+        {
+          "id": "ladder",
+          "question": {
+            "en": "Why did my delay warning become a penalty?",
+            "de": "Warum wurde meine Verzögerungswarnung zur Strafe?",
+            "fr": "Pourquoi mon avertissement pour retard est-il devenu une pénalité ?",
+            "it": "Perché il mio avvertimento per ritardo è diventato una penalità?"
+          },
+          "answer": {
+            "en": "The sanctions follow the rules. A second improper request counts as a delay. A delay after a delay warning is a delay penalty. The dialog tells you before you confirm.",
+            "de": "Die Sanktionen folgen den Regeln. Eine zweite unzulässige Anfrage zählt als Verzögerung. Eine Verzögerung nach einer Verzögerungswarnung ist eine Verzögerungsstrafe. Der Dialog sagt es dir, bevor du bestätigst.",
+            "fr": "Les sanctions suivent les règles. Une deuxième demande irrégulière compte comme un retard. Un retard après un avertissement pour retard est une pénalité pour retard. La boîte de dialogue vous le dit avant que vous confirmiez.",
+            "it": "Le sanzioni seguono le regole. Una seconda richiesta impropria conta come ritardo. Un ritardo dopo un avvertimento per ritardo è una penalità per ritardo. La finestra te lo dice prima che tu confermi."
+          }
+        },
+        {
+          "id": "penaltyPoint",
+          "question": {
+            "en": "Who gets the point after a penalty?",
+            "de": "Wer bekommt nach einer Strafe den Punkt?",
+            "fr": "Qui reçoit le point après une pénalité ?",
+            "it": "Chi riceve il punto dopo una penalità?"
+          },
+          "answer": {
+            "en": "The opponent gets the point and the service. The app adds them and rotates the team if needed. A delay penalty given before the line-ups are entered is added once both line-ups are in.",
+            "de": "Der Gegner bekommt Punkt und Aufschlag. Die App trägt beides ein und lässt das Team wenn nötig rotieren. Eine Verzögerungsstrafe vor den Aufstellungen wird vergeben, sobald beide Aufstellungen eingetragen sind.",
+            "fr": "L'adversaire reçoit le point et le service. L'app les ajoute et fait tourner l'équipe si nécessaire. Une pénalité pour retard donnée avant les formations est ajoutée dès que les deux formations sont saisies.",
+            "it": "L'avversario riceve il punto e il servizio. L'app li aggiunge e fa ruotare la squadra se serve. Una penalità per ritardo data prima delle formazioni viene assegnata appena le due formazioni sono inserite."
+          }
+        },
+        {
+          "id": "expulsion",
+          "question": {
+            "en": "What happens after an expulsion or a disqualification?",
+            "de": "Was passiert nach einem Ausschluss oder einer Disqualifikation?",
+            "fr": "Que se passe-t-il après une expulsion ou une disqualification ?",
+            "it": "Cosa succede dopo un'espulsione o una squalifica?"
+          },
+          "answer": {
+            "en": "An expelled player sits out the rest of the set, a disqualified one the rest of the match. A player on court must be replaced: the app asks for the substitution, an exceptional one if no legal one is left.",
+            "de": "Ein ausgeschlossener Spieler fehlt für den Rest des Satzes, ein disqualifizierter für den Rest des Spiels. Ein Spieler auf dem Feld muss ersetzt werden: Die App fragt nach dem Wechsel, einem Ausnahmewechsel, wenn kein regulärer mehr möglich ist.",
+            "fr": "Un joueur expulsé ne joue plus jusqu'à la fin du set, un joueur disqualifié jusqu'à la fin du match. Un joueur sur le terrain doit être remplacé : l'app demande le remplacement, exceptionnel si aucun remplacement régulier n'est possible.",
+            "it": "Un giocatore espulso resta fuori fino alla fine del set, uno squalificato fino alla fine della partita. Un giocatore in campo deve essere sostituito: l'app chiede la sostituzione, eccezionale se non ne resta una regolare."
+          }
+        },
+        {
+          "id": "warningOnce",
+          "question": {
+            "en": "Why is “Warning” greyed out?",
+            "de": "Warum ist «Warnung» grau?",
+            "fr": "Pourquoi « Avertissement » est-il grisé ?",
+            "it": "Perché «Avvertimento» è grigio?"
+          },
+          "answer": {
+            "en": "A team gets one warning per match. After it, “Warning” is greyed out for every member of that team. Further misconduct is a penalty or more.",
+            "de": "Ein Team bekommt eine Warnung pro Spiel. Danach ist «Warnung» für alle Mitglieder dieses Teams grau. Weiteres Fehlverhalten ist eine Strafe oder mehr.",
+            "fr": "Une équipe reçoit un seul avertissement par match. Ensuite, l'avertissement est grisé pour tous les membres de cette équipe. Toute autre faute de conduite est une pénalité ou plus.",
+            "it": "Una squadra riceve un solo avvertimento per partita. Dopo, l'avvertimento è grigio per tutti i membri di quella squadra. Ogni altra scorrettezza è una penalità o di più."
+          }
+        },
+        {
+          "id": "fixSanction",
+          "question": {
+            "en": "I recorded the wrong sanction: how do I fix it?",
+            "de": "Ich habe die falsche Sanktion erfasst: Wie korrigiere ich sie?",
+            "fr": "J'ai saisi la mauvaise sanction : comment la corriger ?",
+            "it": "Ho registrato la sanzione sbagliata: come la correggo?"
+          },
+          "answer": {
+            "en": "If it is the last action, tap “Undo”. Otherwise open Menu › Corrections: in the “Sanctions” card, edit or remove it, or tap “Add sanction”. The correction log shows the change to the referee.",
+            "de": "Ist es die letzte Aktion, tippe auf «Rückgängig». Sonst öffne Menü › Korrekturen: In der Karte «Sanktionen» bearbeitest oder entfernst du sie, oder du tippst auf «Sanktion hinzufügen». Das Korrekturprotokoll zeigt die Änderung dem Schiedsrichter.",
+            "fr": "Si c'est la dernière action, appuyez sur « Annuler ». Sinon, ouvrez Menu › Corrections : dans la carte « Sanctions », modifiez-la ou supprimez-la, ou appuyez sur « Ajouter une sanction ». Le journal des corrections montre la modification à l'arbitre.",
+            "it": "Se è l'ultima azione, tocca «Annulla». Altrimenti apri Menu › Correzioni: nella scheda «Sanzioni» modificala o rimuovila, oppure tocca «Aggiungi sanzione». Il registro delle correzioni mostra la modifica all'arbitro."
+          }
+        }
+      ]
+    },
+    {
+      "id": "set-end",
+      "url": "https://openvolley.app/support#set-end",
+      "title": {
+        "en": "Set end and interval",
+        "de": "Satzende und Pause",
+        "fr": "Fin de set et pause",
+        "it": "Fine set e intervallo"
+      },
+      "video": {
+        "id": "set-end",
+        "mp4": "https://openvolley.app/support/videos/set-end.mp4",
+        "poster": "https://openvolley.app/support/videos/set-end.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/set-end.en.vtt",
+          "de": "https://openvolley.app/support/videos/set-end.de.vtt",
+          "fr": "https://openvolley.app/support/videos/set-end.fr.vtt",
+          "it": "https://openvolley.app/support/videos/set-end.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "scoreboard",
+          "app": "scorer",
+          "name": {
+            "en": "Scoreboard",
+            "de": "Punktetafel",
+            "fr": "Tableau de score",
+            "it": "Tabellone"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "setEnd",
+          "question": {
+            "en": "What happens at the end of a set?",
+            "de": "Was passiert am Ende eines Satzes?",
+            "fr": "Que se passe-t-il à la fin d'un set ?",
+            "it": "Cosa succede alla fine di un set?"
+          },
+          "answer": {
+            "en": "At 25 points with a 2-point lead (15 in the deciding set), the app shows the set end with the score and the winner. Check the end time and tap “Confirm”. If the last point was wrong, tap “Decision change” instead.",
+            "de": "Bei 25 Punkten mit 2 Punkten Vorsprung (15 im Entscheidungssatz) zeigt die App das Satzende mit Spielstand und Sieger. Prüfe die Endzeit und tippe auf «Bestätigen». War der letzte Punkt falsch, tippe stattdessen auf «Entscheidungsänderung».",
+            "fr": "À 25 points avec 2 points d'écart (15 dans le set décisif), l'app affiche la fin du set avec le score et le vainqueur. Vérifiez l'heure de fin et appuyez sur « Confirmer ». Si le dernier point était faux, appuyez plutôt sur « Changement de décision ».",
+            "it": "A 25 punti con 2 punti di vantaggio (15 nel set decisivo), l'app mostra la fine del set con il punteggio e la squadra vincente. Controlla l'ora di fine e tocca «Confermare». Se l'ultimo punto era sbagliato, tocca invece «Cambio decisione»."
+          }
+        },
+        {
+          "id": "interval",
+          "question": {
+            "en": "How does the interval between sets work?",
+            "de": "Wie funktioniert die Pause zwischen den Sätzen?",
+            "fr": "Comment fonctionne la pause entre les sets ?",
+            "it": "Come funziona l'intervallo tra i set?"
+          },
+          "answer": {
+            "en": "The countdown starts when you confirm the set end. It lasts 3 minutes: change it in the options under “Set 2-3 interval duration”. “End set interval” ends it early. The referee tablet shows the same countdown.",
+            "de": "Der Countdown startet, wenn du das Satzende bestätigst. Er dauert 3 Minuten; ändere das in den Optionen unter «Pause zwischen Satz 2-3». «Satzpause beenden» beendet ihn früher. Das Schiedsrichter-Tablet zeigt denselben Countdown.",
+            "fr": "Le compte à rebours démarre quand vous confirmez la fin du set. Il dure 3 minutes ; changez-le dans les options sous « Pause entre les sets ». « Terminer la pause » l'arrête plus tôt. La tablette de l'arbitre montre le même compte à rebours.",
+            "it": "Il conto alla rovescia parte quando confermi la fine del set. Dura 3 minuti; cambialo nelle opzioni in «Durata pausa set 2-3». «Termina intervallo» lo chiude prima. Il tablet dell'arbitro mostra lo stesso conto alla rovescia."
+          }
+        },
+        {
+          "id": "nextSet",
+          "question": {
+            "en": "Do I change the sides and the service for the next set?",
+            "de": "Muss ich für den nächsten Satz Seiten und Aufschlag ändern?",
+            "fr": "Dois-je changer les côtés et le service pour le set suivant ?",
+            "it": "Devo cambiare lati e servizio per il set successivo?"
+          },
+          "answer": {
+            "en": "No. The app changes the sides and gives the first service to the right team by itself. Enter both line-ups, then tap “Start set”.",
+            "de": "Nein. Die App wechselt die Seiten und gibt den ersten Aufschlag selbst dem richtigen Team. Trage beide Aufstellungen ein und tippe auf «Satz starten».",
+            "fr": "Non. L'app change les côtés et donne elle-même le premier service à la bonne équipe. Saisissez les deux formations, puis appuyez sur « Démarrer le set ».",
+            "it": "No. L'app cambia i lati e dà da sola il primo servizio alla squadra giusta. Inserisci le due formazioni, poi tocca «Inizia set»."
+          }
+        },
+        {
+          "id": "set5",
+          "question": {
+            "en": "What happens in set 5 (tie-break)?",
+            "de": "Was passiert im 5. Satz (Tiebreak)?",
+            "fr": "Que se passe-t-il au 5e set (tie-break) ?",
+            "it": "Cosa succede nel 5° set (tie-break)?"
+          },
+          "answer": {
+            "en": "The deciding set (set 5, or set 3 in a best of 3) goes to 15 points with a 2-point lead. Toss the coin again before it: set the sides and the service with “Switch sides” and “Switch serve”, then tap “Confirm set 5 setup”. At 8 points the teams change courts.",
+            "de": "Der Entscheidungssatz (Satz 5, oder Satz 3 bei Best of 3) geht auf 15 Punkte mit 2 Punkten Vorsprung. Davor wird neu ausgelost: Lege Seiten und Aufschlag mit «Seiten wechseln» und «Aufschlag wechseln» fest und tippe auf «Satz 5 Einrichtung bestätigen». Bei 8 Punkten wechseln die Teams das Feld.",
+            "fr": "Le set décisif (set 5, ou set 3 en deux sets gagnants) se joue en 15 points avec 2 points d'écart. Avant lui, refaites le tirage au sort : réglez les côtés et le service avec « Changer de côté » et « Changer de service », puis appuyez sur « Confirmer set 5 setup ». À 8 points, les équipes changent de côté.",
+            "it": "Il set decisivo (set 5, o set 3 al meglio dei 3) va a 15 punti con 2 punti di vantaggio. Prima si rifà il sorteggio: imposta lati e servizio con «Inverti lati» e «Inverti servizio», poi tocca «Conferma set 5». A 8 punti le squadre cambiano campo."
+          }
+        },
+        {
+          "id": "courtSwitch",
+          "question": {
+            "en": "How does the change of courts at 8 points work?",
+            "de": "Wie läuft der Seitenwechsel bei 8 Punkten?",
+            "fr": "Comment se passe le changement de côté à 8 points ?",
+            "it": "Come funziona il cambio campo a 8 punti?"
+          },
+          "answer": {
+            "en": "When a team reaches 8 points in the deciding set, the app shows “Court switch required”. Let the teams change, then tap “Switch courts”. If a correction takes the score back below 8, the app asks to switch back.",
+            "de": "Erreicht ein Team im Entscheidungssatz 8 Punkte, zeigt die App «Seitenwechsel erforderlich». Lass die Teams wechseln und tippe auf «Feld wechseln». Bringt eine Korrektur den Spielstand wieder unter 8, fragt die App, ob zurückgewechselt wird.",
+            "fr": "Quand une équipe atteint 8 points dans le set décisif, l'app affiche « Changement de côté requis ». Laissez les équipes changer, puis appuyez sur « Changer de côté ». Si une correction ramène le score sous 8, l'app demande de revenir aux côtés d'avant.",
+            "it": "Quando una squadra arriva a 8 punti nel set decisivo, l'app mostra «Cambio campo richiesto». Lascia che le squadre cambino, poi tocca «Inverti campo». Se una correzione riporta il punteggio sotto 8, l'app chiede di tornare ai lati di prima."
+          }
+        },
+        {
+          "id": "syncAtSetEnd",
+          "question": {
+            "en": "The set end says “Offline. Data saved locally.”?",
+            "de": "Das Satzende meldet «Offline. Daten lokal gespeichert.»?",
+            "fr": "La fin du set indique « Hors ligne. Données sauvegardées localement. » ?",
+            "it": "La fine del set dice «Offline. Dati salvati localmente.»?"
+          },
+          "answer": {
+            "en": "The set is safe on this device. Tap “Continue”: the set goes to the server when the connection is back. In a browser, the app can also download a backup at the set end (“Auto-download data at set end” in the options).",
+            "de": "Der Satz ist auf diesem Gerät sicher. Tippe auf «Weiter»: Der Satz geht auf den Server, sobald die Verbindung zurück ist. Im Browser kann die App am Satzende zusätzlich ein Backup herunterladen («Daten am Satzende automatisch herunterladen» in den Optionen).",
+            "fr": "Le set est en sécurité sur cet appareil. Appuyez sur « Continuer » : le set part vers le serveur dès que la connexion revient. Dans un navigateur, l'app peut aussi télécharger une sauvegarde à la fin du set (« Téléchargement automatique des données à la fin du set » dans les options).",
+            "it": "Il set è al sicuro su questo dispositivo. Tocca «Continua»: il set va al server appena torna la connessione. In un browser, l'app può anche scaricare un backup a fine set («Download automatico dei dati alla fine del set» nelle opzioni)."
+          }
+        },
+        {
+          "id": "matchEnd",
+          "question": {
+            "en": "What happens after the last set?",
+            "de": "Was passiert nach dem letzten Satz?",
+            "fr": "Que se passe-t-il après le dernier set ?",
+            "it": "Cosa succede dopo l'ultimo set?"
+          },
+          "answer": {
+            "en": "The app shows the match end with the result. Confirm the end time: the match end page opens for the signatures and the approval.",
+            "de": "Die App zeigt das Spielende mit dem Ergebnis. Bestätige die Endzeit: Die Seite Spielende öffnet sich für die Unterschriften und die Genehmigung.",
+            "fr": "L'app affiche la fin du match avec le résultat. Confirmez l'heure de fin : la page de fin du match s'ouvre pour les signatures et l'approbation.",
+            "it": "L'app mostra la fine della partita con il risultato. Conferma l'ora di fine: si apre la pagina di fine partita per le firme e l'approvazione."
+          }
+        }
+      ]
+    },
+    {
+      "id": "match-end",
+      "url": "https://openvolley.app/support#match-end",
+      "title": {
+        "en": "Match end",
+        "de": "Spielende",
+        "fr": "Fin du match",
+        "it": "Fine partita"
+      },
+      "video": {
+        "id": "match-end",
+        "mp4": "https://openvolley.app/support/videos/match-end.mp4",
+        "poster": "https://openvolley.app/support/videos/match-end.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/match-end.en.vtt",
+          "de": "https://openvolley.app/support/videos/match-end.de.vtt",
+          "fr": "https://openvolley.app/support/videos/match-end.fr.vtt",
+          "it": "https://openvolley.app/support/videos/match-end.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "matchEnd",
+          "app": "scorer",
+          "name": {
+            "en": "Match end",
+            "de": "Spielende",
+            "fr": "Fin du match",
+            "it": "Fine partita"
+          }
+        },
+        {
+          "id": "manualAdjustments",
+          "app": "scorer",
+          "name": {
+            "en": "Corrections",
+            "de": "Korrekturen",
+            "fr": "Corrections",
+            "it": "Correzioni"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "reviewResults",
+          "question": {
+            "en": "How do I review the match results?",
+            "de": "Wie überprüfe ich die Spielergebnisse?",
+            "fr": "Comment consulter les résultats du match ?",
+            "it": "Come consulto i risultati della partita?"
+          },
+          "answer": {
+            "en": "The results table shows set-by-set scores, timeouts used, substitutions per set, set durations, and total match duration.",
+            "de": "Die Ergebnistabelle zeigt Satz-für-Satz-Ergebnisse, verwendete Auszeiten, Auswechslungen pro Satz, Satzdauer und Gesamtspieldauer.",
+            "fr": "Le tableau des résultats affiche les scores set par set, les temps morts utilisés, les remplacements par set, les durées des sets et la durée totale du match.",
+            "it": "La tabella dei risultati mostra i punteggi set per set, i timeout utilizzati, le sostituzioni per set, le durate dei set e la durata totale della partita."
+          }
+        },
+        {
+          "id": "signatures",
+          "question": {
+            "en": "How do I collect final signatures?",
+            "de": "Wie sammle ich die Abschlussunterschriften?",
+            "fr": "Comment recueillir les signatures finales ?",
+            "it": "Come raccolgo le firme finali?"
+          },
+          "answer": {
+            "en": "First the two captains sign under “Team captains”. Then the officials sign in this order: assistant scorer (if any), scorer, 2nd referee (if any), 1st referee. Tap “Tap to sign” in each box.",
+            "de": "Zuerst unterschreiben die beiden Captains unter «Captains». Dann unterschreiben die Offiziellen in dieser Reihenfolge: Assistenz-Schreiber (falls vorhanden), Schreiber, 2. Schiedsrichter (falls vorhanden), 1. Schiedsrichter. Tippe in jedem Feld auf «Zum Unterschreiben tippen».",
+            "fr": "Les deux capitaines signent d'abord sous « Capitaines d'Équipe ». Puis les officiels signent dans cet ordre : marqueur adjoint (s'il y en a un), marqueur, 2nd arbitre (s'il y en a un), 1er arbitre. Appuyez sur « Appuyer pour signer » dans chaque case.",
+            "it": "Prima firmano i due capitani sotto «Capitani squadra». Poi firmano gli ufficiali in questo ordine: segnapunti assistente (se c'è), segnapunti, 2° arbitro (se c'è), 1° arbitro. Tocca «Tocca per firmare» in ogni casella."
+          }
+        },
+        {
+          "id": "signOnPhone",
+          "question": {
+            "en": "Can someone sign on their own phone?",
+            "de": "Kann jemand auf dem eigenen Handy unterschreiben?",
+            "fr": "Quelqu'un peut-il signer sur son propre téléphone ?",
+            "it": "Qualcuno può firmare sul proprio telefono?"
+          },
+          "answer": {
+            "en": "Yes. In the signature box, tap “Sign on phone” and let them scan the code. Keep this window open until the signature arrives, then tap “Use signature”. It needs the internet or the hall network.",
+            "de": "Ja. Tippe im Unterschriftenfeld auf «Auf dem Handy unterschreiben» und lass den Code scannen. Lass dieses Fenster offen, bis die Unterschrift ankommt, und tippe dann auf «Unterschrift übernehmen». Dafür braucht es Internet oder das Hallennetz.",
+            "fr": "Oui. Dans la case de signature, appuyez sur « Signer sur le téléphone » et faites scanner le code. Gardez cette fenêtre ouverte jusqu'à l'arrivée de la signature, puis appuyez sur « Utiliser la signature ». Il faut internet ou le réseau de la salle.",
+            "it": "Sì. Nella casella della firma tocca «Firma sul telefono» e fai scansionare il codice. Tieni aperta questa finestra finché arriva la firma, poi tocca «Usa la firma». Serve internet o la rete della palestra."
+          }
+        },
+        {
+          "id": "approveWithPin",
+          "question": {
+            "en": "Can a referee approve without drawing a signature?",
+            "de": "Kann ein Schiedsrichter genehmigen, ohne zu unterschreiben?",
+            "fr": "Un arbitre peut-il approuver sans dessiner de signature ?",
+            "it": "Un arbitro può approvare senza disegnare la firma?"
+          },
+          "answer": {
+            "en": "Yes, with an OpenVolley account. Tap “Approve with PIN” in the signature box: the official enters their account's email and their own approval PIN. It needs an internet connection and a match that is saved online.",
+            "de": "Ja, mit einem OpenVolley-Konto. Tippe im Unterschriftenfeld auf «Mit PIN genehmigen»: Der Offizielle gibt die E-Mail seines Kontos und seine eigene Genehmigungs-PIN ein. Dafür braucht es eine Internetverbindung und ein online gespeichertes Spiel.",
+            "fr": "Oui, avec un compte OpenVolley. Appuyez sur « Approuver avec le PIN » dans la case de signature : l'officiel saisit l'e-mail de son compte et son propre PIN d'approbation. Il faut une connexion internet et un match enregistré en ligne.",
+            "it": "Sì, con un account OpenVolley. Tocca «Approva con PIN» nella casella della firma: l'ufficiale inserisce l'email del suo account e il proprio PIN di approvazione. Servono una connessione internet e una partita salvata online."
+          }
+        },
+        {
+          "id": "approve",
+          "question": {
+            "en": "What does “Confirm and approve” do?",
+            "de": "Was macht «Bestätigen und genehmigen»?",
+            "fr": "Que fait « Confirmer et approuver » ?",
+            "it": "Cosa fa «Conferma e approva»?"
+          },
+          "answer": {
+            "en": "When every signature is in, tap “Confirm and approve”. The app saves the match data (JSON) and makes the scoresheet PDF: keep the scoresheet window open until it is ready. The match is then approved and closed on the server.",
+            "de": "Wenn alle Unterschriften da sind, tippe auf «Bestätigen und genehmigen». Die App speichert die Spieldaten (JSON) und erstellt das Matchblatt als PDF: Lass das Matchblatt-Fenster offen, bis es fertig ist. Danach ist das Spiel genehmigt und auf dem Server abgeschlossen.",
+            "fr": "Quand toutes les signatures sont là, appuyez sur « Confirmer et approuver ». L'app enregistre les données du match (JSON) et crée la feuille de match en PDF : gardez la fenêtre de la feuille de match ouverte jusqu'à ce qu'il soit prêt. Le match est alors approuvé et clôturé sur le serveur.",
+            "it": "Quando ci sono tutte le firme, tocca «Conferma e approva». L'app salva i dati della partita (JSON) e crea il referto in PDF: tieni aperta la finestra del referto finché è pronto. Poi la partita è approvata e chiusa sul server."
+          }
+        },
+        {
+          "id": "pdfFailed",
+          "question": {
+            "en": "It says the PDF is not ready: what now?",
+            "de": "Es heisst, das PDF sei nicht fertig: Was nun?",
+            "fr": "Le PDF n'est pas prêt : que faire ?",
+            "it": "Dice che il PDF non è pronto: e adesso?"
+          },
+          "answer": {
+            "en": "“Retry” makes the PDF again. “Approve without PDF” approves the match now: save the PDF later with “Scoresheet”. “Cancel” leaves the match not approved.",
+            "de": "«Erneut versuchen» erstellt das PDF nochmals. «Ohne PDF genehmigen» genehmigt das Spiel jetzt: Speichere das PDF später über «eScoresheet». «Abbrechen» lässt das Spiel ungenehmigt.",
+            "fr": "« Réessayer » recrée le PDF. « Approuver sans PDF » approuve le match tout de suite : enregistrez le PDF plus tard avec « eScoresheet ». « Annuler » laisse le match non approuvé.",
+            "it": "«Riprova» crea di nuovo il PDF. «Approva senza PDF» approva subito la partita: salva il PDF più tardi con «eScoresheet». «Annulla» lascia la partita non approvata."
+          }
+        },
+        {
+          "id": "exportPdf",
+          "question": {
+            "en": "How do I export the scoresheet as PDF?",
+            "de": "Wie exportiere ich das Spielprotokoll als PDF?",
+            "fr": "Comment exporter la feuille de match en PDF ?",
+            "it": "Come esporto il referto di gara in PDF?"
+          },
+          "answer": {
+            "en": "Tap “Scoresheet” and choose “Preview”, “Print” or “Save PDF”. It works before and after the approval.",
+            "de": "Tippe auf «eScoresheet» und wähle «Vorschau», «Drucken» oder «PDF speichern». Das geht vor und nach der Genehmigung.",
+            "fr": "Appuyez sur « eScoresheet » et choisissez « Aperçu », « Imprimer » ou « Enregistrer PDF ». Cela fonctionne avant et après l'approbation.",
+            "it": "Tocca «eScoresheet» e scegli «Anteprima», «Stampa» o «Salva PDF». Funziona prima e dopo l'approvazione."
+          }
+        },
+        {
+          "id": "downloadJson",
+          "question": {
+            "en": "How do I download the match data?",
+            "de": "Wie lade ich die Spieldaten herunter?",
+            "fr": "Comment télécharger les données du match ?",
+            "it": "Come scarico i dati della partita?"
+          },
+          "answer": {
+            "en": "“Confirm and approve” saves the match data as a JSON file, together with the PDF. During the match: Menu › Download game data (JSON). The file can restore the match.",
+            "de": "«Bestätigen und genehmigen» speichert die Spieldaten als JSON-Datei, zusammen mit dem PDF. Während des Spiels: Menü › Spieldaten herunterladen (JSON). Mit der Datei lässt sich das Spiel wiederherstellen.",
+            "fr": "« Confirmer et approuver » enregistre les données du match dans un fichier JSON, avec le PDF. Pendant le match : Menu › Télécharger les données du match (JSON). Le fichier permet de restaurer le match.",
+            "it": "«Conferma e approva» salva i dati della partita in un file JSON, insieme al PDF. Durante la partita: Menu › Scarica i dati della partita (JSON). Con il file si può ripristinare la partita."
+          }
+        },
+        {
+          "id": "closeMatch",
+          "question": {
+            "en": "What does “Close match” do?",
+            "de": "Was macht «Spiel abschliessen»?",
+            "fr": "Que fait « Fermer le match » ?",
+            "it": "Cosa fa «Chiudi partita»?"
+          },
+          "answer": {
+            "en": "After the approval, “Close match” marks the match final on the server and removes it from this device. Save or print the PDF first if you need a copy on this device.",
+            "de": "Nach der Genehmigung markiert «Spiel abschliessen» das Spiel auf dem Server als final und entfernt es von diesem Gerät. Speichere oder drucke das PDF vorher, wenn du eine Kopie auf diesem Gerät brauchst.",
+            "fr": "Après l'approbation, « Fermer le match » marque le match comme final sur le serveur et le retire de cet appareil. Enregistrez ou imprimez d'abord le PDF si vous en voulez une copie sur cet appareil.",
+            "it": "Dopo l'approvazione, «Chiudi partita» segna la partita come definitiva sul server e la rimuove da questo dispositivo. Salva o stampa prima il PDF se ti serve una copia su questo dispositivo."
+          }
+        },
+        {
+          "id": "reopenSet",
+          "question": {
+            "en": "How do I reopen a set to make corrections?",
+            "de": "Wie öffne ich einen Satz zur Korrektur wieder?",
+            "fr": "Comment rouvrir un set pour faire des corrections ?",
+            "it": "Come riapro un set per fare correzioni?"
+          },
+          "answer": {
+            "en": "Tap “Reopen last set” to go back to the scoring screen. All signatures are cleared and must be collected again. After the approval, only an admin can reopen the match (“Reopen match”).",
+            "de": "Tippe auf «Letzten Satz wieder öffnen», um zum Erfassungsbildschirm zurückzukehren. Alle Unterschriften werden gelöscht und müssen neu gesammelt werden. Nach der Genehmigung kann nur ein Admin das Spiel wieder öffnen («Spiel wieder öffnen»).",
+            "fr": "Appuyez sur « Rouvrir dernier set » pour revenir à l'écran de saisie. Toutes les signatures sont effacées et doivent être recueillies à nouveau. Après l'approbation, seul un administrateur peut rouvrir le match (« Rouvrir le match »).",
+            "it": "Tocca «Riapri ultimo set» per tornare alla schermata del punteggio. Tutte le firme vengono cancellate e vanno raccolte di nuovo. Dopo l'approvazione, solo un amministratore può riaprire la partita («Riapri partita»)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "corrections",
+      "url": "https://openvolley.app/support#corrections",
+      "title": {
+        "en": "Corrections",
+        "de": "Korrekturen",
+        "fr": "Corrections",
+        "it": "Correzioni"
+      },
+      "video": {
+        "id": "corrections",
+        "mp4": "https://openvolley.app/support/videos/corrections.mp4",
+        "poster": "https://openvolley.app/support/videos/corrections.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/corrections.en.vtt",
+          "de": "https://openvolley.app/support/videos/corrections.de.vtt",
+          "fr": "https://openvolley.app/support/videos/corrections.fr.vtt",
+          "it": "https://openvolley.app/support/videos/corrections.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "manualAdjustments",
+          "app": "scorer",
+          "name": {
+            "en": "Corrections",
+            "de": "Korrekturen",
+            "fr": "Corrections",
+            "it": "Correzioni"
+          }
+        },
+        {
+          "id": "liveCorrections",
+          "app": "scorer",
+          "name": {
+            "en": "Corrections",
+            "de": "Korrekturen",
+            "fr": "Corrections",
+            "it": "Correzioni"
+          }
+        },
+        {
+          "id": "matchEnd",
+          "app": "scorer",
+          "name": {
+            "en": "Match end",
+            "de": "Spielende",
+            "fr": "Fin du match",
+            "it": "Fine partita"
+          }
+        },
+        {
+          "id": "scoreboard",
+          "app": "scorer",
+          "name": {
+            "en": "Scoreboard",
+            "de": "Punktetafel",
+            "fr": "Tableau de score",
+            "it": "Tabellone"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "whereCorrections",
+          "question": {
+            "en": "Where do I correct a mistake?",
+            "de": "Wo korrigiere ich einen Fehler?",
+            "fr": "Où corriger une erreur ?",
+            "it": "Dove correggo un errore?"
+          },
+          "answer": {
+            "en": "During the match: Menu › Corrections. At the match end: the “Corrections” button. Each correction is saved when you confirm it and listed in the correction log for the referee.",
+            "de": "Während des Spiels: Menü › Korrekturen. Am Spielende: die Schaltfläche «Korrekturen». Jede Korrektur wird gespeichert, wenn du sie bestätigst, und im Korrekturprotokoll für den Schiedsrichter aufgeführt.",
+            "fr": "Pendant le match : Menu › Corrections. À la fin du match : le bouton « Corrections ». Chaque correction est enregistrée quand vous la confirmez et figure dans le journal des corrections pour l'arbitre.",
+            "it": "Durante la partita: Menu › Correzioni. A fine partita: il pulsante «Correzioni». Ogni correzione viene salvata quando la confermi e compare nel registro delle correzioni per l'arbitro."
+          }
+        },
+        {
+          "id": "missedPoint",
+          "question": {
+            "en": "I forgot a point during the set?",
+            "de": "Ich habe im Satz einen Punkt vergessen?",
+            "fr": "J'ai oublié un point pendant le set ?",
+            "it": "Ho dimenticato un punto durante il set?"
+          },
+          "answer": {
+            "en": "In Menu › Corrections, tap “Add a missed point” for the team. It is added at the current score with its rotation and service, as the point button does. If the last point went to the wrong team, tap “Last point went to the wrong team”.",
+            "de": "Tippe unter Menü › Korrekturen beim Team auf «Vergessenen Punkt hinzufügen». Er wird beim aktuellen Spielstand mit Rotation und Aufschlag eingetragen, wie mit der Punkt-Schaltfläche. Ging der letzte Punkt an das falsche Team, tippe auf «Letzter Punkt ging an die falsche Mannschaft».",
+            "fr": "Dans Menu › Corrections, appuyez sur « Ajouter un point oublié » pour l'équipe. Il est ajouté au score actuel avec sa rotation et son service, comme avec le bouton de point. Si le dernier point est allé à la mauvaise équipe, appuyez sur « Le dernier point a été donné à la mauvaise équipe ».",
+            "it": "In Menu › Correzioni, tocca «Aggiungi un punto dimenticato» per la squadra. Viene aggiunto al punteggio attuale con rotazione e servizio, come con il pulsante del punto. Se l'ultimo punto è andato alla squadra sbagliata, tocca «L'ultimo punto è andato alla squadra sbagliata»."
+          }
+        },
+        {
+          "id": "editScores",
+          "question": {
+            "en": "How do I correct a set score?",
+            "de": "Wie korrigiere ich ein Satzresultat?",
+            "fr": "Comment corriger le score d'un set ?",
+            "it": "Come correggo il punteggio di un set?"
+          },
+          "answer": {
+            "en": "In the “Set results” card, tap “Correct final score”. Only the end of a set can change: a point added after the last point, or the last point removed. Points missed in the middle of a set cannot be fixed.",
+            "de": "Tippe in der Karte «Satzresultate» auf «Endstand korrigieren». Nur das Ende eines Satzes lässt sich ändern: ein Punkt nach dem letzten Punkt hinzufügen oder den letzten Punkt entfernen. Mitten im Satz vergessene Punkte lassen sich nicht korrigieren.",
+            "fr": "Dans la carte « Résultats des sets », appuyez sur « Corriger le score final ». Seule la fin d'un set peut changer : un point ajouté après le dernier point, ou le dernier point retiré. Les points oubliés au milieu d'un set ne peuvent pas être corrigés.",
+            "it": "Nella scheda «Risultati dei set», tocca «Correggi punteggio finale». Si può cambiare solo la fine di un set: un punto aggiunto dopo l'ultimo punto, o l'ultimo punto tolto. I punti dimenticati a metà set non si possono correggere."
+          }
+        },
+        {
+          "id": "editEvents",
+          "question": {
+            "en": "How do I correct a time-out, a substitution or a sanction?",
+            "de": "Wie korrigiere ich ein Timeout, einen Wechsel oder eine Sanktion?",
+            "fr": "Comment corriger un temps mort, un remplacement ou une sanction ?",
+            "it": "Come correggo un timeout, una sostituzione o una sanzione?"
+          },
+          "answer": {
+            "en": "Use the “Time-outs”, “Substitutions” and “Sanctions” cards. Each has an add button, and each row has “Edit” and “Remove”. A preview shows what changes on the scoresheet before you confirm.",
+            "de": "Nutze die Karten «Auszeiten», «Spielerwechsel» und «Sanktionen». Jede hat eine Schaltfläche zum Hinzufügen, und jede Zeile hat «Bearbeiten» und «Entfernen». Eine Vorschau zeigt, was sich auf dem Matchblatt ändert, bevor du bestätigst.",
+            "fr": "Utilisez les cartes « Temps morts », « Remplacements » et « Sanctions ». Chacune a un bouton d'ajout, et chaque ligne a « Modifier » et « Supprimer ». Un aperçu montre ce qui change sur la feuille de match avant que vous confirmiez.",
+            "it": "Usa le schede «Tempi di riposo», «Sostituzioni» e «Sanzioni». Ognuna ha un pulsante per aggiungere, e ogni riga ha «Modifica» e «Rimuovi». Un'anteprima mostra cosa cambia sul referto prima che tu confermi."
+          }
+        },
+        {
+          "id": "serveSidesLineup",
+          "question": {
+            "en": "How do I fix the serve, the sides or the line-up?",
+            "de": "Wie korrigiere ich Aufschlag, Seiten oder Aufstellung?",
+            "fr": "Comment corriger le service, les côtés ou la formation ?",
+            "it": "Come correggo il servizio, i lati o la formazione?"
+          },
+          "answer": {
+            "en": "In Corrections: “Change who serves first”, “Switch sides” and “Reopen set”. “Fix the line-up” corrects a wrong rotation: rotate the team one position forward or back.",
+            "de": "In den Korrekturen: «Ersten Aufschlag ändern», «Seiten wechseln» und «Satz wieder öffnen». «Aufstellung korrigieren» behebt eine falsche Rotation: Rotiere das Team um eine Position vor oder zurück.",
+            "fr": "Dans les corrections : « Changer qui sert en premier », « Changer de côté » et « Rouvrir le set ». « Corriger la formation » répare une rotation fausse : faites tourner l'équipe d'une position en avant ou en arrière.",
+            "it": "Nelle correzioni: «Cambia chi serve per primo», «Cambia campo» e «Riapri set». «Correggi la formazione» sistema una rotazione sbagliata: fai ruotare la squadra di una posizione avanti o indietro."
+          }
+        },
+        {
+          "id": "editTeams",
+          "question": {
+            "en": "How do I edit team information?",
+            "de": "Wie bearbeite ich Teaminformationen?",
+            "fr": "Comment modifier les informations des équipes ?",
+            "it": "Come modifico le informazioni delle squadre?"
+          },
+          "answer": {
+            "en": "Open the “Teams” tab to change the names, short names, colours, players and bench officials. The “Match info” tab holds the hall, the date and the officials. Then tap “Save changes”.",
+            "de": "Öffne den Reiter «Teams», um Namen, Kurznamen, Farben, Spieler und Bankoffizielle zu ändern. Der Reiter «Spielinfo» enthält Halle, Datum und Offizielle. Tippe dann auf «Änderungen speichern».",
+            "fr": "Ouvrez l'onglet « Équipes » pour changer les noms, les noms courts, les couleurs, les joueurs et les officiels du banc. L'onglet « Info match » contient la salle, la date et les officiels. Appuyez ensuite sur « Enregistrer les modifications ».",
+            "it": "Apri la scheda «Squadre» per cambiare nomi, nomi brevi, colori, giocatori e ufficiali di panchina. La scheda «Info partita» contiene palestra, data e ufficiali di gara. Poi tocca «Salva le modifiche»."
+          }
+        },
+        {
+          "id": "saveChanges",
+          "question": {
+            "en": "How do I save my changes?",
+            "de": "Wie speichere ich meine Änderungen?",
+            "fr": "Comment sauvegarder mes modifications ?",
+            "it": "Come salvo le mie modifiche?"
+          },
+          "answer": {
+            "en": "Corrections are saved one by one when you confirm them. Changes in “Teams” and “Match info” are saved together with “Save changes” at the top. “Close” asks before it drops unsaved changes.",
+            "de": "Korrekturen werden einzeln gespeichert, wenn du sie bestätigst. Änderungen in «Teams» und «Spielinfo» speichert «Änderungen speichern» oben gemeinsam. «Schliessen» fragt nach, bevor ungespeicherte Änderungen verloren gehen.",
+            "fr": "Les corrections sont enregistrées une par une quand vous les confirmez. Les modifications dans « Équipes » et « Info match » sont enregistrées ensemble avec « Enregistrer les modifications » en haut. « Fermer » demande avant d'abandonner des modifications non enregistrées.",
+            "it": "Le correzioni vengono salvate una per una quando le confermi. Le modifiche in «Squadre» e «Info partita» si salvano insieme con «Salva le modifiche» in alto. «Chiudi» chiede prima di scartare modifiche non salvate."
+          }
+        },
+        {
+          "id": "signaturesCleared",
+          "question": {
+            "en": "Why were the signatures cleared?",
+            "de": "Warum wurden die Unterschriften gelöscht?",
+            "fr": "Pourquoi les signatures ont-elles été effacées ?",
+            "it": "Perché le firme sono state cancellate?"
+          },
+          "answer": {
+            "en": "A correction that changes the scoresheet clears the signatures collected at the match end. Collect them again. An approved match is read-only: reopen it first.",
+            "de": "Eine Korrektur, die das Matchblatt ändert, löscht die am Spielende gesammelten Unterschriften. Sammle sie neu. Ein genehmigtes Spiel ist schreibgeschützt: Öffne es zuerst wieder.",
+            "fr": "Une correction qui change la feuille de match efface les signatures recueillies à la fin du match. Recueillez-les à nouveau. Un match approuvé est en lecture seule : rouvrez-le d'abord.",
+            "it": "Una correzione che cambia il referto cancella le firme raccolte a fine partita. Raccoglile di nuovo. Una partita approvata è in sola lettura: riaprila prima."
+          }
+        },
+        {
+          "id": "editRoster",
+          "question": {
+            "en": "Can I change a roster during the match?",
+            "de": "Kann ich einen Kader während des Spiels ändern?",
+            "fr": "Puis-je changer un effectif pendant le match ?",
+            "it": "Posso cambiare un roster durante la partita?"
+          },
+          "answer": {
+            "en": "Yes: Menu › Edit home roster or Edit away roster. Changes after the coin toss are logged in the corrections and in the remarks.",
+            "de": "Ja: Menü › Heim-Aufstellung bearbeiten oder Gast-Aufstellung bearbeiten. Änderungen nach der Auslosung werden in den Korrekturen und in den Bemerkungen protokolliert.",
+            "fr": "Oui : Menu › Modifier la composition domicile ou Modifier la composition visiteur. Les changements faits après le tirage au sort sont notés dans les corrections et dans les remarques.",
+            "it": "Sì: Menu › Modifica rosa squadra casa o Modifica rosa squadra ospite. Le modifiche dopo il sorteggio vengono registrate nelle correzioni e nelle osservazioni."
+          }
+        }
+      ]
+    },
+    {
+      "id": "connections",
+      "url": "https://openvolley.app/support#connections",
+      "title": {
+        "en": "Connecting tablets",
+        "de": "Tablets verbinden",
+        "fr": "Connecter des tablettes",
+        "it": "Collegare i tablet"
+      },
+      "video": {
+        "id": "connections",
+        "mp4": "https://openvolley.app/support/videos/connections.mp4",
+        "poster": "https://openvolley.app/support/videos/connections.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/connections.en.vtt",
+          "de": "https://openvolley.app/support/videos/connections.de.vtt",
+          "fr": "https://openvolley.app/support/videos/connections.fr.vtt",
+          "it": "https://openvolley.app/support/videos/connections.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "connectTablets",
+          "app": "scorer",
+          "name": {
+            "en": "Connect tablets",
+            "de": "Tablets verbinden",
+            "fr": "Connecter des tablettes",
+            "it": "Collega tablet"
+          }
+        },
+        {
+          "id": "matchSetup",
+          "app": "scorer",
+          "name": {
+            "en": "Match setup",
+            "de": "Spieleinrichtung",
+            "fr": "Configuration du match",
+            "it": "Configurazione partita"
+          }
+        },
+        {
+          "id": "referee",
+          "app": "referee",
+          "name": {
+            "en": "Referee",
+            "de": "Schiedsrichter",
+            "fr": "Espace arbitre",
+            "it": "Arbitro"
+          }
+        },
+        {
+          "id": "bench",
+          "app": "bench",
+          "name": {
+            "en": "Bench",
+            "de": "Bank",
+            "fr": "Espace équipe",
+            "it": "Panchina"
+          }
+        },
+        {
+          "id": "livescore",
+          "app": "livescore",
+          "name": {
+            "en": "Livescore",
+            "de": "Livescore",
+            "fr": "Livescore",
+            "it": "Livescore"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "how",
+          "question": {
+            "en": "How do I connect the referee and bench tablets?",
+            "de": "Wie verbinde ich die Tablets von Schiedsrichter und Bänken?",
+            "fr": "Comment connecter les tablettes de l'arbitre et des bancs ?",
+            "it": "Come collego i tablet dell'arbitro e delle panchine?"
+          },
+          "answer": {
+            "en": "Open the menu (☰) in the header and tap “Connect tablets”. Step 1: choose how the tablets connect. Step 2: choose the tablet. Step 3: scan the code with the tablet's camera and enter the PIN shown.",
+            "de": "Öffne das Menü (☰) in der Kopfzeile und tippe auf «Tablets verbinden». Schritt 1: Wähle, wie die Tablets sich verbinden. Schritt 2: Wähle das Tablet. Schritt 3: Scanne den Code mit der Kamera des Tablets und gib die angezeigte PIN ein.",
+            "fr": "Ouvrez le menu (☰) de l'en-tête et appuyez sur « Connecter des tablettes ». Étape 1 : choisissez comment les tablettes se connectent. Étape 2 : choisissez la tablette. Étape 3 : scannez le code avec l'appareil photo de la tablette et saisissez le PIN affiché.",
+            "it": "Apri il menu (☰) nell'intestazione e tocca «Collega tablet». Passo 1: scegli come si collegano i tablet. Passo 2: scegli il tablet. Passo 3: scansiona il codice con la fotocamera del tablet e inserisci il PIN mostrato."
+          }
+        },
+        {
+          "id": "whichWay",
+          "question": {
+            "en": "Which connection should I choose?",
+            "de": "Welche Verbindung soll ich wählen?",
+            "fr": "Quelle connexion choisir ?",
+            "it": "Quale connessione scelgo?"
+          },
+          "answer": {
+            "en": "“Hall Wi-Fi”: the hall has Wi-Fi and this computer is on it. “Wi-Fi from this computer”: no hall Wi-Fi; the desktop app makes its own (Windows, Linux). “Internet”: the tablets have mobile data; you must be signed in. “Bluetooth” is a last resort, on Linux only.",
+            "de": "«WLAN der Halle»: Die Halle hat WLAN und dieser Computer ist darin. «WLAN von diesem Computer»: kein Hallen-WLAN; die Desktop-App macht ein eigenes (Windows, Linux). «Internet»: Die Tablets haben mobile Daten; du musst angemeldet sein. «Bluetooth» ist der letzte Ausweg, nur unter Linux.",
+            "fr": "« Wi-Fi de la salle » : la salle a du Wi-Fi et cet ordinateur y est connecté. « Wi-Fi de cet ordinateur » : pas de Wi-Fi dans la salle ; l'app pour ordinateur crée le sien (Windows, Linux). « Internet » : les tablettes ont des données mobiles ; vous devez être connecté. « Bluetooth » est le dernier recours, sous Linux seulement.",
+            "it": "«Wi-Fi della palestra»: la palestra ha il Wi-Fi e questo computer è collegato. «Wi-Fi da questo computer»: niente Wi-Fi in palestra; l'app desktop ne crea uno suo (Windows, Linux). «Internet»: i tablet hanno dati mobili; devi aver effettuato l'accesso. «Bluetooth» è l'ultima risorsa, solo su Linux."
+          }
+        },
+        {
+          "id": "desktopNeeded",
+          "question": {
+            "en": "Why does it say “Needs the desktop app”?",
+            "de": "Warum steht «Braucht die Desktop-App»?",
+            "fr": "Pourquoi est-il écrit « Nécessite l’app pour ordinateur » ?",
+            "it": "Perché c'è scritto «Serve l’app desktop»?"
+          },
+          "answer": {
+            "en": "Tablets on the local network need the OpenVolley desktop app (or a venue box) on this computer: it serves the referee, bench and livescore pages. In a browser, choose “Internet”.",
+            "de": "Tablets im lokalen Netz brauchen die OpenVolley-Desktop-App (oder eine Hallenbox) auf diesem Computer: Sie liefert die Seiten für Schiedsrichter, Bänke und Livescore. Im Browser wählst du «Internet».",
+            "fr": "Les tablettes du réseau local ont besoin de l'app OpenVolley pour ordinateur (ou d'un boîtier de salle) sur cet ordinateur : elle fournit les pages de l'arbitre, des bancs et du livescore. Dans un navigateur, choisissez « Internet ».",
+            "it": "I tablet sulla rete locale hanno bisogno dell'app desktop di OpenVolley (o di un box per la palestra) su questo computer: fornisce le pagine di arbitro, panchine e livescore. In un browser, scegli «Internet»."
+          }
+        },
+        {
+          "id": "pageNotLoading",
+          "question": {
+            "en": "The tablet joins, but the page does not load?",
+            "de": "Das Tablet ist im WLAN, aber die Seite lädt nicht?",
+            "fr": "La tablette rejoint le Wi-Fi, mais la page ne se charge pas ?",
+            "it": "Il tablet entra nel Wi-Fi, ma la pagina non si carica?"
+          },
+          "answer": {
+            "en": "Some hall Wi-Fis keep devices apart: choose “Wi-Fi from this computer” or “Internet”. On Windows, let OpenVolley through the firewall: Windows Security › Firewall & network protection › Allow an app through firewall › OpenVolley › tick “Public”.",
+            "de": "Manche Hallen-WLANs trennen die Geräte voneinander: Wähle «WLAN von diesem Computer» oder «Internet». Unter Windows lässt du OpenVolley durch die Firewall: Windows-Sicherheit › Firewall- & Netzwerkschutz › App durch Firewall zulassen › OpenVolley › «Öffentlich» ankreuzen.",
+            "fr": "Certains Wi-Fi de salle isolent les appareils : choisissez « Wi-Fi de cet ordinateur » ou « Internet ». Sous Windows, laissez passer OpenVolley par le pare-feu : Sécurité Windows › Pare-feu et protection du réseau › Autoriser une application via le pare-feu › OpenVolley › cochez « Public ».",
+            "it": "Alcuni Wi-Fi delle palestre tengono separati i dispositivi: scegli «Wi-Fi da questo computer» o «Internet». Su Windows fai passare OpenVolley dal firewall: Sicurezza di Windows › Firewall e protezione della rete › Consenti app attraverso il firewall › OpenVolley › spunta «Pubblica»."
+          }
+        },
+        {
+          "id": "noInternet",
+          "question": {
+            "en": "The tablet says “No internet” on the laptop's Wi-Fi?",
+            "de": "Das Tablet meldet im WLAN des Laptops «Kein Internet»?",
+            "fr": "La tablette affiche « Pas d’internet » sur le Wi-Fi de l'ordinateur portable ?",
+            "it": "Il tablet dice «Nessuna connessione a internet» sul Wi-Fi del portatile?"
+          },
+          "answer": {
+            "en": "That is normal: the laptop's Wi-Fi has no internet. Choose “Stay connected”, then scan the code of the tablet's role.",
+            "de": "Das ist normal: Das WLAN des Laptops hat kein Internet. Wähle «Verbunden bleiben» und scanne dann den Code der Rolle des Tablets.",
+            "fr": "C'est normal : le Wi-Fi de l'ordinateur portable n'a pas d'internet. Choisissez « Rester connecté », puis scannez le code du rôle de la tablette.",
+            "it": "È normale: il Wi-Fi del portatile non ha internet. Scegli «Resta connesso», poi scansiona il codice del ruolo del tablet."
+          }
+        },
+        {
+          "id": "pin",
+          "question": {
+            "en": "Where is the PIN, and why is it refused?",
+            "de": "Wo ist die PIN, und warum wird sie abgelehnt?",
+            "fr": "Où est le PIN, et pourquoi est-il refusé ?",
+            "it": "Dov'è il PIN, e perché viene rifiutato?"
+          },
+          "answer": {
+            "en": "Step 3 shows the PIN of the chosen tablet. The links and codes never contain it. A tablet that is off is refused: turn it on in step 2 (“Let … in”). After too many wrong PINs, wait a few minutes.",
+            "de": "Schritt 3 zeigt die PIN des gewählten Tablets. Links und Codes enthalten sie nie. Ein ausgeschaltetes Tablet wird abgelehnt: Schalte es in Schritt 2 ein («… zulassen»). Nach zu vielen falschen PINs warte einige Minuten.",
+            "fr": "L'étape 3 montre le PIN de la tablette choisie. Les liens et les codes ne le contiennent jamais. Une tablette désactivée est refusée : activez-la à l'étape 2 (« Autoriser … »). Après trop de PIN faux, attendez quelques minutes.",
+            "it": "Il passo 3 mostra il PIN del tablet scelto. Link e codici non lo contengono mai. Un tablet spento viene rifiutato: accendilo al passo 2 («Ammetti …»). Dopo troppi PIN sbagliati, aspetta qualche minuto."
+          }
+        },
+        {
+          "id": "hallServer",
+          "question": {
+            "en": "What is the hall server?",
+            "de": "Was ist der Hallenserver?",
+            "fr": "Qu'est-ce que le serveur de salle ?",
+            "it": "Cos'è il server della palestra?"
+          },
+          "answer": {
+            "en": "The OpenVolley desktop app runs a server for the tablets on the hall network, with no internet needed. A venue box or the downloadable server does the same. With internet, the match also syncs to the cloud.",
+            "de": "Die OpenVolley-Desktop-App betreibt einen Server für die Tablets im Hallennetz, ganz ohne Internet. Eine Hallenbox oder der herunterladbare Server macht dasselbe. Mit Internet wird das Spiel zusätzlich mit der Cloud synchronisiert.",
+            "fr": "L'app OpenVolley pour ordinateur fait tourner un serveur pour les tablettes sur le réseau de la salle, sans internet. Un boîtier de salle ou le serveur téléchargeable fait la même chose. Avec internet, le match se synchronise aussi avec le cloud.",
+            "it": "L'app desktop di OpenVolley fa girare un server per i tablet sulla rete della palestra, senza bisogno di internet. Un box per la palestra o il server scaricabile fanno lo stesso. Con internet, la partita si sincronizza anche con il cloud."
+          }
+        },
+        {
+          "id": "internetTablets",
+          "question": {
+            "en": "Do the tablets need internet?",
+            "de": "Brauchen die Tablets Internet?",
+            "fr": "Les tablettes ont-elles besoin d'internet ?",
+            "it": "I tablet hanno bisogno di internet?"
+          },
+          "answer": {
+            "en": "Only with “Internet”. Then you must be signed in, and the match must be synced (the status says Synced) before the tablets find it. On the hall network, no internet is needed.",
+            "de": "Nur mit «Internet». Dann musst du angemeldet sein, und das Spiel muss synchronisiert sein (der Status zeigt Synchronisiert), bevor die Tablets es finden. Im Hallennetz braucht es kein Internet.",
+            "fr": "Seulement avec « Internet ». Vous devez alors être connecté, et le match doit être synchronisé (l'état indique Synchronisé) avant que les tablettes le trouvent. Sur le réseau de la salle, internet n'est pas nécessaire.",
+            "it": "Solo con «Internet». In quel caso devi aver effettuato l'accesso, e la partita deve essere sincronizzata (lo stato dice Sincronizzato) prima che i tablet la trovino. Sulla rete della palestra internet non serve."
+          }
+        }
+      ]
+    },
+    {
+      "id": "referee",
+      "url": "https://openvolley.app/support#referee",
+      "title": {
+        "en": "Referee tablet",
+        "de": "Schiedsrichter-Tablet",
+        "fr": "Tablette de l'arbitre",
+        "it": "Tablet dell'arbitro"
+      },
+      "video": {
+        "id": "referee",
+        "mp4": "https://openvolley.app/support/videos/referee.mp4",
+        "poster": "https://openvolley.app/support/videos/referee.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/referee.en.vtt",
+          "de": "https://openvolley.app/support/videos/referee.de.vtt",
+          "fr": "https://openvolley.app/support/videos/referee.fr.vtt",
+          "it": "https://openvolley.app/support/videos/referee.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "referee",
+          "app": "referee",
+          "name": {
+            "en": "Referee",
+            "de": "Schiedsrichter",
+            "fr": "Espace arbitre",
+            "it": "Arbitro"
+          }
+        },
+        {
+          "id": "connectTablets",
+          "app": "scorer",
+          "name": {
+            "en": "Connect tablets",
+            "de": "Tablets verbinden",
+            "fr": "Connecter des tablettes",
+            "it": "Collega tablet"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "open",
+          "question": {
+            "en": "How do I open the referee tablet?",
+            "de": "Wie öffne ich das Schiedsrichter-Tablet?",
+            "fr": "Comment ouvrir la tablette de l'arbitre ?",
+            "it": "Come apro il tablet dell'arbitro?"
+          },
+          "answer": {
+            "en": "Scan the referee code from the scorer's “Connect tablets”, or open referee.openvolley.app. Choose the game, enter the “Connection PIN” and tap “Enter”.",
+            "de": "Scanne den Schiedsrichter-Code aus «Tablets verbinden» des Schreibers, oder öffne referee.openvolley.app. Wähle das Spiel, gib die «Verbindungs-PIN» ein und tippe auf «Eingeben».",
+            "fr": "Scannez le code de l'arbitre dans « Connecter des tablettes » du marqueur, ou ouvrez referee.openvolley.app. Choisissez le match, saisissez le « PIN de connexion » et appuyez sur « Entrer ».",
+            "it": "Scansiona il codice dell'arbitro da «Collega tablet» del segnapunti, oppure apri referee.openvolley.app. Scegli la partita, inserisci il «PIN di connessione» e tocca «Entra»."
+          }
+        },
+        {
+          "id": "noGames",
+          "question": {
+            "en": "It says “No active games found”?",
+            "de": "Es steht «Kein aktives Spiel gefunden»?",
+            "fr": "Il est écrit « Aucun match actif » ?",
+            "it": "C'è scritto «Nessuna partita attiva trovata»?"
+          },
+          "answer": {
+            "en": "The scorer must have the match open with the referee tablet turned on (“Connect tablets”, step 2). Over the internet, the match must be synced first. Tap “Load games” to look again.",
+            "de": "Der Schreiber muss das Spiel offen haben und das Schiedsrichter-Tablet eingeschaltet («Tablets verbinden», Schritt 2). Über das Internet muss das Spiel zuerst synchronisiert sein. Tippe auf «Spiele laden», um nochmals zu suchen.",
+            "fr": "Le marqueur doit avoir le match ouvert avec la tablette de l'arbitre activée (« Connecter des tablettes », étape 2). Par internet, le match doit d'abord être synchronisé. Appuyez sur « Charger les matchs » pour chercher à nouveau.",
+            "it": "Il segnapunti deve avere la partita aperta con il tablet dell'arbitro acceso («Collega tablet», passo 2). Via internet, la partita deve prima essere sincronizzata. Tocca «Carica partite» per cercare di nuovo."
+          }
+        },
+        {
+          "id": "view",
+          "question": {
+            "en": "What do 1 REF and 2 REF change?",
+            "de": "Was ändern 1 REF und 2 REF?",
+            "fr": "Que changent 1 REF et 2 REF ?",
+            "it": "Cosa cambiano 1 REF e 2 REF?"
+          },
+          "answer": {
+            "en": "They turn the court to match where you stand: 1 REF for the 1st referee on the stand, 2 REF for the 2nd referee on the scorer's side. The score and the data stay the same.",
+            "de": "Sie drehen das Feld passend zu deinem Standort: 1 REF für den 1. Schiedsrichter auf dem Stuhl, 2 REF für den 2. Schiedsrichter auf der Seite des Schreibers. Spielstand und Daten bleiben gleich.",
+            "fr": "Ils tournent le terrain selon votre place : 1 REF pour le 1er arbitre sur sa chaise, 2 REF pour le 2nd arbitre du côté du marqueur. Le score et les données restent les mêmes.",
+            "it": "Girano il campo secondo dove ti trovi: 1 REF per il 1° arbitro sul seggiolone, 2 REF per il 2° arbitro dal lato del segnapunti. Punteggio e dati restano uguali."
+          }
+        },
+        {
+          "id": "shows",
+          "question": {
+            "en": "What does the referee tablet show?",
+            "de": "Was zeigt das Schiedsrichter-Tablet?",
+            "fr": "Que montre la tablette de l'arbitre ?",
+            "it": "Cosa mostra il tablet dell'arbitro?"
+          },
+          "answer": {
+            "en": "The score and the sets, the serving team, both line-ups with the rotation, the time-outs and substitutions, the sanctions and the last action. Time-outs and intervals show their countdown.",
+            "de": "Spielstand und Sätze, das aufschlagende Team, beide Aufstellungen mit der Rotation, Timeouts und Wechsel, Sanktionen und die letzte Aktion. Timeouts und Pausen zeigen ihren Countdown.",
+            "fr": "Le score et les sets, l'équipe au service, les deux formations avec la rotation, les temps morts et les remplacements, les sanctions et la dernière action. Les temps morts et les pauses montrent leur compte à rebours.",
+            "it": "Il punteggio e i set, la squadra al servizio, le due formazioni con la rotazione, timeout e sostituzioni, le sanzioni e l'ultima azione. Timeout e intervalli mostrano il loro conto alla rovescia."
+          }
+        },
+        {
+          "id": "offline",
+          "question": {
+            "en": "It says “Offline: no connection to the scoresheet”?",
+            "de": "Es steht «Offline: keine Verbindung zum Matchblatt»?",
+            "fr": "Il est écrit « Hors ligne : pas de connexion à la feuille de match » ?",
+            "it": "C'è scritto «Offline: nessuna connessione al referto»?"
+          },
+          "answer": {
+            "en": "The connection to the scorer dropped, so the score may be out of date. The tablet reconnects by itself when the network is back. If it does not, tap “Refresh” in the menu.",
+            "de": "Die Verbindung zum Schreiber ist unterbrochen, der Spielstand kann veraltet sein. Das Tablet verbindet sich von selbst wieder, sobald das Netz zurück ist. Falls nicht, tippe im Menü auf «Aktualisieren».",
+            "fr": "La connexion au marqueur est coupée, le score peut ne pas être à jour. La tablette se reconnecte d'elle-même quand le réseau revient. Sinon, appuyez sur « Actualiser » dans le menu.",
+            "it": "La connessione con il segnapunti si è interrotta, quindi il punteggio può non essere aggiornato. Il tablet si ricollega da solo quando torna la rete. Se non succede, tocca «Aggiorna» nel menu."
+          }
+        },
+        {
+          "id": "screen",
+          "question": {
+            "en": "How do I keep the screen on?",
+            "de": "Wie bleibt der Bildschirm an?",
+            "fr": "Comment garder l'écran allumé ?",
+            "it": "Come tengo acceso lo schermo?"
+          },
+          "answer": {
+            "en": "Open the menu and switch on “Keep screen on”. The fullscreen button hides the browser bars.",
+            "de": "Öffne das Menü und schalte «Bildschirm an lassen» ein. Die Vollbild-Schaltfläche blendet die Leisten des Browsers aus.",
+            "fr": "Ouvrez le menu et activez « Garder l'écran allumé ». Le bouton plein écran masque les barres du navigateur.",
+            "it": "Apri il menu e attiva «Mantieni schermo acceso». Il pulsante a schermo intero nasconde le barre del browser."
+          }
+        },
+        {
+          "id": "bell",
+          "question": {
+            "en": "What is the bell alert?",
+            "de": "Was ist der Glocken-Alarm?",
+            "fr": "Qu'est-ce que l'alerte de la cloche ?",
+            "it": "Cos'è l'avviso con la campana?"
+          },
+          "answer": {
+            "en": "The scorer can call the referee with the bell in the header. The referee tablet then shows an alert and vibrates where it can.",
+            "de": "Der Schreiber kann den Schiedsrichter mit der Glocke in der Kopfzeile rufen. Das Schiedsrichter-Tablet zeigt dann einen Hinweis und vibriert, wo es das kann.",
+            "fr": "Le marqueur peut appeler l'arbitre avec la cloche de l'en-tête. La tablette de l'arbitre affiche alors une alerte et vibre si elle le peut.",
+            "it": "Il segnapunti può chiamare l'arbitro con la campana nell'intestazione. Il tablet dell'arbitro mostra allora un avviso e vibra, se può."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bench",
+      "url": "https://openvolley.app/support#bench",
+      "title": {
+        "en": "Bench tablet",
+        "de": "Bank-Tablet",
+        "fr": "Tablette du banc",
+        "it": "Tablet della panchina"
+      },
+      "video": {
+        "id": "bench",
+        "mp4": "https://openvolley.app/support/videos/bench.mp4",
+        "poster": "https://openvolley.app/support/videos/bench.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/bench.en.vtt",
+          "de": "https://openvolley.app/support/videos/bench.de.vtt",
+          "fr": "https://openvolley.app/support/videos/bench.fr.vtt",
+          "it": "https://openvolley.app/support/videos/bench.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "bench",
+          "app": "bench",
+          "name": {
+            "en": "Bench",
+            "de": "Bank",
+            "fr": "Espace équipe",
+            "it": "Panchina"
+          }
+        },
+        {
+          "id": "connectTablets",
+          "app": "scorer",
+          "name": {
+            "en": "Connect tablets",
+            "de": "Tablets verbinden",
+            "fr": "Connecter des tablettes",
+            "it": "Collega tablet"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "open",
+          "question": {
+            "en": "How do I open the bench tablet?",
+            "de": "Wie öffne ich das Bank-Tablet?",
+            "fr": "Comment ouvrir la tablette du banc ?",
+            "it": "Come apro il tablet della panchina?"
+          },
+          "answer": {
+            "en": "Scan the team's bench code from the scorer's “Connect tablets”, or open bench.openvolley.app. Choose the game and your team, enter the team PIN and tap “Connect”.",
+            "de": "Scanne den Bank-Code des Teams aus «Tablets verbinden» des Schreibers, oder öffne bench.openvolley.app. Wähle das Spiel und dein Team, gib die Team-PIN ein und tippe auf «Verbinden».",
+            "fr": "Scannez le code du banc de l'équipe dans « Connecter des tablettes » du marqueur, ou ouvrez bench.openvolley.app. Choisissez le match et votre équipe, saisissez le PIN de l'équipe et appuyez sur « Se connecter ».",
+            "it": "Scansiona il codice della panchina della squadra da «Collega tablet» del segnapunti, oppure apri bench.openvolley.app. Scegli la partita e la tua squadra, inserisci il PIN squadra e tocca «Connetti»."
+          }
+        },
+        {
+          "id": "shows",
+          "question": {
+            "en": "What does the bench tablet show?",
+            "de": "Was zeigt das Bank-Tablet?",
+            "fr": "Que montre la tablette du banc ?",
+            "it": "Cosa mostra il tablet della panchina?"
+          },
+          "answer": {
+            "en": "The live match of your team: the score and the sets, the time-outs (TO) and substitutions used, the court with the line-up, the libero and captain marks, and the sanctions.",
+            "de": "Das laufende Spiel deines Teams: Spielstand und Sätze, die genommenen Timeouts (TO) und Wechsel, das Feld mit der Aufstellung, die Zeichen für Libero und Captain sowie die Sanktionen.",
+            "fr": "Le match en direct de votre équipe : le score et les sets, les temps morts (TM) et les remplacements utilisés, le terrain avec la formation, les marques du libéro et du capitaine, et les sanctions.",
+            "it": "La partita in diretta della tua squadra: punteggio e set, i timeout (TO) e le sostituzioni usati, il campo con la formazione, i segni del libero e del capitano, e le sanzioni."
+          }
+        },
+        {
+          "id": "requests",
+          "question": {
+            "en": "Can the coach call a time-out or a substitution from the tablet?",
+            "de": "Kann der Coach am Tablet ein Timeout oder einen Wechsel verlangen?",
+            "fr": "L'entraîneur peut-il demander un temps mort ou un remplacement depuis la tablette ?",
+            "it": "L'allenatore può chiedere un timeout o una sostituzione dal tablet?"
+          },
+          "answer": {
+            "en": "No. The bench tablet only shows the match. Ask for time-outs and substitutions as usual; the scorer records them.",
+            "de": "Nein. Das Bank-Tablet zeigt das Spiel nur an. Timeouts und Wechsel verlangst du wie gewohnt; der Schreiber erfasst sie.",
+            "fr": "Non. La tablette du banc montre seulement le match. Demandez les temps morts et les remplacements comme d'habitude ; le marqueur les saisit.",
+            "it": "No. Il tablet della panchina mostra soltanto la partita. Chiedi timeout e sostituzioni come sempre; il segnapunti li registra."
+          }
+        },
+        {
+          "id": "invalidPin",
+          "question": {
+            "en": "It says “Invalid PIN”?",
+            "de": "Es steht «Ungültiger PIN»?",
+            "fr": "Il est écrit « Code incorrect » ?",
+            "it": "C'è scritto «PIN non valido»?"
+          },
+          "answer": {
+            "en": "Check the team PIN with the scorer. The scorer must turn the bench on in “Connect tablets” (step 2). After too many wrong PINs from one network, wait a few minutes.",
+            "de": "Prüfe die Team-PIN beim Schreiber. Der Schreiber muss die Bank in «Tablets verbinden» einschalten (Schritt 2). Nach zu vielen falschen PINs aus einem Netz warte einige Minuten.",
+            "fr": "Vérifiez le PIN de l'équipe auprès du marqueur. Le marqueur doit activer le banc dans « Connecter des tablettes » (étape 2). Après trop de PIN faux depuis un même réseau, attendez quelques minutes.",
+            "it": "Controlla il PIN squadra con il segnapunti. Il segnapunti deve accendere la panchina in «Collega tablet» (passo 2). Dopo troppi PIN sbagliati dalla stessa rete, aspetta qualche minuto."
+          }
+        },
+        {
+          "id": "awaiting",
+          "question": {
+            "en": "It says “Awaiting coin toss”?",
+            "de": "Es steht «Warte auf Auslosung»?",
+            "fr": "Il est écrit « En attente du tirage » ?",
+            "it": "C'è scritto «In attesa del sorteggio»?"
+          },
+          "answer": {
+            "en": "The match starts on the tablet as soon as the scorer confirms the coin toss.",
+            "de": "Das Spiel beginnt auf dem Tablet, sobald der Schreiber die Auslosung bestätigt.",
+            "fr": "Le match commence sur la tablette dès que le marqueur confirme le tirage au sort.",
+            "it": "La partita inizia sul tablet appena il segnapunti conferma il sorteggio."
+          }
+        },
+        {
+          "id": "outage",
+          "question": {
+            "en": "The bench lost the connection?",
+            "de": "Die Bank hat die Verbindung verloren?",
+            "fr": "Le banc a perdu la connexion ?",
+            "it": "La panchina ha perso la connessione?"
+          },
+          "answer": {
+            "en": "It rejoins its match by itself when the server is back, and waits for the scoresheet if needed. You do not need to enter the PIN again.",
+            "de": "Sie kehrt von selbst in ihr Spiel zurück, sobald der Server wieder erreichbar ist, und wartet wenn nötig auf das Matchblatt. Du musst die PIN nicht neu eingeben.",
+            "fr": "Il revient de lui-même dans son match quand le serveur est de nouveau là, et attend la feuille de match si besoin. Vous n'avez pas à ressaisir le PIN.",
+            "it": "Rientra da sola nella sua partita quando il server torna raggiungibile, e se serve aspetta il referto. Non devi reinserire il PIN."
+          }
+        },
+        {
+          "id": "roster",
+          "question": {
+            "en": "How does the coach send the roster?",
+            "de": "Wie schickt der Coach den Kader?",
+            "fr": "Comment l'entraîneur envoie-t-il l'effectif ?",
+            "it": "Come invia il roster l'allenatore?"
+          },
+          "answer": {
+            "en": "On roster.openvolley.app: choose the game and the team, enter the upload PIN from the scorer and upload the roster PDF. The scorer accepts it in the match setup.",
+            "de": "Auf roster.openvolley.app: Spiel und Team wählen, die Upload-PIN vom Schreiber eingeben und das Kader-PDF hochladen. Der Schreiber akzeptiert es in der Spieleinrichtung.",
+            "fr": "Sur roster.openvolley.app : choisir le match et l'équipe, saisir le code PIN donné par le marqueur et envoyer le PDF de l'effectif. Le marqueur l'accepte dans la configuration du match.",
+            "it": "Su roster.openvolley.app: scegliere la partita e la squadra, inserire il PIN per upload dato dal segnapunti e caricare il PDF del roster. Il segnapunti lo accetta nella configurazione della partita."
+          }
+        }
+      ]
+    },
+    {
+      "id": "livescore",
+      "url": "https://openvolley.app/support#livescore",
+      "title": {
+        "en": "Livescore and scoreboards",
+        "de": "Livescore und Anzeigetafeln",
+        "fr": "Livescore et tableaux d'affichage",
+        "it": "Livescore e tabelloni"
+      },
+      "video": {
+        "id": "livescore",
+        "mp4": "https://openvolley.app/support/videos/livescore.mp4",
+        "poster": "https://openvolley.app/support/videos/livescore.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/livescore.en.vtt",
+          "de": "https://openvolley.app/support/videos/livescore.de.vtt",
+          "fr": "https://openvolley.app/support/videos/livescore.fr.vtt",
+          "it": "https://openvolley.app/support/videos/livescore.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "livescore",
+          "app": "livescore",
+          "name": {
+            "en": "Livescore",
+            "de": "Livescore",
+            "fr": "Livescore",
+            "it": "Livescore"
+          }
+        },
+        {
+          "id": "connectTablets",
+          "app": "scorer",
+          "name": {
+            "en": "Connect tablets",
+            "de": "Tablets verbinden",
+            "fr": "Connecter des tablettes",
+            "it": "Collega tablet"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "open",
+          "question": {
+            "en": "How do I follow a match live?",
+            "de": "Wie verfolge ich ein Spiel live?",
+            "fr": "Comment suivre un match en direct ?",
+            "it": "Come seguo una partita in diretta?"
+          },
+          "answer": {
+            "en": "Open livescore.openvolley.app and choose the game. No PIN is needed. Or scan the livescore code in the scorer's “Connect tablets”.",
+            "de": "Öffne livescore.openvolley.app und wähle das Spiel. Eine PIN ist nicht nötig. Oder scanne den Livescore-Code in «Tablets verbinden» des Schreibers.",
+            "fr": "Ouvrez livescore.openvolley.app et choisissez le match. Aucun PIN n'est nécessaire. Ou scannez le code du livescore dans « Connecter des tablettes » du marqueur.",
+            "it": "Apri livescore.openvolley.app e scegli la partita. Non serve nessun PIN. Oppure scansiona il codice del livescore in «Collega tablet» del segnapunti."
+          }
+        },
+        {
+          "id": "shows",
+          "question": {
+            "en": "What does the livescore show?",
+            "de": "Was zeigt der Livescore?",
+            "fr": "Que montre le livescore ?",
+            "it": "Cosa mostra il livescore?"
+          },
+          "answer": {
+            "en": "The team names, the score, the sets and the serving team. It shows no player data.",
+            "de": "Die Teamnamen, den Spielstand, die Sätze und das aufschlagende Team. Er zeigt keine Spielerdaten.",
+            "fr": "Les noms des équipes, le score, les sets et l'équipe au service. Il ne montre aucune donnée de joueur.",
+            "it": "I nomi delle squadre, il punteggio, i set e la squadra al servizio. Non mostra dati dei giocatori."
+          }
+        },
+        {
+          "id": "notListed",
+          "question": {
+            "en": "My game is not listed?",
+            "de": "Mein Spiel ist nicht in der Liste?",
+            "fr": "Mon match n'est pas dans la liste ?",
+            "it": "La mia partita non è nell'elenco?"
+          },
+          "answer": {
+            "en": "The scorer must be online and signed in, with the match started and synced. Test matches never appear on the online livescore. On the hall network, open the livescore address shown in “Connect tablets”.",
+            "de": "Der Schreiber muss online und angemeldet sein, das Spiel gestartet und synchronisiert. Testspiele erscheinen nie im Online-Livescore. Im Hallennetz öffnest du die Livescore-Adresse aus «Tablets verbinden».",
+            "fr": "Le marqueur doit être en ligne et connecté, avec le match commencé et synchronisé. Les matchs amicaux n'apparaissent jamais dans le livescore en ligne. Sur le réseau de la salle, ouvrez l'adresse du livescore indiquée dans « Connecter des tablettes ».",
+            "it": "Il segnapunti deve essere online e aver effettuato l'accesso, con la partita iniziata e sincronizzata. Le partite test non compaiono mai nel livescore online. Sulla rete della palestra, apri l'indirizzo del livescore mostrato in «Collega tablet»."
+          }
+        },
+        {
+          "id": "bigScreen",
+          "question": {
+            "en": "Can I show the score on a big screen?",
+            "de": "Kann ich den Spielstand auf einem grossen Bildschirm zeigen?",
+            "fr": "Puis-je afficher le score sur un grand écran ?",
+            "it": "Posso mostrare il punteggio su un grande schermo?"
+          },
+          "answer": {
+            "en": "Yes. Open the livescore on the screen's computer and choose the game: it fills the page. The browser's fullscreen (F11 on most computers) hides the bars.",
+            "de": "Ja. Öffne den Livescore auf dem Computer des Bildschirms und wähle das Spiel: Es füllt die Seite. Der Vollbildmodus des Browsers (auf den meisten Computern F11) blendet die Leisten aus.",
+            "fr": "Oui. Ouvrez le livescore sur l'ordinateur de l'écran et choisissez le match : il remplit la page. Le plein écran du navigateur (F11 sur la plupart des ordinateurs) masque les barres.",
+            "it": "Sì. Apri il livescore sul computer dello schermo e scegli la partita: riempie la pagina. Lo schermo intero del browser (F11 sulla maggior parte dei computer) nasconde le barre."
+          }
+        },
+        {
+          "id": "stale",
+          "question": {
+            "en": "It says “Connection problem: showing the last known scores”?",
+            "de": "Es steht «Verbindungsproblem: die zuletzt bekannten Ergebnisse werden angezeigt»?",
+            "fr": "Il est écrit « Problème de connexion : derniers scores connus affichés » ?",
+            "it": "C'è scritto «Problema di connessione: vengono mostrati gli ultimi punteggi noti»?"
+          },
+          "answer": {
+            "en": "The livescore lost its connection and shows the last score it received. It updates again when the connection is back.",
+            "de": "Der Livescore hat die Verbindung verloren und zeigt den zuletzt erhaltenen Spielstand. Er aktualisiert sich wieder, sobald die Verbindung zurück ist.",
+            "fr": "Le livescore a perdu sa connexion et montre le dernier score reçu. Il se met à jour dès que la connexion revient.",
+            "it": "Il livescore ha perso la connessione e mostra l'ultimo punteggio ricevuto. Si aggiorna di nuovo quando la connessione torna."
+          }
+        },
+        {
+          "id": "ledBoard",
+          "question": {
+            "en": "Can the hall's LED scoreboard show the score?",
+            "de": "Kann die LED-Anzeige der Halle den Spielstand zeigen?",
+            "fr": "Le tableau LED de la salle peut-il afficher le score ?",
+            "it": "Il tabellone LED della palestra può mostrare il punteggio?"
+          },
+          "answer": {
+            "en": "Yes. An LED scoreboard in the hall, such as the Point Hub board, can follow the match on the hall network. It receives only the team names, the score and the set results.",
+            "de": "Ja. Eine LED-Anzeigetafel in der Halle, etwa das Point-Hub-Board, kann dem Spiel im Hallennetz folgen. Sie erhält nur die Teamnamen, den Spielstand und die Satzresultate.",
+            "fr": "Oui. Un tableau LED dans la salle, comme le Point Hub board, peut suivre le match sur le réseau de la salle. Il ne reçoit que les noms des équipes, le score et les résultats des sets.",
+            "it": "Sì. Un tabellone LED in palestra, come il Point Hub board, può seguire la partita sulla rete della palestra. Riceve solo i nomi delle squadre, il punteggio e i risultati dei set."
+          }
+        }
+      ]
+    },
+    {
+      "id": "handover",
+      "url": "https://openvolley.app/support#handover",
+      "title": {
+        "en": "Continue on another device",
+        "de": "Auf einem anderen Gerät weiterführen",
+        "fr": "Continuer sur un autre appareil",
+        "it": "Continuare su un altro dispositivo"
+      },
+      "video": {
+        "id": "handover",
+        "mp4": "https://openvolley.app/support/videos/handover.mp4",
+        "poster": "https://openvolley.app/support/videos/handover.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/handover.en.vtt",
+          "de": "https://openvolley.app/support/videos/handover.de.vtt",
+          "fr": "https://openvolley.app/support/videos/handover.fr.vtt",
+          "it": "https://openvolley.app/support/videos/handover.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "restore",
+          "app": "scorer",
+          "name": {
+            "en": "Restore match",
+            "de": "Spiel wiederherstellen",
+            "fr": "Restaurer le match",
+            "it": "Ripristina partita"
+          }
+        },
+        {
+          "id": "takeBack",
+          "app": "scorer",
+          "name": {
+            "en": "Scored on another device",
+            "de": "Auf einem anderen Gerät geführt",
+            "fr": "Tenu sur un autre appareil",
+            "it": "Tenuta su un altro dispositivo"
+          }
+        },
+        {
+          "id": "home",
+          "app": "scorer",
+          "name": {
+            "en": "Home",
+            "de": "Startseite",
+            "fr": "Accueil",
+            "it": "Home"
+          }
+        },
+        {
+          "id": "closedCopy",
+          "app": "scorer",
+          "name": {
+            "en": "Closed on the server",
+            "de": "Auf dem Server abgeschlossen",
+            "fr": "Clôturé sur le serveur",
+            "it": "Chiusa sul server"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "continueOther",
+          "question": {
+            "en": "How do I continue a match on another device?",
+            "de": "Wie führe ich ein Spiel auf einem anderen Gerät weiter?",
+            "fr": "Comment continuer un match sur un autre appareil ?",
+            "it": "Come continuo una partita su un altro dispositivo?"
+          },
+          "answer": {
+            "en": "On the new device, tap “Restore match” on Home. Under “Restore from cloud backup”, enter the game number and the game PIN, then tap “Search cloud backups”. Choose the newest entry, check the “Restore preview” and tap “Confirm restore”. The new device scores from then on.",
+            "de": "Tippe auf dem neuen Gerät auf der Startseite auf «Spiel wiederherstellen». Gib unter «Aus Cloud-Backup wiederherstellen» die Spielnummer und die Spiel-PIN ein und tippe auf «Cloud-Backups suchen». Wähle den neuesten Eintrag, prüfe die «Wiederherstellungs-Vorschau» und tippe auf «Wiederherstellen». Ab dann führt das neue Gerät das Spiel.",
+            "fr": "Sur le nouvel appareil, appuyez sur « Restaurer le match » à l'accueil. Sous « Restaurer depuis la sauvegarde cloud », saisissez le numéro et le PIN du match, puis appuyez sur « Rechercher les sauvegardes cloud ». Choisissez l'entrée la plus récente, vérifiez l'« Aperçu de la restauration » et appuyez sur « Confirmer la restauration ». Dès lors, le nouvel appareil tient le match.",
+            "it": "Sul nuovo dispositivo, tocca «Ripristina partita» sulla home. In «Ripristina da backup cloud» inserisci il numero partita e il PIN partita, poi tocca «Cerca backup cloud». Scegli la voce più recente, controlla l'«Anteprima ripristino» e tocca «Conferma ripristino». Da quel momento referta il nuovo dispositivo."
+          }
+        },
+        {
+          "id": "gamePin",
+          "question": {
+            "en": "Where do I find the game PIN?",
+            "de": "Wo finde ich die Spiel-PIN?",
+            "fr": "Où trouver le PIN du match ?",
+            "it": "Dove trovo il PIN partita?"
+          },
+          "answer": {
+            "en": "On Home under “Game PIN”, on the match info page of the match setup (“Send PIN by email” sends it to you), and in the scoring screen under Menu › Show PINs.",
+            "de": "Auf der Startseite unter «Spiel-PIN», auf der Seite der Spielinfo in der Spieleinrichtung («PIN per E-Mail senden» schickt sie dir) und auf dem Erfassungsbildschirm unter Menü › PINs anzeigen.",
+            "fr": "À l'accueil sous « PIN du match », sur la page des informations du match dans la configuration (« Envoyer PIN par email » vous l'envoie) et sur l'écran de saisie sous Menu › Afficher les codes PIN.",
+            "it": "Sulla home sotto «PIN partita», nella pagina delle info partita nella configurazione («Invia PIN via email» te lo invia) e nella schermata del punteggio in Menu › Mostra PIN."
+          }
+        },
+        {
+          "id": "oldDevice",
+          "question": {
+            "en": "What happens on the old device?",
+            "de": "Was passiert auf dem alten Gerät?",
+            "fr": "Que se passe-t-il sur l'ancien appareil ?",
+            "it": "Cosa succede sul vecchio dispositivo?"
+          },
+          "answer": {
+            "en": "It shows “Scored on another device” and stops scoring. The match opens read-only there; its scoresheet can still be viewed. Changes it had not sent are set aside, never sent over the new score.",
+            "de": "Es zeigt «Auf einem anderen Gerät geführt» und hört auf zu erfassen. Das Spiel öffnet dort nur zum Lesen; sein Matchblatt lässt sich weiter ansehen. Nicht gesendete Änderungen werden beiseitegelegt, nie über den neuen Spielstand gesendet.",
+            "fr": "Il affiche « Tenu sur un autre appareil » et arrête la saisie. Le match s'y ouvre en lecture seule ; sa feuille de match reste consultable. Les modifications qu'il n'avait pas envoyées sont mises de côté, jamais envoyées par-dessus le nouveau score.",
+            "it": "Mostra «Tenuta su un altro dispositivo» e smette di refertare. Lì la partita si apre in sola lettura; il suo referto resta consultabile. Le modifiche che non aveva inviato vengono messe da parte, mai inviate sopra il nuovo punteggio."
+          }
+        },
+        {
+          "id": "takeBack",
+          "question": {
+            "en": "How do I take scoring back?",
+            "de": "Wie übernehme ich das Spiel wieder?",
+            "fr": "Comment reprendre la saisie ?",
+            "it": "Come riprendo la partita?"
+          },
+          "answer": {
+            "en": "On the old device, tap “Take back scoring here”. It needs a connection. The app first shows the score on the server: compare it with the scoreboard, then tap “Yes, take back scoring here”. The other device is told and stops.",
+            "de": "Tippe auf dem alten Gerät auf «Hier wieder übernehmen». Dafür braucht es eine Verbindung. Die App zeigt zuerst den Spielstand auf dem Server: Vergleiche ihn mit der Anzeige und tippe auf «Ja, hier wieder übernehmen». Das andere Gerät erfährt es und hört auf.",
+            "fr": "Sur l'ancien appareil, appuyez sur « Reprendre le match ici ». Une connexion est nécessaire. L'app montre d'abord le score sur le serveur : comparez-le avec le tableau, puis appuyez sur « Oui, reprendre le match ici ». L'autre appareil est averti et s'arrête.",
+            "it": "Sul vecchio dispositivo, tocca «Riprendi la partita qui». Serve una connessione. L'app mostra prima il punteggio sul server: confrontalo con il tabellone, poi tocca «Sì, riprendi la partita qui». L'altro dispositivo viene avvisato e si ferma."
+          }
+        },
+        {
+          "id": "backups",
+          "question": {
+            "en": "Where are the backups?",
+            "de": "Wo sind die Backups?",
+            "fr": "Où sont les sauvegardes ?",
+            "it": "Dove sono i backup?"
+          },
+          "answer": {
+            "en": "The desktop and Android apps save a backup file at every point and action: Options › Backup › Open backup folder. In a browser, use “Download backup now” in the options, or the download at the set end. When you are signed in, the app also keeps cloud backups during the match.",
+            "de": "Die Desktop- und die Android-App speichern bei jedem Punkt und jeder Aktion eine Backup-Datei: Optionen › Sicherung › Backup-Ordner öffnen. Im Browser nutzt du «Backup jetzt herunterladen» in den Optionen oder den Download am Satzende. Bist du angemeldet, behält die App während des Spiels auch Cloud-Backups.",
+            "fr": "Les apps pour ordinateur et Android enregistrent un fichier de sauvegarde à chaque point et chaque action : Options › Sauvegarde › Ouvrir le dossier de sauvegarde. Dans un navigateur, utilisez « Télécharger maintenant » dans les options, ou le téléchargement à la fin du set. Si vous êtes connecté, l'app garde aussi des sauvegardes cloud pendant le match.",
+            "it": "Le app desktop e Android salvano un file di backup a ogni punto e a ogni azione: Opzioni › Backup › Apri cartella di backup. In un browser, usa «Scarica backup ora» nelle opzioni o il download a fine set. Se hai effettuato l'accesso, l'app tiene anche backup nel cloud durante la partita."
+          }
+        },
+        {
+          "id": "restoreFile",
+          "question": {
+            "en": "How do I restore from a backup file?",
+            "de": "Wie stelle ich ein Spiel aus einer Backup-Datei wieder her?",
+            "fr": "Comment restaurer depuis un fichier de sauvegarde ?",
+            "it": "Come ripristino da un file di backup?"
+          },
+          "answer": {
+            "en": "On Home: “Restore match” › “Restore from local file” › “Select backup file”. Pick the file, check the “Restore preview” and tap “Confirm restore”.",
+            "de": "Auf der Startseite: «Spiel wiederherstellen» › «Aus lokaler Datei wiederherstellen» › «Backup-Datei auswählen». Wähle die Datei, prüfe die «Wiederherstellungs-Vorschau» und tippe auf «Wiederherstellen».",
+            "fr": "À l'accueil : « Restaurer le match » › « Restaurer depuis un fichier local » › « Sélectionner le fichier de sauvegarde ». Choisissez le fichier, vérifiez l'« Aperçu de la restauration » et appuyez sur « Confirmer la restauration ».",
+            "it": "Sulla home: «Ripristina partita» › «Ripristina da file locale» › «Seleziona file di backup». Scegli il file, controlla l'«Anteprima ripristino» e tocca «Conferma ripristino»."
+          }
+        },
+        {
+          "id": "restoreRefused",
+          "question": {
+            "en": "Why can't I restore this backup?",
+            "de": "Warum kann ich dieses Backup nicht wiederherstellen?",
+            "fr": "Pourquoi ne puis-je pas restaurer cette sauvegarde ?",
+            "it": "Perché non posso ripristinare questo backup?"
+          },
+          "answer": {
+            "en": "The match is closed on the server, so a backup of it cannot be restored. Load the official version with the game number and the game PIN instead.",
+            "de": "Das Spiel ist auf dem Server abgeschlossen, darum lässt sich kein Backup davon wiederherstellen. Lade stattdessen die offizielle Version mit Spielnummer und Spiel-PIN.",
+            "fr": "Le match est clôturé sur le serveur, donc aucune sauvegarde ne peut le restaurer. Chargez plutôt la version officielle avec le numéro et le PIN du match.",
+            "it": "La partita è chiusa sul server, quindi un suo backup non si può ripristinare. Carica invece la versione ufficiale con il numero partita e il PIN partita."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sync-offline",
+      "url": "https://openvolley.app/support#sync-offline",
+      "title": {
+        "en": "Online, offline and sync",
+        "de": "Online, offline und Synchronisation",
+        "fr": "En ligne, hors ligne et synchronisation",
+        "it": "Online, offline e sincronizzazione"
+      },
+      "video": {
+        "id": "sync-offline",
+        "mp4": "https://openvolley.app/support/videos/sync-offline.mp4",
+        "poster": "https://openvolley.app/support/videos/sync-offline.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/sync-offline.en.vtt",
+          "de": "https://openvolley.app/support/videos/sync-offline.de.vtt",
+          "fr": "https://openvolley.app/support/videos/sync-offline.fr.vtt",
+          "it": "https://openvolley.app/support/videos/sync-offline.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "closedCopy",
+          "app": "scorer",
+          "name": {
+            "en": "Closed on the server",
+            "de": "Auf dem Server abgeschlossen",
+            "fr": "Clôturé sur le serveur",
+            "it": "Chiusa sul server"
+          }
+        },
+        {
+          "id": "restore",
+          "app": "scorer",
+          "name": {
+            "en": "Restore match",
+            "de": "Spiel wiederherstellen",
+            "fr": "Restaurer le match",
+            "it": "Ripristina partita"
+          }
+        },
+        {
+          "id": "takeBack",
+          "app": "scorer",
+          "name": {
+            "en": "Scored on another device",
+            "de": "Auf einem anderen Gerät geführt",
+            "fr": "Tenu sur un autre appareil",
+            "it": "Tenuta su un altro dispositivo"
+          }
+        },
+        {
+          "id": "home",
+          "app": "scorer",
+          "name": {
+            "en": "Home",
+            "de": "Startseite",
+            "fr": "Accueil",
+            "it": "Home"
+          }
+        },
+        {
+          "id": "scoreboard",
+          "app": "scorer",
+          "name": {
+            "en": "Scoreboard",
+            "de": "Punktetafel",
+            "fr": "Tableau de score",
+            "it": "Tabellone"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "offlineScoring",
+          "question": {
+            "en": "Can I score without internet?",
+            "de": "Kann ich ohne Internet erfassen?",
+            "fr": "Puis-je saisir sans internet ?",
+            "it": "Posso refertare senza internet?"
+          },
+          "answer": {
+            "en": "Yes. Everything is saved on this device first, and scoring works fully offline. The changes go to the server when the connection is back.",
+            "de": "Ja. Alles wird zuerst auf diesem Gerät gespeichert, und das Erfassen funktioniert ganz offline. Die Änderungen gehen auf den Server, sobald die Verbindung zurück ist.",
+            "fr": "Oui. Tout est d'abord enregistré sur cet appareil, et la saisie fonctionne entièrement hors ligne. Les modifications partent vers le serveur quand la connexion revient.",
+            "it": "Sì. Tutto viene salvato prima su questo dispositivo, e il referto funziona del tutto offline. Le modifiche vanno al server quando la connessione torna."
+          }
+        },
+        {
+          "id": "switch",
+          "question": {
+            "en": "What does the Online switch do?",
+            "de": "Was macht der Online-Schalter?",
+            "fr": "Que fait le bouton En ligne ?",
+            "it": "Cosa fa l'interruttore Online?"
+          },
+          "answer": {
+            "en": "It is in the header. “Offline” stops every connection to the cloud: nothing is synced until you switch back to “Online”. Scoring is not affected.",
+            "de": "Er ist in der Kopfzeile. «Offline» stoppt jede Verbindung zur Cloud: Nichts wird synchronisiert, bis du wieder auf «Online» schaltest. Das Erfassen ist davon nicht betroffen.",
+            "fr": "Il est dans l'en-tête. « Hors ligne » coupe toute connexion au cloud : rien n'est synchronisé tant que vous ne repassez pas sur « En ligne ». La saisie n'est pas touchée.",
+            "it": "È nell'intestazione. «Offline» ferma ogni connessione al cloud: niente viene sincronizzato finché non torni su «Online». Il referto non cambia."
+          }
+        },
+        {
+          "id": "status",
+          "question": {
+            "en": "What does the sync status mean?",
+            "de": "Was bedeutet der Sync-Status?",
+            "fr": "Que signifie l'état de synchronisation ?",
+            "it": "Cosa significa lo stato di sincronizzazione?"
+          },
+          "answer": {
+            "en": "“Connected”: all is synced. “Syncing...”: changes are going up. “Offline (n waiting)”: no connection, n changes are waiting. “Local only”: the tablets run on the hall network while the cloud is out of reach. “Sign in to sync”: sign in first. “Error”: tap it to see why, then “Retry all”.",
+            "de": "«Verbunden»: Alles ist synchronisiert. «Synchronisiere...»: Änderungen werden gesendet. «Offline (n ausstehend)»: keine Verbindung, n Änderungen warten. «Nur lokal»: Die Tablets laufen im Hallennetz, die Cloud ist nicht erreichbar. «Zum Synchronisieren anmelden»: zuerst anmelden. «Fehler»: Tippe darauf, um den Grund zu sehen, dann «Alle wiederholen».",
+            "fr": "« Connecté » : tout est synchronisé. « Synchronisation... » : des modifications sont envoyées. « Hors ligne (n en attente) » : pas de connexion, n modifications attendent. « Local uniquement » : les tablettes fonctionnent sur le réseau de la salle, le cloud est hors d'atteinte. « Se connecter pour synchroniser » : connectez-vous d'abord. « Erreur » : appuyez dessus pour voir pourquoi, puis « Réessayer tout ».",
+            "it": "«Connesso»: tutto è sincronizzato. «Sincronizzazione...»: le modifiche vengono inviate. «Offline (n in attesa)»: nessuna connessione, n modifiche aspettano. «Solo locale»: i tablet funzionano sulla rete della palestra mentre il cloud non è raggiungibile. «Accedi per sincronizzare»: prima effettua l'accesso. «Errore»: toccalo per vedere il motivo, poi «Riprova tutto»."
+          }
+        },
+        {
+          "id": "unsent",
+          "question": {
+            "en": "What does “Unsent changes” mean?",
+            "de": "Was bedeutet «Nicht gesendete Änderungen»?",
+            "fr": "Que signifie « Modifications non envoyées » ?",
+            "it": "Cosa significa «Modifiche non inviate»?"
+          },
+          "answer": {
+            "en": "Some changes of this match are not on the server yet. They go up as soon as the device is online and signed in. Do not delete this copy before they are sent.",
+            "de": "Einige Änderungen dieses Spiels sind noch nicht auf dem Server. Sie gehen hinauf, sobald das Gerät online und angemeldet ist. Lösche diese Kopie nicht, bevor sie gesendet sind.",
+            "fr": "Certaines modifications de ce match ne sont pas encore sur le serveur. Elles partent dès que l'appareil est en ligne et connecté. Ne supprimez pas cette copie avant qu'elles soient envoyées.",
+            "it": "Alcune modifiche di questa partita non sono ancora sul server. Partono appena il dispositivo è online e con l'accesso effettuato. Non eliminare questa copia prima che siano inviate."
+          }
+        },
+        {
+          "id": "signIn",
+          "question": {
+            "en": "It says “Not signed in: this match is saved on this device only”?",
+            "de": "Es steht «Nicht angemeldet: Dieses Spiel ist nur auf diesem Gerät gespeichert»?",
+            "fr": "Il est écrit « Non connecté : ce match est enregistré uniquement sur cet appareil » ?",
+            "it": "C'è scritto «Non hai effettuato l'accesso: questa partita è salvata solo su questo dispositivo»?"
+          },
+          "answer": {
+            "en": "Scoring keeps working. Sign in to save the match to the cloud (referee, livescore, backup); the waiting changes are sent right after.",
+            "de": "Das Erfassen läuft weiter. Melde dich an, um das Spiel in der Cloud zu speichern (Schiedsrichter, Livescore, Backup); die wartenden Änderungen werden danach sofort gesendet.",
+            "fr": "La saisie continue de fonctionner. Connectez-vous pour enregistrer le match dans le cloud (arbitre, livescore, sauvegarde) ; les modifications en attente sont envoyées aussitôt après.",
+            "it": "Il referto continua a funzionare. Accedi per salvare la partita nel cloud (arbitro, livescore, backup); le modifiche in attesa vengono inviate subito dopo."
+          }
+        },
+        {
+          "id": "closedServer",
+          "question": {
+            "en": "What does “Closed on the server” mean?",
+            "de": "Was bedeutet «Auf dem Server abgeschlossen»?",
+            "fr": "Que signifie « Clôturé sur le serveur » ?",
+            "it": "Cosa significa «Chiusa sul server»?"
+          },
+          "answer": {
+            "en": "The match is approved or closed on the server. This copy can no longer be scored or synced. Open it read-only, load the official version, or remove it from this device. Only an admin can reopen the match.",
+            "de": "Das Spiel ist auf dem Server genehmigt oder abgeschlossen. Diese Kopie lässt sich nicht mehr erfassen oder synchronisieren. Öffne sie zum Lesen, lade die offizielle Version oder entferne sie von diesem Gerät. Nur ein Admin kann das Spiel wieder öffnen.",
+            "fr": "Le match est approuvé ou clôturé sur le serveur. Cette copie ne peut plus être tenue ni synchronisée. Ouvrez-la en lecture seule, chargez la version officielle ou retirez-la de cet appareil. Seul un administrateur peut rouvrir le match.",
+            "it": "La partita è approvata o chiusa sul server. Questa copia non si può più refertare né sincronizzare. Aprila in sola lettura, carica la versione ufficiale o rimuovila da questo dispositivo. Solo un amministratore può riaprire la partita."
+          }
+        },
+        {
+          "id": "movedDevice",
+          "question": {
+            "en": "What does “On another device” mean?",
+            "de": "Was bedeutet «Auf anderem Gerät»?",
+            "fr": "Que signifie « Sur un autre appareil » ?",
+            "it": "Cosa significa «Su un altro dispositivo»?"
+          },
+          "answer": {
+            "en": "Another device has taken the match over and scores it now. This copy opens read-only. Tap “Take back scoring here” only if you score on this device again.",
+            "de": "Ein anderes Gerät hat das Spiel übernommen und führt es jetzt. Diese Kopie öffnet nur zum Lesen. Tippe nur auf «Hier wieder übernehmen», wenn du wieder auf diesem Gerät erfasst.",
+            "fr": "Un autre appareil a repris le match et le tient maintenant. Cette copie s'ouvre en lecture seule. N'appuyez sur « Reprendre le match ici » que si vous saisissez à nouveau sur cet appareil.",
+            "it": "Un altro dispositivo ha preso la partita e ora la referta. Questa copia si apre in sola lettura. Tocca «Riprendi la partita qui» solo se torni a refertare su questo dispositivo."
+          }
+        },
+        {
+          "id": "refused",
+          "question": {
+            "en": "It says “Not synced” with a reason?",
+            "de": "Es steht «Nicht synchronisiert» mit einem Grund?",
+            "fr": "Il est écrit « Non synchronisé » avec une raison ?",
+            "it": "C'è scritto «Non sincronizzata» con un motivo?"
+          },
+          "answer": {
+            "en": "The server refused this match, for example: the game is already scored by another account, your account waits for approval, or it is not a home game of your club. The match stays safe on this device. The notice tells you what to do.",
+            "de": "Der Server hat dieses Spiel abgelehnt, zum Beispiel: Das Spiel wird schon von einem anderen Konto erfasst, dein Konto wartet auf die Freigabe, oder es ist kein Heimspiel deines Vereins. Das Spiel bleibt auf diesem Gerät sicher. Der Hinweis sagt dir, was zu tun ist.",
+            "fr": "Le serveur a refusé ce match, par exemple : le match est déjà tenu par un autre compte, votre compte attend son approbation, ou ce n'est pas un match à domicile de votre club. Le match reste en sécurité sur cet appareil. Le message indique quoi faire.",
+            "it": "Il server ha rifiutato questa partita, per esempio: la partita è già refertata da un altro account, il tuo account aspetta l'approvazione, o non è una partita in casa del tuo club. La partita resta al sicuro su questo dispositivo. L'avviso ti dice cosa fare."
+          }
+        }
+      ]
+    },
+    {
+      "id": "install-updates",
+      "url": "https://openvolley.app/support#install-updates",
+      "title": {
+        "en": "Install and update",
+        "de": "Installieren und aktualisieren",
+        "fr": "Installer et mettre à jour",
+        "it": "Installare e aggiornare"
+      },
+      "video": {
+        "id": "install-updates",
+        "mp4": "https://openvolley.app/support/videos/install-updates.mp4",
+        "poster": "https://openvolley.app/support/videos/install-updates.jpg",
+        "subtitles": {
+          "en": "https://openvolley.app/support/videos/install-updates.en.vtt",
+          "de": "https://openvolley.app/support/videos/install-updates.de.vtt",
+          "fr": "https://openvolley.app/support/videos/install-updates.fr.vtt",
+          "it": "https://openvolley.app/support/videos/install-updates.it.vtt"
+        }
+      },
+      "screens": [
+        {
+          "id": "home",
+          "app": "scorer",
+          "name": {
+            "en": "Home",
+            "de": "Startseite",
+            "fr": "Accueil",
+            "it": "Home"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "id": "appOrBrowser",
+          "question": {
+            "en": "Browser or app?",
+            "de": "Browser oder App?",
+            "fr": "Navigateur ou app ?",
+            "it": "Browser o app?"
+          },
+          "answer": {
+            "en": "app.openvolley.app works in a browser and keeps working offline once it has loaded. The desktop app (Windows, macOS, Linux) adds the tablet server for the hall and saves a backup file at every event. The Android app also saves every event.",
+            "de": "app.openvolley.app läuft im Browser und funktioniert auch offline, sobald es einmal geladen ist. Die Desktop-App (Windows, macOS, Linux) bringt zusätzlich den Tablet-Server für die Halle und speichert bei jedem Ereignis eine Backup-Datei. Auch die Android-App speichert jedes Ereignis.",
+            "fr": "app.openvolley.app fonctionne dans un navigateur, et aussi hors ligne une fois chargée. L'app pour ordinateur (Windows, macOS, Linux) ajoute le serveur de tablettes pour la salle et enregistre un fichier de sauvegarde à chaque événement. L'app Android enregistre aussi chaque événement.",
+            "it": "app.openvolley.app funziona in un browser e anche offline, una volta caricata. L'app desktop (Windows, macOS, Linux) aggiunge il server dei tablet per la palestra e salva un file di backup a ogni evento. Anche l'app Android salva ogni evento."
+          }
+        },
+        {
+          "id": "download",
+          "question": {
+            "en": "Where do I get the apps?",
+            "de": "Wo bekomme ich die Apps?",
+            "fr": "Où obtenir les apps ?",
+            "it": "Dove trovo le app?"
+          },
+          "answer": {
+            "en": "On get.openvolley.app: the desktop app for Windows, macOS and Linux, and the Android app (with F-Droid or as an APK).",
+            "de": "Auf get.openvolley.app: die Desktop-App für Windows, macOS und Linux und die Android-App (mit F-Droid oder als APK).",
+            "fr": "Sur get.openvolley.app : l'app pour ordinateur pour Windows, macOS et Linux, et l'app Android (avec F-Droid ou en APK).",
+            "it": "Su get.openvolley.app: l'app desktop per Windows, macOS e Linux, e l'app Android (con F-Droid o come APK)."
+          }
+        },
+        {
+          "id": "windows",
+          "question": {
+            "en": "Windows says “Windows protected your PC”?",
+            "de": "Windows meldet «Der Computer wurde durch Windows geschützt»?",
+            "fr": "Windows affiche « Windows a protégé votre ordinateur » ?",
+            "it": "Windows dice «PC protetto da Windows»?"
+          },
+          "answer": {
+            "en": "SmartScreen shows this for a new download. Tap “More info”, then “Run anyway”. The installer asks once for an administrator, so the tablets can get through the firewall.",
+            "de": "SmartScreen zeigt das bei einem neuen Download. Tippe auf «Weitere Informationen», dann auf «Trotzdem ausführen». Das Installationsprogramm fragt einmal nach einem Administrator, damit die Tablets durch die Firewall kommen.",
+            "fr": "SmartScreen affiche cela pour un nouveau téléchargement. Appuyez sur « Informations complémentaires », puis sur « Exécuter quand même ». L'installateur demande une fois un administrateur, pour que les tablettes passent le pare-feu.",
+            "it": "SmartScreen lo mostra per un nuovo download. Tocca «Ulteriori informazioni», poi «Esegui comunque». Il programma di installazione chiede una volta un amministratore, così i tablet passano il firewall."
+          }
+        },
+        {
+          "id": "macos",
+          "question": {
+            "en": "macOS does not open the app?",
+            "de": "macOS öffnet die App nicht?",
+            "fr": "macOS n'ouvre pas l'app ?",
+            "it": "macOS non apre l'app?"
+          },
+          "answer": {
+            "en": "The app is not notarized by Apple, so macOS blocks the first start. Open it once and close the message, then go to System Settings › Privacy & Security › Open Anyway. On macOS 14 and older: right-click the app › Open. Start it from Applications.",
+            "de": "Die App ist nicht von Apple notarisiert, darum blockiert macOS den ersten Start. Öffne sie einmal und schliesse die Meldung, dann Systemeinstellungen › Datenschutz & Sicherheit › Dennoch öffnen. Unter macOS 14 und älter: Rechtsklick auf die App › Öffnen. Starte sie aus dem Ordner Programme.",
+            "fr": "L'app n'est pas notarisée par Apple, donc macOS bloque le premier démarrage. Ouvrez-la une fois et fermez le message, puis Réglages Système › Confidentialité et sécurité › Ouvrir quand même. Sous macOS 14 et plus ancien : clic droit sur l'app › Ouvrir. Lancez-la depuis le dossier Applications.",
+            "it": "L'app non è autenticata da Apple, quindi macOS blocca il primo avvio. Aprila una volta e chiudi il messaggio, poi Impostazioni di Sistema › Privacy e sicurezza › Apri comunque. Su macOS 14 e precedenti: clic destro sull'app › Apri. Avviala dalla cartella Applicazioni."
+          }
+        },
+        {
+          "id": "android",
+          "question": {
+            "en": "How do I install and update the Android app?",
+            "de": "Wie installiere und aktualisiere ich die Android-App?",
+            "fr": "Comment installer et mettre à jour l'app Android ?",
+            "it": "Come installo e aggiorno l'app Android?"
+          },
+          "answer": {
+            "en": "Add the OpenVolley repository in F-Droid (see get.openvolley.app): F-Droid then installs the updates. An APK installed without F-Droid does not update itself, but the app can tell you about new versions.",
+            "de": "Füge in F-Droid das OpenVolley-Repository hinzu (siehe get.openvolley.app): F-Droid installiert dann die Updates. Eine ohne F-Droid installierte APK aktualisiert sich nicht selbst, aber die App kann dich über neue Versionen informieren.",
+            "fr": "Ajoutez le dépôt OpenVolley dans F-Droid (voir get.openvolley.app) : F-Droid installe alors les mises à jour. Un APK installé sans F-Droid ne se met pas à jour tout seul, mais l'app peut vous avertir des nouvelles versions.",
+            "it": "Aggiungi il repository OpenVolley in F-Droid (vedi get.openvolley.app): F-Droid installa poi gli aggiornamenti. Un APK installato senza F-Droid non si aggiorna da solo, ma l'app può avvisarti delle nuove versioni."
+          }
+        },
+        {
+          "id": "desktopUpdates",
+          "question": {
+            "en": "How does the desktop app update?",
+            "de": "Wie aktualisiert sich die Desktop-App?",
+            "fr": "Comment l'app pour ordinateur se met-elle à jour ?",
+            "it": "Come si aggiorna l'app desktop?"
+          },
+          "answer": {
+            "en": "It downloads updates in the background and installs them when you quit, never during a match. “Restart and update” installs one now.",
+            "de": "Sie lädt Updates im Hintergrund und installiert sie beim Beenden, nie während eines Spiels. «Neu starten und aktualisieren» installiert eines sofort.",
+            "fr": "Elle télécharge les mises à jour en arrière-plan et les installe quand vous la quittez, jamais pendant un match. « Redémarrer et mettre à jour » en installe une tout de suite.",
+            "it": "Scarica gli aggiornamenti in secondo piano e li installa quando la chiudi, mai durante una partita. «Riavvia e aggiorna» ne installa uno subito."
+          }
+        },
+        {
+          "id": "webUpdate",
+          "question": {
+            "en": "The browser says “Update available!”?",
+            "de": "Der Browser meldet «Update verfügbar!»?",
+            "fr": "Le navigateur affiche « Mise à jour disponible ! » ?",
+            "it": "Il browser dice «Aggiornamento disponibile!»?"
+          },
+          "answer": {
+            "en": "Tap “Refresh to update” between matches. “Later” keeps the current version for now.",
+            "de": "Tippe zwischen zwei Spielen auf «Aktualisieren zum Update». «Später» behält vorerst die aktuelle Version.",
+            "fr": "Appuyez sur « Actualiser pour mettre à jour » entre deux matchs. « Plus tard » garde la version actuelle pour le moment.",
+            "it": "Tocca «Aggiorna per aggiornare» tra una partita e l'altra. «Più tardi» tiene per ora la versione attuale."
+          }
+        }
+      ]
+    }
+  ],
+  "screens": {
+    "home": {
+      "app": "scorer",
+      "name": {
+        "en": "Home",
+        "de": "Startseite",
+        "fr": "Accueil",
+        "it": "Home"
+      },
+      "sections": [
+        "home",
+        "handover",
+        "sync-offline",
+        "install-updates"
+      ]
+    },
+    "matchSetup": {
+      "app": "scorer",
+      "name": {
+        "en": "Match setup",
+        "de": "Spieleinrichtung",
+        "fr": "Configuration du match",
+        "it": "Configurazione partita"
+      },
+      "sections": [
+        "setup",
+        "connections"
+      ]
+    },
+    "coinToss": {
+      "app": "scorer",
+      "name": {
+        "en": "Coin toss",
+        "de": "Auslosung",
+        "fr": "Tirage au sort",
+        "it": "Sorteggio"
+      },
+      "sections": [
+        "coin-toss"
+      ]
+    },
+    "scoreboard": {
+      "app": "scorer",
+      "name": {
+        "en": "Scoreboard",
+        "de": "Punktetafel",
+        "fr": "Tableau de score",
+        "it": "Tabellone"
+      },
+      "sections": [
+        "scoring",
+        "subs-timeouts",
+        "sanctions",
+        "set-end",
+        "corrections",
+        "sync-offline"
+      ]
+    },
+    "matchEnd": {
+      "app": "scorer",
+      "name": {
+        "en": "Match end",
+        "de": "Spielende",
+        "fr": "Fin du match",
+        "it": "Fine partita"
+      },
+      "sections": [
+        "match-end",
+        "corrections"
+      ]
+    },
+    "manualAdjustments": {
+      "app": "scorer",
+      "name": {
+        "en": "Corrections",
+        "de": "Korrekturen",
+        "fr": "Corrections",
+        "it": "Correzioni"
+      },
+      "sections": [
+        "corrections",
+        "match-end"
+      ]
+    },
+    "liveCorrections": {
+      "app": "scorer",
+      "name": {
+        "en": "Corrections",
+        "de": "Korrekturen",
+        "fr": "Corrections",
+        "it": "Correzioni"
+      },
+      "sections": [
+        "corrections",
+        "scoring",
+        "sanctions"
+      ]
+    },
+    "connectTablets": {
+      "app": "scorer",
+      "name": {
+        "en": "Connect tablets",
+        "de": "Tablets verbinden",
+        "fr": "Connecter des tablettes",
+        "it": "Collega tablet"
+      },
+      "sections": [
+        "connections",
+        "referee",
+        "bench",
+        "livescore"
+      ]
+    },
+    "restore": {
+      "app": "scorer",
+      "name": {
+        "en": "Restore match",
+        "de": "Spiel wiederherstellen",
+        "fr": "Restaurer le match",
+        "it": "Ripristina partita"
+      },
+      "sections": [
+        "handover",
+        "sync-offline"
+      ]
+    },
+    "takeBack": {
+      "app": "scorer",
+      "name": {
+        "en": "Scored on another device",
+        "de": "Auf einem anderen Gerät geführt",
+        "fr": "Tenu sur un autre appareil",
+        "it": "Tenuta su un altro dispositivo"
+      },
+      "sections": [
+        "handover",
+        "sync-offline"
+      ]
+    },
+    "closedCopy": {
+      "app": "scorer",
+      "name": {
+        "en": "Closed on the server",
+        "de": "Auf dem Server abgeschlossen",
+        "fr": "Clôturé sur le serveur",
+        "it": "Chiusa sul server"
+      },
+      "sections": [
+        "sync-offline",
+        "handover"
+      ]
+    },
+    "referee": {
+      "app": "referee",
+      "name": {
+        "en": "Referee",
+        "de": "Schiedsrichter",
+        "fr": "Espace arbitre",
+        "it": "Arbitro"
+      },
+      "sections": [
+        "referee",
+        "connections"
+      ]
+    },
+    "bench": {
+      "app": "bench",
+      "name": {
+        "en": "Bench",
+        "de": "Bank",
+        "fr": "Espace équipe",
+        "it": "Panchina"
+      },
+      "sections": [
+        "bench",
+        "connections"
+      ]
+    },
+    "livescore": {
+      "app": "livescore",
+      "name": {
+        "en": "Livescore",
+        "de": "Livescore",
+        "fr": "Livescore",
+        "it": "Livescore"
+      },
+      "sections": [
+        "livescore",
+        "connections"
+      ]
+    }
+  }
+}

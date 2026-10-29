@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.951
+L'appareil du marqueur (à gauche) tombe en panne ? Continuez sur un autre (à droite).
+
+2
+00:00:02.001 --> 00:00:09.001
+Il faut le PIN du match ("Match" → "Afficher les codes PIN") et son numéro (en haut).
+
+3
+00:00:10.589 --> 00:00:16.726
+Sur l'autre appareil : "Restaurer le match", puis le numéro et le PIN du match.
+
+4
+00:00:16.776 --> 00:00:23.776
+"Rechercher les sauvegardes cloud", choisissez le match, vérifiez, "Confirmer la restauration".
+
+5
+00:00:25.683 --> 00:00:31.107
+L'appareil de droite tient le match. Celui de gauche est averti : "Tenu sur un autre appareil".
+
+6
+00:00:31.157 --> 00:00:33.491
+Pour reprendre sur le premier appareil : "Reprendre le match ici".
+
+7
+00:00:33.541 --> 00:00:38.809
+Il charge d'abord le score du serveur. Comparez, puis "Oui, reprendre le match ici".
+
+8
+00:00:38.859 --> 00:00:45.859
+L'appareil de gauche reprend ; celui de droite s'arrête à sa prochaine action.
