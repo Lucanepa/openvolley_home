@@ -2,7 +2,7 @@ WEBVTT
 
 1
 00:00:00.000 --> 00:00:03.215
-Temps mort : appuyez sur la case "TO" de l'équipe.
+Temps mort : appuyez sur la case "TM" de l'équipe.
 
 2
 00:00:03.265 --> 00:00:07.309
@@ -18,15 +18,15 @@ Remplacement : appuyez sur le joueur qui sort.
 
 5
 00:00:11.982 --> 00:00:15.820
-Puis "Substitution" et le joueur qui entre.
+Puis "Changement" et le joueur qui entre.
 
 6
 00:00:15.870 --> 00:00:19.509
-Vérifiez OUT et IN, puis "Oui".
+Vérifiez SORT et ENTRE, puis "Oui".
 
 7
 00:00:19.559 --> 00:00:22.776
-Le numéro 9 est sur le terrain, le compteur "SUB" indique 1.
+Le numéro 9 est sur le terrain, le compteur "RMP" indique 1.
 
 8
 00:00:22.826 --> 00:00:26.529
@@ -34,7 +34,7 @@ Le numéro 9 est sur le terrain, le compteur "SUB" indique 1.
 
 9
 00:00:26.579 --> 00:00:32.577
-Libéro : appuyez sur un joueur de la ligne arrière, puis "Libero" et le libéro.
+Libéro : appuyez sur un joueur de la ligne arrière, puis "Libéro" et le libéro.
 
 10
 00:00:32.627 --> 00:00:34.992
