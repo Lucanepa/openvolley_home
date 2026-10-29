@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.754
+Ogni partita inizia dalla home.
+
+2
+00:00:01.804 --> 00:00:03.581
+Tocca "Nuova partita".
+
+3
+00:00:03.631 --> 00:00:06.294
+"Partita ufficiale": una partita del calendario, salvata sul server.
+
+4
+00:00:06.344 --> 00:00:09.010
+"Partita test": per esercitarsi con squadre di esempio. Non viene inviato nulla.
+
+5
+00:00:09.060 --> 00:00:11.727
+"Partita semplice": Non ufficiale · senza elenchi né firme.
+
+6
+00:00:11.777 --> 00:00:14.755
+Qui: "Partita test".
+
+7
+00:00:14.805 --> 00:00:18.252
+"Menu" → "Home" per tornare. La partita resta sul dispositivo.
+
+8
+00:00:18.302 --> 00:00:20.876
+"Continua partita" la riapre.
+
+9
+00:00:20.926 --> 00:00:26.046
+"Elimina partita" la toglie da questo dispositivo.
+
+10
+00:00:26.096 --> 00:00:28.869
+Una partita ufficiale: squadre, punteggio, ultimo salvataggio e stato.
+
+11
+00:00:28.919 --> 00:00:31.688
+"Refertata qui": il server sa che questo dispositivo referta la partita.
+
+12
+00:00:31.738 --> 00:00:38.738
+Nessuna connessione? Il referto continua su questo dispositivo.
+
+13
+00:00:41.205 --> 00:00:44.045
+"Modifiche non inviate": non ancora sul server. Partono appena il dispositivo è online.
+
+14
+00:00:44.095 --> 00:00:46.046
+Di nuovo online: inviate.
+
+15
+00:00:46.096 --> 00:00:48.769
+Il "PIN partita" permette a un altro dispositivo di continuare la partita.
+
+16
+00:00:48.819 --> 00:00:54.807
+"Ripristina partita" carica una partita dal server o da un file di backup.

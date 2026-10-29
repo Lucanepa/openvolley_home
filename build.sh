@@ -14,7 +14,7 @@ rm -rf "$OUTPUT_DIR"
 mkdir -p "$OUTPUT_DIR"
 
 # Page, styles and icons
-cp index.html landing.css legal.css _redirects "$OUTPUT_DIR/"
+cp index.html landing.css legal.css support.css support.js _redirects "$OUTPUT_DIR/"
 cp favicon.ico favicon.svg apple-touch-icon.png "$OUTPUT_DIR/"
 cp CNAME "$OUTPUT_DIR/" 2>/dev/null || true
 
@@ -36,5 +36,10 @@ cp "$FONT_SRC/LICENSE" "$OUTPUT_DIR/assets/fonts/LICENSE-Inter.txt"
 # Legal pages (privacy, legal notice, terms, open source) in DE/EN/FR/IT,
 # rendered from legal/<lang>/*.md; address from legal/operator.txt
 node legal/build.mjs "$OUTPUT_DIR"
+
+# Support pages (/support, /en/support, /fr/support, /it/support) from the
+# app's help (support/help.json) and the videos (support/videos), which it
+# copies to /support/videos (guide PDFs listed in GUIDES go to /support/guides)
+node support/build.mjs "$OUTPUT_DIR"
 
 echo "Build complete! Output directory: $OUTPUT_DIR"

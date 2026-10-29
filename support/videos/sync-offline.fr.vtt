@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.568
+En haut à gauche : la connexion. Vert "Connecté" : tout est sur le serveur.
+
+2
+00:00:02.618 --> 00:00:08.359
+Appuyez pour les détails : serveur, relais, base de données, synchronisation.
+
+3
+00:00:08.409 --> 00:00:15.409
+La connexion tombe ? Continuez à marquer. Chaque modification est enregistrée sur l'appareil.
+
+4
+00:00:16.875 --> 00:00:22.572
+"en attente" : des modifications pas encore sur le serveur.
+
+5
+00:00:22.622 --> 00:00:25.103
+La connexion revient : elles partent toutes seules.
+
+6
+00:00:25.153 --> 00:00:31.415
+Sur l'accueil, le match affiche son état : "Tenu ici".
+
+7
+00:00:31.465 --> 00:00:34.251
+"Sur un autre appareil" : un autre appareil tient ce match maintenant.
+
+8
+00:00:34.301 --> 00:00:39.421
+"Continuer le match" l'ouvre en lecture seule, avec "Reprendre le match ici".
