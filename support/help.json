@@ -2811,10 +2811,10 @@
             "it": "macOS non apre l'app?"
           },
           "answer": {
-            "en": "The app is not notarized by Apple, so macOS blocks the first start. Open it once and close the message, then go to System Settings › Privacy & Security › Open Anyway. On macOS 14 and older: right-click the app › Open. Start it from Applications.",
-            "de": "Die App ist nicht von Apple notarisiert, darum blockiert macOS den ersten Start. Öffne sie einmal und schliesse die Meldung, dann Systemeinstellungen › Datenschutz & Sicherheit › Dennoch öffnen. Unter macOS 14 und älter: Rechtsklick auf die App › Öffnen. Starte sie aus dem Ordner Programme.",
-            "fr": "L'app n'est pas notarisée par Apple, donc macOS bloque le premier démarrage. Ouvrez-la une fois et fermez le message, puis Réglages Système › Confidentialité et sécurité › Ouvrir quand même. Sous macOS 14 et plus ancien : clic droit sur l'app › Ouvrir. Lancez-la depuis le dossier Applications.",
-            "it": "L'app non è autenticata da Apple, quindi macOS blocca il primo avvio. Aprila una volta e chiudi il messaggio, poi Impostazioni di Sistema › Privacy e sicurezza › Apri comunque. Su macOS 14 e precedenti: clic destro sull'app › Apri. Avviala dalla cartella Applicazioni."
+            "en": "From version 3.0.19 the app is signed and notarized by Apple and opens like any other app, also without internet. If macOS still blocks it, you have an older version: install the current one from get.openvolley.app, or open it once, close the message and go to System Settings › Privacy & Security › Open Anyway. Start it from Applications.",
+            "de": "Ab Version 3.0.19 ist die App von Apple signiert und notarisiert und öffnet sich wie jede andere App, auch ohne Internet. Blockiert macOS sie trotzdem, hast du eine ältere Version: Installiere die aktuelle von get.openvolley.app, oder öffne sie einmal, schliesse die Meldung und gehe zu Systemeinstellungen › Datenschutz & Sicherheit › Dennoch öffnen. Starte sie aus dem Ordner Programme.",
+            "fr": "Depuis la version 3.0.19, l'app est signée et notarisée par Apple et s'ouvre comme n'importe quelle autre app, même sans internet. Si macOS la bloque encore, vous avez une version plus ancienne : installez la version actuelle depuis get.openvolley.app, ou ouvrez-la une fois, fermez le message et allez dans Réglages Système › Confidentialité et sécurité › Ouvrir quand même. Lancez-la depuis le dossier Applications.",
+            "it": "Dalla versione 3.0.19 l'app è firmata e autenticata da Apple e si apre come qualsiasi altra app, anche senza internet. Se macOS la blocca ancora, hai una versione più vecchia: installa quella attuale da get.openvolley.app, oppure aprila una volta, chiudi il messaggio e vai in Impostazioni di Sistema › Privacy e sicurezza › Apri comunque. Avviala dalla cartella Applicazioni."
           }
         },
         {
