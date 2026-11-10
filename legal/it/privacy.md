@@ -1,6 +1,6 @@
 # Informativa sulla protezione dei dati
 
-**OpenVolley e OpenBeach** · Versione 1.10 · Aggiornata al 9 novembre 2026
+**OpenVolley e OpenBeach** · Versione 1.12 · Aggiornata al 10 novembre 2026
 
 Questa informativa esiste in tedesco, inglese, francese e italiano. Fa fede
 la versione inglese.
@@ -214,6 +214,17 @@ precompilazione dei suoi dati nel referto (nome, paese, data di nascita).
 **I nuovi account** non hanno inizialmente alcun ruolo. Un amministratore li
 abilita, oppure lei utilizza un codice d'invito. Il sistema registra chi ha
 utilizzato quale codice e quando.
+
+**Che cosa fa (registrazione a OpenVolley, facoltativa):** alla registrazione
+può indicare che cosa fa (segnapunti, arbitro, responsabile della squadra o
+allenatore, responsabile della società) e per quale società e squadra. Questa
+richiesta è conservata solo finché non è approvata o rifiutata, ed è visibile,
+con il suo nome e il suo indirizzo e-mail, agli amministratori e ai
+responsabili di quella società o squadra. Se è
+approvata, il suo account riceve esattamente quel ruolo, quella società o
+quella squadra (da un amministratore, o dai responsabili della società o della
+squadra per la propria società o squadra); il sistema registra chi ha deciso e
+quando, ma in questa voce non il suo nome né il suo indirizzo.
 
 **Società (OpenVolley):** un amministratore, o un codice d'invito, può
 assegnare il suo account a una o più società. Lei referta allora le partite
@@ -466,12 +477,18 @@ allenatori della società dall'amministrazione della società di VolleyManager.
 Il file viene letto nel browser: di ogni persona vengono conservati solo
 numero di licenza, cognome, nome, data di nascita e sesso; nient'altro del
 file viene inviato al server. Gli elenchi sono visibili ai responsabili della
-società e agli amministratori. L'elenco delle giocatrici e dei giocatori è
-visibile anche ai responsabili di squadra della società per i loro elenchi, e
-viene scaricato sui dispositivi dei segnapunti della società, affinché la
-preparazione della partita possa aggiungere giocatori senza internet. Il sesso
-serve a non iscrivere nessuno in una squadra dell'altro sesso. Ogni
-caricamento sostituisce quell'elenco; gli elenchi vengono cancellati con la
+società e agli amministratori. Sono visibili anche ai responsabili di squadra
+della società per i loro elenchi, e vengono scaricati sui dispositivi dei
+segnapunti della società, affinché la preparazione della partita possa
+aggiungere giocatori e ufficiali di squadra senza internet (un allenatore può
+essere qualsiasi persona degli elenchi della società). Il sesso serve a non
+iscrivere giocatrici o giocatori in una squadra dell'altro sesso; per gli
+ufficiali di squadra non viene controllato. Ogni caricamento sostituisce le
+persone del caricamento precedente di quell'elenco; gli elenchi vengono
+cancellati con la società. Gli elenchi possono contenere anche persone che un
+responsabile di squadra o di società ha aggiunto a mano dalla rosa di una
+squadra (solo numero di licenza, nomi, data di nascita e sesso); un
+caricamento le mantiene, e vengono cancellate con il loro elenco o con la
 società. Su un dispositivo del segnapunti ogni download sostituisce la copia,
 che viene cancellata all'uscita dall'account.
 
@@ -482,8 +499,9 @@ risultati, nomi di arbitri e segnapunti. Se un torneo è contrassegnato come
 numeri di licenza o date di nascita.
 
 **Scopo:** riutilizzare le liste squadra, preparare in anticipo l'elenco di una partita, aggiungere a un
-elenco giocatrici e giocatori della società e confrontarne il sesso con quello della squadra, organizzare
-tornei, abbinare giocatrici e giocatori tramite il numero di licenza durante l'importazione.
+elenco giocatrici, giocatori e ufficiali di squadra della società e confrontare il sesso di giocatrici e
+giocatori con quello della squadra, organizzare tornei, abbinare giocatrici e giocatori tramite il numero
+di licenza durante l'importazione.
 
 Questi dati restano salvati finché un gestore non li cancella, anche se
 l'account che li ha creati viene cancellato.
@@ -677,7 +695,7 @@ riceve una copia di queste garanzie.
 | Responsabili di società | Finché gli amministratori non li rimuovono, la società viene cancellata o lei cancella il suo account |
 | Responsabili di squadra | Finché un responsabile di società o un amministratore non li rimuove, la squadra o la società viene cancellata o lei cancella il suo account |
 | Elenco inviato in anticipo (giocatrici e giocatori, staff, firme) | Finché un segnapunti non lo accetta, al più tardi 14 giorni dopo la partita; la nota dell'accettazione 14 giorni dopo la partita |
-| Elenchi delle licenze di una società (numero di licenza, nomi, data di nascita, sesso) | Fino al prossimo caricamento di quell'elenco, alla sua cancellazione da parte di un responsabile della società o alla cancellazione della società; su un dispositivo fino al prossimo download o all'uscita dall'account |
+| Elenchi delle licenze di una società (numero di licenza, nomi, data di nascita, sesso) | Fino al prossimo caricamento di quell'elenco, alla sua cancellazione da parte di un responsabile della società o alla cancellazione della società; persone aggiunte a mano: fino alla cancellazione dell'elenco o della società; su un dispositivo fino al prossimo download o all'uscita dall'account |
 | Indirizzo e-mail di un arbitro per una partita | Con la partita, come parte del referto |
 | Invio del referto finale (momento, numero di destinatari, senza indirizzi) | Con la partita |
 | Referto di una partita di prova per e-mail | Non conservato sul server |
