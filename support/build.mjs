@@ -43,13 +43,13 @@ const MAX_COMMENTS = 5000;
 const MAX_ASSET_BYTES = 25 * 1024 * 1024;
 const VIDEO_TARGET_BYTES = 6 * 1000 * 1000;
 
-// The guide PDFs listed in the guides block and copied to /support/guides,
-// e.g. { key: 'quick', src: 'Openvolley eScoresheet Quick guide.pdf',
-// file: 'openvolley-quick-guide.pdf', docLang: 'en' }. None for now: the
-// Quick guide (January 2026) shows a real referee's name on its screenshots
-// and the old look, the roll-out deck is the plan of January. List a current
-// guide with invented names only.
-const GUIDES = [];
+// The guide PDFs listed in the guides block and copied to /support/guides:
+// the Quick guide of 3.2.5 (openvolley repository, escoresheet/docs/guides/
+// quick-guide, invented names only), one per language; each page lists the
+// one in its own language.
+const GUIDES = ['en', 'de', 'fr', 'it'].map((l) => ({
+  key: 'quick', src: `support/guides/openvolley-quick-guide-${l}.pdf`, file: `openvolley-quick-guide-${l}.pdf`, docLang: l,
+}));
 
 const DOWNLOADS = [
   { label: 'Windows', href: 'https://get.openvolley.app/#windows', icon: 'monitor' },
@@ -99,10 +99,10 @@ const UI = {
     guidesTitle: 'Anleitungen und Downloads',
     guidesLead: 'Die Apps zum Installieren und welche App auf welches Gerät gehört.',
     guides: {
-      quick: { title: 'Kurzanleitung', desc: 'Das eScoresheet Schritt für Schritt, mit Bildschirmfotos einer früheren Version (Januar 2026).' },
+      quick: { title: 'Kurzanleitung', desc: 'Das eScoresheet Schritt für Schritt, vom ersten Öffnen bis zum Spielende (OpenVolley 3.2.5).' },
       rollout: { title: 'Roll-out-Info', desc: 'Was das eScoresheet bietet und die nächsten Schritte der Einführung.' },
     },
-    docLang: { en: 'Englisch', de: 'Deutsch' },
+    docLang: { en: 'Englisch', de: 'Deutsch', fr: 'Französisch', it: 'Italienisch' },
     downloadsTitle: 'Apps installieren',
     downloadsLead: 'Die Desktop-App für Windows, macOS und Linux und die Android-App. Alle Pakete und Signaturschlüssel stehen auf get.openvolley.app.',
     whichTitle: 'Welche App wofür',
@@ -199,10 +199,10 @@ const UI = {
     guidesTitle: 'Guides and downloads',
     guidesLead: 'The apps to install, and which app goes on which device.',
     guides: {
-      quick: { title: 'Quick guide', desc: 'The eScoresheet step by step, with screenshots of an earlier version (January 2026).' },
+      quick: { title: 'Quick guide', desc: 'The eScoresheet step by step, from the first open to the match end (OpenVolley 3.2.5).' },
       rollout: { title: 'Roll-out info', desc: 'What the eScoresheet offers and the next steps of the roll-out.' },
     },
-    docLang: { en: 'English', de: 'German' },
+    docLang: { en: 'English', de: 'German', fr: 'French', it: 'Italian' },
     downloadsTitle: 'Install the apps',
     downloadsLead: 'The desktop app for Windows, macOS and Linux, and the Android app. All packages and signing keys are on get.openvolley.app.',
     whichTitle: 'Which app for what',
@@ -299,10 +299,10 @@ const UI = {
     guidesTitle: 'Guides et téléchargements',
     guidesLead: 'Les applications à installer et quelle application va sur quel appareil.',
     guides: {
-      quick: { title: 'Guide rapide', desc: 'L’eScoresheet pas à pas, avec des captures d’une version antérieure (janvier 2026).' },
+      quick: { title: 'Guide rapide', desc: 'L’eScoresheet pas à pas, de la première ouverture à la fin du match (OpenVolley 3.2.5).' },
       rollout: { title: 'Infos sur le déploiement', desc: 'Ce que propose l’eScoresheet et les prochaines étapes du déploiement.' },
     },
-    docLang: { en: 'anglais', de: 'allemand' },
+    docLang: { en: 'anglais', de: 'allemand', fr: 'français', it: 'italien' },
     downloadsTitle: 'Installer les applications',
     downloadsLead: 'L’application de bureau pour Windows, macOS et Linux, et l’application Android. Tous les paquets et les clés de signature sont sur get.openvolley.app.',
     whichTitle: 'Quelle application pour quoi',
@@ -399,10 +399,10 @@ const UI = {
     guidesTitle: 'Guide e download',
     guidesLead: 'Le app da installare e quale app va su quale dispositivo.',
     guides: {
-      quick: { title: 'Guida rapida', desc: 'L’eScoresheet passo per passo, con schermate di una versione precedente (gennaio 2026).' },
+      quick: { title: 'Guida rapida', desc: 'L’eScoresheet passo per passo, dalla prima apertura alla fine della partita (OpenVolley 3.2.5).' },
       rollout: { title: 'Info sull’introduzione', desc: 'Cosa offre l’eScoresheet e i prossimi passi dell’introduzione.' },
     },
-    docLang: { en: 'inglese', de: 'tedesco' },
+    docLang: { en: 'inglese', de: 'tedesco', fr: 'francese', it: 'italiano' },
     downloadsTitle: 'Installare le app',
     downloadsLead: 'L’app desktop per Windows, macOS e Linux, e l’app Android. Tutti i pacchetti e le chiavi di firma sono su get.openvolley.app.',
     whichTitle: 'Quale app per cosa',
@@ -631,7 +631,7 @@ function sectionHtml(section, v, lang, ui, first) {
 }
 
 function guidesHtml(lang, ui) {
-  const guideRows = GUIDES.map((g) => {
+  const guideRows = GUIDES.filter((g) => g.docLang === lang).map((g) => {
     const size = statSync(join(ROOT, g.src)).size;
     const meta = `PDF · ${ui.docLang[g.docLang]} · ${megabytes(size, lang)}`;
     return `<li>

@@ -1,65 +1,69 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:01.754
-Every match starts on Home.
+00:00:00.000 --> 00:00:03.375
+The first time, choose "Swiss" or "Global".
 
 2
-00:00:01.804 --> 00:00:03.581
-Tap "New match".
+00:00:03.425 --> 00:00:05.184
+Every match starts on Home.
 
 3
-00:00:03.631 --> 00:00:06.294
-"Official match": a game of the schedule, saved on the server.
+00:00:05.234 --> 00:00:08.397
+"Official match": today's home game of your club, or enter the game yourself. Saved on the server.
 
 4
-00:00:06.344 --> 00:00:09.010
-"Test match": practice with sample teams. Nothing is sent.
+00:00:08.447 --> 00:00:11.118
+"Test match": practice with sample teams. Never saved on the server.
 
 5
-00:00:09.060 --> 00:00:11.727
+00:00:11.168 --> 00:00:13.830
 "Easy match": Unofficial · no rosters or signatures.
 
 6
-00:00:11.777 --> 00:00:14.755
-Here: "Test match".
+00:00:13.880 --> 00:00:16.548
+"Scoreboard": points and sets only, no match.
 
 7
-00:00:14.805 --> 00:00:18.252
-"Menu" → "Home" goes back. The match stays on this device.
+00:00:16.598 --> 00:00:19.628
+Here: "Test match".
 
 8
-00:00:18.302 --> 00:00:20.876
-"Continue match" opens it again.
+00:00:19.678 --> 00:00:23.090
+"Menu" → "Home" goes back. The match stays on this device.
 
 9
-00:00:20.926 --> 00:00:26.046
-"Delete match" removes it from this device.
+00:00:23.140 --> 00:00:25.715
+"Continue match" opens it again.
 
 10
-00:00:26.096 --> 00:00:28.869
-An official match: teams, score, last saved and its state.
+00:00:25.765 --> 00:00:30.984
+"Delete match", under it, removes it from this device.
 
 11
-00:00:28.919 --> 00:00:31.688
-"Scoring here": the server knows this device scores it.
+00:00:31.034 --> 00:00:33.811
+An official match: teams, score, last saved and its state.
 
 12
-00:00:31.738 --> 00:00:38.738
-No connection? Scoring goes on, on this device.
+00:00:33.861 --> 00:00:36.631
+"Scoring here": the server knows this device scores it.
 
 13
-00:00:41.205 --> 00:00:44.045
-"Unsent changes": not on the server yet. They are sent once online.
+00:00:36.681 --> 00:00:43.681
+No connection? Scoring goes on, on this device.
 
 14
-00:00:44.095 --> 00:00:46.046
-Back online: sent.
+00:00:46.231 --> 00:00:49.072
+"Unsent changes": not on the server yet. They are sent once online.
 
 15
-00:00:46.096 --> 00:00:48.769
-The "Game PIN" lets another device continue this match.
+00:00:49.122 --> 00:00:51.074
+Back online: sent.
 
 16
-00:00:48.819 --> 00:00:54.807
+00:00:51.124 --> 00:00:53.793
+The "Game PIN" lets another device continue this match.
+
+17
+00:00:53.843 --> 00:00:59.813
 "Restore match" loads a match from the server or from a backup file.
