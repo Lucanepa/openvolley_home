@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T18:30:09.766Z",
-  "appVersion": "3.2.9",
+  "generatedAt": "2026-11-15T20:55:03.103Z",
+  "appVersion": "3.2.12",
   "languages": [
     "en",
     "de",
@@ -1023,7 +1023,7 @@
           },
           "answer": {
             "en": "Between rallies, tap the team's “TO” box. Check the dialog and tap “Confirm time-out”: a 30-second countdown starts. “Stop timeout” ends it early. Each team has 2 time-outs per set; for a third, the app opens a warning that records it as an improper request (or a delay if the time-out already started). No time-out during the interval between sets.",
-            "de": "Tippe zwischen zwei Ballwechseln auf das «TO»-Feld des Teams. Prüfe den Dialog und tippe auf «Timeout bestätigen»: Ein Countdown von 30 Sekunden startet. «Timeout beenden» beendet ihn früher. Jedes Team hat 2 Timeouts pro Satz; bei einem dritten öffnet die App eine Warnung, die es als unzulässige Anfrage erfasst (oder als Verzögerung, wenn das Timeout schon begonnen hat). Kein Timeout in der Pause zwischen den Sätzen.",
+            "de": "Tippe zwischen zwei Ballwechseln auf das «TO»-Feld des Teams. Prüfe den Dialog und tippe auf «Timeout bestätigen»: Ein Countdown von 30 Sekunden startet. «Timeout beenden» beendet ihn früher. Jedes Team hat 2 Timeouts pro Satz; bei einem dritten öffnet die App eine Warnung, die es als nicht ordnungsgemässen Antrag erfasst (oder als Verzögerung, wenn das Timeout schon begonnen hat). Kein Timeout in der Pause zwischen den Sätzen.",
             "fr": "Entre deux échanges, appuie sur la case « TM » de l'équipe. Vérifie la boîte de dialogue et appuie sur « Confirmer temps mort » : un compte à rebours de 30 secondes démarre. « Arrêter le temps mort » le termine plus tôt. Chaque équipe a 2 temps morts par set ; pour un troisième, l'app ouvre un avertissement qui l'enregistre comme demande irrégulière (ou comme retard si le temps mort a déjà commencé). Pas de temps mort pendant la pause entre les sets.",
             "it": "Tra due scambi, tocca la casella «TO» della squadra. Controlla la finestra e tocca «Conferma timeout»: parte un conto alla rovescia di 30 secondi. «Ferma timeout» lo chiude prima. Ogni squadra ha 2 timeout per set; per un terzo, l'app apre un avviso che lo registra come richiesta impropria (o come ritardo se il timeout è già iniziato). Nessun timeout durante l'intervallo tra i set."
           }
@@ -1053,7 +1053,7 @@
           },
           "answer": {
             "en": "Six per set. The “SUB” box counts them and turns amber at 5. A starting player can leave once and come back once, only for the player who replaced them. After the sixth, a further request is an improper request.",
-            "de": "Sechs pro Satz. Das «AUS»-Feld zählt sie und wird bei 5 gelb. Ein Startspieler kann einmal hinaus und einmal zurück, nur für den Spieler, der ihn ersetzt hat. Nach dem sechsten ist eine weitere Anfrage eine unzulässige Anfrage.",
+            "de": "Sechs pro Satz. Das «AUS»-Feld zählt sie und wird bei 5 gelb. Ein Startspieler kann einmal hinaus und einmal zurück, nur für den Spieler, der ihn ersetzt hat. Nach dem sechsten ist eine weitere Anfrage ein nicht ordnungsgemässer Antrag.",
             "fr": "Six par set. La case « RMP » les compte et devient orange à 5. Un joueur de départ peut sortir une fois et revenir une fois, seulement à la place du joueur qui l'a remplacé. Après le sixième, une nouvelle demande est une demande irrégulière.",
             "it": "Sei per set. La casella «SOS» le conta e diventa gialla a 5. Un giocatore della formazione iniziale può uscire una volta e rientrare una volta, solo al posto di chi l'ha sostituito. Dopo la sesta, un'altra richiesta è una richiesta impropria."
           }
@@ -1173,7 +1173,7 @@
           },
           "answer": {
             "en": "The app checks the rules for requests: a third time-out, a seventh substitution, a second substitution request of the same team in one interruption, a player who may not come in, or a request after the team's delay warning. The warning says why and offers what to record, such as “Record as improper request” or a delay sanction. “Continue anyway” records nothing more when the referee allowed it (not offered for a third time-out or a seventh substitution).",
-            "de": "Die App prüft die Regeln für Anfragen: ein drittes Timeout, ein siebter Wechsel, eine zweite Wechselanfrage desselben Teams in derselben Unterbrechung, ein Spieler, der nicht hineinkommen darf, oder eine Anfrage nach der Verzögerungswarnung des Teams. Die Warnung sagt, warum, und bietet an, was erfasst werden soll, etwa «Als unzulässige Anfrage erfassen» oder eine Verzögerungssanktion. «Trotzdem weiter» erfasst nichts weiter, wenn der Schiedsrichter es erlaubt hat (nicht angeboten bei einem dritten Timeout oder einem siebten Wechsel).",
+            "de": "Die App prüft die Regeln für Anfragen: ein drittes Timeout, ein siebter Wechsel, eine zweite Wechselanfrage desselben Teams in derselben Unterbrechung, ein Spieler, der nicht hineinkommen darf, oder eine Anfrage nach der Verzögerungswarnung des Teams. Die Warnung sagt, warum, und bietet an, was erfasst werden soll, etwa «Als nicht ordnungsgemässen Antrag erfassen» oder eine Verzögerungssanktion. «Trotzdem weiter» erfasst nichts weiter, wenn der Schiedsrichter es erlaubt hat (nicht angeboten bei einem dritten Timeout oder einem siebten Wechsel).",
             "fr": "L'app vérifie les règles des demandes : un troisième temps mort, un septième remplacement, une deuxième demande de remplacement de la même équipe dans une même interruption, un joueur qui ne peut pas entrer, ou une demande après l'avertissement pour retard de l'équipe. L'avertissement dit pourquoi et propose quoi enregistrer, comme « Enregistrer comme demande irrégulière » ou une sanction pour retard. « Continuer quand même » n'enregistre rien de plus quand l'arbitre l'a autorisé (pas proposé pour un troisième temps mort ni pour un septième remplacement).",
             "it": "L'app controlla le regole delle richieste: un terzo timeout, una settima sostituzione, una seconda richiesta di sostituzione della stessa squadra nella stessa interruzione, un giocatore che non può entrare, o una richiesta dopo l'avvertimento per ritardo della squadra. L'avviso dice il motivo e propone cosa registrare, come «Registrare come richiesta impropria» o una sanzione per ritardo. «Continuare comunque» non registra nient'altro quando l'arbitro l'ha permesso (non proposto per un terzo timeout o una settima sostituzione)."
           }
@@ -1251,13 +1251,13 @@
           "id": "teamSanctions",
           "question": {
             "en": "How do I record an improper request or a delay?",
-            "de": "Wie erfasse ich eine unzulässige Anfrage oder eine Verzögerung?",
+            "de": "Wie erfasse ich einen nicht ordnungsgemässen Antrag oder eine Verzögerung?",
             "fr": "Comment saisir une demande irrégulière ou un retard ?",
             "it": "Come registro una richiesta impropria o un ritardo?"
           },
           "answer": {
             "en": "Under each team's “TO” and “SUB” boxes are “Improper request” and “Delay warning” (on a small screen under “IR & delays”). A team has one improper request: then the button goes and “Sanctioned with an improper request” shows. After the delay warning the button becomes “Delay penalty”: point and service to the opponent. The app writes them on the scoresheet.",
-            "de": "Unter den Feldern «TO» und «AUS» jedes Teams stehen «Unzulässige Anfrage» und «Verzögerungswarnung» (auf einem kleinen Bildschirm unter «UA & Verzög.»). Ein Team hat eine unzulässige Anfrage: Danach verschwindet die Schaltfläche, und «Sanktioniert wegen unzulässiger Anfrage» erscheint. Nach der Verzögerungswarnung wird die Schaltfläche zu «Verzögerungsstrafe»: Punkt und Aufschlag für den Gegner. Die App trägt sie ins Matchblatt ein.",
+            "de": "Unter den Feldern «TO» und «AUS» jedes Teams stehen «Nicht ordnungsgemässe Anträge» und «Verzögerungswarnung» (auf einem kleinen Bildschirm unter «NOA & Verzög.»). Ein Team hat einen nicht ordnungsgemässen Antrag: Danach verschwindet die Schaltfläche, und «Sanktioniert wegen nicht ordnungsgemässen Antrags» erscheint. Nach der Verzögerungswarnung wird die Schaltfläche zu «Verzögerungsstrafe»: Punkt und Aufschlag für den Gegner. Die App trägt sie ins Matchblatt ein.",
             "fr": "Sous les cases « TM » et « RMP » de chaque équipe se trouvent « Demande irrégulière » et « Avertissement pour retard » (sur un petit écran, sous « DI & retards »). Une équipe a une seule demande irrégulière : ensuite le bouton disparaît et « Sanctionné pour demande irrégulière » s'affiche. Après l'avertissement pour retard, le bouton devient « Pénalité pour retard » : point et service à l'adversaire. L'app les inscrit sur la feuille de match.",
             "it": "Sotto le caselle «TO» e «SOS» di ogni squadra ci sono «Richiesta impropria» e «Avvertimento per ritardo» (su uno schermo piccolo sotto «RI & ritardi»). Una squadra ha una sola richiesta impropria: poi il pulsante sparisce e compare «Sanzionato per richiesta impropria». Dopo l'avvertimento per ritardo il pulsante diventa «Penalità per ritardo»: punto e servizio all'avversario. L'app li scrive sul referto."
           }
@@ -1272,7 +1272,7 @@
           },
           "answer": {
             "en": "The sanctions follow the rules. A second improper request counts as a delay. A delay after a delay warning is a delay penalty. The dialog tells you before you confirm.",
-            "de": "Die Sanktionen folgen den Regeln. Eine zweite unzulässige Anfrage zählt als Verzögerung. Eine Verzögerung nach einer Verzögerungswarnung ist eine Verzögerungsstrafe. Der Dialog sagt es dir, bevor du bestätigst.",
+            "de": "Die Sanktionen folgen den Regeln. Ein zweiter nicht ordnungsgemässer Antrag zählt als Verzögerung. Eine Verzögerung nach einer Verzögerungswarnung ist eine Verzögerungsstrafe. Der Dialog sagt es dir, bevor du bestätigst.",
             "fr": "Les sanctions suivent les règles. Une deuxième demande irrégulière compte comme un retard. Un retard après un avertissement pour retard est une pénalité pour retard. La boîte de dialogue te le dit avant que tu confirmes.",
             "it": "Le sanzioni seguono le regole. Una seconda richiesta impropria conta come ritardo. Un ritardo dopo un avvertimento per ritardo è una penalità per ritardo. La finestra te lo dice prima che tu confermi."
           }
@@ -2376,10 +2376,10 @@
             "it": "C'è scritto «Offline: nessuna connessione al referto»?"
           },
           "answer": {
-            "en": "This tablet has lost its connection (Wi-Fi or server) for a few seconds, so the score may be out of date. It reconnects by itself when the network is back; if not, tap “Refresh” in the menu. If the score stops changing without this warning, check that the scorer's device is on and online.",
-            "de": "Dieses Tablet hat seine Verbindung (WLAN oder Server) für einige Sekunden verloren, der Spielstand kann also veraltet sein. Es verbindet sich von selbst wieder, sobald das Netz zurück ist; falls nicht, tippe im Menü auf «Aktualisieren». Ändert sich der Spielstand ohne diese Warnung nicht mehr, prüfe, ob das Gerät des Schreibers an und online ist.",
-            "fr": "Cette tablette a perdu sa connexion (Wi-Fi ou serveur) pendant quelques secondes, le score peut donc ne pas être à jour. Elle se reconnecte d'elle-même quand le réseau revient ; sinon, appuie sur « Actualiser » dans le menu. Si le score ne change plus sans cet avertissement, vérifie que l'appareil du marqueur est allumé et en ligne.",
-            "it": "Questo tablet ha perso la connessione (Wi-Fi o server) per qualche secondo, quindi il punteggio può non essere aggiornato. Si ricollega da solo quando torna la rete; se non succede, tocca «Aggiorna» nel menu. Se il punteggio smette di cambiare senza questo avviso, controlla che il dispositivo del segnapunti sia acceso e online."
+            "en": "This tablet has lost its connection (Wi-Fi or server) for a few seconds, so the score may be out of date. It reconnects by itself when the network is back; if not, tap “Refresh” in the menu. A yellow “The scorer's device is not connected” means this tablet is fine but the scorer's device is off, asleep or offline: tell the scorer.",
+            "de": "Dieses Tablet hat seine Verbindung (WLAN oder Server) für einige Sekunden verloren, der Spielstand kann also veraltet sein. Es verbindet sich von selbst wieder, sobald das Netz zurück ist; falls nicht, tippe im Menü auf «Aktualisieren». Ein gelbes «Das Gerät des Schreibers ist nicht verbunden» heisst: Dieses Tablet ist in Ordnung, aber das Gerät des Schreibers ist aus, im Ruhezustand oder offline. Sag es dem Schreiber.",
+            "fr": "Cette tablette a perdu sa connexion (Wi-Fi ou serveur) pendant quelques secondes, le score peut donc ne pas être à jour. Elle se reconnecte d'elle-même quand le réseau revient ; sinon, appuie sur « Actualiser » dans le menu. Un avis jaune « L'appareil du marqueur n'est pas connecté » veut dire que cette tablette va bien, mais que l'appareil du marqueur est éteint, en veille ou hors ligne : préviens le marqueur.",
+            "it": "Questo tablet ha perso la connessione (Wi-Fi o server) per qualche secondo, quindi il punteggio può non essere aggiornato. Si ricollega da solo quando torna la rete; se non succede, tocca «Aggiorna» nel menu. Un avviso giallo «Il dispositivo del segnapunti non è collegato» vuol dire che questo tablet va bene, ma il dispositivo del segnapunti è spento, in standby o offline: avvisa il segnapunti."
           }
         },
         {
@@ -2644,6 +2644,21 @@
             "de": "Sie kehrt von selbst in ihr Spiel zurück, sobald der Server wieder erreichbar ist, und wartet wenn nötig auf das Matchblatt. Du musst die PIN nicht neu eingeben.",
             "fr": "Il revient de lui-même dans son match quand le serveur est de nouveau là, et attend la feuille de match si besoin. Tu n'as pas à ressaisir le PIN.",
             "it": "Rientra da sola nella sua partita quando il server torna raggiungibile, e se serve aspetta il referto. Non devi reinserire il PIN."
+          }
+        },
+        {
+          "id": "scorerAway",
+          "question": {
+            "en": "It says “The scorer's device is not connected”?",
+            "de": "Es steht «Das Gerät des Schreibers ist nicht verbunden»?",
+            "fr": "Il est écrit « L'appareil du marqueur n'est pas connecté » ?",
+            "it": "C'è scritto «Il dispositivo del segnapunti non è collegato»?"
+          },
+          "answer": {
+            "en": "The scorer's laptop or tablet is off, asleep or has lost its connection, so the score may be out of date and your requests wait. Tell the scorer; the notice goes once the scorer's device is back.",
+            "de": "Laptop oder Tablet des Schreibers ist aus, im Ruhezustand oder hat die Verbindung verloren: Der Spielstand ist vielleicht nicht aktuell, und deine Anfragen warten. Sag es dem Schreiber; der Hinweis verschwindet, sobald sein Gerät zurück ist.",
+            "fr": "L'ordinateur ou la tablette du marqueur est éteint, en veille ou a perdu sa connexion : le score n'est peut-être pas à jour et tes demandes attendent. Préviens le marqueur ; l'avis disparaît dès que son appareil est de retour.",
+            "it": "Il portatile o il tablet del segnapunti è spento, in standby o ha perso la connessione: il punteggio potrebbe non essere aggiornato e le tue richieste aspettano. Avvisa il segnapunti; l'avviso sparisce appena il suo dispositivo torna."
           }
         },
         {
