@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T17:51:16.089Z",
-  "appVersion": "3.2.8",
+  "generatedAt": "2026-11-15T18:30:09.766Z",
+  "appVersion": "3.2.9",
   "languages": [
     "en",
     "de",
@@ -63,7 +63,7 @@
           "answer": {
             "en": "Signed in, tap “Official match”: pick today's home game of your club from the list, or enter the game yourself. “Test match” and “Easy match” are below it; signed out, you only have those two. An official match has rosters, officials and signatures. A test match is for practice. An easy match is unofficial: no rosters and no signatures. “Scoreboard” is no match at all: just the points and sets of two teams on the whole screen, for a friendly or a training game. It stays on this device. In the Global tool, “Match” starts a full match without signing in.",
             "de": "Angemeldet tippst du auf «Offizielles Spiel»: Wähle das heutige Heimspiel deines Vereins aus der Liste oder gib das Spiel selbst ein. Darunter sind «Testspiel» und «Einfaches Spiel»; abgemeldet hast du nur diese zwei. Ein offizielles Spiel hat Kader, Offizielle und Unterschriften. Ein Testspiel ist zum Üben. Ein einfaches Spiel ist inoffiziell: keine Kader und keine Unterschriften. «Anzeigetafel» ist gar kein Spiel: nur die Punkte und Sätze zweier Teams auf dem ganzen Bildschirm, für ein Freundschafts- oder Trainingsspiel. Sie bleibt auf diesem Gerät. Im Werkzeug Global startet «Spiel» ein vollständiges Spiel ohne Anmeldung.",
-            "fr": "Connecté, appuie sur « Match officiel » : choisis le match à domicile de ton club du jour dans la liste, ou saisis le match toi-même. « Match amical » et « Match simplifié » se trouvent en dessous ; déconnecté, tu n'as que ces deux-là. Un match officiel a des effectifs, des officiels et des signatures. Un match amical sert à s'entraîner. Un match simplifié n'est pas officiel : pas d'effectifs ni de signatures. « Tableau de score » n'est pas un match : seulement les points et les sets de deux équipes sur tout l'écran, pour un match entre amis ou un entraînement. Il reste sur cet appareil. Dans l'outil Global, « Match » lance un match complet sans connexion.",
+            "fr": "Connecté, appuie sur « Match officiel » : choisis le match à domicile de ton club du jour dans la liste, ou saisis le match toi-même. « Match test » et « Match simplifié » se trouvent en dessous ; déconnecté, tu n'as que ces deux-là. Un match officiel a des effectifs, des officiels et des signatures. Un match test sert à s'entraîner. Un match simplifié n'est pas officiel : pas d'effectifs ni de signatures. « Tableau de score » n'est pas un match : seulement les points et les sets de deux équipes sur tout l'écran, pour un match entre amis ou un entraînement. Il reste sur cet appareil. Dans l'outil Global, « Match » lance un match complet sans connexion.",
             "it": "Con l'accesso, tocca «Partita ufficiale»: scegli dalla lista la partita in casa di oggi del tuo club, o inserisci tu la partita. Sotto ci sono «Partita test» e «Partita semplice»; senza accesso hai solo queste due. Una partita ufficiale ha roster, ufficiali di gara e firme. Una partita test serve per esercitarsi. Una partita semplice non è ufficiale: niente roster e niente firme. «Tabellone» non è una partita: solo i punti e i set di due squadre a tutto schermo, per un'amichevole o un allenamento. Resta su questo dispositivo. Nello strumento Globale, «Partita» avvia una partita completa senza accesso."
           }
         },
@@ -78,7 +78,7 @@
           "answer": {
             "en": "An official match needs both rosters (at least 6 players each), the officials and, before the first serve, the signatures. When you are signed in, it is saved on the server for the referee, the livescore and the backups. A test match has invented teams for practice. It is never saved on the server; referee and bench tablets can still follow it (“Switch to test matches” on the tablet).",
             "de": "Ein offizielles Spiel braucht beide Kader (je mindestens 6 Spieler), die Offiziellen und vor dem ersten Aufschlag die Unterschriften. Bist du angemeldet, wird es auf dem Server gespeichert: für den Schiedsrichter, den Livescore und die Backups. Ein Testspiel hat erfundene Teams zum Üben. Es wird nie auf dem Server gespeichert; Schiedsrichter- und Bank-Tablets können ihm trotzdem folgen («Zu Testspielen wechseln» auf dem Tablet).",
-            "fr": "Un match officiel demande les deux effectifs (au moins 6 joueurs chacun), les officiels et, avant le premier service, les signatures. Si tu es connecté, il est enregistré sur le serveur pour l'arbitre, le livescore et les sauvegardes. Un match amical a des équipes inventées pour s'entraîner. Il n'est jamais enregistré sur le serveur ; les tablettes de l'arbitre et des bancs peuvent quand même le suivre (« Passer aux matchs de test » sur la tablette).",
+            "fr": "Un match officiel demande les deux effectifs (au moins 6 joueurs chacun), les officiels et, avant le premier service, les signatures. Si tu es connecté, il est enregistré sur le serveur pour l'arbitre, le livescore et les sauvegardes. Un match test a des équipes inventées pour s'entraîner. Il n'est jamais enregistré sur le serveur ; les tablettes de l'arbitre et des bancs peuvent quand même le suivre (« Passer aux matchs de test » sur la tablette).",
             "it": "Una partita ufficiale richiede i due roster (almeno 6 giocatori ciascuno), gli ufficiali di gara e, prima del primo servizio, le firme. Se hai effettuato l'accesso, viene salvata sul server per l'arbitro, il livescore e i backup. Una partita test ha squadre inventate per esercitarsi. Non viene mai salvata sul server; i tablet dell'arbitro e delle panchine possono comunque seguirla («Passa alle partite di prova» sul tablet)."
           }
         },
@@ -377,7 +377,7 @@
           "answer": {
             "en": "At the top of Match setup, tap “Backups”. “Cloud” is always on while you score signed in (a test match is never sent). “This device”: the desktop and Android apps keep a file of the match themselves; in Chrome or Edge, “Select backup folder” keeps one in a folder you pick; other browsers download a file at set end and match end. “Removable drive”: the desktop app copies every backup to each USB stick plugged in; in Chrome or Edge, choose a folder on the stick.",
             "de": "Tippe oben in der Spieleinrichtung auf «Sicherungen». «Cloud» ist immer an, solange du angemeldet erfasst (ein Testspiel wird nie gesendet). «Dieses Gerät»: Die Desktop- und die Android-App speichern selbst eine Datei des Spiels; in Chrome oder Edge speichert «Sicherungsordner auswählen» eine in einem Ordner deiner Wahl; andere Browser laden am Satzende und am Spielende eine Datei herunter. «Wechseldatenträger»: Die Desktop-App kopiert jedes Backup auf jeden eingesteckten USB-Stick; in Chrome oder Edge wählst du einen Ordner auf dem Stick.",
-            "fr": "En haut de la configuration du match, appuie sur « Sauvegardes ». « Cloud » est toujours actif quand tu saisis en étant connecté (un match amical n'est jamais envoyé). « Cet appareil » : les apps pour ordinateur et Android gardent elles-mêmes un fichier du match ; dans Chrome ou Edge, « Choisir le dossier de sauvegarde » en garde un dans un dossier que tu choisis ; les autres navigateurs téléchargent un fichier à la fin du set et à la fin du match. « Support amovible » : l'app pour ordinateur copie chaque sauvegarde sur chaque clé USB branchée ; dans Chrome ou Edge, choisis un dossier sur la clé.",
+            "fr": "En haut de la configuration du match, appuie sur « Sauvegardes ». « Cloud » est toujours actif quand tu saisis en étant connecté (un match test n'est jamais envoyé). « Cet appareil » : les apps pour ordinateur et Android gardent elles-mêmes un fichier du match ; dans Chrome ou Edge, « Choisir le dossier de sauvegarde » en garde un dans un dossier que tu choisis ; les autres navigateurs téléchargent un fichier à la fin du set et à la fin du match. « Support amovible » : l'app pour ordinateur copie chaque sauvegarde sur chaque clé USB branchée ; dans Chrome ou Edge, choisis un dossier sur la clé.",
             "it": "In cima alla configurazione della partita, tocca «Backup». «Cloud» è sempre attivo mentre referti con l'accesso (una partita test non viene mai inviata). «Questo dispositivo»: le app desktop e Android tengono da sole un file della partita; in Chrome o Edge, «Seleziona cartella backup» ne tiene uno in una cartella che scegli tu; gli altri browser scaricano un file a fine set e a fine partita. «Unità rimovibile»: l'app desktop copia ogni backup su ogni chiavetta USB collegata; in Chrome o Edge, scegli una cartella sulla chiavetta."
           }
         },
@@ -625,7 +625,7 @@
           },
           "answer": {
             "en": "Toss the coin with both captains first. Then set the result on this page: “Switch sides” puts each team on its side, “Switch serve” gives the first service to the right team.",
-            "de": "Mache zuerst die Auslosung mit beiden Captains. Trage dann das Ergebnis auf dieser Seite ein: «Teams» stellt jedes Team auf seine Seite, «Aufschlag» gibt den ersten Aufschlag dem richtigen Team.",
+            "de": "Mache zuerst die Auslosung mit beiden Captains. Trage dann das Ergebnis auf dieser Seite ein: «Seiten wechseln» stellt jedes Team auf seine Seite, «Aufschlag wechseln» gibt den ersten Aufschlag dem richtigen Team.",
             "fr": "Fais d'abord le tirage au sort avec les deux capitaines. Saisis ensuite le résultat sur cette page : « Changer de côté » place chaque équipe de son côté, « Changer de service » donne le premier service à la bonne équipe.",
             "it": "Fai prima il sorteggio con i due capitani. Poi inserisci il risultato in questa pagina: «Inverti squadre» mette ogni squadra dal suo lato, «Inverti servizio» dà il primo servizio alla squadra giusta."
           }
@@ -640,7 +640,7 @@
           },
           "answer": {
             "en": "Team A is shown on the left, Team B on the right. Tap “Switch sides” to swap them.",
-            "de": "Team A steht links, Team B rechts. Tippe auf «Teams», um sie zu tauschen.",
+            "de": "Team A steht links, Team B rechts. Tippe auf «Seiten wechseln», um sie zu tauschen.",
             "fr": "L'équipe A est à gauche, l'équipe B à droite. Appuie sur « Changer de côté » pour les inverser.",
             "it": "La squadra A è a sinistra, la squadra B a destra. Tocca «Inverti squadre» per scambiarle."
           }
@@ -655,7 +655,7 @@
           },
           "answer": {
             "en": "The ball shows the team that serves first. Tap “Switch serve” to give the service to the other team.",
-            "de": "Der Ball zeigt das Team, das zuerst aufschlägt. Tippe auf «Aufschlag», um den Aufschlag dem anderen Team zu geben.",
+            "de": "Der Ball zeigt das Team, das zuerst aufschlägt. Tippe auf «Aufschlag wechseln», um den Aufschlag dem anderen Team zu geben.",
             "fr": "Le ballon montre l'équipe qui sert en premier. Appuie sur « Changer de service » pour donner le service à l'autre équipe.",
             "it": "Il pallone indica la squadra che serve per prima. Tocca «Inverti servizio» per dare il servizio all'altra squadra."
           }
@@ -687,7 +687,7 @@
             "en": "When the sides and the service are done, tap “Confirm coin toss result”. Signatures still missing can follow on the scoring screen. The app checks the connection and opens the scoring screen.",
             "de": "Wenn Seiten und Aufschlag stimmen, tippe auf «Seitenwahl bestätigen». Fehlende Unterschriften können auf dem Erfassungsbildschirm folgen. Die App prüft die Verbindung und öffnet den Erfassungsbildschirm.",
             "fr": "Quand les côtés et le service sont faits, appuie sur « Confirmer le tirage au sort ». Les signatures manquantes peuvent suivre sur l'écran de saisie. L'app vérifie la connexion et ouvre l'écran de saisie.",
-            "it": "Quando lati e servizio sono a posto, tocca «Conferma risultato coin toss». Le firme mancanti possono seguire nella schermata del punteggio. L'app controlla la connessione e apre la schermata del punteggio."
+            "it": "Quando lati e servizio sono a posto, tocca «Conferma il sorteggio». Le firme mancanti possono seguire nella schermata del punteggio. L'app controlla la connessione e apre la schermata del punteggio."
           }
         },
         {
@@ -732,7 +732,7 @@
             "en": "Before “Confirm coin toss result”, just switch again. After it, the page is locked: change Team A or the first serve in Match › “Corrections”. Before the first rally of set 1, a new Team A there redoes the coin toss (Team A on the left).",
             "de": "Vor «Seitenwahl bestätigen» wechselst du einfach nochmals. Danach ist die Seite gesperrt: Ändere Team A oder den ersten Aufschlag unter Spiel › «Korrekturen». Vor dem ersten Ballwechsel von Satz 1 wiederholt ein neues Team A dort die Auslosung (Team A links).",
             "fr": "Avant « Confirmer le tirage au sort », change simplement à nouveau. Après, la page est verrouillée : change l'équipe A ou le premier service dans Match › « Corrections ». Avant le premier échange du set 1, une nouvelle équipe A y refait le tirage au sort (l'équipe A à gauche).",
-            "it": "Prima di «Conferma risultato coin toss», basta invertire di nuovo. Dopo, la pagina è bloccata: cambia la squadra A o il primo servizio in Partita › «Correzioni». Prima del primo scambio del set 1, una nuova squadra A lì rifà il sorteggio (squadra A a sinistra)."
+            "it": "Prima di «Conferma il sorteggio», basta invertire di nuovo. Dopo, la pagina è bloccata: cambia la squadra A o il primo servizio in Partita › «Correzioni». Prima del primo scambio del set 1, una nuova squadra A lì rifà il sorteggio (squadra A a sinistra)."
           }
         }
       ]
@@ -1145,7 +1145,7 @@
             "en": "The app asks “Game captain”: tap the player on court who acts as captain (the last game captain is offered first, marked “Last”). Until one is chosen, a “Game captain” button shows on that team's side. The game captain stays until they leave the court, the team captain comes back or the set ends. This needs “Manage captain on court” in the options (on by default).",
             "de": "Die App fragt «Spielkapitän»: Tippe auf den Spieler auf dem Feld, der als Captain amtet (der letzte Spielkapitän wird zuerst angeboten, mit «Zuletzt» markiert). Bis einer gewählt ist, zeigt die Seite dieses Teams eine Schaltfläche «Spielkapitän». Der Spielkapitän bleibt, bis er das Feld verlässt, der Teamcaptain zurückkommt oder der Satz endet. Dafür braucht es «Kapitän auf dem Feld verwalten» in den Optionen (standardmässig an).",
             "fr": "L'app demande « Capitaine de jeu » : appuie sur le joueur sur le terrain qui fait office de capitaine (le dernier capitaine de jeu est proposé en premier, marqué « Dernier »). Tant qu'aucun n'est choisi, un bouton « Capitaine de jeu » s'affiche du côté de cette équipe. Le capitaine de jeu le reste jusqu'à ce qu'il quitte le terrain, que le capitaine de l'équipe revienne ou que le set se termine. Il faut pour cela « Gérer le capitaine de jeu » dans les options (activé par défaut).",
-            "it": "L'app chiede «Capitano del gioco»: tocca il giocatore in campo che fa da capitano (l'ultimo capitano in gioco è proposto per primo, segnato «Ultimo»). Finché non ne è scelto uno, dal lato di quella squadra c'è un pulsante «Capitano in gioco». Il capitano in gioco resta finché non lascia il campo, il capitano della squadra torna o il set finisce. Serve «Gestisci capitano in campo» nelle opzioni (attivo di base)."
+            "it": "L'app chiede «Capitano in gioco»: tocca il giocatore in campo che fa da capitano (l'ultimo capitano in gioco è proposto per primo, segnato «Ultimo»). Finché non ne è scelto uno, dal lato di quella squadra c'è un pulsante «Capitano in gioco». Il capitano in gioco resta finché non lascia il campo, il capitano della squadra torna o il set finisce. Serve «Gestisci capitano in campo» nelle opzioni (attivo di base)."
           }
         },
         {
@@ -1452,7 +1452,7 @@
           "answer": {
             "en": "The deciding set (set 5, or set 3 in a best of 3) goes to 15 points with a 2-point lead. Toss the coin again before it: “Switch sides” and “Switch serve” set the sides and the service (the “SERVE” ball beside the buttons shows who serves), then tap “Confirm set 5 setup” (“Confirm set 3 setup” in a best of 3). At 8 points the teams change courts.",
             "de": "Der Entscheidungssatz (Satz 5, oder Satz 3 bei Best of 3) geht auf 15 Punkte mit 2 Punkten Vorsprung. Davor wird neu ausgelost: «Seiten wechseln» und «Aufschlag wechseln» legen Seiten und Aufschlag fest (der Ball «AUFSCHLAG» neben den Schaltflächen zeigt, wer aufschlägt), dann tippe auf «Satz 5 Einrichtung bestätigen» («Satz 3 Einrichtung bestätigen» bei Best of 3). Bei 8 Punkten wechseln die Teams das Feld.",
-            "fr": "Le set décisif (set 5, ou set 3 en deux sets gagnants) se joue en 15 points avec 2 points d'écart. Avant lui, refais le tirage au sort : « Changer de côté » et « Changer de service » règlent les côtés et le service (le ballon « SERVICE » à côté des boutons montre qui sert), puis appuie sur « Confirmer set 5 setup » (« Confirmer set 3 setup » en deux sets gagnants). À 8 points, les équipes changent de côté.",
+            "fr": "Le set décisif (set 5, ou set 3 en deux sets gagnants) se joue en 15 points avec 2 points d'écart. Avant lui, refais le tirage au sort : « Changer de côté » et « Changer de service » règlent les côtés et le service (le ballon « SERVICE » à côté des boutons montre qui sert), puis appuie sur « Confirmer le set 5 » (« Confirmer le set 3 » en deux sets gagnants). À 8 points, les équipes changent de côté.",
             "it": "Il set decisivo (set 5, o set 3 al meglio dei 3) va a 15 punti con 2 punti di vantaggio. Prima si rifà il sorteggio: «Inverti lati» e «Inverti servizio» impostano lati e servizio (il pallone «SERVIZIO» accanto ai pulsanti mostra chi serve), poi tocca «Conferma set 5» («Conferma set 3» al meglio dei 3). A 8 punti le squadre cambiano campo."
           }
         },
@@ -1701,7 +1701,7 @@
           "answer": {
             "en": "Tap “Reopen last set” to go back to the scoring screen. All signatures are cleared and must be collected again. After the approval, “Reopen match” reopens a test match, or a match whose approval has not reached the server yet. Once the server has closed it, only an admin can reopen it.",
             "de": "Tippe auf «Letzten Satz wieder öffnen», um zum Erfassungsbildschirm zurückzukehren. Alle Unterschriften werden gelöscht und müssen neu gesammelt werden. Nach der Genehmigung öffnet «Spiel wieder öffnen» ein Testspiel wieder, oder ein Spiel, dessen Genehmigung den Server noch nicht erreicht hat. Hat der Server es abgeschlossen, kann nur noch ein Admin es wieder öffnen.",
-            "fr": "Appuie sur « Rouvrir dernier set » pour revenir à l'écran de saisie. Toutes les signatures sont effacées et doivent être recueillies à nouveau. Après l'approbation, « Rouvrir le match » rouvre un match amical, ou un match dont l'approbation n'a pas encore atteint le serveur. Une fois que le serveur l'a clôturé, seul un administrateur peut le rouvrir.",
+            "fr": "Appuie sur « Rouvrir dernier set » pour revenir à l'écran de saisie. Toutes les signatures sont effacées et doivent être recueillies à nouveau. Après l'approbation, « Rouvrir le match » rouvre un match test, ou un match dont l'approbation n'a pas encore atteint le serveur. Une fois que le serveur l'a clôturé, seul un administrateur peut le rouvrir.",
             "it": "Tocca «Riapri ultimo set» per tornare alla schermata del punteggio. Tutte le firme vengono cancellate e vanno raccolte di nuovo. Dopo l'approvazione, «Riapri partita» riapre una partita test, o una partita la cui approvazione non è ancora arrivata al server. Una volta che il server l'ha chiusa, solo un amministratore può riaprirla."
           }
         },
@@ -2198,13 +2198,13 @@
           "question": {
             "en": "Can I try the tablets with a test match?",
             "de": "Kann ich die Tablets mit einem Testspiel ausprobieren?",
-            "fr": "Puis-je essayer les tablettes avec un match amical ?",
+            "fr": "Puis-je essayer les tablettes avec un match test ?",
             "it": "Posso provare i tablet con una partita test?"
           },
           "answer": {
             "en": "Yes. Start a test match and turn the tablet on in “Connect tablets”; its code opens it directly. A tablet that picks from the list over the internet taps “Switch to test matches”. Test matches never show on the online livescore.",
             "de": "Ja. Starte ein Testspiel und schalte das Tablet in «Tablets verbinden» ein; sein Code öffnet es direkt. Ein Tablet, das über das Internet aus der Liste wählt, tippt auf «Zu Testspielen wechseln». Testspiele erscheinen nie im Online-Livescore.",
-            "fr": "Oui. Lance un match amical et active la tablette dans « Connecter des tablettes » ; son code l'ouvre directement. Une tablette qui choisit dans la liste par internet appuie sur « Passer aux matchs de test ». Les matchs amicaux n'apparaissent jamais sur le livescore en ligne.",
+            "fr": "Oui. Lance un match test et active la tablette dans « Connecter des tablettes » ; son code l'ouvre directement. Une tablette qui choisit dans la liste par internet appuie sur « Passer aux matchs de test ». Les matchs test n'apparaissent jamais sur le livescore en ligne.",
             "it": "Sì. Avvia una partita test e accendi il tablet in «Collega tablet»; il suo codice lo apre direttamente. Un tablet che sceglie dalla lista via internet tocca «Passa alle partite di prova». Le partite test non compaiono mai nel livescore online."
           }
         },
@@ -2318,7 +2318,7 @@
           "answer": {
             "en": "The scorer must have the match open with the referee tablet turned on (“Connect tablets”, step 2). Over the internet, the match must be synced first. Tap “Load games” to look again. A test match is listed after “Switch to test matches”.",
             "de": "Der Schreiber muss das Spiel offen haben und das Schiedsrichter-Tablet eingeschaltet («Tablets verbinden», Schritt 2). Über das Internet muss das Spiel zuerst synchronisiert sein. Tippe auf «Spiele laden», um nochmals zu suchen. Ein Testspiel erscheint nach «Zu Testspielen wechseln».",
-            "fr": "Le marqueur doit avoir le match ouvert avec la tablette de l'arbitre activée (« Connecter des tablettes », étape 2). Par internet, le match doit d'abord être synchronisé. Appuie sur « Charger les matchs » pour chercher à nouveau. Un match amical apparaît après « Passer aux matchs de test ».",
+            "fr": "Le marqueur doit avoir le match ouvert avec la tablette de l'arbitre activée (« Connecter des tablettes », étape 2). Par internet, le match doit d'abord être synchronisé. Appuie sur « Charger les matchs » pour chercher à nouveau. Un match test apparaît après « Passer aux matchs de test ».",
             "it": "Il segnapunti deve avere la partita aperta con il tablet dell'arbitro acceso («Collega tablet», passo 2). Via internet, la partita deve prima essere sincronizzata. Tocca «Carica partite» per cercare di nuovo. Una partita test compare nella lista dopo «Passa alle partite di prova»."
           }
         },
@@ -2537,7 +2537,7 @@
           "answer": {
             "en": "Scan your team's bench code in the scorer's “Connect tablets”, enter the team PIN and tap “Connect”. Without the code: open bench.openvolley.app, choose “Online (automatic)”, pick the game (check the game number) and your team, enter the team PIN and tap “Connect”. A test match is listed after “Switch to test matches”.",
             "de": "Scanne den Bank-Code deines Teams aus «Tablets verbinden» des Schreibers, gib die Team-PIN ein und tippe auf «Verbinden». Ohne Code: Öffne bench.openvolley.app, wähle «Online (automatisch)», wähle das Spiel (prüfe die Spielnummer) und dein Team, gib die Team-PIN ein und tippe auf «Verbinden». Ein Testspiel erscheint nach «Zu Testspielen wechseln».",
-            "fr": "Scanne le code du banc de ton équipe dans « Connecter des tablettes » du marqueur, saisis le PIN de l'équipe et appuie sur « Se connecter ». Sans le code : ouvre bench.openvolley.app, choisis « En ligne (automatique) », choisis le match (vérifie le numéro du match) et ton équipe, saisis le PIN de l'équipe et appuie sur « Se connecter ». Un match amical apparaît après « Passer aux matchs de test ».",
+            "fr": "Scanne le code du banc de ton équipe dans « Connecter des tablettes » du marqueur, saisis le PIN de l'équipe et appuie sur « Se connecter ». Sans le code : ouvre bench.openvolley.app, choisis « En ligne (automatique) », choisis le match (vérifie le numéro du match) et ton équipe, saisis le PIN de l'équipe et appuie sur « Se connecter ». Un match test apparaît après « Passer aux matchs de test ».",
             "it": "Scansiona il codice della panchina della tua squadra da «Collega tablet» del segnapunti, inserisci il PIN squadra e tocca «Connetti». Senza il codice: apri bench.openvolley.app, scegli «Online (automatico)», scegli la partita (controlla il numero partita) e la tua squadra, inserisci il PIN squadra e tocca «Connetti». Una partita test compare nella lista dopo «Passa alle partite di prova»."
           }
         },
@@ -2756,7 +2756,7 @@
           "answer": {
             "en": "The scorer must be online and signed in, with the match started and synced. Test matches never appear on the online livescore. On the hall network, open the livescore address shown in “Connect tablets”.",
             "de": "Der Schreiber muss online und angemeldet sein, das Spiel gestartet und synchronisiert. Testspiele erscheinen nie im Online-Livescore. Im Hallennetz öffnest du die Livescore-Adresse aus «Tablets verbinden».",
-            "fr": "Le marqueur doit être en ligne et connecté, avec le match commencé et synchronisé. Les matchs amicaux n'apparaissent jamais dans le livescore en ligne. Sur le réseau de la salle, ouvre l'adresse du livescore indiquée dans « Connecter des tablettes ».",
+            "fr": "Le marqueur doit être en ligne et connecté, avec le match commencé et synchronisé. Les matchs test n'apparaissent jamais dans le livescore en ligne. Sur le réseau de la salle, ouvre l'adresse du livescore indiquée dans « Connecter des tablettes ».",
             "it": "Il segnapunti deve essere online e aver effettuato l'accesso, con la partita iniziata e sincronizzata. Le partite test non compaiono mai nel livescore online. Sulla rete della palestra, apri l'indirizzo del livescore mostrato in «Collega tablet»."
           }
         },
@@ -2965,7 +2965,7 @@
           "answer": {
             "en": "On Home: “Restore match”. Backups the app finds on this device or a USB stick are listed under “Saved on this device or a drive”: tap “Restore”. Another file: “Restore from local file” › “Select backup file”. Check the “Restore preview” and tap “Confirm restore”. A backup of an official match is encrypted: type its game PIN or referee PIN when asked. Test matches open without a PIN.",
             "de": "Auf der Startseite: «Spiel wiederherstellen». Backups, die die App auf diesem Gerät oder einem USB-Stick findet, stehen unter «Auf diesem Gerät oder einem Laufwerk gesichert»: Tippe auf «Wiederherstellen». Eine andere Datei: «Aus lokaler Datei wiederherstellen» › «Backup-Datei auswählen». Prüfe die «Wiederherstellungs-Vorschau» und tippe auf «Wiederherstellen». Ein Backup eines offiziellen Spiels ist verschlüsselt: Gib seine Spiel-PIN oder Schiedsrichter-PIN ein, wenn die App danach fragt. Testspiele öffnen sich ohne PIN.",
-            "fr": "À l'accueil : « Restaurer le match ». Les sauvegardes que l'app trouve sur cet appareil ou sur une clé USB sont listées sous « Sauvegardé sur cet appareil ou un support » : appuie sur « Restaurer ». Un autre fichier : « Restaurer depuis un fichier local » › « Sélectionner le fichier de sauvegarde ». Vérifie l'« Aperçu de la restauration » et appuie sur « Confirmer la restauration ». La sauvegarde d'un match officiel est chiffrée : saisis son PIN du match ou son PIN arbitre quand l'app le demande. Les matchs amicaux s'ouvrent sans PIN.",
+            "fr": "À l'accueil : « Restaurer le match ». Les sauvegardes que l'app trouve sur cet appareil ou sur une clé USB sont listées sous « Sauvegardé sur cet appareil ou un support » : appuie sur « Restaurer ». Un autre fichier : « Restaurer depuis un fichier local » › « Sélectionner le fichier de sauvegarde ». Vérifie l'« Aperçu de la restauration » et appuie sur « Confirmer la restauration ». La sauvegarde d'un match officiel est chiffrée : saisis son PIN du match ou son PIN arbitre quand l'app le demande. Les matchs test s'ouvrent sans PIN.",
             "it": "Sulla home: «Ripristina partita». I backup che l'app trova su questo dispositivo o su una chiavetta USB sono elencati in «Salvato su questo dispositivo o su un’unità»: tocca «Ripristina». Un altro file: «Ripristina da file locale» › «Seleziona file di backup». Controlla l'«Anteprima ripristino» e tocca «Conferma ripristino». Il backup di una partita ufficiale è cifrato: inserisci il suo PIN partita o il PIN arbitro quando l'app lo chiede. Le partite test si aprono senza PIN."
           }
         },
@@ -3124,7 +3124,7 @@
           "answer": {
             "en": "“Connected”: all is synced. “Syncing...”: changes are going up. “Ready”: connected, nothing to sync (Home, or a test match). “Offline (n waiting)”: no connection, n changes are waiting. “Local only”: the tablets run on the hall network while the cloud is out of reach. “Sign in to sync”: sign in first. “Update needed”: update the app after this match; the changes wait on this device. “Error”: tap it to see why, then “Retry all”.",
             "de": "«Verbunden»: Alles ist synchronisiert. «Synchronisiere...»: Änderungen werden gesendet. «Bereit»: verbunden, nichts zu synchronisieren (Startseite oder ein Testspiel). «Offline (n ausstehend)»: keine Verbindung, n Änderungen warten. «Nur lokal»: Die Tablets laufen im Hallennetz, die Cloud ist nicht erreichbar. «Zum Synchronisieren anmelden»: zuerst anmelden. «Update nötig»: Aktualisiere die App nach diesem Spiel; die Änderungen warten auf diesem Gerät. «Fehler»: Tippe darauf, um den Grund zu sehen, dann «Alle wiederholen».",
-            "fr": "« Connecté » : tout est synchronisé. « Synchronisation... » : des modifications sont envoyées. « Prêt » : connecté, rien à synchroniser (accueil, ou un match amical). « Hors ligne (n en attente) » : pas de connexion, n modifications attendent. « Local uniquement » : les tablettes fonctionnent sur le réseau de la salle, le cloud est hors d'atteinte. « Se connecter pour synchroniser » : connecte-toi d'abord. « Mise à jour nécessaire » : mets à jour l'app après ce match ; les modifications attendent sur cet appareil. « Erreur » : appuie dessus pour voir pourquoi, puis « Réessayer tout ».",
+            "fr": "« Connecté » : tout est synchronisé. « Synchronisation... » : des modifications sont envoyées. « Prêt » : connecté, rien à synchroniser (accueil, ou un match test). « Hors ligne (n en attente) » : pas de connexion, n modifications attendent. « Local uniquement » : les tablettes fonctionnent sur le réseau de la salle, le cloud est hors d'atteinte. « Se connecter pour synchroniser » : connecte-toi d'abord. « Mise à jour nécessaire » : mets à jour l'app après ce match ; les modifications attendent sur cet appareil. « Erreur » : appuie dessus pour voir pourquoi, puis « Réessayer tout ».",
             "it": "«Connesso»: tutto è sincronizzato. «Sincronizzazione...»: le modifiche vengono inviate. «Pronto»: connesso, niente da sincronizzare (home, o una partita test). «Offline (n in attesa)»: nessuna connessione, n modifiche aspettano. «Solo locale»: i tablet funzionano sulla rete della palestra mentre il cloud non è raggiungibile. «Accedi per sincronizzare»: prima effettua l'accesso. «Aggiornamento necessario»: aggiorna l'app dopo questa partita; le modifiche aspettano su questo dispositivo. «Errore»: toccalo per vedere il motivo, poi «Riprova tutto»."
           }
         },
@@ -3208,13 +3208,13 @@
           "question": {
             "en": "Does a test match go online?",
             "de": "Geht ein Testspiel online?",
-            "fr": "Un match amical va-t-il en ligne ?",
+            "fr": "Un match test va-t-il en ligne ?",
             "it": "Una partita test va online?"
           },
           "answer": {
             "en": "A test match is never saved to the cloud: no cloud backup, no online livescore. Its score does reach referee and bench tablets over the internet: on the tablet, tap “Switch to test matches”.",
             "de": "Ein Testspiel wird nie in der Cloud gespeichert: kein Cloud-Backup, kein Online-Livescore. Sein Spielstand erreicht Schiedsrichter- und Bank-Tablets trotzdem über das Internet: Tippe auf dem Tablet auf «Zu Testspielen wechseln».",
-            "fr": "Un match amical n'est jamais enregistré dans le cloud : pas de sauvegarde cloud, pas de livescore en ligne. Son score arrive quand même aux tablettes de l'arbitre et des bancs par internet : sur la tablette, appuie sur « Passer aux matchs de test ».",
+            "fr": "Un match test n'est jamais enregistré dans le cloud : pas de sauvegarde cloud, pas de livescore en ligne. Son score arrive quand même aux tablettes de l'arbitre et des bancs par internet : sur la tablette, appuie sur « Passer aux matchs de test ».",
             "it": "Una partita test non viene mai salvata nel cloud: niente backup nel cloud, niente livescore online. Il suo punteggio arriva comunque ai tablet dell'arbitro e delle panchine via internet: sul tablet, tocca «Passa alle partite di prova»."
           }
         }
@@ -4113,7 +4113,7 @@
           "answer": {
             "en": "The manager page lists your requests. An admin or your club approves them, and the page updates by itself. Until then you can score test matches, or enter an invite code if you have one.",
             "de": "Die Manager-Seite listet deine Anfragen. Ein Admin oder dein Verein gibt sie frei, und die Seite aktualisiert sich von selbst. Bis dahin kannst du Testspiele erfassen oder einen Einladungscode eingeben, falls du einen hast.",
-            "fr": "La page de gestion liste tes demandes. Un administrateur ou ton club les valide, et la page se met à jour toute seule. D'ici là, tu peux marquer des matchs amicaux, ou saisir un code d'invitation si tu en as un.",
+            "fr": "La page de gestion liste tes demandes. Un administrateur ou ton club les valide, et la page se met à jour toute seule. D'ici là, tu peux marquer des matchs test, ou saisir un code d'invitation si tu en as un.",
             "it": "La pagina del manager elenca le tue richieste. Un amministratore o la tua società le approva, e la pagina si aggiorna da sola. Fino ad allora puoi refertare partite test, o inserire un codice d'invito se ne hai uno."
           }
         }
