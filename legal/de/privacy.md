@@ -1,6 +1,6 @@
 # Datenschutzerklärung
 
-**OpenVolley und OpenBeach** · Version 1.13 · Stand: 14. November 2026
+**OpenVolley und OpenBeach** · Version 1.16 · Stand: 15. November 2026
 
 Diese Erklärung gibt es auf Deutsch, Englisch, Französisch und Italienisch.
 Massgebend ist die englische Fassung.
@@ -8,13 +8,14 @@ Massgebend ist die englische Fassung.
 ## Kurz zusammengefasst
 
 - OpenVolley ist ein privates, nicht kommerzielles Open-Source-Projekt. Es
-  gibt keine Werbung, kein Tracking, keine Analyse-Werkzeuge und keine Cookies.
-- Die Apps funktionieren offline. Ihre Spiele werden auf Ihrem Gerät
-  gespeichert, in der Datenbank des Servers erst, wenn Sie sich anmelden.
+  gibt keine Werbung, kein Tracking, keine Analyse-Werkzeuge und keine Cookies
+  von mir (Abschnitt 3 nennt die Skripte, die Cloudflare einfügt).
+- Die Apps funktionieren offline. Deine Spiele werden auf deinem Gerät
+  gespeichert, in der Datenbank des Servers erst, wenn du dich anmeldest.
   Damit Tablets ein laufendes Spiel erhalten, geht es in der Browser- und der
   Android-App auch ohne Anmeldung über meinen Server, nur im Arbeitsspeicher.
 - Das Global-Werkzeug von OpenVolley braucht kein Konto. Seine Spiele bleiben
-  auf Ihrem Gerät. Nur eine Sicherung des Spiels und am Ende der Spielbericht
+  auf deinem Gerät. Nur eine Sicherung des Spiels und am Ende der Spielbericht
   als PDF liegen auf dem Server, unter einem zufälligen Sicherungscode und ohne
   Konto, und werden 180 Tage nach der letzten Änderung gelöscht (Abschnitt 7).
 - Ein elektronischer Spielbericht enthält Daten von Spielerinnen und Spielern,
@@ -24,22 +25,25 @@ Massgebend ist die englische Fassung.
   Namen der Schiedsrichterinnen und Schiedsrichter offizieller Spiele.
   **Geburtsdaten, Lizenznummern und Unterschriften sind nie öffentlich.**
 - Die OpenVolley-App führt ein Aktivitätsprotokoll jedes Spiels, ohne PINs
-  und Passwörter. Mit Anmeldung geht es auf den Server. Was Sie anklicken oder
-  tippen, bleibt auf Ihrem Gerät, ausser einer Zusammenfassung ohne den
-  eingetippten Text, wenn Sie einer Support-Anfrage die Diagnosedaten
-  mitsenden (Abschnitte 5 und 13).
+  und Passwörter. Mit Anmeldung geht es auf den Server. Was du anklickst oder
+  tippst, bleibt auf deinem Gerät, ausser einer Zusammenfassung ohne den
+  eingetippten Text, wenn du einer Support-Anfrage die Diagnosedaten
+  mitsendest (Abschnitte 5 und 13).
 - Der Server steht in der Schweiz: Ich miete ihn bei Infomaniak in Genf und
   betreibe ihn selbst. Cloudflare (USA) liefert die Websites aus und leitet den
   Verkehr zum Server weiter.
 - Ist der Versand eingeschaltet, erhalten nach einem offiziellen Spiel die
-  Schreiberin oder der Schreiber, die Schiedsrichterinnen und Schiedsrichter
-  und die Vereine der beiden Teams den fertigen Spielbericht per E-Mail
-  (Abschnitt 7).
+  Schreiberin oder der Schreiber, die Schiedsrichterinnen und Schiedsrichter,
+  die Vereine der beiden Teams und die für jedes Team erfasste Kontaktadresse
+  den fertigen Spielbericht per E-Mail (Abschnitt 7).
 - Teamverantwortliche können den Kader eines Spiels im Voraus schicken. Das
   Gerät der Schreiberin oder des Schreibers hält ihn für die Spielvorbereitung
   bereit; sobald sie oder er ihn übernimmt, löscht der Server ihn (Abschnitt
   10).
-- Sie können jederzeit Auskunft, Berichtigung oder Löschung verlangen:
+- Spielaufzeichnungen (Spielberichte, Spielereignisse, Spielbericht-Dateien)
+  bleiben während ihrer Saison und der zwei folgenden Saisons gespeichert und
+  werden dann gelöscht (Abschnitt 16).
+- Du kannst jederzeit Auskunft, Berichtigung oder Löschung verlangen:
   **support@openvolley.app**.
 
 ## 1. Wer verantwortlich ist
@@ -52,7 +56,7 @@ E-Mail: support@openvolley.app
 
 Ich betreibe OpenVolley als Privatperson. Ich habe keine Datenschutzberaterin
 und keinen Datenschutzberater ernannt; dazu bin ich nicht verpflichtet. Für
-alle Fragen zum Datenschutz schreiben Sie an support@openvolley.app.
+alle Fragen zum Datenschutz schreib an support@openvolley.app.
 
 Diese Erklärung gilt für:
 
@@ -75,23 +79,31 @@ Beachturnier, beachte ich zusätzlich die Datenschutz-Grundverordnung der EU
 ## 3. Grundsätze
 
 - **Keine Cookies.** Die Apps setzen keine Cookies. Sie speichern nur das,
-  was sie zum Funktionieren brauchen, im Speicher Ihres Browsers oder Geräts
-  (localStorage und IndexedDB): Spieldaten für den Offline-Betrieb, Ihre
-  Einstellungen und, wenn Sie angemeldet sind, ein Anmelde-Token.
+  was sie zum Funktionieren brauchen, im Speicher deines Browsers oder Geräts
+  (localStorage und IndexedDB): Spieldaten für den Offline-Betrieb, deine
+  Einstellungen und, wenn du angemeldet bist, ein Anmelde-Token.
 - **Kein Tracking, keine Werbung, keine Analyse.** Es gibt keine
   Analyse-Werkzeuge, keine Fehlerberichte an Drittanbieter, keine
   Werbung, kein Profiling und keine automatisierten Einzelentscheidungen.
   Ich verkaufe keine Daten.
 - **Keine fremden Inhalte.** Schriften und Programmcode kommen von den eigenen
   Seiten, nicht von fremden Servern. Ausnahmen nenne ich ausdrücklich
-  (Abschnitt 12).
-- **Offline zuerst.** Was Sie ohne Anmeldung erfassen, wird nur auf Ihrem
+  (Abschnitt 12 und die Skripte von Cloudflare unten).
+- **Skripte von Cloudflare.** Cloudflare, das die Websites ausliefert
+  (Abschnitt 15), fügt den Seiten zwei kleine eigene Skripte hinzu: in jeder
+  Seite eine Prüfung gegen automatisierte Zugriffe (Bot-Erkennung) und auf
+  openvolley.app und get.openvolley.app ein Skript, das die auf der Seite
+  genannten E-Mail-Adressen anzeigt. Sie kommen von derselben Adresse wie die
+  Seite, verfolgen dich nicht und dienen keiner Analyse. Die Bot-Prüfung kann
+  ihr Ergebnis in einem Cookie von Cloudflare (`cf_clearance`) speichern; es
+  ist für den Schutz des Dienstes unbedingt nötig.
+- **Offline zuerst.** Was du ohne Anmeldung erfasst, wird nur auf deinem
   Gerät gespeichert. Zur Übertragung an die Tablets siehe Abschnitt 9.
 
 ## 4. Website und Download-Seite
 
-**openvolley.app** und **get.openvolley.app** sind statische Seiten ohne
-Skripte von Dritten. Das einzige Formular ist das Support-Formular auf
+**openvolley.app** und **get.openvolley.app** sind statische Seiten; ausser
+den Skripten von Cloudflare (Abschnitt 3) laden sie keine Skripte. Das einzige Formular ist das Support-Formular auf
 openvolley.app/support (Abschnitt 13). Beim Aufruf verarbeitet Cloudflare
 technisch nötige Daten: IP-Adresse, aufgerufene Adresse, Zeitpunkt und
 Browser-Kennung. Mein Server führt für get.openvolley.app kein Zugriffsprotokoll.
@@ -101,10 +113,10 @@ Datenbearbeitung verantwortlich sind.
 
 ## 5. Die Scorer-Apps (Browser, Desktop, Android)
 
-**Ohne Anmeldung** speichert die App alles nur auf Ihrem Gerät: Spiele,
+**Ohne Anmeldung** speichert die App alles nur auf deinem Gerät: Spiele,
 Teams, Kaderlisten mit Geburtsdaten, Sätze, Spielereignisse, Listen von
 Offiziellen, Einstellungen und die Protokolle der App (siehe unten). Spiele
-bleiben gespeichert, bis Sie sie löschen oder die App-Daten löschen.
+bleiben gespeichert, bis du sie löschst oder die App-Daten löschst.
 
 **Live-Übertragung, auch ohne Anmeldung.** Sobald ein Spiel angelegt ist,
 senden die Browser- und die Android-App es (Teams, Kaderlisten, Spielstand,
@@ -112,15 +124,15 @@ Ereignisse) an das Live-Relay meines Servers, damit Schiedsrichter- und
 Bank-Tablets es erhalten (Abschnitt 9). Dort liegt es nur im Arbeitsspeicher.
 Die Desktop-App verwendet dafür ihr eigenes Relay im lokalen Netz.
 
-**Mit Anmeldung** synchronisiert die App Ihre Spiele mit dem Server
+**Mit Anmeldung** synchronisiert die App deine Spiele mit dem Server
 (Abschnitt 7). Zusätzlich lädt sie hoch:
 
 - **Sicherungskopien** eines Spiels (vollständig, mit Kaderlisten,
-  Geburtsdaten und Unterschriften). Nur Ihr Konto kann sie lesen. Sie werden
+  Geburtsdaten und Unterschriften). Nur dein Konto kann sie lesen. Sie werden
   nach 30 Tagen gelöscht.
 - **App-Protokolle** (technische Meldungen der App; sie können Namen und
-  Spielnummern enthalten). Nur Ihr Konto kann sie lesen. Sie bleiben bis zur
-  Löschung Ihres Kontos gespeichert.
+  Spielnummern enthalten). Nur dein Konto kann sie lesen. Sie werden nach
+  30 Tagen gelöscht, und mit deinem Konto.
 - **Spielberichte** als Datei (PDF und Daten), siehe Abschnitt 7.
 
 **Aktivitätsprotokoll (OpenVolley ab Version 2.4.0).** Für die
@@ -133,7 +145,7 @@ Rückennummer), Ergebnisse der Übertragung zum Server, App-Fehler (Meldung und
 Programmstelle), Start, Update und Beenden der App sowie An- und Abmeldung.
 Jeder Eintrag enthält eine zufällige Kennung des Geräts (von der App erzeugt,
 nicht mit der Hardware verknüpft), die App-Version, die Plattform und, wenn
-Sie angemeldet sind, Ihr Konto. **Nie aufgezeichnet werden** PINs,
+du angemeldet bist, dein Konto. **Nie aufgezeichnet werden** PINs,
 Passwörter, Anmelde-Token, Unterschriftsbilder, Geburtsdaten,
 E-Mail-Adressen, Telefon- und Lizenznummern; ändert jemand ein solches Feld
 von Hand, steht im Protokoll nur, dass es geändert wurde. In freiem Text
@@ -141,13 +153,13 @@ von Hand, steht im Protokoll nur, dass es geändert wurde. In freiem Text
 und Zahlen neben Wörtern wie «PIN», «Code» oder «Passwort» unkenntlich
 gemacht. Das Protokoll enthält damit nicht mehr Personendaten als der
 Spielbericht selbst (Rückennummern, Namen von Offiziellen bei einer
-Korrektur). Sie können es in der App ansehen und als Datei (CSV oder JSON)
+Korrektur). Du kannst es in der App ansehen und als Datei (CSV oder JSON)
 speichern.
 
-**Wo das Aktivitätsprotokoll liegt:** auf Ihrem Gerät; in der Desktop- und
+**Wo das Aktivitätsprotokoll liegt:** auf deinem Gerät; in der Desktop- und
 der Android-App zusätzlich als Tagesdateien im Ordner `OpenVolley/logs`
-(Desktop: in Ihrem Benutzerordner neben den Sicherungsdateien, Android: im
-Ordner «Dokumente», siehe unten). Wenn Sie angemeldet sind, überträgt die App
+(Desktop: in deinem Benutzerordner neben den Sicherungsdateien, Android: im
+eigenen Ordner der App, siehe unten). Wenn du angemeldet bist, überträgt die App
 es auf meinen Server, auch die Einträge, die auf diesem Gerät ohne Anmeldung
 entstanden sind. Dort können die Einträge eines Spiels das Konto, das das
 Spiel erfasst hat, die Konten, die den Spiel-PIN eingegeben haben, und die
@@ -165,43 +177,57 @@ bewahrt die Änderung auf, damit der Spielverlauf nachvollziehbar bleibt. Die
 Ereignisgeschichte gehört zum Spiel und wird mit ihm gelöscht. Auf dem Server
 sieht sie nur die Administration.
 
-**Bedienprotokoll: Was Sie anklicken oder tippen, bleibt auf Ihrem Gerät.**
-Zur Fehlersuche zeichnet die App auf dem Gerät auf, was Sie anklicken und
-eintippen (auch Text in Eingabefeldern, zum Beispiel Namen). Dieses Protokoll
-wird nicht von selbst übertragen. Nur wenn Sie einer Support-Anfrage die
-Diagnosedaten mitsenden, geht eine Zusammenfassung etwa der letzten zwei
-Stunden mit, ohne den eingetippten Text (Abschnitt 13). Sie können es selbst
+**Bedienprotokoll: Was du anklickst oder tippst, bleibt auf deinem Gerät.**
+Zur Fehlersuche zeichnet die App auf dem Gerät auf, was du anklickst und
+eintippst (auch Text in Eingabefeldern, zum Beispiel Namen). Dieses Protokoll
+wird nicht von selbst übertragen. Nur wenn du einer Support-Anfrage die
+Diagnosedaten mitsendest, geht eine Zusammenfassung etwa der letzten zwei
+Stunden mit, ohne den eingetippten Text (Abschnitt 13). Du kannst es selbst
 herunterladen (in den Einstellungen oder am Spielende in der ZIP-Datei) und
 zum Beispiel dem Support schicken. In OpenVolley ab Version 2.4.0 zeichnet es
 keine Eingaben in Passwort- und PIN-Feldern und keine auf dem Bildschirm
 angezeigten PINs auf und wird nach 30 Tagen oder ab 50 000 Einträgen gelöscht.
 
 **Desktop-App.** Die Desktop-App speichert zusätzlich automatische
-Sicherungsdateien der Spiele in Ihrem Benutzerordner (Linux:
+Sicherungsdateien der Spiele in deinem Benutzerordner (Linux:
 `~/.local/share/OpenVolley/backups`, Windows: `%APPDATA%\OpenVolley\backups`).
 Sie enthalten Namen und Geburtsdaten, aber keine PINs, und werden nach
 30 Tagen gelöscht. Ab Version 2.4.0 schreibt die Desktop-App von OpenVolley
 ausserdem eine technische Protokolldatei (`desktop.log`) in den Ordner
 `OpenVolley/logs`: Start und Beenden, Update-Prüfungen und -Downloads,
 geöffnete Links und Downloads (Adresse ohne Parameter, Speicherort), die
-Anzahl verbundener Tablets und Fehler. Sie bleibt auf Ihrem Gerät, wird nie
+Anzahl verbundener Tablets und Fehler. Sie bleibt auf deinem Gerät, wird nie
 übertragen und enthält keine PINs, Anmelde-Token oder Hotspot-Passwörter. Es
 bleiben höchstens fünf ältere Dateien zu je 5 MB.
 
-**Android-App.** Die Android-App legt ihre Sicherungsdateien und die
-Tagesdateien des Aktivitätsprotokolls im öffentlichen Ordner «Dokumente» ab. **Diese Dateien bleiben nach dem Deinstallieren der App
-erhalten und können auf Android 10 und älter auch von anderen Apps gelesen
-werden.** Löschen Sie sie bei Bedarf selbst. Wenn Sie die Gerätesicherung von
-Google aktiviert haben, kann Android auch die App-Daten (mit Kaderlisten) in
-Ihr Google-Konto sichern; dafür gelten die Bedingungen von Google.
+**Android-App.** Die Android-App legt ihre Sicherungsdateien (mit den PINs des
+Spiels verschlüsselt; ein Testspiel hat keine), die PDF-Spielberichte und die Tagesdateien des
+Aktivitätsprotokolls in ihrem eigenen App-Ordner ab, den keine andere App
+lesen kann und der beim Deinstallieren gelöscht wird. Nur wenn du «In
+Dokumente exportieren» wählst, kopiert sie Dateien in den öffentlichen Ordner
+«Dokumente» (`Documents/OpenVolley`). **Diese Kopien bleiben nach dem
+Deinstallieren der App erhalten und können auf Android 10 und älter auch von
+anderen Apps gelesen werden.** Lösche sie selbst, wenn du sie nicht mehr
+brauchst. Versionen bis 3.1.4 legten ihre Dateien in «Dokumente» ab; neuere
+Versionen verschieben sie beim ersten Start in den App-Ordner. Wenn du die
+Gerätesicherung von Google aktiviert hast, kann Android auch die App-Daten
+(mit Kaderlisten) in dein Google-Konto sichern; dafür gelten die Bedingungen
+von Google.
 
-Auf einem gemeinsam genutzten Gerät sollten Sie sich nach dem Spiel abmelden.
-Beim Abmelden löscht die App Ihr Anmelde-Token und die zwischengespeicherten
-Teams.
+Auf einem gemeinsam genutzten Gerät solltest du dich nach dem Spiel abmelden.
+Beim Abmelden löscht die App dein Anmelde-Token, dein Profil und deine Vereine,
+die Spiele des Tages, die zwischengespeicherten Teams, Kader und
+Lizenzlisten der Vereine sowie die E-Mail-Adressen, mit denen Offizielle auf
+diesem Gerät bestätigt haben; ebenso, wenn deine Sitzung abläuft oder sich ein
+anderes Konto anmeldet. Ohne Verbindung beendet die Abmeldung deine Sitzung auf
+dem Server, sobald das Gerät wieder online ist. Die Adressen der Offiziellen
+bleiben höchstens 7 Tage gespeichert. Richte auf einem gemeinsam
+genutzten Gerät keinen Passkey ein (bei der Anmeldung «Geteiltes Gerät»
+ankreuzen).
 
 ## 6. Konto und E-Mails
 
-Ein Konto brauchen Sie, um Spiele zu synchronisieren, Teams und Turniere zu
+Ein Konto brauchst du, um Spiele zu synchronisieren, Teams und Turniere zu
 verwalten oder Spielresultate als Offizielle oder Offizieller freizugeben.
 Konten werden auf `manager.openvolley.app` und `manager-beach.openvolley.app`
 eröffnet.
@@ -211,35 +237,35 @@ Klartext), Vor- und Nachname, Land, Geburtsdatum (freiwillig), die bei der Eröf
 (für die E-Mails an das Konto), Rollen
 (zum Beispiel Schreiber/in, Schiedsrichter/in, Wettbewerbsmanager/in), die
 Apps, für die das Konto gilt (Halle, Beach), Zeitpunkte von Eröffnung,
-letzter Anmeldung und E-Mail-Bestätigung. Ihre Angaben bei der
+letzter Anmeldung und E-Mail-Bestätigung. Deine Angaben bei der
 Registrierung werden zusätzlich als Kopie beim Konto gespeichert.
 
-**Zweck:** Anmeldung, Freischalten der Funktionen Ihrer Rolle und Vorausfüllen
-Ihrer eigenen Angaben im Spielbericht (Name, Land, Geburtsdatum).
+**Zweck:** Anmeldung, Freischalten der Funktionen deiner Rolle und Vorausfüllen
+deiner eigenen Angaben im Spielbericht (Name, Land, Geburtsdatum).
 
 **Neue Konten** haben zunächst keine Rolle. Eine Administratorin oder ein
-Administrator schaltet sie frei, oder Sie lösen einen Einladungscode ein. Dabei
+Administrator schaltet sie frei, oder du löst einen Einladungscode ein. Dabei
 wird gespeichert, wer welchen Code wann eingelöst hat.
 
-**Was Sie machen (Registrierung bei OpenVolley, freiwillig):** Bei der
-Registrierung können Sie angeben, was Sie machen (Schreiber, Schiedsrichter,
+**Was du machst (Registrierung bei OpenVolley, freiwillig):** Bei der
+Registrierung kannst du angeben, was du machst (Schreiber, Schiedsrichter,
 Teamverantwortliche/r oder Trainer, Vereinsverantwortliche/r) und für welchen
 Verein und welches Team. Diese Anfrage wird nur gespeichert, bis sie
-freigegeben oder abgelehnt ist, und ist mit Ihrem Namen und Ihrer
+freigegeben oder abgelehnt ist, und ist mit deinem Namen und deiner
 E-Mail-Adresse für die Administratoren und die Verantwortlichen dieses Vereins
 oder Teams sichtbar. Wird sie freigegeben,
-erhält Ihr Konto genau diese Rolle, diesen Verein oder dieses Team (durch eine
+erhält dein Konto genau diese Rolle, diesen Verein oder dieses Team (durch eine
 Administratorin oder einen Administrator, oder durch die Verantwortlichen des
 Vereins oder Teams für ihren eigenen Verein oder ihr eigenes Team); gespeichert
-wird, wer wann entschieden hat, in diesem Eintrag aber nicht Ihr Name oder Ihre
+wird, wer wann entschieden hat, in diesem Eintrag aber nicht dein Name oder deine
 Adresse.
 
 **Vereine (OpenVolley):** Eine Administratorin oder ein Administrator, oder ein
-Einladungscode, kann Ihr Konto einem oder mehreren Vereinen zuordnen. Sie führen
+Einladungscode, kann dein Konto einem oder mehreren Vereinen zuordnen. Du führst
 dann die offiziellen Heimspiele dieser Vereine. Gespeichert wird, zu welchen
-Vereinen Ihr Konto gehört, wer es zugeordnet hat und wann, bis der Verein oder
-die Zuordnung entfernt wird oder Sie das Konto löschen. Die App zum Spiel
-führen behält eine Kopie Ihrer Vereine auf Ihrem Gerät, damit sie ein Spiel auch
+Vereinen dein Konto gehört, wer es zugeordnet hat und wann, bis der Verein oder
+die Zuordnung entfernt wird oder du das Konto löschst. Die App zum Spiel
+führen behält eine Kopie deiner Vereine auf deinem Gerät, damit sie ein Spiel auch
 offline prüfen kann; die Kopie wird beim Abmelden gelöscht.
 
 **Vereinsverantwortliche (OpenVolley):** Eine Administratorin oder ein
@@ -255,7 +281,7 @@ Die Vereinsverantwortlichen können zudem der Trainerin, dem Trainer oder den
 Teamverantwortlichen eines Teams ihres Vereins einen Link geben; wer ihn
 nutzt, verwaltet dieses Team (Abschnitt 10).
 
-**Anmeldung:** Nach der Anmeldung speichert Ihr Browser ein Anmelde-Token. Auf
+**Anmeldung:** Nach der Anmeldung speichert dein Browser ein Anmelde-Token. Auf
 dem Server liegt nur ein Hash davon. Eine Sitzung gilt 30 Tage ab der letzten
 Nutzung, höchstens 90 Tage, und endet beim Abmelden, beim Ändern des Passworts
 und beim Löschen des Kontos. Zum Schutz vor Angriffen zählt der Server
@@ -263,34 +289,51 @@ Fehlversuche pro IP-Adresse und pro E-Mail-Adresse, nur im Arbeitsspeicher.
 
 **E-Mails:** Ich sende nur E-Mails, die zum Konto gehören: Bestätigung der
 E-Mail-Adresse, Link zum Zurücksetzen des Passworts, Hinweis auf eine
-Passwortänderung, Hinweis, dass ein Resultat mit Ihrem Freigabe-PIN
-freigegeben wurde, und Hinweis, dass Ihr PIN gesperrt wurde. Sie enthalten
+Passwortänderung, Hinweis, dass ein Resultat mit deinem Freigabe-PIN
+freigegeben wurde, und Hinweis, dass dein PIN gesperrt wurde. Sie enthalten
 keine Zählpixel und keine nachgeladenen Bilder. Ein Bestätigungslink gilt
 24 Stunden, ein Link zum Zurücksetzen 60 Minuten.
 
 **Spielberichte per E-Mail:** Den fertigen Spielbericht eines offiziellen
-Spiels und den Spielbericht Ihres eigenen Testspiels sende ich nach
+Spiels und den Spielbericht deines eigenen Testspiels sende ich nach
 Abschnitt 7.
 
-**Wer sieht Ihre Kontodaten:** Sie selbst und die Administratorinnen und
-Administratoren von OpenVolley (ich und von mir bestimmte Personen).
+**Wer sieht deine Kontodaten:** du selbst und die Administratorinnen und
+Administratoren von OpenVolley (ich und von mir bestimmte Personen). Ausserdem,
+soweit es ihre Aufgabe verlangt:
 
-**Konto löschen:** Sie können Ihr Konto jederzeit selbst in der App löschen.
+- die Verantwortlichen eines Vereins, für den du schreibst oder dessen Team
+  du verwaltest: dein Name, deine E-Mail-Adresse, deine Rollen und seit wann du
+  zum Verein gehörst oder das Team verwaltest;
+- die Verantwortlichen des Vereins oder Teams, das du bei der Registrierung
+  angegeben hast (wer freigibt): dein Name, deine E-Mail-Adresse, das Datum der
+  Registrierung und ob deine Adresse bestätigt ist, bis über deine Anfrage
+  entschieden ist;
+- die anderen Verantwortlichen eines Beachturniers, das du verwaltest: deine
+  E-Mail-Adresse;
+- die Schreiberinnen und Schreiber, die einen von dir im Voraus geschickten
+  Kader erhalten: dein Name als Absender (Abschnitt 10);
+- die anderen Schreiberinnen und Schreiber eines offiziellen Spiels, das du
+  bereits schreibst: dein Name, damit sie wissen, dass das Spiel vergeben ist;
+- die Wettbewerbsverantwortlichen der App: der Name des Kontos, das ein Spiel
+  erfasst hat, in der Liste der Spielberichte.
+
+**Konto löschen:** Du kannst dein Konto jederzeit selbst in der App löschen.
 Dabei werden Konto, Profil, Sitzungen, Freigabe-PIN, eingelöste
-Einladungscodes, Ihre hochgeladenen Sicherungskopien und App-Protokolle und
-Ihre Einträge im Aktivitätsprotokoll ohne Spiel gelöscht. **Bestehen
+Einladungscodes, deine hochgeladenen Sicherungskopien und App-Protokolle und
+deine Einträge im Aktivitätsprotokoll ohne Spiel gelöscht. **Bestehen
 bleiben** offizielle Unterlagen, an denen andere ein Interesse haben:
-Spielberichte, die Sie erfasst haben, Freigaben, die Sie erteilt haben (mit
-Ihrem Namen, wie er im Spielbericht steht), gespeicherte Teams und Turniere,
+Spielberichte, die du erfasst hast, Freigaben, die du erteilt hast (mit
+deinem Namen, wie er im Spielbericht steht), gespeicherte Teams und Turniere,
 Einträge im Änderungsprotokoll (Abschnitt 14) sowie das Aktivitätsprotokoll
-und die Ereignisgeschichte von Spielen (Abschnitt 5). Ihr Konto wird von
-diesen Einträgen getrennt. Was bestehen bleibt, können Sie
+und die Ereignisgeschichte von Spielen (Abschnitt 5). Dein Konto wird von
+diesen Einträgen getrennt. Was bestehen bleibt, kannst du
 nach Abschnitt 19 löschen lassen, soweit es für den Spielbericht nicht nötig ist.
 
 **Löschung durch die Administration:** Auch eine Administratorin oder ein
-Administrator kann Ihr Konto löschen, wenn Sie es verlangen (Abschnitt 19)
+Administrator kann dein Konto löschen, wenn du es verlangst (Abschnitt 19)
 oder wenn ein neues Konto nicht freigeschaltet wird (abgelehnt). Dabei wird
-dasselbe gelöscht und bleibt dasselbe bestehen wie beim Löschen durch Sie
+dasselbe gelöscht und bleibt dasselbe bestehen wie beim Löschen durch dich
 selbst.
 
 ## 7. Spieldaten und Spielberichte
@@ -300,9 +343,30 @@ Kurzname, Farbe), Kaderlisten mit Rückennummer, Vor- und Nachname,
 Geburtsdatum und Kennzeichnung als Libero oder Captain, Betreuungspersonen
 (Funktion, Name, Geburtsdatum), Offizielle (Schiedsrichter, Schreiber,
 Linienrichter mit Name, Land, Geburtsdatum; Schiedsrichterinnen und Schiedsrichter
-freiwillig mit E-Mail-Adresse), **Unterschriften** (als Bild,
+freiwillig mit E-Mail-Adresse; die Schreiberin oder der Schreiber freiwillig mit
+Lizenznummer statt Geburtsdatum), pro Team freiwillig eine
+Kontakt-E-Mail-Adresse, **Unterschriften** (als Bild,
 auf dem Gerät oder auf einem Telefon gezeichnet), Platzwahl, Spielverlauf mit allen Ereignissen,
-Wechseln und Sanktionen, Resultate und nachträgliche Korrekturen.
+Wechseln und Sanktionen, Resultate und nachträgliche Korrekturen sowie die
+**Bemerkungen** (das Bemerkungsfeld des Spielberichts: was die Schreiberin
+oder der Schreiber einträgt und die Zeilen, die die App hinzufügt, zum
+Beispiel bei einem erzwungenen Wechsel oder wenn ein Libero nicht mehr spielen
+kann).
+
+**Gesundheitsdaten in einem Spiel:** Ein Wechsel oder ein Libero-Wechsel, weil
+eine Spielerin oder ein Spieler verletzt oder krank ist, und eine Verletzung,
+die die Schreiberin oder der Schreiber vermerkt, sind Angaben über die
+Gesundheit (besonders schützenswerte Personendaten nach dem DSG, eine
+besondere Kategorie nach der DSGVO). Die App hält das Ereignis mit seinem
+Grund fest, wie es die Regeln verlangen, und schreibt in die Bemerkungen nur
+den Wortlaut der Regeln (zum Beispiel «#4 substituted, cannot continue
+playing»), nie eine Diagnose. Selbst eingetragene Bemerkungen können mehr
+sagen: Trag nur ein, was die Spielaufzeichnung braucht. Bemerkungen
+sehen alle, die alles sehen (Tabelle unten), und während des Spiels das
+Schiedsrichter-Tablet und wer den Spiel-PIN hat, nie die Bank-Tablets oder
+die Öffentlichkeit; sie stehen auf dem Spielbericht und erreichen so dessen
+Empfänger (unten). Rechtsgrundlage: Abschnitt 20; aufbewahrt mit dem Spiel
+(Abschnitt 16).
 
 **Wer die Daten eingibt:** die Schreiberin oder der Schreiber in der App,
 Teamverantwortliche über die Kaderlisten-Seite (`roster.openvolley.app`) und im Manager (Abschnitt 10),
@@ -318,13 +382,21 @@ Spielberechtigung und Alterskategorie, Livescore.
 
 | Wer | Was |
 |---|---|
-| Das Konto, das das Spiel erfasst hat; Konten, die den Spiel-PIN eingegeben haben; Administratorinnen und Administratoren | Alles |
-| Schiedsrichter- und Bank-Tablets mit PIN | Teams, Kaderlisten mit Namen und Nummern, Spielstand. **Keine** Geburtsdaten, Unterschriften, Offiziellen oder Freigaben |
+| Das Konto, das das Spiel erfasst oder abgeschlossen hat; Administratorinnen und Administratoren | Alles |
+| Konten, die den Spiel-PIN eingegeben haben (zum Beispiel ein Tablet, das das Spiel übernimmt) | Alles, bis das Spiel abgeschlossen ist |
+| Schiedsrichter-Tablet mit dem Schiedsrichter-PIN | Teams, beide Kaderlisten mit Namen und Nummern, Spielstand, Bemerkungen. **Keine** Geburtsdaten, Unterschriften, Offiziellen oder Freigaben |
+| Bank-Tablet mit dem PIN seines Teams | Die Kaderliste des eigenen Teams mit Namen und Nummern, die Rückennummern des anderen Teams, Spielstand. **Keine** Bemerkungen, Geburtsdaten, Unterschriften, Offiziellen oder Freigaben |
 | Alle (öffentlich) | Siehe Abschnitt 8 |
 
 Ist ein Spiel freigegeben und abgeschlossen, kann es niemand mehr ändern,
 auch nicht die Person, die es erfasst hat. Nur eine Administratorin oder ein
-Administrator kann es wieder öffnen.
+Administrator kann es wieder öffnen. Ab dem Abschluss öffnet der Spiel-PIN die
+Spielaufzeichnung nicht mehr: Er zeigt nur, was öffentlich ist (Abschnitt 8),
+und die Konten, die mit ihm dazugekommen sind, können das Spiel nicht mehr
+lesen. Jede Wiederherstellung eines Spiels mit dem Spiel-PIN wird im
+Änderungsprotokoll festgehalten. Wer ein Spiel angelegt hat und die
+Administration sehen die Konten, die mit dem Spiel-PIN dazugekommen sind, und
+können sie entfernen.
 
 **Spielbericht-Dateien:** Am Ende eines Spiels lädt die App den Spielbericht
 als PDF und als Datei mit den Spieldaten hoch. Lesen kann ihn nur das Konto,
@@ -346,27 +418,30 @@ Spielbericht eines abgeschlossenen offiziellen Hallenspiels als PDF an:
 - die Schiedsrichterinnen und Schiedsrichter, die das Resultat mit ihrem
   Konto freigegeben haben oder deren E-Mail-Adresse beim Spiel erfasst wurde;
 - die Kontaktadresse des Vereins jedes Teams (Abschnitt 6), damit der Verein
-  den Spielbericht an Trainerinnen und Trainer weitergeben kann.
+  den Spielbericht an Trainerinnen und Trainer weitergeben kann;
+- die Kontaktadresse, die für jedes Team in der Spieleinrichtung oder unter
+  «Spielinfo bearbeiten» eingetippt wurde, wie die Adressen der
+  Schiedsrichterinnen und Schiedsrichter.
 
 Jede Adresse erhält eine eigene E-Mail und sieht die anderen nicht. Wird ein
 Spiel wieder geöffnet und erneut abgeschlossen, geht der korrigierte
 Spielbericht noch einmal an die Empfänger. Gespeichert wird nur, wann und an
 wie viele Adressen der Spielbericht ging, nicht an welche. Spiele, die vor dem
 Einschalten abgeschlossen wurden, werden nicht versendet. Die E-Mail-Adresse
-einer Schiedsrichterin oder eines Schiedsrichters ist freiwillig, gehört zum
-Spiel und ist nie öffentlich; sie sieht nur, wer das ganze Spiel lesen darf
+einer Schiedsrichterin, eines Schiedsrichters oder eines Teams ist freiwillig,
+gehört zum Spiel und ist nie öffentlich; sie sieht nur, wer das ganze Spiel lesen darf
 (Tabelle oben). Der Versand läuft über Migadu (Abschnitt 15).
 
-**Spielbericht eines Testspiels:** Geben Sie am Ende eines Testspiels
+**Spielbericht eines Testspiels:** Gibst du am Ende eines Testspiels
 angemeldet das Resultat frei, sendet die App den Spielbericht als PDF an die
-E-Mail-Adresse Ihres Kontos, an keine andere. Der Server speichert ihn nicht;
-auf Ihrem Gerät wird das Testspiel beim Abschliessen gelöscht.
+E-Mail-Adresse deines Kontos, an keine andere. Der Server speichert ihn nicht;
+auf deinem Gerät wird das Testspiel beim Abschliessen gelöscht.
 
 **Global-Werkzeug (ohne Konto):** Im Global-Werkzeug von OpenVolley (beim
 Start der App gewählt, in den Optionen änderbar, solange kein Spiel auf dem
-Gerät ist) erfassen Sie die Spiele eines beliebigen Turniers ohne Konto. Die
-Kader, Offiziellen und Spiele, die Sie eintippen oder aus einer Excel- oder
-CSV-Datei laden, bleiben auf Ihrem Gerät; die App liest die Datei auf dem Gerät
+Gerät ist) erfasst du die Spiele eines beliebigen Turniers ohne Konto. Die
+Kader, Offiziellen und Spiele, die du eintippst oder aus einer Excel- oder
+CSV-Datei lädst, bleiben auf deinem Gerät; die App liest die Datei auf dem Gerät
 und lädt sie nicht hoch. Ein Global-Spiel wird nicht mit der Datenbank
 synchronisiert: Es steht in keinem Spiel-, Team- oder Spielerdatensatz und
 weder im Manager noch in den öffentlichen Anzeigen. Zwei Dateien pro Spiel
@@ -376,8 +451,11 @@ Offizielle, Unterschriften, Spielverlauf) und, sobald das Spiel freigegeben
 ist, der Spielbericht als PDF. Sie liegen unter einem zufälligen Sicherungscode
 (128 Bit), den die App für das Spiel erzeugt und im Match-Setup anzeigt. Der
 Code ist der einzige Weg zu den Dateien: Es gibt keine Liste und keine Suche.
-Wer ihn kennt, kann das Spiel wiederherstellen; bewahren Sie ihn daher wie ein
-Passwort auf. Eine neue Sicherung ersetzt die vorherige. Die Dateien werden
+Die Sicherung ist wie jede Sicherungsdatei der App verschlüsselt (ohne die PINs
+darin): Sie öffnet sich nur mit der Schiedsrichter-PIN des Spiels oder mit dem
+Wiederherstellungsschlüssel des Verbands, den dieser offline aufbewahrt. Wer
+den Code und diese PIN kennt, kann das Spiel wiederherstellen; bewahre
+beide daher wie ein Passwort auf. Eine neue Sicherung ersetzt die vorherige. Die Dateien werden
 180 Tage nach der letzten Änderung gelöscht; die Serversicherungen
 (Abschnitt 18) behalten noch eine Weile eine Kopie. Die Turnierveranstalterin
 oder der Turnierveranstalter ist dafür verantwortlich, dass die Daten erfasst
@@ -388,10 +466,10 @@ sind (Abschnitt 17).
 Unterschrift mit einem persönlichen Freigabe-PIN bestätigen. Gespeichert
 werden: der PIN als kryptografischer Hash (nie im Klartext), Fehlversuche und
 Sperren; pro Freigabe das Spiel, die Funktion (1. oder 2. Schiedsrichter,
-Schreiber), Ihr Konto, Ihr Name zum Zeitpunkt der Freigabe, Zeitpunkt, das
+Schreiber), dein Konto, dein Name zum Zeitpunkt der Freigabe, Zeitpunkt, das
 freigegebene Resultat sowie ein pseudonymisierter Hash der IP-Adresse und des
 Geräts (um Missbrauch zu erkennen). Freigaben sind Teil der Spielaufzeichnung.
-Sie sehen Ihre eigenen Freigaben; die Schreiberin oder der Schreiber des
+Du siehst deine eigenen Freigaben; die Schreiberin oder der Schreiber des
 Spiels und die Administration sehen sie auch.
 
 **Unterschreiben auf dem Telefon (OpenVolley ab Version 2.4.0):** Statt auf
@@ -414,11 +492,12 @@ dass auf einem Telefon unterschrieben wurde (Weg und Zeitpunkt). Über den
 Server setzt das voraus, dass die Schreiberin oder der Schreiber mit einer
 Schreiber- oder Schiedsrichterrolle angemeldet ist.
 
-**Spielinfo per E-Mail:** Wenn Sie in der App die Spielinfo an eine
-E-Mail-Adresse senden, gehen Spielnummer, Spiel-PIN, Teams, Datum und Ort an
-die Adresse, die Sie eingeben. Die Empfängeradresse wird im Serverprotokoll
-festgehalten. Für den Versand kann der Dienst Resend (USA) eingesetzt werden
-(Abschnitt 15).
+**Spielinfo per E-Mail:** Eine angemeldete Schreiberin oder ein angemeldeter
+Schreiber kann die Spielinfo eines Spiels, das sie oder er erfasst hat oder
+bearbeitet (Spielnummer, Teams, Datum und Ort, kein PIN), an die bestätigte
+E-Mail-Adresse des eigenen Kontos senden lassen; die App tut das beim Anlegen
+eines Spiels. Eine andere Adresse lässt sich nicht eingeben. Für den Versand
+wird der Dienst Resend (USA) eingesetzt (Abschnitt 15).
 
 ## 8. Öffentliche Anzeigen: Livescore, LED-Anzeige, öffentliche Daten
 
@@ -439,7 +518,10 @@ Ohne Anmeldung und ohne PIN sind sichtbar:
   Länder der Spielerinnen und Spieler, Setzung, Rang, Spielplan, Felder.
 
 Diese Daten sind auch über die Programmierschnittstelle des Servers
-(`backend.openvolley.app`) abrufbar.
+(`backend.openvolley.app`) abrufbar. Jede Website kann mit dem Livescore-Widget
+(auch als `<iframe>`) den Livescore eines Spiels oder die Spiele eines Vereins
+an einem Tag zeigen; es zeigt dieselben Daten, ohne Namen von Spielerinnen und
+Spielern.
 
 **Nie öffentlich:** Geburtsdaten, Lizenznummern, Unterschriften, Freigaben,
 E-Mail-Adressen und PINs. Kaderlisten mit Namen sieht nur, wer den PIN des
@@ -449,10 +531,12 @@ Spiels kennt.
 
 **Tablets für Schiedsrichter und Teambank** (`referee.`, `bench.`,
 `referee-beach.openvolley.app`) verbinden sich mit einem PIN mit dem Spiel.
-Sie erhalten Teams, Kaderlisten mit Namen und Nummern und den Spielstand, aber
-keine Geburtsdaten, Unterschriften oder Angaben zu Offiziellen. Das
+Das Schiedsrichter-Tablet erhält beide Kaderlisten mit Namen und Nummern, den
+Spielstand und die Bemerkungen, ein Bank-Tablet die Kaderliste des eigenen
+Teams und nur die Rückennummern des anderen Teams. Keines erhält
+Geburtsdaten, Unterschriften oder Angaben zu Offiziellen. Das
 Schiedsrichter-Tablet speichert den PIN und die Spielnummer im Browser;
-löschen Sie die Browserdaten, wenn das Tablet von mehreren Personen benutzt
+lösche die Browserdaten, wenn das Tablet von mehreren Personen benutzt
 wird.
 
 **Über den Server (Cloud-Relay):** Die Live-Daten laufen über meinen Server.
@@ -462,7 +546,7 @@ letzten Aktivität. Das gilt auch ohne Anmeldung.
 **Hallen-Modus (LAN):** Die Desktop-App kann die Tablets direkt im lokalen
 Netz der Halle bedienen, auch über einen eigenen WLAN-Hotspot des Laptops.
 Die Daten bleiben dann im lokalen Netz und nur im Arbeitsspeicher. Name und
-Passwort des Hotspots werden bei jedem Start zufällig auf Ihrem Gerät erzeugt.
+Passwort des Hotspots werden bei jedem Start zufällig auf deinem Gerät erzeugt.
 Nur die Synchronisierung mit dem Server verlässt das lokale Netz, und nur,
 wenn die Schreiberin oder der Schreiber angemeldet ist.
 
@@ -478,8 +562,13 @@ Wettbewerbsmanagerinnen und -manager Teams und Turniere vorbereiten.
 **Gespeicherte Teams:** Teamname, Verein, Spielerinnen und Spieler mit Nummer,
 Vor- und Nachname, Geburtsdatum, Lizenznummer, Libero/Captain und (Beach)
 Land; Betreuungspersonen mit Funktion, Name, Geburtsdatum und Lizenznummer.
-Sichtbar für Konten mit Manager- oder Schreiberrolle der jeweiligen Sportart.
-Die Scorer-Apps speichern diese Teams zwischen und löschen sie beim Abmelden.
+Sichtbar für die Wettbewerbsverantwortlichen und die Administration der
+jeweiligen Sportart. In OpenVolley sieht ein Schreiber-Konto nur die
+gespeicherten Teams seiner eigenen Spiele der laufenden Saison (die Teams
+seiner Vereine und ihre Gegner sowie die Spiele, die es erfasst hat oder
+bearbeitet); ein Konto ohne Verein nur kurz vor dem Spiel und für wenige
+Spiele pro Woche, jedes im Änderungsprotokoll festgehalten. Die Scorer-Apps
+speichern diese Teams zwischen und löschen sie beim Abmelden.
 
 **Teamverantwortliche (OpenVolley):** Die Vereinsverantwortlichen können der
 Trainerin, dem Trainer oder den Teamverantwortlichen eines Teams ihres Vereins
@@ -511,20 +600,45 @@ sowie Trainerinnen und Trainer ihres Vereins aus der Vereinsadministration von
 VolleyManager hochladen. Die Datei wird im Browser gelesen: Gespeichert werden
 nur Lizenznummer, Nachname, Vorname, Geburtsdatum und Geschlecht jeder Person;
 nichts anderes aus der Datei wird an den Server geschickt. Die Listen sind für
-die Vereinsverantwortlichen und die Administration sichtbar. Die Listen sehen
-auch die Teamverantwortlichen des Vereins für ihre Kader, und sie werden auf
-die Geräte der Schreiberinnen und Schreiber des Vereins geladen, damit die
-Spielvorbereitung ohne Internet Spielerinnen und Spieler sowie Teamoffizielle
-hinzufügen kann (Trainerin oder Trainer kann jede Person der Listen des Vereins
-sein). Das Geschlecht dient dazu, dass keine Spielerin und kein Spieler in ein
+die Vereinsverantwortlichen und die Administration sichtbar. Teamverantwortliche
+des Vereins sehen die Spielerinnen und Spieler des Geschlechts und der
+Alterskategorie ihres Teams, Geburtsdaten nur der Personen des eigenen Teams,
+und finden Teamoffizielle (Trainerin oder Trainer kann jede Person der Listen
+des Vereins sein) über eine Namenssuche, die jeweils wenige Personen zeigt.
+Die Geräte der Schreiberinnen und Schreiber des Vereins laden die Listen ohne
+Geburtsdaten, damit die Spielvorbereitung ohne Internet Spielerinnen und
+Spieler sowie Teamoffizielle hinzufügen kann; das Geburtsdatum einer Person,
+die einem Kader hinzugefügt wird, wird nur für diese Person abgerufen
+(höchstens 80 pro Tag und Konto, jedes Mal im Änderungsprotokoll
+festgehalten). Das Geschlecht dient dazu, dass keine Spielerin und kein Spieler in ein
 Team des anderen Geschlechts eingetragen wird; bei Teamoffiziellen wird es
 nicht geprüft. Jeder Upload ersetzt die Personen des vorherigen Uploads dieser
-Liste; mit dem Verein werden die Listen gelöscht. Die Listen können auch
+Liste; mit dem Verein werden die Listen gelöscht, und die Listen vergangener
+Saisons werden täglich gelöscht. Die Listen können auch
 Personen enthalten, die Teamverantwortliche oder Vereinsverantwortliche von
 Hand aus dem Kader eines Teams hinzugefügt haben (nur Lizenznummer, Namen,
 Geburtsdatum und Geschlecht); ein Upload behält sie, und sie werden mit ihrer
 Liste oder dem Verein gelöscht. Auf dem Gerät ersetzt jeder Download die
 Kopie, beim Abmelden wird sie gelöscht.
+
+**Vereins-API (OpenVolley):** Die Vereinsverantwortlichen können API-Tokens
+für die eigene Software oder Website des Vereins erstellen (zum Beispiel die
+Mitgliederverwaltung). Ein Token gehört zu diesem Verein (oder einem seiner
+Teams), handelt mit den Rechten der Person, die es erstellt hat, und gilt
+nicht mehr, sobald es widerrufen wird, abläuft oder diese Person den Verein
+nicht mehr verwaltet. Damit liest die Software des Vereins und, wenn das Token
+es erlaubt, schreibt sie die Teams des Vereins, die im Voraus geschickten
+Kader seiner Spiele, seine gespeicherten Teams und seine Lizenzlisten mit den
+oben beschriebenen Daten (Namen, Geburtsdaten, Lizenznummern), dazu die
+Spiele des Vereins so, wie sie die öffentliche Schnittstelle zeigt
+(Abschnitt 8). Namen, Geburtsdaten und Lizenznummern liest nur ein Token,
+das sie auch schreiben darf, und ein solches Token braucht das Passwort der
+verantwortlichen Person. Der Server speichert vom Token nur einen
+Fingerabdruck, seinen Namen, seine Rechte, das Team, den Ablauf und die
+letzte Verwendung; im Änderungsprotokoll steht, wer es erstellt oder
+widerrufen hat, jede Änderung, die damit gemacht wurde, und jedes Lesen
+dieser Personendaten. Was die Software
+des Vereins mit den gelesenen Daten macht, verantwortet der Verein.
 
 **Beachturniere:** Titel, Ort, Daten, Teams mit Vor- und Nachname,
 Lizenznummer und Land der Spielerinnen und Spieler, Spielplan, Resultate,
@@ -548,15 +662,18 @@ Zeitraum von gestern bis 14 Tage voraus: Teams, Halle und Adresse, Liga, 1.
 und 2. Schiedsrichter mit Name und Geburtsdatum, Linienrichter, Aufgebote.
 Dafür verwendet der Server ein Konto im VolleyManager. Zweck: offizielle
 Spiele mit den richtigen Offiziellen laden. Namen sind öffentlich (Abschnitt
-8), Geburtsdaten sieht nur, wer angemeldet ist.
+8), Geburtsdaten sehen nur die Administration und die Konten, die für diese
+Sportart schreiben. Die Ansetzungen werden wie die Spielaufzeichnungen
+aufbewahrt (Abschnitt 16).
 
 **Schiedsrichter-Verzeichnis:** Ein gemeinsames Verzeichnis mit Vor- und
 Nachname, Land, Geburtsdatum und Sportart, damit die Schreiberin oder der
 Schreiber Offizielle nicht jedes Mal neu erfassen muss. Angemeldete Konten
-können Einträge hinzufügen; ändern und löschen kann die Administration. Namen
-und Land sind öffentlich, Geburtsdaten sieht nur, wer angemeldet ist.
+können Einträge hinzufügen (ein Geburtsdatum nur ein Konto, das schreibt);
+ändern und löschen kann die Administration. Namen und Land sind öffentlich,
+Geburtsdaten sehen nur die Administration und die Konten, die schreiben.
 
-Wenn Sie nicht im Verzeichnis stehen möchten, schreiben Sie an
+Wenn du nicht im Verzeichnis stehen möchtest, schreib an
 support@openvolley.app.
 
 ## 12. Downloads und Updates
@@ -567,31 +684,31 @@ support@openvolley.app.
   `get.openvolley.app` ab, ersatzweise GitHub. Dabei wird nur die übliche
   Anfrage übermittelt (IP-Adresse, Programmkennung).
 - **Android-App aus F-Droid:** Die App sucht nicht selbst nach Updates; das
-  macht Ihre F-Droid-App.
+  macht deine F-Droid-App.
 - **Android-App direkt installiert:** Die App fragt einmal, ob sie nach
-  Updates suchen soll (voreingestellt: nein). Nur wenn Sie zustimmen, ruft sie
-  etwa einmal täglich `get.openvolley.app` ab. Sie können das in den
+  Updates suchen soll (voreingestellt: nein). Nur wenn du zustimmst, ruft sie
+  etwa einmal täglich `get.openvolley.app` ab. Du kannst das in den
   Einstellungen wieder abschalten.
-- **Startseite von app.openvolley.app:** Öffnen Sie sie im Browser eines
-  Desktop-Systems, ruft Ihr Browser bei GitHub (`api.github.com`, USA) die
+- **Startseite von app.openvolley.app:** Öffnest du sie im Browser eines
+  Desktop-Systems, ruft dein Browser bei GitHub (`api.github.com`, USA) die
   Liste der neuesten Versionen ab, um den passenden Download anzubieten. Dabei
-  erhält GitHub Ihre IP-Adresse.
-- **GitHub und F-Droid:** Wenn Sie dort herunterladen, gelten deren
+  erhält GitHub deine IP-Adresse.
+- **GitHub und F-Droid:** Wenn du dort herunterlädst, gelten deren
   Datenschutzbestimmungen.
 
 ## 13. Support und Kontakt
 
 **Support-Formular (in den Apps und auf openvolley.app/support):** Es
-übermittelt Ihre E-Mail-Adresse, Art und Bereich Ihrer Anfrage, Ihre
-Nachricht und, falls Sie welche hinzufügen, bis zu fünf Anhänge (zum Beispiel
+übermittelt deine E-Mail-Adresse, Art und Bereich deiner Anfrage, deine
+Nachricht und, falls du welche hinzufügst, bis zu fünf Anhänge (zum Beispiel
 Bildschirmfotos oder Backup-Dateien) an meinen Server, dazu die Sprache, die
 Adresse der Seite ohne Parameter, die Browser-Kennung, den Zeitpunkt, die
 Plattform (von der Website «web») und in den Apps die App-Version.
 
 **Diagnosedaten** sendet die App nur, wenn «Diagnosedaten mitsenden»
 angekreuzt ist. Bei einer Support-Anfrage (Fehlermeldung oder Frage) ist das
-Kästchen schon angekreuzt, bei Feedback und Wünschen nicht; Sie können es vor
-dem Senden abwählen. Mit «Anzeigen, was gesendet wird» sehen Sie vorher genau
+Kästchen schon angekreuzt, bei Feedback und Wünschen nicht; du kannst es vor
+dem Senden abwählen. Mit «Anzeigen, was gesendet wird» siehst du vorher genau
 den Text, der gesendet wird. Die App hängt ihn als Textdatei (höchstens 2 MB)
 an die Anfrage an. Er enthält:
 
@@ -599,38 +716,38 @@ an die Anfrage an. Er enthält:
   Browser-Kennung, Bildschirm- und Fenstergrösse, Sprache, Uhrzeit und
   Zeitzone, Online- und Verbindungsstatus, noch nicht übertragene Daten und
   die letzten Übertragungsfehler, den belegten Speicher, die zufällige
-  Kennung des Geräts und, wenn Sie angemeldet sind, die Kennung Ihres Kontos;
+  Kennung des Geräts und, wenn du angemeldet bist, die Kennung deines Kontos;
 - den Stand des offenen (oder zuletzt offenen) Spiels: Spielnummer, Teams,
   Status, Sätze und Spielstand, Aufstellungen (Rückennummern), Auszeiten und
   Wechsel, die letzten 30 Spielereignisse und ob der Server das Spiel
   abgeschlossen oder einem anderen Gerät übergeben hat;
 - den Verlauf etwa der letzten zwei Stunden (mindestens seit dem letzten
   Start der App) aus dem Aktivitäts- und dem Bedienprotokoll (Abschnitt 5):
-  was Sie angetippt haben (mit der Beschriftung, die auch Namen von Teams oder
+  was du angetippt hast (mit der Beschriftung, die auch Namen von Teams oder
   Personen enthalten kann), Tasten, aufgerufene Bildschirme, in welches Feld
-  Sie wie viele Zeichen getippt haben (nicht den Text), Punkte und andere
+  du wie viele Zeichen getippt hast (nicht den Text), Punkte und andere
   Spielereignisse, Korrekturen, Übertragungen sowie Start, Beenden und
   Hintergrund der App;
 - die letzten Fehlermeldungen und Warnungen der App mit der Programmstelle.
 
 **Nie enthalten** sind Passwörter, PINs, Anmelde-Token, Unterschriften,
-E-Mail-Adressen, Telefonnummern und Text, den Sie in Felder eingetippt
-haben: Die App entfernt solche Angaben vor dem Senden aus dem ganzen Text.
+E-Mail-Adressen, Telefonnummern und Text, den du in Felder eingetippt
+hast: Die App entfernt solche Angaben vor dem Senden aus dem ganzen Text.
 In der Schiedsrichter-, Bank- und Livescore-App enthält die Datei nur die
 technischen Angaben, den Verbindungsstatus und die Fehlermeldungen. Klappt
-das Senden nicht, können Sie die Datei mit «Diagnosedaten herunterladen»
-speichern und selbst an Ihre E-Mail anhängen. Ältere App-Versionen senden
+das Senden nicht, kannst du die Datei mit «Diagnosedaten herunterladen»
+speichern und selbst an deine E-Mail anhängen. Ältere App-Versionen senden
 nur die technischen Angaben, die Spielnummer und die letzten Fehlermeldungen.
 Die Website sendet keine Diagnosedaten.
 
 Der Server leitet die Anfrage als eine E-Mail an support@openvolley.app
-weiter, mit Ihrer Adresse als Antwortadresse. Er behält davon nichts ausser
-einer Protokollzeile mit Art, Bereich und einer gekürzten Form Ihrer
+weiter, mit deiner Adresse als Antwortadresse. Er behält davon nichts ausser
+einer Protokollzeile mit Art, Bereich und einer gekürzten Form deiner
 E-Mail-Adresse (Abschnitt 14). Das Postfach liegt bei Migadu (Abschnitt 15).
 Mein Helpdesk (support.openvolley.app), den ich selbst auf meinem Server bei
-Infomaniak in der Schweiz betreibe, liest es, damit ich Ihnen antworten und Ihre Anfrage
-nachverfolgen kann. Ich verwende Ihre Adresse nur, um Ihnen zu antworten.
-**Für Anfragen zu Ihren Daten schreiben Sie bitte direkt an
+Infomaniak in der Schweiz betreibe, liest es, damit ich dir antworten und deine Anfrage
+nachverfolgen kann. Ich verwende deine Adresse nur, um dir zu antworten.
+**Für Anfragen zu deinen Daten schreib bitte direkt an
 support@openvolley.app.**
 
 **E-Mail an support@openvolley.app:** Sie wird gleich behandelt, im Postfach
@@ -643,11 +760,12 @@ ich frühere Antworten nachschlagen kann; auf Anfrage früher.
 ## 14. Protokolle und Sicherheit auf dem Server
 
 - **Serverprotokolle:** Der Server protokolliert Anfragen ohne Inhalte und
-  **ohne IP-Adressen** (Status, Fehlercode, Kennung der Anfrage). Ausnahmen:
-  Meldungen aus dem Support-Formular und die Empfängeradresse der Spielinfo
-  (Abschnitte 7 und 13). Langsame Datenbankabfragen können mit ihren Werten
-  protokolliert werden. Die Protokolle werden nach Grösse überschrieben, in der
-  Regel nach Tagen bis wenigen Wochen.
+  **ohne IP-Adressen** (Status, Fehlercode, Kennung der Anfrage). Ausnahme:
+  Eine Support-Anfrage wird mit einer gekürzten Form deiner E-Mail-Adresse
+  protokolliert (Abschnitt 13). Langsame und fehlgeschlagene
+  Datenbankabfragen werden ohne ihre Werte protokolliert. Die Protokolle
+  werden nach Grösse überschrieben (höchstens 10 Dateien zu 20 MB pro
+  Dienst), in der Regel nach Tagen bis wenigen Wochen.
 - **Cloudflare** verarbeitet bei jeder Anfrage IP-Adresse, Adresse und
   Browser-Kennung und bewahrt sie nach seinen eigenen Regeln auf.
 - **IP-Adressen nur im Arbeitsspeicher:** Zum Schutz vor Missbrauch begrenzt
@@ -675,6 +793,11 @@ ich frühere Antworten nachschlagen kann; auf Anfrage früher.
   den Rollen und Apps des Kontos, seinem Erstellungsdatum, der Anzahl
   offizieller Spiele, die es hinterlässt, und einem pseudonymisierten Hash
   seiner E-Mail-Adresse, nie die Adresse oder den Namen.
+- **Aufbewahrung und Schwärzung:** Das Änderungsprotokoll hält jede tägliche
+  Löschung abgelaufener Spielaufzeichnungen fest (nur den Stichtag und die
+  Anzahl gelöschter Einträge) und jede Berichtigung oder Löschung der Daten
+  einer Person auf Anfrage (nur die Art, einen pseudonymisierten Hash der
+  Person und die Anzahl pro Tabelle, nie den Namen).
 - **Unterschreiben auf dem Telefon:** Der Server protokolliert nur den Ablauf
   (gestartet, geöffnet, unterschrieben, beendet) mit der Funktion und einer
   kurzen Kennung, nie den Link, die Unterschrift, Namen oder Teams.
@@ -691,7 +814,7 @@ brauche. Sie bearbeiten die Daten in meinem Auftrag.
 | Migadu | E-Mail-Versand (noreply@) und Postfach (support@) | Schweiz / Europa |
 | Resend, Inc. | Versand der Spielinfo per E-Mail (nur diese Funktion, falls aktiviert) | USA |
 
-**Wichtig zu Cloudflare:** Die verschlüsselte Verbindung Ihres Geräts endet
+**Wichtig zu Cloudflare:** Die verschlüsselte Verbindung deines Geräts endet
 bei Cloudflare; von dort läuft sie verschlüsselt weiter zu meinem Server.
 Cloudflare kann den Inhalt der Anfragen deshalb technisch einsehen, auch
 Kaderlisten und Geburtsdaten. Cloudflare darf die Daten nur für die
@@ -710,43 +833,44 @@ verschlüsselt, bevor sie den Server verlassen; niemand sonst kann sie lesen
 Schweizer Bundesrat einen angemessenen Datenschutz. Für die USA stütze ich mich auf das
 Swiss-U.S. Data Privacy Framework, soweit der Anbieter zertifiziert ist, und
 sonst auf die Standardvertragsklauseln in den Verträgen der Anbieter. Auf
-Anfrage erhalten Sie eine Kopie dieser Garantien.
+Anfrage erhältst du eine Kopie dieser Garantien.
 
 ## 16. Wie lange ich Daten aufbewahre
 
 | Daten | Aufbewahrung |
 |---|---|
-| Konto und Profil | Bis Sie das Konto löschen oder die Administration es löscht (auf Ihren Wunsch oder bei einem abgelehnten neuen Konto) |
+| Konto und Profil | Bis du das Konto löschst oder die Administration es löscht (auf deinen Wunsch oder bei einem abgelehnten neuen Konto) |
 | Sitzung | 30 Tage ab letzter Nutzung, höchstens 90 Tage |
 | Links in E-Mails | 60 Minuten bzw. 24 Stunden gültig, 7 Tage danach gelöscht |
-| Freigabe-PIN | Bis Sie ihn entfernen oder Ihr Konto löschen |
-| Spielberichte, Spielereignisse, Unterschriften, Freigaben, Spielbericht-Dateien | Als offizielle Spielaufzeichnung, so lange wie nötig (laufende Saison und Archiv). Löschung auf Anfrage, soweit die Daten für die Aufzeichnung nicht nötig sind (Abschnitt 19) |
+| Freigabe-PIN | Bis du ihn entfernst oder dein Konto löschst |
+| Spielberichte, Spielereignisse, Ereignisgeschichte, Unterschriften, Freigaben, Bemerkungen (auch Gesundheitsdaten), Spielbericht-Dateien | Als offizielle Spielaufzeichnung: die Saison des Spiels und die 2 folgenden Saisons (eine Saison dauert vom 1. Juli bis 30. Juni), danach von einem täglichen Lauf gelöscht; zum Beispiel gehen die Aufzeichnungen der Saison 2024/25 am 1. Juli 2027. Früher auf Anfrage, soweit die Daten für die Aufzeichnung nicht nötig sind (Abschnitt 19) |
 | Gespeicherte Teams, Beachturniere | Bis eine Managerin oder ein Manager sie löscht, oder auf Anfrage |
-| Schiedsrichter-Verzeichnis, Spielansetzungen | So lange wie nötig; Löschung auf Anfrage |
+| Schiedsrichter-Verzeichnis | Bis die Administration den Eintrag löscht; Löschung auf Anfrage |
+| Spielansetzungen von Swiss Volley | Wie die Spielaufzeichnungen: die Saison des Spiels und die 2 folgenden Saisons |
 | Änderungsprotokoll | So lange wie für die Nachvollziehbarkeit nötig; Löschung auf Anfrage geprüft |
 | Kontaktadresse eines Vereins | Bis sie geändert oder entfernt oder der Verein gelöscht wird |
-| Vereinsverantwortliche | Bis die Administration sie entfernt, der Verein gelöscht wird oder Sie Ihr Konto löschen |
-| Teamverantwortliche | Bis Vereinsverantwortliche oder die Administration sie entfernen, das Team oder der Verein gelöscht wird oder Sie Ihr Konto löschen |
+| Vereinsverantwortliche | Bis die Administration sie entfernt, der Verein gelöscht wird oder du dein Konto löschst |
+| Teamverantwortliche | Bis Vereinsverantwortliche oder die Administration sie entfernen, das Team oder der Verein gelöscht wird oder du dein Konto löschst |
 | Im Voraus geschickter Kader (Spielerinnen und Spieler, Betreuungspersonen, Unterschriften) | Bis eine Schreiberin oder ein Schreiber ihn übernimmt, spätestens 14 Tage nach dem Spiel; der Vermerk der Übernahme 14 Tage nach dem Spiel |
-| Lizenzlisten eines Vereins (Lizenznummer, Namen, Geburtsdatum, Geschlecht) | Bis zum nächsten Upload dieser Liste, ihrer Löschung durch Vereinsverantwortliche oder der Löschung des Vereins; von Hand hinzugefügte Personen: bis zur Löschung der Liste oder des Vereins; auf einem Gerät bis zum nächsten Download oder Abmelden |
-| E-Mail-Adresse einer Schiedsrichterin oder eines Schiedsrichters beim Spiel | Mit dem Spiel, als Teil des Spielberichts |
+| Lizenzlisten eines Vereins (Lizenznummer, Namen, Geburtsdatum, Geschlecht) | Bis zum nächsten Upload dieser Liste, ihrer Löschung durch Vereinsverantwortliche oder der Löschung des Vereins, spätestens bis zum Ende der Saison; von Hand hinzugefügte Personen: bis zur Löschung der Liste oder des Vereins, spätestens bis zum Ende der Saison; auf einem Gerät bis zum nächsten Download oder Abmelden |
+| E-Mail-Adresse einer Schiedsrichterin, eines Schiedsrichters oder eines Teams beim Spiel | Mit dem Spiel, als Teil des Spielberichts |
 | Versand des fertigen Spielberichts (Zeitpunkt, Anzahl Empfänger, ohne Adressen) | Mit dem Spiel |
 | Spielbericht eines Testspiels per E-Mail | Auf dem Server nicht gespeichert |
 | Global-Werkzeug: Sicherung und Spielbericht-PDF eines Spiels (unter dem Sicherungscode) | 180 Tage nach der letzten Änderung |
 | Hochgeladene Sicherungskopien | 30 Tage |
-| Hochgeladene App-Protokolle | Bis Sie Ihr Konto löschen |
-| Aktivitätsprotokoll eines Spiels (Server) | 24 Monate oder bis das Spiel gelöscht wird; auf Anfrage früher |
-| Aktivitätsprotokoll ohne Spiel (Server) | 90 Tage; die unter Ihrem Konto aufgezeichneten Einträge werden mit dem Konto gelöscht |
+| Hochgeladene App-Protokolle | 30 Tage; mit deinem Konto gelöscht |
+| Aktivitätsprotokoll eines Spiels (Server) | 24 Monate, längstens bis das Spiel gelöscht wird; auf Anfrage früher |
+| Aktivitätsprotokoll ohne Spiel (Server) | 90 Tage; die unter deinem Konto aufgezeichneten Einträge werden mit dem Konto gelöscht |
 | Ereignisgeschichte (rückgängig gemachte und korrigierte Ereignisse) | Mit dem Spiel, als Teil des Spielberichts |
 | Aktivitätsprotokoll auf dem Gerät | Übertragene Einträge 180 Tage (höchstens 100 000); noch nicht übertragene bis zur Übertragung (höchstens 200 000); höchstens 30 Tagesdateien und 50 MB |
 | Bedienprotokoll (nur auf dem Gerät) | OpenVolley ab 2.4.0: 30 Tage, höchstens 50 000 Einträge |
 | Protokolldatei der Desktop-App (nur auf dem Gerät) | Höchstens fünf ältere Dateien zu je 5 MB |
 | Unterschrift auf dem Telefon (Server oder Laptop) | Nur im Arbeitsspeicher; Link 10 Minuten gültig, Unterschrift spätestens 5 Minuten nach dem Unterschreiben verworfen |
 | Support-Anfragen (Postfach und Helpdesk, mit Anhängen und Diagnosedaten) | 2 Jahre nach der letzten Nachricht; auf Anfrage früher |
-| Serverprotokolle | Überschrieben nach Grösse (Tage bis wenige Wochen) |
+| Serverprotokolle | Überschrieben nach Grösse, höchstens 10 Dateien zu 20 MB pro Dienst (Tage bis wenige Wochen) |
 | Live-Daten (Server und Hallen-Modus) | Nur im Arbeitsspeicher; auf dem Server 24 Stunden nach der letzten Aktivität verworfen |
 | Datensicherungen | Bis etwa 6 Monate (Abschnitt 18) |
-| Daten auf Ihrem Gerät | Bis Sie sie löschen; Sicherungsdateien der Desktop- und Android-App 30 Tage |
+| Daten auf deinem Gerät | Bis du sie löschst; Sicherungsdateien der Desktop- und Android-App 30 Tage |
 
 ## 17. Minderjährige
 
@@ -781,63 +905,83 @@ für ihr Kind ausüben.
   können deshalb noch bis zu etwa 6 Monate in diesen verschlüsselten
   Sicherungen enthalten sein; sie werden nur für eine Wiederherstellung
   verwendet.
-- Sicherungs- und Protokolldateien der Desktop-App sind nur für Ihr
+- Sicherungs- und Protokolldateien der Desktop-App sind nur für dein
   Benutzerkonto lesbar und enthalten keine PINs.
 
-Kein System ist vollkommen sicher. Wenn Sie eine Sicherheitslücke finden,
-melden Sie sie bitte an support@openvolley.app.
+Kein System ist vollkommen sicher. Wenn du eine Sicherheitslücke findest,
+melde sie bitte an support@openvolley.app.
 
-## 19. Ihre Rechte
+## 19. Deine Rechte
 
-Sie haben das Recht:
+Du hast das Recht:
 
-- **Auskunft** zu erhalten, welche Daten ich über Sie bearbeite;
+- **Auskunft** zu erhalten, welche Daten ich über dich bearbeite;
 - unrichtige Daten **berichtigen** zu lassen;
 - Daten **löschen** oder unkenntlich machen zu lassen;
 - der Bearbeitung zu **widersprechen**;
 - die Bearbeitung **einschränken** zu lassen, zum Beispiel solange eine
   Berichtigung geprüft wird;
-- Ihre Daten in einem gängigen Format zu **erhalten** oder übertragen zu
+- deine Daten in einem gängigen Format zu **erhalten** oder übertragen zu
   lassen (die Apps bieten dafür auch den Download von Sicherungskopien,
   Spielberichten und dem Aktivitätsprotokoll);
 - eine **Einwilligung** (zum Beispiel für die Update-Prüfung auf Android)
   jederzeit zu widerrufen.
 
-Schreiben Sie an **support@openvolley.app**. Ich antworte innert 30 Tagen.
+Schreib an **support@openvolley.app**. Ich antworte innert 30 Tagen.
 Damit ich keine Daten an die falsche Person gebe, kann ich einen Nachweis
-Ihrer Identität verlangen.
+deiner Identität verlangen.
 
 **Löschung bei offiziellen Spielberichten:** Ein abgeschlossener Spielbericht
 ist die offizielle Aufzeichnung eines Spiels, an der Vereine, Verband und
-Offizielle ein Interesse haben. Ich lösche oder anonymisiere Ihre Daten
-darin, soweit sie für die Aufzeichnung nicht nötig sind, und erkläre Ihnen,
-was aus welchem Grund bestehen bleibt.
+Offizielle ein Interesse haben. Ich lösche oder anonymisiere deine Daten
+darin, soweit sie für die Aufzeichnung nicht nötig sind, und erkläre dir,
+was aus welchem Grund bestehen bleibt. Eine Berichtigung (zum Beispiel eines
+falschen Geburtsdatums) oder eine Löschung erfolgt in allen Kopien auf dem
+Server zugleich: in den Spielaufzeichnungen mit ihrer Geschichte und ihren
+Protokollen, in den Vereinslisten und gespeicherten Teams, im
+Schiedsrichter-Verzeichnis und in den Spielansetzungen. Rückennummer und
+Funktion bleiben, wo die Aufzeichnung sie braucht, und das PDF des
+Spielberichts wird neu erstellt. Kopien ausserhalb meines Servers (auf
+Geräten, in bereits versandten E-Mails) kann ich nicht erreichen. Die
+verschlüsselten Datensicherungen enthalten die alten Daten noch bis etwa
+6 Monate (Abschnitt 18); müsste eine davon wiederhergestellt werden, wende
+ich deine Anfrage erneut an.
 
-**Beschwerde:** Sie können sich beim Eidgenössischen Datenschutz- und
-Öffentlichkeitsbeauftragten (EDÖB, www.edoeb.admin.ch) beschweren. Wenn Sie
-in der EU oder im EWR wohnen, auch bei der Datenschutzbehörde Ihres Landes.
+**Beschwerde:** Du kannst dich beim Eidgenössischen Datenschutz- und
+Öffentlichkeitsbeauftragten (EDÖB, www.edoeb.admin.ch) beschweren. Wenn du
+in der EU oder im EWR wohnst, auch bei der Datenschutzbehörde deines Landes.
 
 ## 20. Rechtsgrundlagen (DSGVO)
 
 Soweit die DSGVO gilt, stütze ich mich auf:
 
 - **Vertrag** (Art. 6 Abs. 1 lit. b DSGVO): Konto, Synchronisierung,
-  E-Mails zum Konto, Support, die Funktionen, die Sie nutzen, die
+  E-Mails zum Konto, Support, die Funktionen, die du nutzt, die
   Online-Sicherung des Global-Werkzeugs.
 - **Berechtigtes Interesse** (Art. 6 Abs. 1 lit. f DSGVO): korrekte und
   überprüfbare offizielle Spielaufzeichnungen für Vereine, Verband und
   Offizielle (Kaderlisten, Geburtsdaten zur Kontrolle der Spielberechtigung,
-  Unterschriften, Freigaben, Aktivitätsprotokoll und Ereignisgeschichte),
+  Unterschriften, Freigaben, Aktivitätsprotokoll und Ereignisgeschichte,
+  Bemerkungen),
   Zustellung des fertigen Spielberichts an Offizielle und Vereine,
   Livescore für das Publikum, Organisation von Turnieren, Fehlersuche,
   Sicherheit und Missbrauchsschutz, Datensicherungen.
 - **Einwilligung** (Art. 6 Abs. 1 lit. a DSGVO): freiwilliges Geburtsdatum im
   Konto, Update-Prüfung der direkt installierten Android-App.
+- **Gesundheitsdaten** (eine Verletzung oder Krankheit, die in einem Spiel
+  festgehalten wird, Abschnitt 7): Die Spielregeln verlangen die Aufzeichnung
+  eines solchen Wechsels und eines Liberos, der nicht mehr spielen kann. Nach
+  der DSGVO stütze ich mich auf Art. 9 Abs. 2 lit. f (Geltendmachung,
+  Ausübung oder Verteidigung von Rechtsansprüchen: Proteste und Rekurse in
+  einem Wettbewerb werden anhand der Spielaufzeichnung entschieden), zusammen
+  mit dem berechtigten Interesse oben; nach dem DSG auf das überwiegende
+  Interesse an einer korrekten offiziellen Aufzeichnung. Automatisch hält die
+  App nur den Wortlaut der Regeln fest.
 
 Nach dem Schweizer DSG bearbeite ich Daten nur für die genannten Zwecke und
 im nötigen Umfang.
 
-**Keine Pflicht zur Angabe:** Sie sind weder gesetzlich noch vertraglich
+**Keine Pflicht zur Angabe:** Du bist weder gesetzlich noch vertraglich
 verpflichtet, mir Daten zu geben. Ohne E-Mail-Adresse und Passwort kann ich
 aber kein Konto eröffnen, und ohne Kaderlisten entsteht kein Spielbericht.
 
