@@ -2,7 +2,7 @@
 
 `build.sh` runs `node support/build.mjs dist`, which writes the support page
 in four languages and copies the videos (and the guide PDFs listed in
-`GUIDES`, none for now). No dependencies beyond the site's own
+`GUIDES`: the Quick guide in en/de/fr/it). No dependencies beyond the site's own
 (`lucide-static` for the icons).
 
 | Language | Page |
@@ -31,7 +31,7 @@ language, unless they picked one with the language switch.
 | `help.json` | The questions and answers per section, in en/de/fr/it | (built into the pages) |
 | `videos/<id>.mp4`, `<id>.jpg`, `<id>.<lang>.vtt` | One video per section, its poster and subtitles | /support/videos/ |
 | `videos/manifest.json` | The videos: titles, length, size, app version | (read by the build) |
-| `GUIDES` in `build.mjs` | Guide PDFs from the repository root, none listed now: the Quick guide (January 2026) shows a real referee's name and the old look, the roll-out deck is the January plan. List only a current guide with invented names | /support/guides/ |
+| `guides/openvolley-quick-guide-<lang>.pdf`, `GUIDES` in `build.mjs` | The Quick guide of 3.2.5 per language (built in the openvolley repository, `escoresheet/docs/guides/quick-guide`, invented names only); each page lists its own language's. The roll-out deck is the January plan and stays unlisted | /support/guides/ |
 | `../support.css`, `../support.js` | Style, search and contact form | /support.css, /support.js |
 
 The app streams the videos from `/support/videos/` too, so keep those names.

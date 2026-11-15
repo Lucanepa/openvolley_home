@@ -1,21 +1,25 @@
 WEBVTT
 
 1
-00:00:00.001 --> 00:00:07.001
+00:00:00.000 --> 00:00:07.000
 Il tablet dell'arbitro (a destra) segue il referto (a sinistra): punteggio, servizio, formazioni.
 
 2
-00:00:09.808 --> 00:00:15.215
+00:00:09.760 --> 00:00:15.213
 "1 ARB" / "2 ARB" gira il campo dal lato dell'arbitro.
 
 3
-00:00:15.265 --> 00:00:22.265
-Un timeout sul referto: il tablet lo mostra con il conto alla rovescia.
+00:00:15.263 --> 00:00:22.263
+Un timeout sul referto: il tablet mostra "Registrato dal segnapunti" con il conto alla rovescia.
 
 4
-00:00:23.894 --> 00:00:30.894
-Una sostituzione: il nuovo giocatore compare sul tablet.
+00:00:23.944 --> 00:00:30.944
+Una sostituzione: il popup la indica e il nuovo giocatore compare in campo.
 
 5
-00:00:32.057 --> 00:00:37.749
+00:00:34.599 --> 00:00:40.623
+"Referto" mostra il referto in diretta, in sola lettura.
+
+6
+00:00:40.673 --> 00:00:46.152
 Il menu del tablet: "Mantieni schermo acceso" perché non si spenga mai.

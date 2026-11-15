@@ -1,29 +1,29 @@
 WEBVTT
 
 1
-00:00:00.001 --> 00:00:02.759
+00:00:00.000 --> 00:00:02.774
 "Partita terminata": il vincitore, i risultati di ogni set e le sanzioni.
 
 2
-00:00:02.809 --> 00:00:09.809
+00:00:02.824 --> 00:00:09.824
 I due capitani firmano: "Tocca per firmare".
 
 3
-00:00:14.430 --> 00:00:16.593
+00:00:15.133 --> 00:00:17.617
 Osservazioni, se servono: "Modifica osservazioni".
 
 4
-00:00:16.643 --> 00:00:23.643
+00:00:17.667 --> 00:00:24.667
 "Conferma e approva" blocca il risultato e crea il referto in PDF.
 
 5
-00:00:27.574 --> 00:00:34.574
+00:00:41.160 --> 00:00:48.160
 "eScoresheet" → "Anteprima" mostra il referto.
 
 6
-00:00:36.874 --> 00:00:40.148
+00:00:50.789 --> 00:00:54.110
 "Salva PDF" lo salva come file.
 
 7
-00:00:40.198 --> 00:00:44.005
+00:00:54.160 --> 00:00:58.506
 "Chiudi partita" conclude la partita su questo dispositivo.

@@ -1,65 +1,69 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:01.754
-Jedes Spiel beginnt auf der Startseite.
+00:00:00.000 --> 00:00:03.375
+Beim ersten Mal wählst du "Schweiz" oder "Global".
 
 2
-00:00:01.804 --> 00:00:03.581
-Tippe auf "Neues Spiel".
+00:00:03.425 --> 00:00:05.184
+Jedes Spiel beginnt auf der Startseite.
 
 3
-00:00:03.631 --> 00:00:06.294
-"Offizielles Spiel": ein Spiel aus dem Spielplan, auf dem Server gespeichert.
+00:00:05.234 --> 00:00:08.397
+"Offizielles Spiel": das heutige Heimspiel deines Vereins, oder du gibst das Spiel selbst ein. Auf dem Server gespeichert.
 
 4
-00:00:06.344 --> 00:00:09.010
-"Testspiel": Üben mit Beispielteams. Nichts wird gesendet.
+00:00:08.447 --> 00:00:11.118
+"Testspiel": Üben mit Beispielteams. Nie auf dem Server gespeichert.
 
 5
-00:00:09.060 --> 00:00:11.727
+00:00:11.168 --> 00:00:13.830
 "Einfaches Spiel": Inoffiziell · ohne Kader und Unterschriften.
 
 6
-00:00:11.777 --> 00:00:14.755
-Hier: "Testspiel".
+00:00:13.880 --> 00:00:16.548
+"Anzeigetafel": nur Punkte und Sätze, kein Spiel.
 
 7
-00:00:14.805 --> 00:00:18.252
-"Menü" → "Heim" führt zurück. Das Spiel bleibt auf dem Gerät.
+00:00:16.598 --> 00:00:19.628
+Hier: "Testspiel".
 
 8
-00:00:18.302 --> 00:00:20.876
-"Spiel fortsetzen" öffnet es wieder.
+00:00:19.678 --> 00:00:23.090
+"Menü" → "Heim" führt zurück. Das Spiel bleibt auf dem Gerät.
 
 9
-00:00:20.926 --> 00:00:26.046
-"Spiel löschen" entfernt es von diesem Gerät.
+00:00:23.140 --> 00:00:25.715
+"Spiel fortsetzen" öffnet es wieder.
 
 10
-00:00:26.096 --> 00:00:28.869
-Ein offizielles Spiel: Teams, Spielstand, zuletzt gespeichert und sein Status.
+00:00:25.765 --> 00:00:30.984
+"Spiel löschen" darunter entfernt es von diesem Gerät.
 
 11
-00:00:28.919 --> 00:00:31.688
-"Wird hier geführt": Der Server weiss, dass dieses Gerät das Spiel führt.
+00:00:31.034 --> 00:00:33.811
+Ein offizielles Spiel: Teams, Spielstand, zuletzt gespeichert und sein Status.
 
 12
-00:00:31.738 --> 00:00:38.738
-Keine Verbindung? Die Punkte werden auf diesem Gerät weiter erfasst.
+00:00:33.861 --> 00:00:36.631
+"Wird hier geführt": Der Server weiss, dass dieses Gerät das Spiel führt.
 
 13
-00:00:41.205 --> 00:00:44.045
-"Nicht gesendete Änderungen": noch nicht auf dem Server. Sie gehen weg, sobald das Gerät online ist.
+00:00:36.681 --> 00:00:43.681
+Keine Verbindung? Die Punkte werden auf diesem Gerät weiter erfasst.
 
 14
-00:00:44.095 --> 00:00:46.046
-Wieder online: gesendet.
+00:00:46.231 --> 00:00:49.072
+"Nicht gesendete Änderungen": noch nicht auf dem Server. Sie gehen weg, sobald das Gerät online ist.
 
 15
-00:00:46.096 --> 00:00:48.769
-Mit der "Spiel-PIN" kann ein anderes Gerät dieses Spiel fortsetzen.
+00:00:49.122 --> 00:00:51.074
+Wieder online: gesendet.
 
 16
-00:00:48.819 --> 00:00:54.807
+00:00:51.124 --> 00:00:53.793
+Mit der "Spiel-PIN" kann ein anderes Gerät dieses Spiel fortsetzen.
+
+17
+00:00:53.843 --> 00:00:59.813
 "Spiel wiederherstellen" lädt ein Spiel vom Server oder aus einer Backup-Datei.

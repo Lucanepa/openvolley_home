@@ -1,45 +1,45 @@
 WEBVTT
 
 1
-00:00:00.001 --> 00:00:02.755
+00:00:00.000 --> 00:00:02.758
 Match setup: the match info, both teams, then the coin toss.
 
 2
-00:00:02.805 --> 00:00:05.386
+00:00:02.808 --> 00:00:05.412
 Official match: "Load match from schedule" fills it in.
 
 3
-00:00:05.436 --> 00:00:12.436
+00:00:05.462 --> 00:00:12.462
 "Edit": date, hall, referees, scorer, line judges and the match format.
 
 4
-00:00:14.425 --> 00:00:16.731
+00:00:14.658 --> 00:00:17.098
 "Edit roster": players, liberos, captain and bench officials.
 
 5
-00:00:16.781 --> 00:00:23.781
+00:00:17.148 --> 00:00:24.148
 A new player: number, name, date of birth, then "Add".
 
 6
-00:00:26.430 --> 00:00:29.818
+00:00:27.612 --> 00:00:31.072
 The libero column marks L1 and L2, "C" marks the captain.
 
 7
-00:00:29.868 --> 00:00:36.124
+00:00:31.122 --> 00:00:37.565
 Coaches can send their own roster: "Remote" shows the Upload PIN.
 
 8
-00:00:36.174 --> 00:00:39.451
+00:00:37.615 --> 00:00:40.941
 Below the players: the bench officials.
 
 9
-00:00:39.501 --> 00:00:41.734
+00:00:40.991 --> 00:00:43.235
 "Confirm" saves the roster.
 
 10
-00:00:41.784 --> 00:00:46.423
+00:00:43.285 --> 00:00:48.027
 Tap a shirt to change the team colour.
 
 11
-00:00:46.473 --> 00:00:50.456
+00:00:48.077 --> 00:00:52.088
 All set: "Coin toss".

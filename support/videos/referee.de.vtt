@@ -1,21 +1,25 @@
 WEBVTT
 
 1
-00:00:00.001 --> 00:00:07.001
+00:00:00.000 --> 00:00:07.000
 Das Schiedsrichter-Tablet (rechts) folgt dem Matchblatt (links): Spielstand, Aufschlag, Aufstellungen.
 
 2
-00:00:09.808 --> 00:00:15.215
+00:00:09.760 --> 00:00:15.213
 "1 SR" / "2 SR" dreht das Feld auf die Netzseite des Schiedsrichters.
 
 3
-00:00:15.265 --> 00:00:22.265
-Eine Auszeit auf dem Matchblatt: Das Tablet zeigt sie und zählt herunter.
+00:00:15.263 --> 00:00:22.263
+Eine Auszeit auf dem Matchblatt: Das Tablet zeigt "Vom Schreiber erfasst" mit dem Countdown.
 
 4
-00:00:23.894 --> 00:00:30.894
-Eine Auswechslung: Der neue Spieler erscheint auf dem Tablet.
+00:00:23.944 --> 00:00:30.944
+Eine Auswechslung: Das Popup nennt sie, und der neue Spieler erscheint auf dem Feld.
 
 5
-00:00:32.057 --> 00:00:37.749
+00:00:34.599 --> 00:00:40.623
+"Matchblatt" zeigt das Matchblatt live, nur zum Lesen.
+
+6
+00:00:40.673 --> 00:00:46.152
 Das Menü des Tablets: "Bildschirm an lassen", damit es nie ausgeht.

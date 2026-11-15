@@ -1,37 +1,37 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.590
+00:00:00.000 --> 00:00:04.600
 Installer l'eScoresheet : openvolley.app → "Download".
 
 2
-00:00:04.640 --> 00:00:07.918
-L'application de bureau pour Windows et Linux, l'application pour tablettes Android.
+00:00:04.650 --> 00:00:07.925
+L'application de bureau pour Windows, macOS et Linux, l'application pour tablettes Android.
 
 3
-00:00:07.968 --> 00:00:11.434
+00:00:07.975 --> 00:00:11.441
 Windows peut avertir d'une nouvelle application : "Informations complémentaires" → "Exécuter quand même".
 
 4
-00:00:11.484 --> 00:00:14.564
+00:00:11.491 --> 00:00:14.572
 Linux (APT) et Android (F-Droid) se mettent à jour tout seuls.
 
 5
-00:00:14.614 --> 00:00:16.772
+00:00:14.622 --> 00:00:16.774
 Sans installation : la même application tourne dans le navigateur.
 
 6
-00:00:16.822 --> 00:00:20.448
-L'accueil renvoie à l'application de bureau : elle fonctionne sans internet et sert les tablettes de la salle.
+00:00:16.824 --> 00:00:20.438
+L'accueil renvoie à la page de téléchargement : "Télécharger OpenVolley".
 
 7
-00:00:20.498 --> 00:00:23.061
+00:00:20.488 --> 00:00:23.048
 Une nouvelle version : "Mise à jour disponible !"
 
 8
-00:00:23.111 --> 00:00:26.627
+00:00:23.098 --> 00:00:30.098
 "Actualiser pour mettre à jour" la charge. Entre deux matchs, pas pendant un match.
 
 9
-00:00:26.677 --> 00:00:31.028
+00:00:30.810 --> 00:00:35.161
 L'application de bureau se met à jour elle-même : "La mise à jour … est prête". Elle s'installe quand tu quittes OpenVolley.

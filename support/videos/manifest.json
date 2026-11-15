@@ -7,8 +7,8 @@
       "fr": "Accueil",
       "it": "Home"
     },
-    "durationSec": 54.8,
-    "sizeBytes": 1049184,
+    "durationSec": 59.9,
+    "sizeBytes": 1125934,
     "file": "home.mp4",
     "poster": "home.jpg",
     "tracks": {
@@ -17,8 +17,8 @@
       "fr": "home.fr.vtt",
       "it": "home.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:08:40.308Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:22:21.934Z"
   },
   {
     "id": "setup",
@@ -28,8 +28,8 @@
       "fr": "Préparer le match",
       "it": "Preparare la partita"
     },
-    "durationSec": 50.5,
-    "sizeBytes": 1281228,
+    "durationSec": 52.1,
+    "sizeBytes": 1325013,
     "file": "setup.mp4",
     "poster": "setup.jpg",
     "tracks": {
@@ -38,8 +38,8 @@
       "fr": "setup.fr.vtt",
       "it": "setup.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:09:33.255Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T16:55:24.077Z"
   },
   {
     "id": "coin-toss",
@@ -49,8 +49,8 @@
       "fr": "Tirage au sort et compositions",
       "it": "Sorteggio e formazioni"
     },
-    "durationSec": 70.1,
-    "sizeBytes": 1665064,
+    "durationSec": 67.9,
+    "sizeBytes": 1710687,
     "file": "coin-toss.mp4",
     "poster": "coin-toss.jpg",
     "tracks": {
@@ -59,8 +59,8 @@
       "fr": "coin-toss.fr.vtt",
       "it": "coin-toss.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:10:55.835Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:23:46.192Z"
   },
   {
     "id": "scoring",
@@ -70,8 +70,8 @@
       "fr": "Marquer les points",
       "it": "Segnare i punti"
     },
-    "durationSec": 49.2,
-    "sizeBytes": 1595990,
+    "durationSec": 49.3,
+    "sizeBytes": 1725960,
     "file": "scoring.mp4",
     "poster": "scoring.jpg",
     "tracks": {
@@ -80,8 +80,8 @@
       "fr": "scoring.fr.vtt",
       "it": "scoring.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:11:53.959Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T16:57:44.216Z"
   },
   {
     "id": "subs-timeouts",
@@ -91,8 +91,8 @@
       "fr": "Remplacements, temps morts et libéros",
       "it": "Sostituzioni, timeout e libero"
     },
-    "durationSec": 37.6,
-    "sizeBytes": 1194733,
+    "durationSec": 38,
+    "sizeBytes": 1351905,
     "file": "subs-timeouts.mp4",
     "poster": "subs-timeouts.jpg",
     "tracks": {
@@ -101,8 +101,8 @@
       "fr": "subs-timeouts.fr.vtt",
       "it": "subs-timeouts.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:12:44.148Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T16:58:33.501Z"
   },
   {
     "id": "sanctions",
@@ -112,8 +112,8 @@
       "fr": "Sanctions",
       "it": "Sanzioni"
     },
-    "durationSec": 57.9,
-    "sizeBytes": 1905830,
+    "durationSec": 58.3,
+    "sizeBytes": 2091385,
     "file": "sanctions.mp4",
     "poster": "sanctions.jpg",
     "tracks": {
@@ -122,8 +122,8 @@
       "fr": "sanctions.fr.vtt",
       "it": "sanctions.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:13:53.078Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T16:59:42.338Z"
   },
   {
     "id": "set-end",
@@ -133,8 +133,8 @@
       "fr": "Fin de set, pause et tie-break",
       "it": "Fine set, intervallo e tie-break"
     },
-    "durationSec": 36,
-    "sizeBytes": 1315547,
+    "durationSec": 36.3,
+    "sizeBytes": 1501176,
     "file": "set-end.mp4",
     "poster": "set-end.jpg",
     "tracks": {
@@ -143,8 +143,8 @@
       "fr": "set-end.fr.vtt",
       "it": "set-end.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:19:12.113Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:04:55.660Z"
   },
   {
     "id": "match-end",
@@ -154,8 +154,8 @@
       "fr": "Fin du match",
       "it": "Fine partita"
     },
-    "durationSec": 44,
-    "sizeBytes": 1425931,
+    "durationSec": 58.6,
+    "sizeBytes": 1226305,
     "file": "match-end.mp4",
     "poster": "match-end.jpg",
     "tracks": {
@@ -164,8 +164,8 @@
       "fr": "match-end.fr.vtt",
       "it": "match-end.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:23:23.465Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:09:10.278Z"
   },
   {
     "id": "corrections",
@@ -175,8 +175,8 @@
       "fr": "Corrections",
       "it": "Correzioni"
     },
-    "durationSec": 44.6,
-    "sizeBytes": 1085840,
+    "durationSec": 53.6,
+    "sizeBytes": 1381187,
     "file": "corrections.mp4",
     "poster": "corrections.jpg",
     "tracks": {
@@ -185,8 +185,8 @@
       "fr": "corrections.fr.vtt",
       "it": "corrections.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:25:27.328Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:11:04.418Z"
   },
   {
     "id": "connections",
@@ -196,8 +196,8 @@
       "fr": "Connecter les tablettes",
       "it": "Collegare i tablet"
     },
-    "durationSec": 36.6,
-    "sizeBytes": 1256211,
+    "durationSec": 36.7,
+    "sizeBytes": 1300580,
     "file": "connections.mp4",
     "poster": "connections.jpg",
     "tracks": {
@@ -206,8 +206,8 @@
       "fr": "connections.fr.vtt",
       "it": "connections.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:26:24.832Z"
+    "appVersion": "3.2.7",
+    "recordedAt": "2026-11-15T17:44:48.168Z"
   },
   {
     "id": "referee",
@@ -217,8 +217,8 @@
       "fr": "La tablette de l'arbitre",
       "it": "Il tablet dell'arbitro"
     },
-    "durationSec": 37.8,
-    "sizeBytes": 1649196,
+    "durationSec": 46.2,
+    "sizeBytes": 2346338,
     "file": "referee.mp4",
     "poster": "referee.jpg",
     "tracks": {
@@ -227,8 +227,8 @@
       "fr": "referee.fr.vtt",
       "it": "referee.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:27:24.505Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:13:01.700Z"
   },
   {
     "id": "bench",
@@ -238,8 +238,8 @@
       "fr": "La tablette du banc",
       "it": "Il tablet della panchina"
     },
-    "durationSec": 36.8,
-    "sizeBytes": 1156060,
+    "durationSec": 48.7,
+    "sizeBytes": 2179963,
     "file": "bench.mp4",
     "poster": "bench.jpg",
     "tracks": {
@@ -248,8 +248,8 @@
       "fr": "bench.fr.vtt",
       "it": "bench.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:28:22.994Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:14:15.415Z"
   },
   {
     "id": "livescore",
@@ -259,8 +259,8 @@
       "fr": "Livescore et tableau d'affichage",
       "it": "Livescore e tabellone"
     },
-    "durationSec": 32.7,
-    "sizeBytes": 944829,
+    "durationSec": 33,
+    "sizeBytes": 1013140,
     "file": "livescore.mp4",
     "poster": "livescore.jpg",
     "tracks": {
@@ -269,8 +269,8 @@
       "fr": "livescore.fr.vtt",
       "it": "livescore.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:29:18.757Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:15:14.701Z"
   },
   {
     "id": "handover",
@@ -280,8 +280,8 @@
       "fr": "Continuer sur un autre appareil",
       "it": "Continuare su un altro dispositivo"
     },
-    "durationSec": 61.1,
-    "sizeBytes": 1907999,
+    "durationSec": 61.6,
+    "sizeBytes": 2145077,
     "file": "handover.mp4",
     "poster": "handover.jpg",
     "tracks": {
@@ -290,8 +290,8 @@
       "fr": "handover.fr.vtt",
       "it": "handover.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:30:45.134Z"
+    "appVersion": "3.2.7",
+    "recordedAt": "2026-11-15T17:46:34.580Z"
   },
   {
     "id": "sync-offline",
@@ -301,8 +301,8 @@
       "fr": "En ligne, hors ligne et synchronisation",
       "it": "Online, offline e sincronizzazione"
     },
-    "durationSec": 39.5,
-    "sizeBytes": 1138243,
+    "durationSec": 39.6,
+    "sizeBytes": 1242801,
     "file": "sync-offline.mp4",
     "poster": "sync-offline.jpg",
     "tracks": {
@@ -311,8 +311,8 @@
       "fr": "sync-offline.fr.vtt",
       "it": "sync-offline.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:31:52.402Z"
+    "appVersion": "3.2.7",
+    "recordedAt": "2026-11-15T17:47:53.074Z"
   },
   {
     "id": "install-updates",
@@ -322,8 +322,8 @@
       "fr": "Installer et mettre à jour",
       "it": "Installare e aggiornare"
     },
-    "durationSec": 31.1,
-    "sizeBytes": 679738,
+    "durationSec": 35.2,
+    "sizeBytes": 696126,
     "file": "install-updates.mp4",
     "poster": "install-updates.jpg",
     "tracks": {
@@ -332,7 +332,7 @@
       "fr": "install-updates.fr.vtt",
       "it": "install-updates.it.vtt"
     },
-    "appVersion": "3.0.6",
-    "recordedAt": "2026-10-29T18:35:13.413Z"
+    "appVersion": "3.2.5",
+    "recordedAt": "2026-11-15T17:19:24.692Z"
   }
 ]
