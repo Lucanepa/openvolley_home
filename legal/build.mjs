@@ -28,16 +28,16 @@ if (MAIN && !OUT) {
 
 const SITE = 'https://openvolley.app';
 const LANGS = ['de', 'en', 'fr', 'it'];
-const DOCS = ['privacy', 'impressum', 'terms', 'opensource'];
+const DOCS = ['privacy', 'impressum', 'terms', 'opensource', 'deleteaccount'];
 
 // Clean URLs. Cloudflare Pages serves /datenschutz from datenschutz.html.
 // Keep in step with the shared constant in the openvolley repository
 // (escoresheet/frontend/src/legal/legalLinks.js) and with openbeach.
 export const ROUTES = {
-  de: { privacy: '/datenschutz', impressum: '/impressum', terms: '/nutzungsbedingungen', opensource: '/open-source' },
-  en: { privacy: '/en/privacy', impressum: '/en/imprint', terms: '/en/terms', opensource: '/en/open-source' },
-  fr: { privacy: '/fr/confidentialite', impressum: '/fr/mentions-legales', terms: '/fr/conditions', opensource: '/fr/open-source' },
-  it: { privacy: '/it/privacy', impressum: '/it/note-legali', terms: '/it/condizioni', opensource: '/it/open-source' },
+  de: { privacy: '/datenschutz', impressum: '/impressum', terms: '/nutzungsbedingungen', opensource: '/open-source', deleteaccount: '/konto-loeschen' },
+  en: { privacy: '/en/privacy', impressum: '/en/imprint', terms: '/en/terms', opensource: '/en/open-source', deleteaccount: '/en/delete-account' },
+  fr: { privacy: '/fr/confidentialite', impressum: '/fr/mentions-legales', terms: '/fr/conditions', opensource: '/fr/open-source', deleteaccount: '/fr/supprimer-compte' },
+  it: { privacy: '/it/privacy', impressum: '/it/note-legali', terms: '/it/condizioni', opensource: '/it/open-source', deleteaccount: '/it/elimina-account' },
 };
 
 const UI = {
@@ -49,7 +49,7 @@ const UI = {
     language: 'Sprache',
     home: 'OpenVolley Startseite',
     legalNav: 'Rechtliches',
-    links: { privacy: 'Datenschutz', impressum: 'Impressum', terms: 'Nutzungsbedingungen', opensource: 'Open Source' },
+    links: { privacy: 'Datenschutz', impressum: 'Impressum', terms: 'Nutzungsbedingungen', opensource: 'Open Source', deleteaccount: 'Konto löschen' },
     free: 'freie Software unter der',
     source: 'Quellcode',
     section: /\b(Abschnitte?)(\s+)(\d{1,2})(?:(\s+und\s+)(\d{1,2}))?\b/g,
@@ -63,7 +63,7 @@ const UI = {
     language: 'Language',
     home: 'OpenVolley home',
     legalNav: 'Legal',
-    links: { privacy: 'Privacy', impressum: 'Legal notice', terms: 'Terms of use', opensource: 'Open source' },
+    links: { privacy: 'Privacy', impressum: 'Legal notice', terms: 'Terms of use', opensource: 'Open source', deleteaccount: 'Delete account' },
     free: 'free software under the',
     source: 'Source code',
     section: /\b(sections?)(\s+)(\d{1,2})(?:(\s+and\s+)(\d{1,2}))?\b/g,
@@ -77,7 +77,7 @@ const UI = {
     language: 'Langue',
     home: 'Accueil OpenVolley',
     legalNav: 'Informations légales',
-    links: { privacy: 'Protection des données', impressum: 'Mentions légales', terms: "Conditions d'utilisation", opensource: 'Open source' },
+    links: { privacy: 'Protection des données', impressum: 'Mentions légales', terms: "Conditions d'utilisation", opensource: 'Open source', deleteaccount: 'Supprimer le compte' },
     free: 'logiciel libre sous la',
     source: 'Code source',
     section: /\b(sections?)(\s+)(\d{1,2})(?:(\s+et\s+)(\d{1,2}))?\b/g,
@@ -91,7 +91,7 @@ const UI = {
     language: 'Lingua',
     home: 'Pagina iniziale OpenVolley',
     legalNav: 'Note legali',
-    links: { privacy: 'Protezione dei dati', impressum: 'Note legali', terms: "Condizioni d'uso", opensource: 'Open source' },
+    links: { privacy: 'Protezione dei dati', impressum: 'Note legali', terms: "Condizioni d'uso", opensource: 'Open source', deleteaccount: 'Elimina account' },
     free: 'software libero sotto la',
     source: 'Codice sorgente',
     section: /\b(sezion[ei])(\s+)(\d{1,2})(?:(\s+e\s+)(\d{1,2}))?\b/g,
