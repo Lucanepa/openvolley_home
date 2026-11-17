@@ -6,4 +6,6 @@
 # The Global tool's live page for TVs (openvolley backend lib/tvPage.js):
 # a short address to type with a TV remote. 302, not 301: a TV must not
 # remember it if the page ever moves.
+/tv        https://backend.openvolley.app/tv/        302
+/tv/       https://backend.openvolley.app/tv/        302
 /tv/:code  https://backend.openvolley.app/tv/:code  302
