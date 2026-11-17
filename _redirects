@@ -9,3 +9,4 @@
 /tv        https://backend.openvolley.app/tv/        302
 /tv/       https://backend.openvolley.app/tv/        302
 /tv/:code  https://backend.openvolley.app/tv/:code  302
+/tv/:code/:court  https://backend.openvolley.app/tv/:code/:court  302
