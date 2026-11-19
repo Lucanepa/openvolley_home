@@ -1,6 +1,6 @@
 # Privacy policy
 
-**OpenVolley and OpenBeach** · Version 1.19 · As of 17 November 2026
+**OpenVolley and OpenBeach** · Version 1.20 · As of 19 November 2026
 
 This policy is available in German, English, French and Italian. The English
 version is binding.
@@ -21,6 +21,9 @@ version is binding.
   on "Save in the cloud" for a match (off by default), it is also kept
   readable on the server, without PINs or signature images, until 180 days
   after the last save (section 7).
+- "New match" in the Swiss version (signed out) works the same way: no
+  account, the match on your device, its backup and PDF under its backup
+  code, and none of the saved teams, club lists or the referee directory.
 - Live screen (optional, in OpenVolley and OpenBeach): if the scorer devices
   of an event switch it on, the score of each of their matches (team names,
   points and sets, no players) also goes to the server, is kept in memory only
@@ -424,6 +427,17 @@ files are deleted 180 days after the last change; the server backups
 responsible for being allowed to record the data and for informing the players
 and their parents (section 17).
 
+**New match without an account (Swiss version):** signed out, "New match"
+starts a match in the Swiss format without an account. It is handled like a
+Global match: it stays on your device, is never in the league's match, team or
+player records, and its backup and approved scoresheet PDF are stored under a
+random backup code in the same way (encrypted, deleted 180 days after the last
+change). It can use the public game information of the Swiss Volley schedule
+(teams, hall, league, game number, referees' names, without dates of birth)
+and an Einsatzliste read on the device. Saved teams, the clubs' licence lists,
+rosters sent by teams and the referee directory are not available in it, even
+if someone signs in on the device later.
+
 **Save in the cloud (Global tool, optional):** in Match Setup the scorer can
 switch on "Save in the cloud" for a Global match; it is off by default. Then,
 besides the backup and the PDF above, the match is also kept readable (not
@@ -521,8 +535,6 @@ Without an account and without a PIN, the following is visible:
 - **LED boards** in the hall: team names and score.
 - **Match assignments** (section 11): match data with the names of referees
   and line judges, without dates of birth.
-- **Referee directory** (section 11): first and last name, country, without
-  dates of birth.
 - **Public beach tournaments** (section 10): teams, players' first and last
   names and countries, seeding, rank, schedule, courts.
 
@@ -662,9 +674,10 @@ assignments are kept like the match records (section 16).
 **Referee directory:** a shared directory with first and last name, country,
 date of birth and sport, so the scorer does not have to enter officials again
 each time. Signed-in accounts can add entries (a date of birth only an
-account that scores); administrators can change and delete them. Names and
-country are public; dates of birth are visible only to the administrators and
-the accounts that score.
+account that scores); administrators can change and delete them. Only the
+administrators and the accounts that score can see the directory, to fill in
+the officials of an official match; it is not public, and test and easy
+matches do not show it.
 
 If you do not want to be in the directory, write to support@openvolley.app.
 
@@ -875,6 +888,8 @@ for their child.
 
 - Encrypted connections (HTTPS) for all sites and the server.
 - Passwords, PINs and sign-in tokens are stored on the server only as hashes.
+- The database and the stored files are kept on encrypted volumes on the
+  server (LUKS2, AES). The key is not stored on the server.
 - Access by role; tablets only with a PIN; closed matches are read-only.
 - Limits on sign-in attempts and locking after failed attempts.
 - Backups: the server backs up the database every hour and the files every

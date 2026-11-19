@@ -1,6 +1,6 @@
 # Informativa sulla protezione dei dati
 
-**OpenVolley e OpenBeach** · Versione 1.19 · Aggiornata al 17 novembre 2026
+**OpenVolley e OpenBeach** · Versione 1.20 · Aggiornata al 19 novembre 2026
 
 Questa informativa esiste in tedesco, inglese, francese e italiano. Fa fede
 la versione inglese.
@@ -22,6 +22,10 @@ la versione inglese.
   default), questa è conservata anche leggibile sul server, senza PIN né
   immagini delle firme, fino a 180 giorni dopo l'ultimo salvataggio
   (sezione 7).
+- «Nuova partita» nella versione svizzera (senza accesso) funziona allo
+  stesso modo: nessun account, la partita sul tuo dispositivo, backup e PDF
+  sotto il suo codice di backup, e niente squadre salvate, liste del club o
+  elenco degli arbitri.
 - Schermo live (facoltativo, in OpenVolley e OpenBeach): se i dispositivi
   segnapunti di un evento lo attivano, anche il punteggio di ognuna delle loro
   partite (nomi delle squadre, punti e set, nessun giocatore) va al server; è
@@ -460,6 +464,18 @@ ne conservano ancora una copia per un certo tempo. L'organizzatrice o
 l'organizzatore del torneo è responsabile di poter registrare i dati e di
 informare le giocatrici, i giocatori e i loro genitori (sezione 17).
 
+**Nuova partita senza account (versione svizzera):** senza accesso, «Nuova
+partita» avvia una partita nel formato svizzero senza account. È trattata come
+una partita Global: resta sul tuo dispositivo, non è mai nei dati di partite,
+squadre o giocatori della lega, e il suo backup e il referto approvato in PDF
+sono salvati allo stesso modo sotto un codice di backup casuale (cifrati,
+cancellati 180 giorni dopo l'ultima modifica). Può usare i dati pubblici del
+calendario di Swiss Volley (squadre, palestra, lega, numero della partita,
+nomi degli arbitri, senza date di nascita) e un'Einsatzliste letta sul
+dispositivo. Le squadre salvate, le liste delle licenze dei club, i roster
+inviati dalle squadre e l'elenco degli arbitri non sono disponibili, anche se
+qualcuno accede più tardi sul dispositivo.
+
 **Salva nel cloud (strumento Global, facoltativo):** nella preparazione della
 partita il segnapunti può attivare «Salva nel cloud» per una partita Global;
 di default è disattivato. Allora la partita, oltre al backup e al PDF di cui
@@ -567,8 +583,6 @@ Senza account e senza PIN sono visibili:
 - **Tabelloni LED** in palestra: nomi delle squadre e punteggio.
 - **Designazioni ufficiali** (sezione 11): dati della partita con i nomi
   degli arbitri e dei giudici di linea, senza date di nascita.
-- **Elenco degli arbitri** (sezione 11): nome e cognome, paese, senza date di
-  nascita.
 - **Tornei di beach volley pubblici** (sezione 10): squadre, nomi, cognomi e
   paesi delle giocatrici e dei giocatori, teste di serie, classifica,
   calendario, campi.
@@ -725,8 +739,10 @@ i verbali delle partite (sezione 16).
 nascita e sport, affinché il segnapunti non debba inserire ogni volta gli
 ufficiali di gara. Gli account con accesso possono aggiungere voci (una data
 di nascita solo un account che referta); gli amministratori possono
-modificarle e cancellarle. Nomi e paese sono pubblici; le date di nascita
-sono visibili solo agli amministratori e agli account che refertano.
+modificarle e cancellarle. Solo gli amministratori e gli account che
+refertano vedono l'elenco, per inserire gli ufficiali di gara di una partita
+ufficiale; non è pubblico, e le partite di prova e le partite Easy non lo
+mostrano.
 
 Se non desideri figurare nell'elenco, scrivi a support@openvolley.app.
 
@@ -950,6 +966,8 @@ sezione 19 per il proprio figlio.
 
 - Connessioni cifrate (HTTPS) per tutti i siti e il server.
 - Password, PIN e token di accesso sono salvati sul server solo come hash.
+- La banca dati e i file salvati si trovano sul server su volumi cifrati
+  (LUKS2, AES). La chiave non è salvata sul server.
 - Accesso secondo i ruoli; tablet solo con PIN; le partite chiuse sono in sola
   lettura.
 - Limitazione dei tentativi di accesso e blocco dopo tentativi falliti.
