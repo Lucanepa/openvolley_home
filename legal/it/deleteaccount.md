@@ -1,6 +1,6 @@
 # Elimina il tuo account
 
-**OpenVolley** · Versione 1.0 · Aggiornato al 16 novembre 2026
+**OpenVolley** · Versione 1.1 · Aggiornato al 19 novembre 2026
 
 In questa pagina ti spiego come eliminare il tuo account OpenVolley e i dati ad esso associati. OpenVolley è gestito da Luca Canepa a titolo privato (vedi le [note legali](impressum.md)).
 
@@ -18,7 +18,7 @@ Se non riesci ad accedere, scrivi a **support@openvolley.app** dall'indirizzo e-
 
 ## 3. Cosa viene eliminato
 
-- Il tuo account e il tuo profilo (nome, indirizzo e-mail, paese, data di nascita, ruoli).
+- Il tuo account e il tuo profilo (nome, indirizzo e-mail, paese, numero di licenza, ruoli).
 - I tuoi accessi e l'hash della tua password.
 - Il tuo elenco «Le mie partite» e i tuoi diritti di modifica sulle partite.
 - I tuoi backup e log nel cloud e il tuo accesso ai referti che hai caricato.

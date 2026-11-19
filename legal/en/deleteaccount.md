@@ -1,6 +1,6 @@
 # Delete your account
 
-**OpenVolley** · Version 1.0 · As of 16 November 2026
+**OpenVolley** · Version 1.1 · As of 19 November 2026
 
 This page explains how to delete your OpenVolley account and the data that goes with it. OpenVolley is run by Luca Canepa as a private person (see the [legal notice](impressum.md)).
 
@@ -18,7 +18,7 @@ If you cannot sign in, write to **support@openvolley.app** from the email addres
 
 ## 3. What is deleted
 
-- Your account and profile (name, email address, country, date of birth, roles).
+- Your account and profile (name, email address, country, licence number, roles).
 - Your sign-ins and your password hash.
 - Your My matches list and your editor rights on matches.
 - Your cloud backups and logs, and your access to the scoresheets you uploaded.
