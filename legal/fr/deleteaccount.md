@@ -1,6 +1,6 @@
 # Supprimer ton compte
 
-**OpenVolley** · Version 1.0 · Mise à jour le 16 novembre 2026
+**OpenVolley** · Version 1.1 · Mise à jour le 19 novembre 2026
 
 Cette page t'explique comment supprimer ton compte OpenVolley et les données qui y sont associées. OpenVolley est géré par Luca Canepa à titre privé (voir les [mentions légales](impressum.md)).
 
@@ -18,7 +18,7 @@ Si tu ne peux pas te connecter, écris à **support@openvolley.app** depuis l'ad
 
 ## 3. Ce qui est supprimé
 
-- Ton compte et ton profil (nom, adresse e-mail, pays, date de naissance, rôles).
+- Ton compte et ton profil (nom, adresse e-mail, pays, numéro de licence, rôles).
 - Tes connexions et l'empreinte (hash) de ton mot de passe.
 - Ta liste « Mes matchs » et tes droits d'édition sur des matchs.
 - Tes sauvegardes et journaux dans le cloud, et ton accès aux feuilles de match que tu as téléversées.

@@ -1,6 +1,6 @@
 # Dein Konto löschen
 
-**OpenVolley** · Version 1.0 · Stand: 16. November 2026
+**OpenVolley** · Version 1.1 · Stand: 19. November 2026
 
 Auf dieser Seite erfährst du, wie du dein OpenVolley-Konto und die dazugehörigen Daten löschen kannst. OpenVolley wird von Luca Canepa als Privatperson betrieben (siehe [Impressum](impressum.md)).
 
@@ -18,7 +18,7 @@ Wenn du dich nicht anmelden kannst, schreibe von der E-Mail-Adresse des Kontos a
 
 ## 3. Was wird gelöscht
 
-- Dein Konto und dein Profil (Name, E-Mail-Adresse, Land, Geburtsdatum, Rollen).
+- Dein Konto und dein Profil (Name, E-Mail-Adresse, Land, Lizenznummer, Rollen).
 - Deine Anmeldungen und dein Passwort-Hash.
 - Deine Liste «Meine Spiele» und deine Bearbeitungsrechte an Spielen.
 - Deine Cloud-Backups und Protokolle sowie dein Zugriff auf die Matchblätter, die du hochgeladen hast.
