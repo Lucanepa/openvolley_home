@@ -1,6 +1,6 @@
 # Elimina il tuo account
 
-**OpenVolley** · Versione 1.1 · Aggiornato al 19 novembre 2026
+**OpenVolley** · Versione 1.2 · Aggiornato al 20 novembre 2026
 
 In questa pagina ti spiego come eliminare il tuo account OpenVolley e i dati ad esso associati. OpenVolley è gestito da Luca Canepa a titolo privato (vedi le [note legali](impressum.md)).
 
@@ -23,7 +23,7 @@ Se non riesci ad accedere, scrivi a **support@openvolley.app** dall'indirizzo e-
 - Il tuo elenco «Le mie partite» e i tuoi diritti di modifica sulle partite.
 - I tuoi backup e log nel cloud e il tuo accesso ai referti che hai caricato.
 
-I backup cifrati del server ne conservano una copia finché scadono, al massimo dopo circa 7 mesi. Se uno di essi dovesse mai essere ripristinato, elimino di nuovo il tuo account.
+I backup cifrati del server ne conservano una copia finché scadono, al massimo dopo circa 6 mesi. Se uno di essi dovesse mai essere ripristinato, elimino di nuovo il tuo account.
 
 ## 4. Cosa viene conservato
 

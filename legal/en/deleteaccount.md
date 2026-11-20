@@ -1,6 +1,6 @@
 # Delete your account
 
-**OpenVolley** · Version 1.1 · As of 19 November 2026
+**OpenVolley** · Version 1.2 · As of 20 November 2026
 
 This page explains how to delete your OpenVolley account and the data that goes with it. OpenVolley is run by Luca Canepa as a private person (see the [legal notice](impressum.md)).
 
@@ -23,7 +23,7 @@ If you cannot sign in, write to **support@openvolley.app** from the email addres
 - Your My matches list and your editor rights on matches.
 - Your cloud backups and logs, and your access to the scoresheets you uploaded.
 
-Encrypted server backups keep a copy until they expire, after about 7 months at most. If one of them is ever restored, I delete your account again.
+Encrypted server backups keep a copy until they expire, after about 6 months at most. If one of them is ever restored, I delete your account again.
 
 ## 4. What is kept
 
