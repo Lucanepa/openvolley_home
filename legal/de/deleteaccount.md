@@ -1,6 +1,6 @@
 # Dein Konto löschen
 
-**OpenVolley** · Version 1.1 · Stand: 19. November 2026
+**OpenVolley** · Version 1.2 · Stand: 20. November 2026
 
 Auf dieser Seite erfährst du, wie du dein OpenVolley-Konto und die dazugehörigen Daten löschen kannst. OpenVolley wird von Luca Canepa als Privatperson betrieben (siehe [Impressum](impressum.md)).
 
@@ -23,7 +23,7 @@ Wenn du dich nicht anmelden kannst, schreibe von der E-Mail-Adresse des Kontos a
 - Deine Liste «Meine Spiele» und deine Bearbeitungsrechte an Spielen.
 - Deine Cloud-Backups und Protokolle sowie dein Zugriff auf die Matchblätter, die du hochgeladen hast.
 
-Verschlüsselte Server-Backups behalten eine Kopie, bis sie ablaufen, spätestens nach etwa 7 Monaten. Sollte eines davon jemals wiederhergestellt werden, lösche ich dein Konto erneut.
+Verschlüsselte Server-Backups behalten eine Kopie, bis sie ablaufen, spätestens nach etwa 6 Monaten. Sollte eines davon jemals wiederhergestellt werden, lösche ich dein Konto erneut.
 
 ## 4. Was bleibt erhalten
 

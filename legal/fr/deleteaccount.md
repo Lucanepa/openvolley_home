@@ -1,6 +1,6 @@
 # Supprimer ton compte
 
-**OpenVolley** · Version 1.1 · Mise à jour le 19 novembre 2026
+**OpenVolley** · Version 1.2 · Mise à jour le 20 novembre 2026
 
 Cette page t'explique comment supprimer ton compte OpenVolley et les données qui y sont associées. OpenVolley est géré par Luca Canepa à titre privé (voir les [mentions légales](impressum.md)).
 
@@ -23,7 +23,7 @@ Si tu ne peux pas te connecter, écris à **support@openvolley.app** depuis l'ad
 - Ta liste « Mes matchs » et tes droits d'édition sur des matchs.
 - Tes sauvegardes et journaux dans le cloud, et ton accès aux feuilles de match que tu as téléversées.
 
-Les sauvegardes chiffrées du serveur en gardent une copie jusqu'à leur expiration, au plus tard après environ 7 mois. Si l'une d'elles était un jour restaurée, je supprimerais à nouveau ton compte.
+Les sauvegardes chiffrées du serveur en gardent une copie jusqu'à leur expiration, au plus tard après environ 6 mois. Si l'une d'elles était un jour restaurée, je supprimerais à nouveau ton compte.
 
 ## 4. Ce qui est conservé
 
