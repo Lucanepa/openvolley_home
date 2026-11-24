@@ -1,45 +1,45 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.491
+00:00:00.000 --> 00:00:03.493
 Le score est au centre, les deux équipes sont sur le terrain.
 
 2
-00:00:03.541 --> 00:00:07.263
+00:00:03.543 --> 00:00:07.380
 L'équipe A sert. A gagne l'échange : appuie sur "Point A".
 
 3
-00:00:07.313 --> 00:00:10.178
+00:00:07.430 --> 00:00:10.298
 Avant chaque service, appuie sur "Lancer l'échange".
 
 4
-00:00:10.228 --> 00:00:13.473
+00:00:10.348 --> 00:00:13.625
 L'équipe B gagne l'échange : "Point B". B sert et effectue la rotation.
 
 5
-00:00:13.523 --> 00:00:20.523
+00:00:13.675 --> 00:00:20.675
 Chaque échange : "Lancer l'échange", puis le point pour le gagnant.
 
 6
-00:00:23.461 --> 00:00:26.111
+00:00:23.677 --> 00:00:26.305
 Mauvais point ? Appuie sur "Annuler".
 
 7
-00:00:26.161 --> 00:00:28.829
+00:00:26.355 --> 00:00:29.030
 "Confirmer l'annulation" : appuie sur "Oui". Le dernier point est supprimé.
 
 8
-00:00:28.879 --> 00:00:32.641
+00:00:29.080 --> 00:00:32.953
 Avec un clavier : "Match" → "Options".
 
 9
-00:00:32.691 --> 00:00:39.691
+00:00:33.003 --> 00:00:40.003
 Active "Raccourcis clavier". "Configuration des clés" affiche les touches.
 
 10
-00:00:40.187 --> 00:00:46.439
+00:00:40.473 --> 00:00:46.730
 Entrée lance l'échange, A et L donnent le point à l'équipe de gauche ou de droite.
 
 11
-00:00:46.489 --> 00:00:49.255
+00:00:46.780 --> 00:00:49.559
 Sous chaque équipe : points (P), set gagné (W), remplacements (S), temps morts (T).

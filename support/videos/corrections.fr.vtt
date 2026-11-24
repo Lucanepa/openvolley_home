@@ -1,41 +1,41 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:05.837
+00:00:00.000 --> 00:00:04.829
 Une erreur ? "Match" → "Corrections".
 
 2
-00:00:05.887 --> 00:00:08.866
-Chaque correction est enregistrée à la confirmation. L'arbitre la voit dans le journal.
+00:00:04.879 --> 00:00:09.032
+Le "Tableau de correction" montre le match comme le tableau de score. Rien n'est enregistré avant "Enregistrer".
 
 3
-00:00:08.916 --> 00:00:12.518
+00:00:09.082 --> 00:00:12.603
 "Le dernier point a été donné à la mauvaise équipe" : le point passe à l'autre équipe.
 
 4
-00:00:12.568 --> 00:00:19.189
-Vérifie avant et après, puis "Confirmer".
+00:00:12.653 --> 00:00:16.371
+Un échange n'a pas été saisi : "+" à côté du score de l'équipe ("−" en retire un).
 
 5
-00:00:19.239 --> 00:00:26.239
-Un échange n'a pas été saisi : "Ajouter un point oublié".
+00:00:16.421 --> 00:00:22.408
+Composition, temps morts et remplacements : touche-les sur le tableau. Sanctions, libéro, remarques, tirage au sort et numéros : les boutons en dessous.
 
 6
-00:00:33.460 --> 00:00:37.740
-Compositions, temps morts, remplacements, sanctions et remarques se corrigent aussi ici.
+00:00:22.458 --> 00:00:25.823
+Les changements sont listés en bas. "Défaire" annule le dernier.
 
 7
-00:00:37.790 --> 00:00:42.515
-"Tous les sets" : un set terminé propose "Corriger le score final", "Heures du set" et "Rouvrir le set".
+00:00:25.873 --> 00:00:32.761
+"Enregistrer" : vérifie les changements, puis enregistre-les. L'arbitre les voit dans le journal des corrections.
 
 8
-00:00:42.565 --> 00:00:48.422
-Un set fermé trop tôt ? "Rouvrir le set". Les sets suivants sont supprimés.
+00:00:32.811 --> 00:00:39.811
+Un set fermé trop tôt ? Sur le tableau, choisis le set, puis "Rouvrir le set". Les sets suivants sont supprimés.
 
 9
-00:00:48.472 --> 00:00:51.053
+00:00:44.122 --> 00:00:46.688
 Le set 1 est rouvert à 25-20 : "Changement de décision" corrige son dernier point.
 
 10
-00:00:51.103 --> 00:00:53.491
+00:00:46.738 --> 00:00:49.105
 Ou "Confirmer" le termine à nouveau.

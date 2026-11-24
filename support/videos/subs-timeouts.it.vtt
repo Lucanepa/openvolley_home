@@ -1,45 +1,45 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.227
+00:00:00.001 --> 00:00:03.226
 Timeout: tocca il riquadro "TO" della squadra.
 
 2
-00:00:03.277 --> 00:00:07.325
-"Conferma timeout" avvia i 30 secondi.
+00:00:03.276 --> 00:00:07.343
+"Conferma" avvia i 30 secondi.
 
 3
-00:00:07.375 --> 00:00:09.841
+00:00:07.393 --> 00:00:09.651
 "Ferma timeout" lo termina prima.
 
 4
-00:00:09.891 --> 00:00:11.951
-Sostituzione: tocca il giocatore che esce.
+00:00:09.701 --> 00:00:11.945
+Sostituzione: tocca il riquadro "Sostituzione" della squadra.
 
 5
-00:00:12.001 --> 00:00:15.903
-Poi "Sostituzione" e il giocatore che entra.
+00:00:11.995 --> 00:00:16.398
+Prima il giocatore che entra (panchina), poi quello che esce (campo).
 
 6
-00:00:15.953 --> 00:00:19.627
-Controlla ESCE ed ENTRA, poi "Sì".
+00:00:16.448 --> 00:00:19.246
+Controlla la coppia, poi "Conferma".
 
 7
-00:00:19.677 --> 00:00:22.891
-Il numero 9 è in campo, il contatore "SOS" mostra 1.
+00:00:19.296 --> 00:00:22.509
+Il numero 9 è in campo, il riquadro "Sostituzione" mostra 1.
 
 8
-00:00:22.941 --> 00:00:26.678
+00:00:22.559 --> 00:00:26.261
 Scambio successivo: lo vince B, A è in ricezione.
 
 9
-00:00:26.728 --> 00:00:32.880
+00:00:26.311 --> 00:00:32.444
 Libero: tocca un giocatore della seconda linea, poi "Libero" e il libero.
 
 10
-00:00:32.930 --> 00:00:35.307
+00:00:32.494 --> 00:00:34.874
 Il libero è in campo, senza sostituzione.
 
 11
-00:00:35.357 --> 00:00:37.908
+00:00:34.924 --> 00:00:37.476
 Alla rotazione in prima linea, il libero esce da solo.

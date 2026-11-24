@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:00.001 --> 00:00:01.951
+00:00:00.001 --> 00:00:01.953
 Das Gerät des Schreibers (links) fällt aus? Auf einem anderen (rechts) weiterführen.
 
 2
-00:00:02.001 --> 00:00:09.001
+00:00:02.003 --> 00:00:09.003
 Du brauchst die Spiel-PIN ("Spiel" → "PINs anzeigen") und die Spielnummer (oben).
 
 3
-00:00:10.636 --> 00:00:16.939
+00:00:10.601 --> 00:00:16.897
 Auf dem anderen Gerät: "Spiel wiederherstellen", dann Spielnummer und Spiel-PIN.
 
 4
-00:00:16.989 --> 00:00:23.989
+00:00:16.947 --> 00:00:23.947
 "Cloud-Backups suchen", Spiel wählen, prüfen, "Wiederherstellen".
 
 5
-00:00:26.006 --> 00:00:31.467
+00:00:25.900 --> 00:00:31.343
 Jetzt führt das rechte Gerät. Das linke erfährt es: "Auf einem anderen Gerät geführt".
 
 6
-00:00:31.517 --> 00:00:33.929
+00:00:31.393 --> 00:00:33.742
 Um wieder auf dem ersten Gerät zu führen: "Hier wieder übernehmen".
 
 7
-00:00:33.979 --> 00:00:39.216
+00:00:33.792 --> 00:00:39.043
 Es lädt zuerst den Spielstand vom Server. Vergleichen, dann "Ja, hier wieder übernehmen".
 
 8
-00:00:39.266 --> 00:00:46.266
+00:00:39.093 --> 00:00:46.093
 Das linke Gerät führt wieder; das rechte stoppt bei seiner nächsten Aktion.

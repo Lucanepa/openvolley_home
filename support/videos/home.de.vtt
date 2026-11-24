@@ -1,69 +1,69 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.375
+00:00:00.000 --> 00:00:03.334
 Beim ersten Mal wählst du "Schweiz" oder "Global".
 
 2
-00:00:03.425 --> 00:00:05.184
+00:00:03.384 --> 00:00:05.143
 Jedes Spiel beginnt auf der Startseite.
 
 3
-00:00:05.234 --> 00:00:08.397
-"Offizielles Spiel": das heutige Heimspiel deines Vereins, oder du gibst das Spiel selbst ein. Auf dem Server gespeichert.
+00:00:05.193 --> 00:00:08.355
+"SV-Spiel": das heutige Heimspiel deines Vereins, oder du gibst das Spiel selbst ein. Auf dem Server gespeichert.
 
 4
-00:00:08.447 --> 00:00:11.118
+00:00:08.405 --> 00:00:11.073
 "Testspiel": Üben mit Beispielteams. Nie auf dem Server gespeichert.
 
 5
-00:00:11.168 --> 00:00:13.830
+00:00:11.123 --> 00:00:13.790
 "Einfaches Spiel": Inoffiziell · ohne Kader und Unterschriften.
 
 6
-00:00:13.880 --> 00:00:16.548
+00:00:13.840 --> 00:00:16.506
 "Anzeigetafel": nur Punkte und Sätze, kein Spiel.
 
 7
-00:00:16.598 --> 00:00:19.628
+00:00:16.556 --> 00:00:19.586
 Hier: "Testspiel".
 
 8
-00:00:19.678 --> 00:00:23.090
+00:00:19.636 --> 00:00:23.029
 "Menü" → "Heim" führt zurück. Das Spiel bleibt auf dem Gerät.
 
 9
-00:00:23.140 --> 00:00:25.715
+00:00:23.079 --> 00:00:25.637
 "Spiel fortsetzen" öffnet es wieder.
 
 10
-00:00:25.765 --> 00:00:30.984
+00:00:25.687 --> 00:00:30.895
 "Spiel löschen" darunter entfernt es von diesem Gerät.
 
 11
-00:00:31.034 --> 00:00:33.811
+00:00:30.945 --> 00:00:33.721
 Ein offizielles Spiel: Teams, Spielstand, zuletzt gespeichert und sein Status.
 
 12
-00:00:33.861 --> 00:00:36.631
+00:00:33.771 --> 00:00:36.537
 "Wird hier geführt": Der Server weiss, dass dieses Gerät das Spiel führt.
 
 13
-00:00:36.681 --> 00:00:43.681
+00:00:36.587 --> 00:00:43.587
 Keine Verbindung? Die Punkte werden auf diesem Gerät weiter erfasst.
 
 14
-00:00:46.231 --> 00:00:49.072
+00:00:46.169 --> 00:00:49.017
 "Nicht gesendete Änderungen": noch nicht auf dem Server. Sie gehen weg, sobald das Gerät online ist.
 
 15
-00:00:49.122 --> 00:00:51.074
+00:00:49.067 --> 00:00:51.021
 Wieder online: gesendet.
 
 16
-00:00:51.124 --> 00:00:53.793
+00:00:51.071 --> 00:00:53.735
 Mit der "Spiel-PIN" kann ein anderes Gerät dieses Spiel fortsetzen.
 
 17
-00:00:53.843 --> 00:00:59.813
+00:00:53.785 --> 00:00:59.705
 "Spiel wiederherstellen" lädt ein Spiel vom Server oder aus einer Backup-Datei.
