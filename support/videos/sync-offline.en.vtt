@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:00.001 --> 00:00:02.565
+00:00:00.000 --> 00:00:02.569
 Top left: the connection. Green "Connected": everything is on the server.
 
 2
-00:00:02.615 --> 00:00:08.356
+00:00:02.619 --> 00:00:08.417
 Tap it for the details: server, database, cloud sync and what is still waiting.
 
 3
-00:00:08.406 --> 00:00:15.406
+00:00:08.467 --> 00:00:15.467
 The connection drops? Keep scoring. Every change is saved on this device.
 
 4
-00:00:16.920 --> 00:00:22.597
+00:00:17.107 --> 00:00:22.763
 "waiting": changes not on the server yet.
 
 5
-00:00:22.647 --> 00:00:25.199
+00:00:22.813 --> 00:00:25.369
 The connection is back: they are sent by themselves.
 
 6
-00:00:25.249 --> 00:00:31.570
+00:00:25.419 --> 00:00:31.709
 On Home, the match shows its state: "Scoring here".
 
 7
-00:00:31.620 --> 00:00:34.406
+00:00:31.759 --> 00:00:34.546
 "On another device": another device scores this match now.
 
 8
-00:00:34.456 --> 00:00:39.564
+00:00:34.596 --> 00:00:39.719
 "Continue match" opens it read-only, with "Take back scoring here".

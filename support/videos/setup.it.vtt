@@ -1,45 +1,45 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:02.758
+00:00:00.000 --> 00:00:02.755
 Preparazione: info partita, le due squadre, poi il sorteggio.
 
 2
-00:00:02.808 --> 00:00:05.412
+00:00:02.805 --> 00:00:05.383
 Partita ufficiale: "Carica partita dal calendario" compila tutto.
 
 3
-00:00:05.462 --> 00:00:12.462
+00:00:05.433 --> 00:00:12.433
 "Modifica": data, palestra, arbitri, segnapunti, giudici di linea e formula.
 
 4
-00:00:14.658 --> 00:00:17.098
+00:00:14.488 --> 00:00:16.809
 "Modifica roster": giocatori, libero, capitano e ufficiali in panchina.
 
 5
-00:00:17.148 --> 00:00:24.148
-Nuovo giocatore: numero, nome, data di nascita, poi "Aggiungi".
+00:00:16.859 --> 00:00:23.859
+Nuovo giocatore: numero, nome, numero di licenza (o data di nascita), poi "Aggiungi".
 
 6
-00:00:27.612 --> 00:00:31.072
+00:00:26.290 --> 00:00:29.732
 La colonna libero indica L1 e L2, "C" indica il capitano.
 
 7
-00:00:31.122 --> 00:00:37.565
+00:00:29.782 --> 00:00:36.104
 Gli allenatori possono inviare la propria rosa: "Remoto" mostra il PIN per upload.
 
 8
-00:00:37.615 --> 00:00:40.941
+00:00:36.154 --> 00:00:39.447
 Sotto i giocatori: gli ufficiali in panchina.
 
 9
-00:00:40.991 --> 00:00:43.235
+00:00:39.497 --> 00:00:41.750
 "Conferma" salva la rosa.
 
 10
-00:00:43.285 --> 00:00:48.027
+00:00:41.800 --> 00:00:46.458
 Tocca una maglia per cambiare il colore della squadra.
 
 11
-00:00:48.077 --> 00:00:52.088
+00:00:46.508 --> 00:00:50.505
 Tutto pronto: "Sorteggio".

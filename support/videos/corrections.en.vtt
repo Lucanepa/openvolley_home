@@ -1,41 +1,41 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:05.837
+00:00:00.000 --> 00:00:04.829
 A mistake? "Match" → "Corrections".
 
 2
-00:00:05.887 --> 00:00:08.866
-Each correction is saved when you confirm it. The referee sees it in the log.
+00:00:04.879 --> 00:00:09.032
+The "Correction board" draws the match like the scoreboard. Nothing is saved until "Save".
 
 3
-00:00:08.916 --> 00:00:12.518
+00:00:09.082 --> 00:00:12.603
 "Last point went to the wrong team": the point moves to the other team.
 
 4
-00:00:12.568 --> 00:00:19.189
-Check before and after, then "Confirm".
+00:00:12.653 --> 00:00:16.371
+A rally was not entered: "+" beside the team's score ("−" takes one away).
 
 5
-00:00:19.239 --> 00:00:26.239
-A rally was not entered: "Add a missed point".
+00:00:16.421 --> 00:00:22.408
+Line-up, time-outs and substitutions: tap them on the board. Sanctions, libero, remarks, coin toss and numbers: the buttons below.
 
 6
-00:00:33.460 --> 00:00:37.740
-Line-ups, time-outs, substitutions, sanctions and remarks can be fixed here too.
+00:00:22.458 --> 00:00:25.823
+The changes are listed at the bottom. "Undo" takes back the last one.
 
 7
-00:00:37.790 --> 00:00:42.515
-"All sets": a finished set has "Correct final score", "Set times" and "Reopen set".
+00:00:25.873 --> 00:00:32.761
+"Save": check the changes, then save them. The referee sees them in the correction log.
 
 8
-00:00:42.565 --> 00:00:48.422
-A set closed too early? "Reopen set". The sets after it are deleted.
+00:00:32.811 --> 00:00:39.811
+A set closed too early? On the board, choose the set, then "Reopen set". The sets after it are deleted.
 
 9
-00:00:48.472 --> 00:00:51.053
+00:00:44.122 --> 00:00:46.688
 Set 1 is open again at 25:20: "Decision change" fixes its last point.
 
 10
-00:00:51.103 --> 00:00:53.491
+00:00:46.738 --> 00:00:49.105
 Or "Confirm" ends it again.

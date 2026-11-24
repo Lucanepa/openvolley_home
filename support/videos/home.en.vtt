@@ -1,69 +1,69 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.375
+00:00:00.000 --> 00:00:03.334
 The first time, choose "Swiss" or "Global".
 
 2
-00:00:03.425 --> 00:00:05.184
+00:00:03.384 --> 00:00:05.143
 Every match starts on Home.
 
 3
-00:00:05.234 --> 00:00:08.397
-"Official match": today's home game of your club, or enter the game yourself. Saved on the server.
+00:00:05.193 --> 00:00:08.355
+"SV match": today's home game of your club, or enter the game yourself. Saved on the server.
 
 4
-00:00:08.447 --> 00:00:11.118
+00:00:08.405 --> 00:00:11.073
 "Test match": practice with sample teams. Never saved on the server.
 
 5
-00:00:11.168 --> 00:00:13.830
+00:00:11.123 --> 00:00:13.790
 "Easy match": Unofficial · no rosters or signatures.
 
 6
-00:00:13.880 --> 00:00:16.548
+00:00:13.840 --> 00:00:16.506
 "Scoreboard": points and sets only, no match.
 
 7
-00:00:16.598 --> 00:00:19.628
+00:00:16.556 --> 00:00:19.586
 Here: "Test match".
 
 8
-00:00:19.678 --> 00:00:23.090
+00:00:19.636 --> 00:00:23.029
 "Menu" → "Home" goes back. The match stays on this device.
 
 9
-00:00:23.140 --> 00:00:25.715
+00:00:23.079 --> 00:00:25.637
 "Continue match" opens it again.
 
 10
-00:00:25.765 --> 00:00:30.984
+00:00:25.687 --> 00:00:30.895
 "Delete match", under it, removes it from this device.
 
 11
-00:00:31.034 --> 00:00:33.811
+00:00:30.945 --> 00:00:33.721
 An official match: teams, score, last saved and its state.
 
 12
-00:00:33.861 --> 00:00:36.631
+00:00:33.771 --> 00:00:36.537
 "Scoring here": the server knows this device scores it.
 
 13
-00:00:36.681 --> 00:00:43.681
+00:00:36.587 --> 00:00:43.587
 No connection? Scoring goes on, on this device.
 
 14
-00:00:46.231 --> 00:00:49.072
+00:00:46.169 --> 00:00:49.017
 "Unsent changes": not on the server yet. They are sent once online.
 
 15
-00:00:49.122 --> 00:00:51.074
+00:00:49.067 --> 00:00:51.021
 Back online: sent.
 
 16
-00:00:51.124 --> 00:00:53.793
+00:00:51.071 --> 00:00:53.735
 The "Game PIN" lets another device continue this match.
 
 17
-00:00:53.843 --> 00:00:59.813
+00:00:53.785 --> 00:00:59.705
 "Restore match" loads a match from the server or from a backup file.

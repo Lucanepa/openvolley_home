@@ -1,45 +1,45 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.227
+00:00:00.001 --> 00:00:03.226
 Auszeit: Tippe auf das Feld "TO" des Teams.
 
 2
-00:00:03.277 --> 00:00:07.325
-"Timeout bestätigen" startet die 30 Sekunden.
+00:00:03.276 --> 00:00:07.343
+"Bestätigen" startet die 30 Sekunden.
 
 3
-00:00:07.375 --> 00:00:09.841
+00:00:07.393 --> 00:00:09.651
 "Timeout beenden" beendet sie früher.
 
 4
-00:00:09.891 --> 00:00:11.951
-Auswechslung: Tippe auf den Spieler, der hinausgeht.
+00:00:09.701 --> 00:00:11.945
+Auswechslung: Tippe auf das Feld "Wechsel" des Teams.
 
 5
-00:00:12.001 --> 00:00:15.903
-Dann "Auswechslung" und der Spieler, der hereinkommt.
+00:00:11.995 --> 00:00:16.398
+Zuerst der Spieler, der hereinkommt (Bank), dann der, der hinausgeht (Feld).
 
 6
-00:00:15.953 --> 00:00:19.627
-RAUS und REIN prüfen, dann "Ja".
+00:00:16.448 --> 00:00:19.246
+Paar prüfen, dann "Bestätigen".
 
 7
-00:00:19.677 --> 00:00:22.891
-Nummer 9 ist auf dem Feld, der Zähler "AUS" zeigt 1.
+00:00:19.296 --> 00:00:22.509
+Nummer 9 ist auf dem Feld, das Feld "Wechsel" zeigt 1.
 
 8
-00:00:22.941 --> 00:00:26.678
+00:00:22.559 --> 00:00:26.261
 Nächster Ballwechsel: B gewinnt, A nimmt an.
 
 9
-00:00:26.728 --> 00:00:32.880
+00:00:26.311 --> 00:00:32.444
 Libero: Tippe auf einen Spieler der hinteren Reihe, dann "Libero" und den Libero.
 
 10
-00:00:32.930 --> 00:00:35.307
+00:00:32.494 --> 00:00:34.874
 Der Libero ist auf dem Feld, ohne Auswechslung.
 
 11
-00:00:35.357 --> 00:00:37.908
+00:00:34.924 --> 00:00:37.476
 Bei der Rotation in die vordere Reihe geht der Libero von selbst hinaus.

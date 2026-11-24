@@ -1,45 +1,45 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.227
+00:00:00.001 --> 00:00:03.226
 Temps mort : appuie sur la case "TM" de l'équipe.
 
 2
-00:00:03.277 --> 00:00:07.325
-"Confirmer temps mort" lance les 30 secondes.
+00:00:03.276 --> 00:00:07.343
+"Confirmer" lance les 30 secondes.
 
 3
-00:00:07.375 --> 00:00:09.841
+00:00:07.393 --> 00:00:09.651
 "Arrêter le temps mort" l'arrête plus tôt.
 
 4
-00:00:09.891 --> 00:00:11.951
-Remplacement : appuie sur le joueur qui sort.
+00:00:09.701 --> 00:00:11.945
+Remplacement : appuie sur la case "Remplacement" de l'équipe.
 
 5
-00:00:12.001 --> 00:00:15.903
-Puis "Changement" et le joueur qui entre.
+00:00:11.995 --> 00:00:16.398
+D'abord le joueur qui entre (banc), puis celui qui sort (terrain).
 
 6
-00:00:15.953 --> 00:00:19.627
-Vérifie SORT et ENTRE, puis "Oui".
+00:00:16.448 --> 00:00:19.246
+Vérifie la paire, puis "Confirmer".
 
 7
-00:00:19.677 --> 00:00:22.891
-Le numéro 9 est sur le terrain, le compteur "RMP" indique 1.
+00:00:19.296 --> 00:00:22.509
+Le numéro 9 est sur le terrain, la case "Remplacement" indique 1.
 
 8
-00:00:22.941 --> 00:00:26.678
+00:00:22.559 --> 00:00:26.261
 Échange suivant : B le gagne, A est en réception.
 
 9
-00:00:26.728 --> 00:00:32.880
+00:00:26.311 --> 00:00:32.444
 Libéro : appuie sur un joueur de la ligne arrière, puis "Libéro" et le libéro.
 
 10
-00:00:32.930 --> 00:00:35.307
+00:00:32.494 --> 00:00:34.874
 Le libéro est sur le terrain, sans remplacement.
 
 11
-00:00:35.357 --> 00:00:37.908
+00:00:34.924 --> 00:00:37.476
 À la rotation vers l'avant, le libéro sort automatiquement.
