@@ -1,0 +1,377 @@
+WEBVTT
+
+1
+00:00:00.771 --> 00:00:08.742
+<b>Dein erstes Spiel</b> – Ein geführter Rundgang an einem Testspiel, von der Startseite bis zum Spielende. Nichts zählt, und nichts wird gesendet.
+
+2
+00:00:08.792 --> 00:00:16.264
+Auf der Startseite, beim ersten Mal: «Neu hier? Mach den 5-Minuten-Rundgang». Tippe auf «Rundgang starten».
+
+3
+00:00:16.314 --> 00:00:23.874
+<b>Neues Spiel</b> – Ein offizielles Spiel. Angemeldet heisst der Knopf «SV-Spiel»,
+
+4
+00:00:23.924 --> 00:00:30.294
+und du lädst das Spiel aus dem Spielplan von Swiss Volley; ohne Konto bleibt das Spiel auf diesem Gerät.
+
+5
+00:00:30.344 --> 00:00:35.480
+<b>Testspiel</b> – Alles funktioniert, nichts zählt. Dieser Rundgang läuft auf einem Testspiel.
+
+6
+00:00:35.530 --> 00:00:41.012
+<b>Einfaches Spiel</b> – Nur der Spielstand und die Trikotnummern: keine Kader, keine Unterschriften.
+
+7
+00:00:41.062 --> 00:00:44.222
+<b>Spiel wiederherstellen</b> – Spielnummer + Spiel-PIN:
+
+8
+00:00:44.272 --> 00:00:48.711
+ein Spiel von einem anderen Gerät weiterführen oder eines zurückholen.
+
+9
+00:00:48.761 --> 00:00:53.581
+<b>Optionen</b> – Farbschema, die Tipp-Hinweise, die Punkteingabe (Ballwechsel oder fortlaufend),
+
+10
+00:00:53.631 --> 00:00:57.277
+Effekte und Tempo, die Pause zwischen Satz 2-3.
+
+11
+00:00:57.327 --> 00:01:01.445
+<b>? auf jedem Bildschirm</b> – Die Hilfe zu diesem Bildschirm:
+
+12
+00:01:01.495 --> 00:01:06.413
+kurze Videos, Antworten und «Zeig mir». Auch dieser Rundgang startet dort.
+
+13
+00:01:06.463 --> 00:01:08.633
+Kapitel 2 von 8 · Spieleinrichtung
+
+14
+00:01:08.683 --> 00:01:12.502
+<b>Zurück / eScoresheet / Optionen</b> – Zurück zur Startseite (das Spiel bleibt dort),
+
+15
+00:01:12.552 --> 00:01:16.265
+die Vorschau des Matchblatts, die Optionen.
+
+16
+00:01:16.315 --> 00:01:22.054
+<b>Spielinfo</b> – «Spiel aus dem Spielplan laden» füllt sie aus dem Spielplan von Swiss Volley;
+
+17
+00:01:22.104 --> 00:01:25.817
+«Bearbeiten» ändert sie von Hand.
+
+18
+00:01:25.867 --> 00:01:29.030
+<b>Die Teams</b> – Jedes Team: sein Name,
+
+19
+00:01:29.080 --> 00:01:34.116
+die Trikotfarbe und die Zahl der Spieler, Liberos und Bankoffiziellen.
+
+20
+00:01:34.166 --> 00:01:37.322
+<b>Auslosung</b> – Leuchtet auf, wenn alles vollständig ist.
+
+21
+00:01:37.372 --> 00:01:41.098
+Ist der Knopf grau, sagt dir das gelbe «!», was fehlt.
+
+22
+00:01:41.148 --> 00:01:44.442
+<b>Kader bearbeiten</b> – Öffnet den Kader des Teams. Tippe darauf:
+
+23
+00:01:44.492 --> 00:01:49.596
+Das nächste Kapitel zeigt alle Wege, den Kader einzugeben.
+
+24
+00:01:49.646 --> 00:01:51.853
+Kapitel 3 von 8 · Kader: alle Wege
+
+25
+00:01:51.903 --> 00:01:56.369
+<b>Spieler eintippen</b> – Nummer, Nachname, Vorname, Lizenz/Geb., Libero, C, dann Hinzufügen.
+
+26
+00:01:56.419 --> 00:02:00.135
+Die Nummer kann warten: Die Auslosung wartet auf sie.
+
+27
+00:02:00.185 --> 00:02:05.066
+<b>PDF hochladen</b> – Das Kader-PDF des Teams oder die Einsatzliste (Lokal).
+
+28
+00:02:05.116 --> 00:02:11.936
+<b>Remote</b> – Der Coach lädt den Kader mit deiner Upload-PIN auf roster.openvolley.app hoch oder schickt ihn aus der Managerseite.
+
+29
+00:02:11.986 --> 00:02:18.199
+Tippe auf «Remote»: Ein Demo-Upload wartet.
+
+30
+00:02:18.249 --> 00:02:23.085
+<b>Kader hochgeladen</b> – Der hochgeladene Kader mit seinen Spielern und Bankoffiziellen.
+
+31
+00:02:23.135 --> 00:02:32.148
+«Vorschau» zeigt ihn, «Akzeptieren» übernimmt ihn, «Ablehnen» legt ihn beiseite. Tippe auf «Akzeptieren».
+
+32
+00:02:32.198 --> 00:02:35.486
+<b>Gespeichertes Team laden</b> – Angemeldet: ein Team aus deinem Konto,
+
+33
+00:02:35.536 --> 00:02:40.407
+mit seinen Spielern und ihren Nummern.
+
+34
+00:02:40.457 --> 00:02:46.798
+Hier ein Demo-Team, nichts kommt von einem Server. Tippe auf «Gespeichertes Team laden».
+
+35
+00:02:46.848 --> 00:02:54.898
+<b>Team wählen</b> – Tippe auf das Demo-Team: Es ersetzt den Kader (die App fragt vorher).
+
+36
+00:02:54.948 --> 00:02:58.636
+<b>Aus dem Verein hinzufügen</b> – Angemeldet: die Lizenzlisten deines Vereins.
+
+37
+00:02:58.686 --> 00:03:03.016
+Tippe auf «Aus dem Verein hinzufügen».
+
+38
+00:03:03.066 --> 00:03:06.459
+<b>Die Spieler deines Vereins</b> – Kreuze an, wer spielt, und füge sie hinzu.
+
+39
+00:03:06.509 --> 00:03:12.978
+Ein Spieler, den das gespeicherte Team kennt, kommt mit seiner Nummer; die anderen brauchen eine im Feld #.
+
+40
+00:03:13.028 --> 00:03:17.506
+Das Schild auf einer Zeile zeigt, wer auf den Listen des Vereins steht.
+
+41
+00:03:17.556 --> 00:03:23.567
+<b>Spieler wählen</b> – Aus den Spielern, die die App für dieses Team kennt,
+
+42
+00:03:23.617 --> 00:03:29.509
+kreuzt du an, wer spielt, dann «n Spieler übernehmen». Tippe auf «Spieler wählen».
+
+43
+00:03:29.559 --> 00:03:34.748
+<b>Die bekannten Spieler</b> – Die Liste der bekannten Spieler: an- und abkreuzen, «Alle».
+
+44
+00:03:34.798 --> 00:03:37.961
+<b>TEST Kader laden / Kader löschen</b> – In einem Testspiel:
+
+45
+00:03:38.011 --> 00:03:42.746
+erfundene Spieler, um alles auszuprobieren. Kader löschen leert die Liste.
+
+46
+00:03:42.796 --> 00:03:45.953
+<b>Weitere Wege</b> – Im Global-Modus kommen die Kader aus Excel.
+
+47
+00:03:46.003 --> 00:03:52.011
+Ein wiederhergestelltes Spiel bringt seine Kader mit, und während des Spiels ändert «Kader» sie.
+
+48
+00:03:52.061 --> 00:03:55.857
+<b>Bestätigen</b> – Speichert den Kader und geht zurück zur Spieleinrichtung.
+
+49
+00:03:55.907 --> 00:04:01.207
+«Zurück» lässt den Kader, wie er war. Tippe auf «Bestätigen».
+
+50
+00:04:01.257 --> 00:04:03.430
+Kapitel 4 von 8 · Auslosung
+
+51
+00:04:03.480 --> 00:04:07.545
+<b>Auslosung eintragen</b> – Welches Team A ist (links) und wer zuerst aufschlägt:
+
+52
+00:04:07.595 --> 00:04:11.653
+«Seiten wechseln» und «Aufschlag wechseln».
+
+53
+00:04:11.703 --> 00:04:14.866
+<b>Kader anzeigen</b> – Letzte Änderungen:
+
+54
+00:04:14.916 --> 00:04:19.052
+einen Spieler oder einen Bankoffiziellen hinzufügen oder löschen.
+
+55
+00:04:19.102 --> 00:04:22.966
+<b>Unterschrift A / Unterschrift B</b> – Captain und Coach
+
+56
+00:04:23.016 --> 00:04:26.619
+unterschreiben hier oder später während des Einspielens.
+
+57
+00:04:26.669 --> 00:04:30.450
+<b>Seitenwahl bestätigen</b> – Danach kommen die Verbindungsprüfungen
+
+58
+00:04:30.500 --> 00:04:35.571
+und der Erfassungsbildschirm. Tippe darauf.
+
+59
+00:04:35.621 --> 00:04:38.088
+Kapitel 5 von 8 · Satz 1
+
+60
+00:04:38.138 --> 00:04:45.573
+<b>Aufstellungen</b> – Gib beide Aufstellungen mit den Knöpfen «Aufstellung A» und «Aufstellung B» ein und wähle den Spielkapitän.
+
+61
+00:04:45.623 --> 00:04:49.422
+Sonst trägt der Rundgang Demo-Aufstellungen ein.
+
+62
+00:04:49.472 --> 00:04:52.626
+<b>Satz starten / Ballwechsel starten</b> – Beim Aufschlagpfiff.
+
+63
+00:04:52.676 --> 00:05:00.288
+Der erste eines Satzes heisst «Satz starten» und fragt nach der Startzeit des Satzes. Tippe darauf.
+
+64
+00:05:00.338 --> 00:05:06.320
+<b>Der Punkt</b> – Tippe auf die Punkt-Schaltfläche des Teams, das den Ballwechsel gewonnen hat.
+
+65
+00:05:06.370 --> 00:05:12.121
+<b>Timeout / Wechsel</b> – Tippe auf das Feld, um eines zu erfassen.
+
+66
+00:05:12.171 --> 00:05:15.323
+<b>Der Wechsel-Dialog</b> – Wer reinkommt, dann wer rausgeht:
+
+67
+00:05:15.373 --> 00:05:21.185
+nur erlaubte Spieler; mehrere auf einmal, dann Bestätigen.
+
+68
+00:05:21.235 --> 00:05:24.441
+<b>Nicht ordnungsgemässe Anträge / Verzögerungswarnung</b> – Die Teamsanktionen;
+
+69
+00:05:24.491 --> 00:05:28.201
+die nächsten erscheinen auch hier.
+
+70
+00:05:28.251 --> 00:05:33.649
+<b>Ein Spieler</b> – Tippe auf einen Spieler auf dem Feld: Wechsel, Libero, Sanktion, Verletzung.
+
+71
+00:05:33.699 --> 00:05:38.038
+<b>Entscheidungsänderung / Rückgängig</b> – Den Punkt dem anderen Team geben oder den Ballwechsel
+
+72
+00:05:38.088 --> 00:05:43.534
+wiederholen (der Spielstand vorher und nachher wird angezeigt) oder rückgängig machen.
+
+73
+00:05:43.584 --> 00:05:46.736
+<b>Spiel</b> – Kader, Verlauf, Satzvorschau, Korrekturen,
+
+74
+00:05:46.786 --> 00:05:50.569
+auf einer Anzeigetafel zeigen, Spiel abbrechen…
+
+75
+00:05:50.619 --> 00:05:52.691
+Kapitel 6 von 8 · Satzende · Beginn von Satz 2
+
+76
+00:05:52.741 --> 00:05:56.386
+<b>Satzende</b> – Bei 25 mit zwei Punkten Vorsprung beendet die App den Satz:
+
+77
+00:05:56.436 --> 00:06:01.816
+Bestätige die Endzeit oder tippe auf «Entscheidungsänderung», wenn der letzte Punkt falsch war.
+
+78
+00:06:01.866 --> 00:06:08.396
+Der Rest des Satzes wurde mit Demo-Ballwechseln gefüllt. Tippe auf «Bestätigen».
+
+79
+00:06:08.446 --> 00:06:11.596
+<b>Beginn von Satz 2</b> – Die Teams wechseln die Seiten:
+
+80
+00:06:11.646 --> 00:06:17.002
+Gib die neuen Aufstellungen ein, dann Satz starten. Die Pause läuft auf dem Bildschirm.
+
+81
+00:06:17.052 --> 00:06:18.549
+Kapitel 7 von 8 · Satz 5
+
+82
+00:06:18.599 --> 00:06:24.994
+<b>Zu Satz 5 springen</b> – Die Sätze 2 bis 4 bekommen Demo-Ballwechsel,
+
+83
+00:06:25.044 --> 00:06:34.821
+als wären sie gespielt worden (das Matchblatt druckt sie), bis es 2:2 steht. Dann geht Satz 5 live weiter.
+
+84
+00:06:34.871 --> 00:06:38.936
+<b>Vor Satz 5</b> – Eine neue Auslosung für den Entscheidungssatz: «Seiten wechseln»,
+
+85
+00:06:38.986 --> 00:06:46.287
+«Aufschlag wechseln», dann «Satz 5 Einrichtung bestätigen». Tippe auf diesen Knopf.
+
+86
+00:06:46.337 --> 00:06:50.367
+<b>Seitenwechsel bei 8</b> – In Satz 5 wechseln die Teams bei 8 Punkten das Feld:
+
+87
+00:06:50.417 --> 00:06:56.309
+Die App fragt, die Aufstellungen bleiben. Tippe auf «Feld wechseln».
+
+88
+00:06:56.359 --> 00:06:58.424
+Kapitel 8 von 8 · Spielende
+
+89
+00:06:58.474 --> 00:07:03.738
+<b>Spiel beendet</b> – Der Sieger, die Ergebnisse und die Sanktionen, wie auf dem Matchblatt.
+
+90
+00:07:03.788 --> 00:07:08.373
+<b>Unterschriften</b> – Die Captains unterschreiben, dann die Schreiber und die Schiedsrichter.
+
+91
+00:07:08.423 --> 00:07:12.907
+Für die Administration lässt sich eine technische Bemerkung hinzufügen.
+
+92
+00:07:12.957 --> 00:07:19.296
+<b>Unterschreiben</b> – Auf dem Bildschirm oder auf dem eigenen Handy der Person.
+
+93
+00:07:19.346 --> 00:07:23.051
+<b>eScoresheet</b> – Matchblatt ansehen, drucken oder als PDF speichern.
+
+94
+00:07:23.101 --> 00:07:29.135
+Das war das ganze Spiel: gut gemacht.
