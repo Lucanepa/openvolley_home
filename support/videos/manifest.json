@@ -343,8 +343,8 @@
       "fr": "Ton premier match",
       "it": "La tua prima partita"
     },
-    "durationSec": 449.2,
-    "sizeBytes": 10273337,
+    "durationSec": 449.1,
+    "sizeBytes": 10339944,
     "file": "first-match.mp4",
     "poster": "first-match.jpg",
     "tracks": {
@@ -360,6 +360,6 @@
       "it": "first-match.chapters.it.vtt"
     },
     "appVersion": "26.11.7",
-    "recordedAt": "2026-11-26T18:12:27.279Z"
+    "recordedAt": "2026-11-26T19:10:23.937Z"
   }
 ]
