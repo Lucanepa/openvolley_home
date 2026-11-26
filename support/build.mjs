@@ -42,6 +42,11 @@ const MAX_COMMENTS = 5000;
 // Cloudflare Pages takes files up to 25 MiB; the videos are made to stay under 6 MB.
 const MAX_ASSET_BYTES = 25 * 1024 * 1024;
 const VIDEO_TARGET_BYTES = 6 * 1000 * 1000;
+// "Your first match": the app's walkthrough as one long video (manifest id
+// first-match, no help section), above the sections with its chapters. Its
+// own size target: one file, under Cloudflare's 25 MiB.
+const FIRST_MATCH = 'first-match';
+const FIRST_MATCH_TARGET_BYTES = 24 * 1000 * 1000;
 
 // The guide PDFs listed in the guides block and copied to /support/guides:
 // the Quick guide of 3.2.5 (openvolley repository, escoresheet/docs/guides/
@@ -93,6 +98,11 @@ const UI = {
     video: 'Video: {section}',
     recorded: 'Aufgenommen mit OpenVolley {version}',
     subtitles: 'Untertitel',
+    firstMatch: {
+      lead: 'Ein Testspiel von der Startseite bis zum Spielende, Schritt für Schritt: alle Wege, einen Kader einzugeben, die Auslosung, Satz 1, der Beginn von Satz 2, Satz 5 und die Unterschriften. Derselbe Rundgang läuft in der App: «?» › «{title}».',
+      chapters: 'Kapitel',
+      jump: '{chapter} ({time})',
+    },
     questions: 'Fragen und Antworten',
     inApp: 'In der App: das «?» auf',
     ask: 'Frage dazu stellen',
@@ -193,6 +203,11 @@ const UI = {
     video: 'Video: {section}',
     recorded: 'Recorded with OpenVolley {version}',
     subtitles: 'Subtitles',
+    firstMatch: {
+      lead: 'A test match from Home to the match end, step by step: every way to get a roster in, the coin toss, set 1, the start of set 2, set 5 and the signatures. The same tour runs in the app: “?” › “{title}”.',
+      chapters: 'Chapters',
+      jump: '{chapter} ({time})',
+    },
     questions: 'Questions and answers',
     inApp: 'In the app: the “?” on',
     ask: 'Ask about this',
@@ -293,6 +308,11 @@ const UI = {
     video: 'Vidéo : {section}',
     recorded: 'Enregistrée avec OpenVolley {version}',
     subtitles: 'Sous-titres',
+    firstMatch: {
+      lead: 'Un match test de l’accueil à la fin du match, étape par étape : toutes les façons d’entrer un effectif, le tirage au sort, le set 1, le début du set 2, le set 5 et les signatures. La même visite se fait dans l’app : « ? » › « {title} ».',
+      chapters: 'Chapitres',
+      jump: '{chapter} ({time})',
+    },
     questions: 'Questions et réponses',
     inApp: 'Dans l’application : le « ? » sur',
     ask: 'Poser une question',
@@ -393,6 +413,11 @@ const UI = {
     video: 'Video: {section}',
     recorded: 'Registrato con OpenVolley {version}',
     subtitles: 'Sottotitoli',
+    firstMatch: {
+      lead: 'Una partita test dalla home alla fine della partita, passo dopo passo: tutti i modi di inserire una rosa, il sorteggio, il set 1, l’inizio del set 2, il set 5 e le firme. Lo stesso tour è nell’app: «?» › «{title}».',
+      chapters: 'Capitoli',
+      jump: '{chapter} ({time})',
+    },
     questions: 'Domande e risposte',
     inApp: 'Nell’app: il «?» su',
     ask: 'Fai una domanda',
@@ -579,17 +604,49 @@ function loadData() {
     v.size = jpegSize(readFileSync(join(HERE, 'videos', v.poster))) || { width: 1280, height: 800 };
     v.files = files;
   }
-  return { help, videos };
+  return { help, videos, firstMatch: loadFirstMatch(videos.get(FIRST_MATCH)) };
+}
+
+/** The cues of a WebVTT file: [{ start (s), text }]. */
+function vttCues(text) {
+  const time = (h, m, s) => Number(h || 0) * 3600 + Number(m) * 60 + Number(s);
+  return [...text.replace(/\r/g, '').matchAll(/(?:(\d+):)?(\d\d):(\d\d(?:\.\d+)?) --> [^\n]+\n([^\n]+(?:\n[^\n]+)*)/g)]
+    .map((m) => ({ start: time(m[1], m[2], m[3]), text: m[4].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() }));
+}
+
+/** "Your first match" (manifest id first-match): its files checked, its chapters per language. null without it. */
+function loadFirstMatch(v) {
+  if (!v) return null;
+  for (const lang of LANGS) {
+    if (!v.title?.[lang]) throw new Error(`support/videos/manifest.json: ${FIRST_MATCH} has no ${lang} title`);
+    if (!v.chapters?.[lang]) throw new Error(`support/videos/manifest.json: ${FIRST_MATCH} has no ${lang} chapters`);
+  }
+  const files = [v.file, v.poster, ...Object.values(v.tracks || {}), ...Object.values(v.chapters)];
+  for (const f of files) {
+    const p = join(HERE, 'videos', f);
+    if (!existsSync(p)) throw new Error(`support/videos/${f} is missing`);
+    const size = statSync(p).size;
+    if (size > MAX_ASSET_BYTES) throw new Error(`support/videos/${f}: ${size} bytes, Cloudflare Pages takes at most 25 MiB`);
+    if (f === v.file && size > FIRST_MATCH_TARGET_BYTES) console.warn(`WARNING: support/videos/${f} is over 24 MB`);
+  }
+  const chapterList = {};
+  for (const lang of LANGS) {
+    chapterList[lang] = vttCues(readFileSync(join(HERE, 'videos', v.chapters[lang]), 'utf8'));
+    if (!chapterList[lang].length) throw new Error(`support/videos/${v.chapters[lang]}: no chapters`);
+  }
+  return { ...v, files, chapterList, size: jpegSize(readFileSync(join(HERE, 'videos', v.poster))) || { width: 1280, height: 800 } };
 }
 
 // ---------- page ----------
 
 function videoHtml(section, v, lang, ui, first) {
   const base = `${VIDEO_URL}/`;
-  // The page's language first and on by default; every track is labelled in its own language
+  // The page's language first and on by default; every track is labelled in its own language.
+  // A chapters track (first-match) for players that offer one.
   const tracks = [lang, ...LANGS.filter((l) => l !== lang)]
     .filter((l) => v.tracks?.[l])
     .map((l) => `<track kind="subtitles" srclang="${l}" label="${esc(UI[l].name)}" src="${base}${esc(v.tracks[l])}"${l === lang ? ' default' : ''}>`)
+    .concat(v.chapters?.[lang] ? [`<track kind="chapters" srclang="${lang}" label="${esc(ui.firstMatch.chapters)}" src="${base}${esc(v.chapters[lang])}" default>`] : [])
     .join('\n            ');
   // Posters load when the section comes near (support.js); the first one at once
   const poster = first ? `poster="${base}${esc(v.poster)}"` : `data-poster="${base}${esc(v.poster)}"`;
@@ -601,6 +658,30 @@ function videoHtml(section, v, lang, ui, first) {
           </video>
           <figcaption><span class="chip">${icon('clapperboard')}${duration(v.durationSec)}</span>${version}</figcaption>
         </figure>`;
+}
+
+/**
+ * "Your first match": the video and its chapters (each one starts the video
+ * there, support.js; without JavaScript the list still names them and the
+ * player's own chapters track has them).
+ */
+function firstMatchHtml(v, lang, ui) {
+  const title = v.title[lang];
+  const chapters = v.chapterList[lang]
+    .map((c, i) => `<li><a class="chapter" href="#${FIRST_MATCH}" data-seek="${c.start.toFixed(1)}" aria-label="${esc(fill(typo(ui.firstMatch.jump, lang), { chapter: typo(c.text, lang), time: duration(c.start) }))}">`
+      + `<span class="chapter-n">${i + 1}</span><span class="chapter-title">${t(c.text, lang)}</span><span class="chapter-time">${duration(c.start)}</span></a></li>`)
+    .join('\n            ');
+  return `<section class="card help-section first-match" id="${FIRST_MATCH}" aria-labelledby="${FIRST_MATCH}-title">
+        <div class="help-head">
+          <h2 id="${FIRST_MATCH}-title">${t(title, lang)}</h2>
+        </div>
+        <p class="first-match-lead">${t(fill(ui.firstMatch.lead, { title }), lang)}</p>
+        ${videoHtml({ title: v.title }, v, lang, ui, true)}
+        <h3 class="faq-title">${t(ui.firstMatch.chapters, lang)}</h3>
+        <ol class="chapter-list">
+            ${chapters}
+        </ol>
+      </section>`;
 }
 
 function sectionHtml(section, v, lang, ui, first) {
@@ -800,7 +881,7 @@ const LANGUAGE_PICK = `<script>
 
 function page(lang, data) {
   const ui = UI[lang];
-  const { help, videos } = data;
+  const { help, videos, firstMatch } = data;
   const url = SITE + ROUTES[lang];
   const alternates = LANGS.map((l) => `  <link rel="alternate" hreflang="${l}" href="${SITE}${ROUTES[l]}">`).join('\n');
   const switcher = LANGS.map((l) => {
@@ -808,7 +889,8 @@ function page(lang, data) {
     return `<a href="${ROUTES[l]}" lang="${l}" hreflang="${l}" title="${UI[l].name}"${cur}>${l.toUpperCase()}</a>`;
   }).join('');
   const toc = [
-    ...help.sections.map((s) => `<li><a href="#${esc(s.id)}">${t(s.title[lang], lang)}</a></li>`),
+    ...(firstMatch ? [`<li><a href="#${FIRST_MATCH}">${t(firstMatch.title[lang], lang)}</a></li>`] : []),
+    ...help.sections.map((s, i) => `<li${firstMatch && i === 0 ? ' class="toc-sep"' : ''}><a href="#${esc(s.id)}">${t(s.title[lang], lang)}</a></li>`),
     `<li class="toc-sep"><a href="#guides">${t(ui.guidesTitle, lang)}</a></li>`,
     `<li><a href="#contact">${t(ui.contactTitle, lang)}</a></li>`,
   ].join('\n          ');
@@ -896,6 +978,8 @@ ${alternates}
       <div class="support-content">
       <p class="search-status" id="search-status" role="status"></p>
 
+      ${firstMatch ? firstMatchHtml(firstMatch, lang, ui) : ''}
+
       <div class="help-sections" id="help-sections">
       ${sections}
       </div>
@@ -936,7 +1020,7 @@ function build() {
   mkdirSync(videoDir, { recursive: true });
   let videoFiles = 0;
   for (const v of data.videos.values()) {
-    for (const f of v.files || []) {
+    for (const f of (v.id === FIRST_MATCH ? data.firstMatch?.files : v.files) || []) {
       copyFileSync(join(HERE, 'videos', f), join(videoDir, f));
       videoFiles++;
     }

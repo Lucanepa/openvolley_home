@@ -285,9 +285,86 @@
   color: var(--stone-700);
 }
 
+/* ---------- "Your first match": the long video and its chapters ---------- */
+
+.first-match-lead {
+  margin: 8px 0 0;
+  max-width: 44rem;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--stone-600);
+}
+
+.chapter-list {
+  margin: 2px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chapter-list li {
+  break-inside: avoid;
+}
+
+.chapter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--stone-100);
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--stone-900);
+  text-decoration: none;
+}
+
+.chapter-n {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--stone-100);
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--stone-600);
+  transition: background-color 150ms, color 150ms;
+}
+
+.chapter-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.chapter-time {
+  flex: none;
+  font-size: 12px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--stone-500);
+}
+
+.chapter:hover .chapter-title {
+  text-decoration: underline;
+  text-decoration-color: var(--stone-300);
+  text-underline-offset: 3px;
+}
+
+/* the chapter that is playing (support.js) */
+.chapter.is-current .chapter-n {
+  background: var(--stone-900);
+  color: #fff;
+}
+
 /* While searching: only the matching questions, no videos */
 .is-searching .help-video,
-.is-searching .help-screens {
+.is-searching .help-screens,
+.is-searching .first-match {
   display: none;
 }
 
@@ -664,6 +741,11 @@
   .help-section,
   .contact-card {
     padding: 20px 24px 24px;
+  }
+
+  .chapter-list {
+    columns: 2;
+    column-gap: 24px;
   }
 
   .downloads-card {

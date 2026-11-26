@@ -20,6 +20,11 @@ video, the questions (`#q-<id>-<question>` opens one) and "Ask about this",
 which opens the contact form with that area. Then the downloads, "Which app for
 what" and the contact form.
 
+Above the sections, "Your first match" (`#first-match`): the app's walkthrough
+("?" › "Your first match", from Home to the match end on a test match) as one
+long video, with its chapters. Each chapter in the list starts the video there
+(`support.js`); the player also gets the chapters as a `kind="chapters"` track.
+
 The app's "?" help links to `https://openvolley.app/support#<id>`. The German
 page at the root sends such a link (or `?lang=en|fr|it`) on to the reader's
 language, unless they picked one with the language switch.
@@ -31,12 +36,14 @@ language, unless they picked one with the language switch.
 | `help.json` | The questions and answers per section, in en/de/fr/it | (built into the pages) |
 | `videos/<id>.mp4`, `<id>.jpg`, `<id>.<lang>.vtt` | One video per section, its poster and subtitles | /support/videos/ |
 | `videos/manifest.json` | The videos: titles, length, size, app version | (read by the build) |
+| `videos/first-match.mp4`, `.jpg`, `.<lang>.vtt`, `.chapters.<lang>.vtt` | "Your first match": the video, its poster, subtitles and chapters (manifest id `first-match`, no help section; `chapters` in its manifest entry) | /support/videos/ |
 | `guides/openvolley-quick-guide-<lang>.pdf`, `GUIDES` in `build.mjs` | The Quick guide of 3.2.5 per language (built in the openvolley repository, `escoresheet/docs/guides/quick-guide`, invented names only); each page lists its own language's. The roll-out deck is the January plan and stays unlisted | /support/guides/ |
 | `../support.css`, `../support.js` | Style, search and contact form | /support.css, /support.js |
 
 The app streams the videos from `/support/videos/` too, so keep those names.
 Cloudflare Pages takes files up to 25 MiB; the videos are made to stay under
-6 MB each (the build stops above 25 MiB and warns above 6 MB).
+6 MB each (the build stops above 25 MiB and warns above 6 MB). "Your first
+match" is one long video: it warns above 24 MB.
 
 ## Updating
 
@@ -51,7 +58,8 @@ node escoresheet/frontend/scripts/export-help.mjs --out ../openvolley_home/suppo
 
 The videos are recorded from the real app after a release, with the recorder
 in `support-videos/tools/` (kept with the recordings, not in this
-repository; its `README.md` says how). Copy the results in:
+repository; its `README.md` says how; "Your first match" is the scene
+`first-match`, recorded with `--only first-match`). Copy the results in:
 
 ```bash
 cp <recordings>/*.mp4 <recordings>/*.jpg <recordings>/*.vtt <recordings>/manifest.json support/videos/
