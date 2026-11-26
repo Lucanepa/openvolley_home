@@ -47,9 +47,15 @@ const VIDEO_TARGET_BYTES = 6 * 1000 * 1000;
 // the Quick guide of 3.2.5 (openvolley repository, escoresheet/docs/guides/
 // quick-guide, invented names only), one per language; each page lists the
 // one in its own language.
-const GUIDES = ['en', 'de', 'fr', 'it'].map((l) => ({
-  key: 'quick', src: `support/guides/openvolley-quick-guide-${l}.pdf`, file: `openvolley-quick-guide-${l}.pdf`, docLang: l,
-}));
+const GUIDES = [
+  // "Day one for clubs" (two pages, de and en; sources in support/guides/src)
+  ...['en', 'de'].map((l) => ({
+    key: 'clubs', src: `support/guides/openvolley-club-day-one-${l}.pdf`, file: `openvolley-club-day-one-${l}.pdf`, docLang: l,
+  })),
+  ...['en', 'de', 'fr', 'it'].map((l) => ({
+    key: 'quick', src: `support/guides/openvolley-quick-guide-${l}.pdf`, file: `openvolley-quick-guide-${l}.pdf`, docLang: l,
+  })),
+];
 
 const DOWNLOADS = [
   { label: 'Windows', href: 'https://get.openvolley.app/#windows', icon: 'monitor' },
@@ -99,6 +105,7 @@ const UI = {
     guidesTitle: 'Anleitungen und Downloads',
     guidesLead: 'Die Apps zum Installieren und welche App auf welches Gerät gehört.',
     guides: {
+      clubs: { title: 'Tag 1 für Vereine', desc: 'Zwei Seiten für Vereine: was Schreiber:innen und Vereinsverantwortliche am ersten Tag tun, Konto ja oder nein, Datenschutz.' },
       quick: { title: 'Kurzanleitung', desc: 'Das eScoresheet Schritt für Schritt, vom ersten Öffnen bis zum Spielende (OpenVolley 3.2.5).' },
       rollout: { title: 'Roll-out-Info', desc: 'Was das eScoresheet bietet und die nächsten Schritte der Einführung.' },
     },
@@ -199,6 +206,7 @@ const UI = {
     guidesTitle: 'Guides and downloads',
     guidesLead: 'The apps to install, and which app goes on which device.',
     guides: {
+      clubs: { title: 'Day one for clubs', desc: 'Two pages for clubs: what scorers and club managers do on day one, account or not, data protection.' },
       quick: { title: 'Quick guide', desc: 'The eScoresheet step by step, from the first open to the match end (OpenVolley 3.2.5).' },
       rollout: { title: 'Roll-out info', desc: 'What the eScoresheet offers and the next steps of the roll-out.' },
     },

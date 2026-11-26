@@ -32,6 +32,7 @@ language, unless they picked one with the language switch.
 | `videos/<id>.mp4`, `<id>.jpg`, `<id>.<lang>.vtt` | One video per section, its poster and subtitles | /support/videos/ |
 | `videos/manifest.json` | The videos: titles, length, size, app version | (read by the build) |
 | `guides/openvolley-quick-guide-<lang>.pdf`, `GUIDES` in `build.mjs` | The Quick guide of 3.2.5 per language (built in the openvolley repository, `escoresheet/docs/guides/quick-guide`, invented names only); each page lists its own language's. The roll-out deck is the January plan and stays unlisted | /support/guides/ |
+| `guides/openvolley-club-day-one-<lang>.pdf`, `guides/src/` | "Day one for clubs", two pages in de and en (the fr and it pages list none). Sources are `guides/src/club-day-one-<lang>.html` + `.css`; after a change run `bash support/guides/src/render.sh` (needs `npm ci` for the font and google-chrome) | /support/guides/ |
 | `../support.css`, `../support.js` | Style, search and contact form | /support.css, /support.js |
 
 The app streams the videos from `/support/videos/` too, so keep those names.
