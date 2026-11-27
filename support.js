@@ -136,7 +136,8 @@
 
   // ---------- Search: every word in the question, its answer or the section title ----------
 
-  const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[“”„«»"‘’']/g, ' ');
+  // the answers carry soft hyphens (support/hyphenate.mjs): not part of a word
+  const norm = (s) => s.replace(/\u00ad/g, '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[“”„«»"‘’']/g, ' ');
   const content = document.querySelector('.support-content');
   const status = $('search-status');
   const searchInput = $('faq-search');
