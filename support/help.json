@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T16:01:01.399Z",
-  "appVersion": "26.11.8",
+  "generatedAt": "2026-11-27T19:07:21.195Z",
+  "appVersion": "26.11.9",
   "languages": [
     "en",
     "de",
@@ -122,7 +122,7 @@
           },
           "answer": {
             "en": "“Scoring here”: this device scores it. “On another device”: another device took the match over. “Closed on the server”: the match is approved or closed. “Not checked”: the app could not ask the server (offline, signed out or no answer). “Unsent changes”: some changes are not on the server yet. A closed or moved copy opens read-only.",
-            "de": "«Wird hier geführt»: Dieses Gerät führt das Spiel. «Auf anderem Gerät»: Ein anderes Gerät hat das Spiel übernommen. «Auf dem Server abgeschlossen»: Das Spiel ist genehmigt oder abgeschlossen. «Nicht geprüft»: Die App konnte den Server nicht fragen (offline, abgemeldet oder keine Antwort). «Nicht gesendete Änderungen»: Einige Änderungen sind noch nicht auf dem Server. Eine abgeschlossene oder übernommene Kopie öffnet nur zum Lesen.",
+            "de": "«Wird hier geführt»: Dieses Gerät führt das Spiel. «Auf anderem Gerät»: Ein anderes Gerät hat das Spiel übernommen. «Auf dem Server abgeschlossen»: Das Spiel ist bestätigt oder abgeschlossen. «Nicht geprüft»: Die App konnte den Server nicht fragen (offline, abgemeldet oder keine Antwort). «Nicht gesendete Änderungen»: Einige Änderungen sind noch nicht auf dem Server. Eine abgeschlossene oder übernommene Kopie öffnet nur zum Lesen.",
             "fr": "« Tenu ici » : cet appareil tient le match. « Sur un autre appareil » : un autre appareil a repris le match. « Clôturé sur le serveur » : le match est approuvé ou clôturé. « Non vérifié » : l'app n'a pas pu interroger le serveur (hors ligne, déconnecté ou pas de réponse). « Modifications non envoyées » : certaines modifications ne sont pas encore sur le serveur. Une copie clôturée ou reprise s'ouvre en lecture seule.",
             "it": "«Refertata qui»: questo dispositivo referta la partita. «Su un altro dispositivo»: un altro dispositivo ha preso la partita. «Chiusa sul server»: la partita è approvata o chiusa. «Non verificata»: l'app non ha potuto chiedere al server (offline, senza accesso o nessuna risposta). «Modifiche non inviate»: alcune modifiche non sono ancora sul server. Una copia chiusa o passata a un altro dispositivo si apre in sola lettura."
           }
@@ -331,8 +331,8 @@
           },
           "answer": {
             "en": "The 1st referee and the scorer, with the scorer's date of birth. Signed in, the scorer is you. “Database” picks a referee from the list. The 2nd referee, the assistant scorer and the line judges are optional (switch them on). The 2nd referee and the assistant scorer sign at the match end when they are entered.",
-            "de": "Den 1. Schiedsrichter und den Schreiber, mit dem Geburtsdatum des Schreibers. Bist du angemeldet, bist du der Schreiber. «Datenbank» wählt einen Schiedsrichter aus der Liste. 2. Schiedsrichter, Assistenz-Schreiber und Linienrichter sind freiwillig (schalte sie ein). Der 2. Schiedsrichter und der Assistenz-Schreiber unterschreiben am Spielende, wenn sie eingetragen sind.",
-            "fr": "Le 1er arbitre et le marqueur, avec la date de naissance du marqueur. Si tu es connecté, le marqueur, c'est toi. « Base de données » choisit un arbitre dans la liste. Le 2nd arbitre, le marqueur adjoint et les juges de ligne sont facultatifs (active-les). Le 2nd arbitre et le marqueur adjoint signent à la fin du match s'ils sont saisis.",
+            "de": "Den 1. Schiedsrichter und den Schreiber, mit dem Geburtsdatum des Schreibers. Bist du angemeldet, bist du der Schreiber. «Datenbank» wählt einen Schiedsrichter aus der Liste. 2. Schiedsrichter, Schreiberassistent und Linienrichter sind freiwillig (schalte sie ein). Der 2. Schiedsrichter und der Schreiberassistent unterschreiben am Spielende, wenn sie eingetragen sind.",
+            "fr": "Le premier arbitre et le marqueur, avec la date de naissance du marqueur. Si tu es connecté, le marqueur, c'est toi. « Base de données » choisit un arbitre dans la liste. Le second arbitre, le marqueur adjoint et les juges de ligne sont facultatifs (active-les). Le second arbitre et le marqueur adjoint signent à la fin du match s'ils sont saisis.",
             "it": "Il 1° arbitro e il segnapunti, con la data di nascita del segnapunti. Con l'accesso, il segnapunti sei tu. «Database» sceglie un arbitro dalla lista. Il 2° arbitro, il segnapunti assistente e i giudici di linea sono facoltativi (attivali). Il 2° arbitro e il segnapunti assistente firmano a fine partita, se sono inseriti."
           }
         },
@@ -406,7 +406,7 @@
           },
           "answer": {
             "en": "“Show rosters” under the team cards lists both rosters with numbers, licences, liberos, captain and bench officials; “Hide rosters” closes them. During the match: Match › “Show rosters” (on a phone “Rosters”).",
-            "de": "„Kader anzeigen“ unter den Teamkarten listet beide Kader mit Nummern, Lizenzen, Liberos, Captain und Bankoffiziellen; „Kader ausblenden“ schliesst sie. Während des Spiels: Spiel › „Kader anzeigen“ (auf dem Handy „Kader“).",
+            "de": "„Kader anzeigen“ unter den Teamkarten listet beide Kader mit Nummern, Lizenzen, Liberos, Kapitän und Bankoffiziellen; „Kader ausblenden“ schliesst sie. Während des Spiels: Spiel › „Kader anzeigen“ (auf dem Handy „Kader“).",
             "fr": "« Afficher les effectifs » sous les cartes des équipes liste les deux effectifs avec numéros, licences, libéros, capitaine et officiels de banc ; « Masquer les effectifs » les ferme. Pendant le match : Match › « Afficher les effectifs » (sur un téléphone « Effectifs »).",
             "it": "«Mostra rose» sotto le schede delle squadre elenca le due rose con numeri, licenze, liberi, capitano e ufficiali di panchina; «Nascondi rose» le chiude. Durante la partita: Partita › «Mostra rose» (sul telefono «Rose»)."
           }
@@ -430,7 +430,7 @@
           "id": "proceed",
           "question": {
             "en": "How do I proceed to the coin toss?",
-            "de": "Wie gelange ich zum Münzwurf?",
+            "de": "Wie gelange ich zur Auslosung?",
             "fr": "Comment passer au tirage au sort ?",
             "it": "Come procedo al sorteggio?"
           },
@@ -491,7 +491,7 @@
           },
           "answer": {
             "en": "In “Edit roster” on the team's card: 1. type the players in “Add new player”; under “Roster import” (one switch, the app keeps the way you chose last): 2. “Remote”: the coach uploads the PDF on roster.openvolley.app with your upload PIN (or the team sends it from the manager page), and you “Accept” it; 3. “PDF”: the team's roster PDF or the Einsatzliste from this device (“Upload PDF”); 4. “Photo”: a photo of the printed Einsatzliste, read on this device; and the other buttons: 5. “Choose players”: tick who plays from the players the app knows for this team; 6. “Load saved team” (signed in): a team saved in your account, of the club of the team you edit (all of them when the app does not know its club); 7. “Add from club” (signed in, your club): from the club's licence lists; 8. in a test match, “Load TEST roster”. In Global mode the rosters come from Excel (“Import rosters”). A restored match brings its rosters with it. A saved team loads its players and bench officials in one tap: check the numbers for this game. The test players of “Load TEST roster” disappear when you load a game from the schedule or type another team name; the players you added yourself stay.",
-            "de": "In «Kader bearbeiten» auf der Teamkarte: 1. die Spieler unter «Spieler hinzufügen» eintippen; unter «Kader-Import» (ein Schalter, die App merkt sich deine letzte Wahl): 2. «Remote»: Der Coach lädt das PDF mit deiner Upload-PIN auf roster.openvolley.app hoch (oder das Team schickt es aus der Managerseite), und du tippst auf «Akzeptieren»; 3. «PDF»: das Kader-PDF des Teams oder die Einsatzliste von diesem Gerät («PDF hochladen»); 4. «Foto»: ein Foto der ausgedruckten Einsatzliste, auf diesem Gerät gelesen; und die anderen Knöpfe: 5. «Spieler wählen»: aus den Spielern, die die App für dieses Team kennt, ankreuzen, wer spielt; 6. «Gespeichertes Team laden» (angemeldet): ein Team aus deinem Konto, vom Verein des Teams, das du bearbeitest (alle, wenn die App seinen Verein nicht kennt); 7. «Aus dem Verein hinzufügen» (angemeldet, dein Verein): aus den Lizenzlisten des Vereins; 8. in einem Testspiel «TEST Kader laden». Im Global-Modus kommen die Kader aus Excel («Kader importieren»). Ein wiederhergestelltes Spiel bringt seine Kader mit. Ein gespeichertes Team lädt seine Spieler und Bankoffiziellen mit einem Tipp: Prüf die Nummern für dieses Spiel. Die Testspieler von «TEST Kader laden» verschwinden, wenn du ein Spiel aus dem Spielplan lädst oder einen anderen Teamnamen eintippst; die Spieler, die du selbst hinzugefügt hast, bleiben.",
+            "de": "In «Kader bearbeiten» auf der Teamkarte: 1. die Spieler unter «Spieler hinzufügen» eintippen; unter «Kader-Import» (ein Schalter, die App merkt sich deine letzte Wahl): 2. «Remote»: Der Trainer lädt das PDF mit deiner Upload-PIN auf roster.openvolley.app hoch (oder das Team schickt es aus der Managerseite), und du tippst auf «Akzeptieren»; 3. «PDF»: das Kader-PDF des Teams oder die Einsatzliste von diesem Gerät («PDF hochladen»); 4. «Foto»: ein Foto der ausgedruckten Einsatzliste, auf diesem Gerät gelesen; und die anderen Knöpfe: 5. «Spieler wählen»: aus den Spielern, die die App für dieses Team kennt, ankreuzen, wer spielt; 6. «Gespeichertes Team laden» (angemeldet): ein Team aus deinem Konto, vom Verein des Teams, das du bearbeitest (alle, wenn die App seinen Verein nicht kennt); 7. «Aus dem Verein hinzufügen» (angemeldet, dein Verein): aus den Lizenzlisten des Vereins; 8. in einem Testspiel «TEST Kader laden». Im Global-Modus kommen die Kader aus Excel («Kader importieren»). Ein wiederhergestelltes Spiel bringt seine Kader mit. Ein gespeichertes Team lädt seine Spieler und Bankoffiziellen mit einem Tipp: Prüf die Nummern für dieses Spiel. Die Testspieler von «TEST Kader laden» verschwinden, wenn du ein Spiel aus dem Spielplan lädst oder einen anderen Teamnamen eintippst; die Spieler, die du selbst hinzugefügt hast, bleiben.",
             "fr": "Dans « Modifier l'effectif » sur la carte de l'équipe : 1. saisis les joueurs dans « Ajouter un joueur » ; sous « Import de l'effectif » (un seul sélecteur, l'app retient ton dernier choix) : 2. « Distant » : le coach importe le PDF sur roster.openvolley.app avec ton PIN d'upload (ou l'équipe l'envoie depuis la page manager), et tu touches « Accepter » ; 3. « PDF » : le PDF de l'effectif ou l'Einsatzliste depuis cet appareil (« Importer PDF ») ; 4. « Photo » : une photo de l'Einsatzliste imprimée, lue sur cet appareil ; et les autres boutons : 5. « Choisir les joueurs » : coche qui joue parmi les joueurs que l'app connaît pour cette équipe ; 6. « Charger une équipe enregistrée » (connecté) : une équipe de ton compte, du club de l'équipe que tu modifies (toutes si l'app ne connaît pas son club) ; 7. « Ajouter du club » (connecté, ton club) : depuis les listes de licences du club ; 8. dans un match test, « Charger effectif TEST ». En mode Global, les effectifs viennent d'Excel (« Importer les effectifs »). Un match restauré apporte ses effectifs. Une équipe enregistrée charge ses joueurs et officiels de banc en un geste : vérifie les numéros pour ce match. Les joueurs test de « Charger effectif TEST » disparaissent quand tu charges un match du calendrier ou saisis un autre nom d'équipe ; ceux que tu as ajoutés toi-même restent.",
             "it": "In «Modifica roster» sulla scheda della squadra: 1. digita i giocatori in «Aggiungi giocatore»; in «Importazione rosa» (un solo selettore, l'app ricorda la tua ultima scelta): 2. «Remoto»: l'allenatore carica il PDF su roster.openvolley.app con il tuo PIN di caricamento (o la squadra lo invia dalla pagina manager), e tu tocchi «Accetta»; 3. «PDF»: il PDF della rosa o l'Einsatzliste da questo dispositivo («Carica PDF»); 4. «Foto»: una foto dell'Einsatzliste stampata, letta su questo dispositivo; e gli altri pulsanti: 5. «Scegli i giocatori»: spunta chi gioca tra i giocatori che l'app conosce per questa squadra; 6. «Carica squadra salvata» (con accesso): una squadra del tuo account, della società della squadra che modifichi (tutte se l'app non conosce la sua società); 7. «Aggiungi dalla società» (con accesso, la tua società): dalle liste licenze della società; 8. in una partita test, «Carica rosa TEST». In modalità Global le rose arrivano da Excel («Importa rose»). Una partita ripristinata porta con sé le sue rose. Una squadra salvata carica i suoi giocatori e ufficiali di panchina con un tocco: controlla i numeri per questa partita. I giocatori test di «Carica rosa TEST» spariscono quando carichi una partita dal calendario o scrivi un altro nome di squadra; quelli aggiunti da te restano."
           }
@@ -551,7 +551,7 @@
           },
           "answer": {
             "en": "In “Edit roster”, choose “PDF” in “Roster import” and tap “Upload PDF”. Choose the team's roster PDF or the Einsatzliste, then tap “Import PDF”. It replaces the players and the bench officials. With more than 14 players, tick who plays. Then check the dates of birth, enter missing shirt numbers, and set the captain and the liberos. A date of birth on 1 January is often a placeholder (01.01.1900 when the date is not known) or an import error: the roster lists these people above the players. Correct the dates you know. The coin toss does not ask about them.",
-            "de": "Wähle in «Kader bearbeiten» unter «Kader-Import» «PDF» und tippe auf «PDF hochladen». Wähle das Kader-PDF des Teams oder die Einsatzliste und tippe auf «PDF importieren». Es ersetzt die Spieler und die Bankoffiziellen. Bei mehr als 14 Spielern kreuzt du an, wer spielt. Prüfe dann die Geburtsdaten, ergänze fehlende Trikotnummern und lege Captain und Liberos fest. Ein Geburtsdatum am 1. Januar ist oft ein Platzhalter (01.01.1900, wenn das Datum nicht bekannt ist) oder ein Importfehler: Der Kader listet diese Personen über den Spielern auf. Korrigiere die Daten, die du kennst. Die Auslosung fragt nicht danach.",
+            "de": "Wähle in «Kader bearbeiten» unter «Kader-Import» «PDF» und tippe auf «PDF hochladen». Wähle das Kader-PDF des Teams oder die Einsatzliste und tippe auf «PDF importieren». Es ersetzt die Spieler und die Bankoffiziellen. Bei mehr als 14 Spielern kreuzt du an, wer spielt. Prüfe dann die Geburtsdaten, ergänze fehlende Trikotnummern und lege Kapitän und Liberos fest. Ein Geburtsdatum am 1. Januar ist oft ein Platzhalter (01.01.1900, wenn das Datum nicht bekannt ist) oder ein Importfehler: Der Kader listet diese Personen über den Spielern auf. Korrigiere die Daten, die du kennst. Die Auslosung fragt nicht danach.",
             "fr": "Dans « Modifier l'effectif », choisis « PDF » sous « Import de l'effectif » et appuie sur « Importer PDF ». Choisis le PDF de l'effectif de l'équipe ou l'Einsatzliste, puis appuie sur « Importer PDF ». Il remplace les joueurs et les officiels du banc. Avec plus de 14 joueurs, coche ceux qui jouent. Vérifie ensuite les dates de naissance, saisis les numéros de maillot manquants, et désigne le capitaine et les libéros. Une date de naissance au 1er janvier est souvent une date par défaut (01.01.1900 quand la date n'est pas connue) ou une erreur d'import : l'effectif liste ces personnes au-dessus des joueurs. Corrige les dates que tu connais. Le tirage au sort ne les demande pas.",
             "it": "In «Modifica roster», scegli «PDF» in «Importazione rosa» e tocca «Carica PDF». Scegli il PDF del roster della squadra o l'Einsatzliste, poi tocca «Importa PDF». Sostituisce i giocatori e gli ufficiali di panchina. Con più di 14 giocatori, spunta chi gioca. Poi controlla le date di nascita, inserisci i numeri di maglia mancanti e imposta il capitano e i liberi. Una data di nascita al 1° gennaio è spesso un segnaposto (01.01.1900 quando la data non è nota) o un errore d'importazione: il roster elenca queste persone sopra i giocatori. Correggi le date che conosci. Il sorteggio non te le chiede."
           }
@@ -565,24 +565,24 @@
             "it": "Posso importare l'Einsatzliste da una foto?"
           },
           "answer": {
-            "en": "Yes. In “Edit roster”, choose “Photo” in “Roster import”. Tap “Take a photo” of the printed list, or “Choose a picture” of it (a screenshot works too; zoom in so the table fills it). Drag the four corners onto the page, then tap “Read the list”. The players and the coaches go straight into the roster, as with a PDF (more than 14 players: tick who plays). The fields the reading was unsure of are marked in the roster: a red one must be fixed, an amber one checked; a mark goes away when you change the field. The banner above the roster counts them, names the rows struck out on the list and has “Undo import”, which puts the roster back as it was. Shirt numbers, the captain (C, K or a circled number) and liberos (L) written on the list are taken for this game; numbers left blank come from the saved team. A PDF of the list is read more reliably than a photo.",
-            "de": "Ja. Wähle in «Kader bearbeiten» unter «Kader-Import» «Foto». Tippe auf «Foto aufnehmen» für ein Foto der ausgedruckten Liste oder auf «Bild wählen» für ein Bild davon (auch ein Screenshot geht; zoome hinein, bis die Tabelle ihn füllt). Zieh die vier Ecken auf die Seite und tippe auf «Liste lesen». Die Spieler und die Coaches kommen direkt in den Kader, wie bei einem PDF (mehr als 14 Spieler: Du kreuzt an, wer spielt). Die Felder, bei denen das Lesen unsicher war, sind im Kader markiert: Ein rotes Feld musst du korrigieren, ein gelbes prüfen; die Markierung verschwindet, sobald du das Feld änderst. Das Banner über dem Kader zählt sie, nennt die auf der Liste durchgestrichenen Zeilen und hat «Import rückgängig», das den Kader wiederherstellt. Trikotnummern, Kapitän (C, K oder eine eingekreiste Nummer) und Liberos (L), die auf der Liste stehen, gelten für dieses Spiel; leere Nummern kommen aus dem gespeicherten Team. Ein PDF der Liste wird zuverlässiger gelesen als ein Foto.",
-            "fr": "Oui. Dans « Modifier l'effectif », choisis « Photo » sous « Import de l'effectif ». Appuie sur « Prendre une photo » pour photographier la liste imprimée, ou sur « Choisir une image » pour une image de la liste (une capture d'écran fonctionne aussi ; zoome jusqu'à ce que le tableau la remplisse). Glisse les quatre coins sur la page, puis appuie sur « Lire la liste ». Les joueurs et les entraîneurs vont directement dans l'effectif, comme avec un PDF (plus de 14 joueurs : coche ceux qui jouent). Les champs dont la lecture n'était pas sûre sont signalés dans l'effectif : un champ rouge doit être corrigé, un champ orange vérifié ; le signal disparaît dès que tu modifies le champ. Le bandeau au-dessus de l'effectif les compte, nomme les lignes barrées sur la liste et propose « Annuler l'import », qui remet l'effectif comme avant. Les numéros de maillot, le capitaine (C, K ou un numéro entouré) et les libéros (L) inscrits sur la liste valent pour ce match ; les numéros laissés vides viennent de l'équipe enregistrée. Le PDF de la liste est lu de façon plus fiable qu'une photo.",
-            "it": "Sì. In «Modifica roster», scegli «Foto» in «Importazione rosa». Tocca «Scatta una foto» per fotografare la lista stampata, o «Scegli un’immagine» per un'immagine della lista (va bene anche uno screenshot; ingrandisci finché la tabella lo riempie). Trascina i quattro angoli sulla pagina, poi tocca «Leggi la lista». I giocatori e gli allenatori vanno direttamente nella rosa, come con un PDF (più di 14 giocatori: spunta chi gioca). I campi letti con incertezza sono segnalati nella rosa: un campo rosso va corretto, uno giallo controllato; il segnale sparisce appena modifichi il campo. Il banner sopra la rosa li conta, nomina le righe barrate sulla lista e offre «Annulla importazione», che rimette la rosa com'era. I numeri di maglia, il capitano (C, K o un numero cerchiato) e i liberi (L) scritti sulla lista valgono per questa partita; i numeri lasciati vuoti vengono dalla squadra salvata. Il PDF della lista viene letto in modo più affidabile di una foto."
+            "en": "Yes. In “Edit roster”, choose “Photo” in “Roster import”. Pick the list's language first (Deutsch, Français, Italiano or Other): the photo buttons wait for it, and the list is read with that language, faster; “Other” reads with all three, a little slower, and a wrong pick still reads the list, with perhaps a field or two more to check. Tap “Take a photo” of the printed list, or “Choose a picture” of it (a screenshot works too; zoom in so the table fills it). Drag the four corners onto the page, then tap “Read the list”. The players and the coaches go straight into the roster, as with a PDF (more than 14 players: tick who plays). The fields the reading was unsure of are marked in the roster: a red one must be fixed, an amber one checked; a mark goes away when you change the field. The banner above the roster counts them, names the rows struck out on the list and has “Undo import”, which puts the roster back as it was. Shirt numbers, the captain (C, K or a circled number) and liberos (L) written on the list are taken for this game; numbers left blank come from the saved team. A PDF of the list is read more reliably than a photo.",
+            "de": "Ja. Wähle in «Kader bearbeiten» unter «Kader-Import» «Foto». Wähle zuerst die Sprache der Liste (Deutsch, Français, Italiano oder Andere): Die Foto-Knöpfe warten darauf, und die Liste wird mit dieser Sprache gelesen, schneller; «Andere» liest mit allen drei, etwas langsamer, und eine falsche Wahl liest die Liste trotzdem, mit vielleicht ein, zwei Feldern mehr zum Prüfen. Tippe auf «Foto aufnehmen» für ein Foto der ausgedruckten Liste oder auf «Bild wählen» für ein Bild davon (auch ein Screenshot geht; zoome hinein, bis die Tabelle ihn füllt). Zieh die vier Ecken auf die Seite und tippe auf «Liste lesen». Die Spieler und die Trainer kommen direkt in den Kader, wie bei einem PDF (mehr als 14 Spieler: Du kreuzt an, wer spielt). Die Felder, bei denen das Lesen unsicher war, sind im Kader markiert: Ein rotes Feld musst du korrigieren, ein gelbes prüfen; die Markierung verschwindet, sobald du das Feld änderst. Das Banner über dem Kader zählt sie, nennt die auf der Liste durchgestrichenen Zeilen und hat «Import rückgängig», das den Kader wiederherstellt. Trikotnummern, Kapitän (C, K oder eine eingekreiste Nummer) und Liberos (L), die auf der Liste stehen, gelten für dieses Spiel; leere Nummern kommen aus dem gespeicherten Team. Ein PDF der Liste wird zuverlässiger gelesen als ein Foto.",
+            "fr": "Oui. Dans « Modifier l'effectif », choisis « Photo » sous « Import de l'effectif ». Choisis d'abord la langue de la liste (Deutsch, Français, Italiano ou Autre) : les boutons photo l'attendent, et la liste est lue dans cette langue, plus vite ; « Autre » lit avec les trois, un peu plus lentement, et un mauvais choix lit quand même la liste, avec peut-être un ou deux champs de plus à vérifier. Appuie sur « Prendre une photo » pour photographier la liste imprimée, ou sur « Choisir une image » pour une image de la liste (une capture d'écran fonctionne aussi ; zoome jusqu'à ce que le tableau la remplisse). Glisse les quatre coins sur la page, puis appuie sur « Lire la liste ». Les joueurs et les coachs vont directement dans l'effectif, comme avec un PDF (plus de 14 joueurs : coche ceux qui jouent). Les champs dont la lecture n'était pas sûre sont signalés dans l'effectif : un champ rouge doit être corrigé, un champ orange vérifié ; le signal disparaît dès que tu modifies le champ. Le bandeau au-dessus de l'effectif les compte, nomme les lignes barrées sur la liste et propose « Annuler l'import », qui remet l'effectif comme avant. Les numéros de maillot, le capitaine (C, K ou un numéro entouré) et les libéros (L) inscrits sur la liste valent pour ce match ; les numéros laissés vides viennent de l'équipe enregistrée. Le PDF de la liste est lu de façon plus fiable qu'une photo.",
+            "it": "Sì. In «Modifica roster», scegli «Foto» in «Importazione rosa». Scegli prima la lingua della lista (Deutsch, Français, Italiano o Altra): i pulsanti della foto la aspettano, e la lista viene letta in quella lingua, più in fretta; «Altra» legge con tutte e tre, un po' più lentamente, e una scelta sbagliata legge comunque la lista, con forse un campo o due in più da controllare. Tocca «Scatta una foto» per fotografare la lista stampata, o «Scegli un’immagine» per un'immagine della lista (va bene anche uno screenshot; ingrandisci finché la tabella lo riempie). Trascina i quattro angoli sulla pagina, poi tocca «Leggi la lista». I giocatori e gli allenatori vanno direttamente nella rosa, come con un PDF (più di 14 giocatori: spunta chi gioca). I campi letti con incertezza sono segnalati nella rosa: un campo rosso va corretto, uno giallo controllato; il segnale sparisce appena modifichi il campo. Il banner sopra la rosa li conta, nomina le righe barrate sulla lista e offre «Annulla importazione», che rimette la rosa com'era. I numeri di maglia, il capitano (C, K o un numero cerchiato) e i liberi (L) scritti sulla lista valgono per questa partita; i numeri lasciati vuoti vengono dalla squadra salvata. Il PDF della lista viene letto in modo più affidabile di una foto."
           }
         },
         {
           "id": "rosterUpload",
           "question": {
             "en": "Can the coach send the roster?",
-            "de": "Kann der Coach den Kader schicken?",
-            "fr": "L'entraîneur peut-il envoyer l'effectif ?",
+            "de": "Kann der Trainer den Kader schicken?",
+            "fr": "Le coach peut-il envoyer l'effectif ?",
             "it": "L'allenatore può inviare il roster?"
           },
           "answer": {
             "en": "Yes. In “Edit roster”, choose “Remote” in “Roster import” and tap “Generate PIN”. Give the coach the game number and this upload PIN. The coach opens roster.openvolley.app, picks the game and the team, enters the PIN and uploads the roster PDF. “Roster uploaded” then appears (“Check server for rosters” checks for it, and the panel checks again on its own while it is open): tap “Preview”, then “Accept” or “Reject”.",
-            "de": "Ja. Wähle in «Kader bearbeiten» unter «Kader-Import» «Remote» und tippe auf «PIN generieren». Gib dem Coach die Spielnummer und diese Upload-PIN. Der Coach öffnet roster.openvolley.app, wählt Spiel und Team, gibt die PIN ein und lädt das Kader-PDF hoch. Danach erscheint «Kader hochgeladen» («Server nach Kader abfragen» prüft es, und solange der Bereich offen ist, fragt es von selbst wieder nach): Tippe auf «Vorschau», dann auf «Akzeptieren» oder «Ablehnen».",
-            "fr": "Oui. Dans « Modifier l'effectif », choisis « Distant » sous « Import de l'effectif » et appuie sur « Générer PIN ». Donne à l'entraîneur le numéro du match et ce code PIN. L'entraîneur ouvre roster.openvolley.app, choisit le match et l'équipe, saisit le PIN et envoie le PDF de l'effectif. L'effectif envoyé apparaît ensuite (« Vérifier le serveur » le vérifie, et tant que le panneau est ouvert, la vérification se refait toute seule) : appuie sur « Aperçu », puis sur « Accepter » ou « Refuser ».",
+            "de": "Ja. Wähle in «Kader bearbeiten» unter «Kader-Import» «Remote» und tippe auf «PIN generieren». Gib dem Trainer die Spielnummer und diese Upload-PIN. Der Trainer öffnet roster.openvolley.app, wählt Spiel und Team, gibt die PIN ein und lädt das Kader-PDF hoch. Danach erscheint «Kader hochgeladen» («Server nach Kader abfragen» prüft es, und solange der Bereich offen ist, fragt es von selbst wieder nach): Tippe auf «Vorschau», dann auf «Akzeptieren» oder «Ablehnen».",
+            "fr": "Oui. Dans « Modifier l'effectif », choisis « Distant » sous « Import de l'effectif » et appuie sur « Générer PIN ». Donne au coach le numéro du match et ce code PIN. Le coach ouvre roster.openvolley.app, choisit le match et l'équipe, saisit le PIN et envoie le PDF de l'effectif. L'effectif envoyé apparaît ensuite (« Vérifier le serveur » le vérifie, et tant que le panneau est ouvert, la vérification se refait toute seule) : appuie sur « Aperçu », puis sur « Accepter » ou « Refuser ».",
             "it": "Sì. In «Modifica roster», scegli «Remoto» in «Importazione rosa» e tocca «Genera PIN». Dai all'allenatore il numero partita e questo PIN per upload. L'allenatore apre roster.openvolley.app, sceglie la partita e la squadra, inserisce il PIN e carica il PDF del roster. Poi compare «Roster caricata» («Cerca rosa sul server» la controlla, e finché il pannello è aperto controlla di nuovo da solo): tocca «Anteprima», poi «Accetta» o «Rifiuta»."
           }
         },
@@ -596,8 +596,8 @@
           },
           "answer": {
             "en": "Its card shows “Roster sent by …”. Tap “Show” to look at it, then “Accept” to load it, and check it with the coach (“Not now” leaves it for later). If the coach and the captain signed ahead, their signatures come with it.",
-            "de": "Seine Karte zeigt «Kader von … geschickt». Tippe auf «Anzeigen», um ihn anzusehen, dann auf «Akzeptieren», um ihn zu laden, und prüfe ihn mit dem Coach («Nicht jetzt» lässt ihn für später). Haben Coach und Captain vorab unterschrieben, kommen ihre Unterschriften mit.",
-            "fr": "Sa carte affiche « Liste envoyée par … ». Appuie sur « Afficher » pour la voir, puis sur « Accepter » pour la charger, et vérifie-la avec l'entraîneur (« Pas maintenant » la garde pour plus tard). Si l'entraîneur et le capitaine ont signé à l'avance, leurs signatures sont incluses.",
+            "de": "Seine Karte zeigt «Kader von … geschickt». Tippe auf «Anzeigen», um ihn anzusehen, dann auf «Akzeptieren», um ihn zu laden, und prüfe ihn mit dem Trainer («Nicht jetzt» lässt ihn für später). Haben Trainer und Kapitän vorab unterschrieben, kommen ihre Unterschriften mit.",
+            "fr": "Sa carte affiche « Liste envoyée par … ». Appuie sur « Afficher » pour la voir, puis sur « Accepter » pour la charger, et vérifie-la avec le coach (« Pas maintenant » la garde pour plus tard). Si le coach et le capitaine ont signé à l'avance, leurs signatures sont incluses.",
             "it": "La sua scheda mostra «Elenco inviato da …». Tocca «Mostra» per guardarlo, poi «Accetta» per caricarlo, e controllalo con l'allenatore («Non ora» lo lascia per dopo). Se l'allenatore e il capitano hanno firmato in anticipo, le loro firme arrivano insieme."
           }
         },
@@ -666,7 +666,7 @@
           },
           "answer": {
             "en": "Tap “C” next to the player in the roster. Each team needs one captain.",
-            "de": "Tippe im Kader neben dem Spieler auf «C». Jedes Team braucht einen Captain.",
+            "de": "Tippe im Kader neben dem Spieler auf «C». Jedes Team braucht einen Kapitän.",
             "fr": "Appuie sur « C » à côté du joueur dans l'effectif. Chaque équipe a besoin d'un capitaine.",
             "it": "Tocca «C» accanto al giocatore nel roster. Ogni squadra ha bisogno di un capitano."
           }
@@ -681,8 +681,8 @@
           },
           "answer": {
             "en": "In “Edit roster”, tap “+ Add bench official”. Enter the coach, the assistant coaches, the physiotherapist and the doctor. A coach is needed, and a team has at most 5 bench officials.",
-            "de": "Tippe in «Kader bearbeiten» auf «+ Offiziellen hinzufügen». Trage Coach, Assistenz-Coaches, Physiotherapeut und Arzt ein. Ein Coach ist nötig, und ein Team hat höchstens 5 Bankoffizielle.",
-            "fr": "Dans « Modifier l'effectif », appuie sur « + Ajouter officiel ». Saisis l'entraîneur, les entraîneurs adjoints, le physiothérapeute et le médecin. Un entraîneur est obligatoire, et une équipe a 5 officiels du banc au plus.",
+            "de": "Tippe in «Kader bearbeiten» auf «+ Offiziellen hinzufügen». Trage Trainer, Trainerassistenten, Physiotherapeut und Arzt ein. Ein Trainer ist nötig, und ein Team hat höchstens 5 Bankoffizielle.",
+            "fr": "Dans « Modifier l'effectif », appuie sur « + Ajouter officiel ». Saisis le coach, les coach-adjoints, le physiothérapeute et le médecin. Un coach est obligatoire, et une équipe a 5 officiels du banc au plus.",
             "it": "In «Modifica roster», tocca «+ Aggiungi ufficiale». Inserisci l'allenatore, gli allenatori in seconda, il fisioterapista e il medico. L'allenatore è obbligatorio, e una squadra ha al massimo 5 ufficiali di panchina."
           }
         },
@@ -690,8 +690,8 @@
           "id": "rosterSignatures",
           "question": {
             "en": "Can the coach and the captain sign in Match setup?",
-            "de": "Können Coach und Captain in der Spieleinrichtung unterschreiben?",
-            "fr": "L'entraîneur et le capitaine peuvent-ils signer dans la configuration du match ?",
+            "de": "Können Trainer und Kapitän in der Spieleinrichtung unterschreiben?",
+            "fr": "Le coach et le capitaine peuvent-ils signer dans la configuration du match ?",
             "it": "L'allenatore e il capitano possono firmare nella configurazione della partita?"
           },
           "answer": {
@@ -717,7 +717,7 @@
         "title": {
           "en": "Coin toss and line-ups",
           "de": "Auslosung und Aufstellung",
-          "fr": "Tirage au sort et compositions",
+          "fr": "Tirage au sort et formations de départ",
           "it": "Sorteggio e formazioni"
         },
         "durationSec": 67.9,
@@ -759,13 +759,13 @@
           "id": "record",
           "question": {
             "en": "How do I record the coin toss?",
-            "de": "Wie zeichne ich den Münzwurf auf?",
+            "de": "Wie zeichne ich die Auslosung auf?",
             "fr": "Comment enregistrer le tirage au sort ?",
             "it": "Come registro il sorteggio?"
           },
           "answer": {
             "en": "Toss the coin with both captains first. Then set the result on this page: “Switch sides” puts each team on its side, “Switch serve” gives the first service to the right team.",
-            "de": "Mache zuerst die Auslosung mit beiden Captains. Trage dann das Ergebnis auf dieser Seite ein: «Seiten wechseln» stellt jedes Team auf seine Seite, «Aufschlag wechseln» gibt den ersten Aufschlag dem richtigen Team.",
+            "de": "Mache zuerst die Auslosung mit beiden Kapitänen. Trage dann das Ergebnis auf dieser Seite ein: «Seiten wechseln» stellt jedes Team auf seine Seite, «Aufschlag wechseln» gibt den ersten Aufschlag dem richtigen Team.",
             "fr": "Fais d'abord le tirage au sort avec les deux capitaines. Saisis ensuite le résultat sur cette page : « Changer de côté » place chaque équipe de son côté, « Changer de service » donne le premier service à la bonne équipe.",
             "it": "Fai prima il sorteggio con i due capitani. Poi inserisci il risultato in questa pagina: «Inverti squadre» mette ogni squadra dal suo lato, «Inverti servizio» dà il primo servizio alla squadra giusta."
           }
@@ -810,8 +810,8 @@
           },
           "answer": {
             "en": "The captain and the coach of each team. Tap “Sign A” or “Sign B”, then “Captain” or “Coach”. They sign on the screen, or on their own phone with “Sign on phone”. They can also sign later, during the warm-up: the scoring screen shows a flashing “Missing signature” for their team, and set 1 starts only once all four have signed. An easy match needs no signatures.",
-            "de": "Der Captain und der Coach jedes Teams. Tippe auf «Unterschrift A» oder «Unterschrift B», dann auf «Captain» oder «Coach». Sie unterschreiben auf dem Bildschirm oder mit «Auf dem Handy unterschreiben» auf dem eigenen Handy. Sie können auch später unterschreiben, während des Einspielens: Der Erfassungsbildschirm zeigt bei ihrem Team ein blinkendes «Unterschrift fehlt», und Satz 1 beginnt erst, wenn alle vier unterschrieben haben. Ein einfaches Spiel braucht keine Unterschriften.",
-            "fr": "Le capitaine et l'entraîneur de chaque équipe. Appuie sur « Signature équipe A » ou « Signature équipe B », puis sur « Capitaine » ou « Entraîneur ». Ils signent sur l'écran, ou sur leur propre téléphone avec « Signer sur le téléphone ». Ils peuvent aussi signer plus tard, pendant l'échauffement : l'écran de saisie affiche pour leur équipe un « Signature manquante » qui clignote, et le set 1 ne commence que lorsque les quatre ont signé. Un match simplifié n'a pas besoin de signatures.",
+            "de": "Der Kapitän und der Trainer jedes Teams. Tippe auf «Unterschrift A» oder «Unterschrift B», dann auf «Kapitän» oder «Trainer». Sie unterschreiben auf dem Bildschirm oder mit «Auf dem Handy unterschreiben» auf dem eigenen Handy. Sie können auch später unterschreiben, während des Einspielens: Der Erfassungsbildschirm zeigt bei ihrem Team ein blinkendes «Unterschrift fehlt», und Satz 1 beginnt erst, wenn alle vier unterschrieben haben. Ein einfaches Spiel braucht keine Unterschriften.",
+            "fr": "Le capitaine et le coach de chaque équipe. Appuie sur « Signature équipe A » ou « Signature équipe B », puis sur « Capitaine » ou « Coach ». Ils signent sur l'écran, ou sur leur propre téléphone avec « Signer sur le téléphone ». Ils peuvent aussi signer plus tard, pendant l'échauffement : l'écran de saisie affiche pour leur équipe un « Signature manquante » qui clignote, et le set 1 ne commence que lorsque les quatre ont signé. Un match simplifié n'a pas besoin de signatures.",
             "it": "L'allenatore e il capitano di ogni squadra. Tocca «Firma A» o «Firma B», poi «Coach» o «Capitano». Firmano sullo schermo, oppure sul proprio telefono con «Firma sul telefono». Possono anche firmare più tardi, durante il riscaldamento: la schermata del punteggio mostra per la loro squadra un «Firma mancante» lampeggiante, e il set 1 inizia solo quando tutti e quattro hanno firmato. Una partita semplice non ha bisogno di firme."
           }
         },
@@ -840,7 +840,7 @@
           },
           "answer": {
             "en": "When the sides and the service are done, tap “Confirm coin toss result”. Signatures still missing can follow on the scoring screen. The app checks the connection and opens the scoring screen.",
-            "de": "Wenn Seiten und Aufschlag stimmen, tippe auf «Seitenwahl bestätigen». Fehlende Unterschriften können auf dem Erfassungsbildschirm folgen. Die App prüft die Verbindung und öffnet den Erfassungsbildschirm.",
+            "de": "Wenn Seiten und Aufschlag stimmen, tippe auf «Auslosung bestätigen». Fehlende Unterschriften können auf dem Erfassungsbildschirm folgen. Die App prüft die Verbindung und öffnet den Erfassungsbildschirm.",
             "fr": "Quand les côtés et le service sont faits, appuie sur « Confirmer le tirage au sort ». Les signatures manquantes peuvent suivre sur l'écran de saisie. L'app vérifie la connexion et ouvre l'écran de saisie.",
             "it": "Quando lati e servizio sono a posto, tocca «Conferma il sorteggio». Le firme mancanti possono seguire nella schermata del punteggio. L'app controlla la connessione e apre la schermata del punteggio."
           }
@@ -870,8 +870,8 @@
           },
           "answer": {
             "en": "On the scoring screen, before the first rally of each set. Tap “Line-up” on each team's side and enter the six players for positions I to VI. Liberos are not in the starting line-up.",
-            "de": "Auf dem Erfassungsbildschirm, vor dem ersten Ballwechsel jedes Satzes. Tippe auf der Seite jedes Teams auf «Aufstellung» und trage die sechs Spieler für die Positionen I bis VI ein. Liberos gehören nicht zur Startaufstellung.",
-            "fr": "Sur l'écran de saisie, avant le premier échange de chaque set. Appuie sur « Position de base » du côté de chaque équipe et saisis les six joueurs des positions I à VI. Les libéros ne font pas partie de la formation de départ.",
+            "de": "Auf dem Erfassungsbildschirm, vor dem ersten Spielzug jedes Satzes. Tippe auf der Seite jedes Teams auf «Aufstellung» und trage die sechs Spieler für die Positionen I bis VI ein. Liberos gehören nicht zur Startaufstellung.",
+            "fr": "Sur l'écran de saisie, avant le premier échange de chaque set. Appuie sur « Formation de départ » du côté de chaque équipe et saisis les six joueurs des positions I à VI. Les libéros ne font pas partie de la formation de départ.",
             "it": "Nella schermata del punteggio, prima del primo scambio di ogni set. Tocca «Formazione» dal lato di ogni squadra e inserisci i sei giocatori delle posizioni da I a VI. I libero non fanno parte della formazione iniziale."
           }
         },
@@ -879,13 +879,13 @@
           "id": "gameCaptain",
           "question": {
             "en": "What if the team captain is not on court?",
-            "de": "Was, wenn der Captain nicht auf dem Feld ist?",
+            "de": "Was, wenn der Mannschaftskapitän nicht auf dem Feld ist?",
             "fr": "Et si le capitaine n'est pas sur le terrain ?",
             "it": "E se il capitano non è in campo?"
           },
           "answer": {
             "en": "When the team captain is not among the six, the line-up dialog shows “Game captain” (optional): choose the player who acts as captain. If you leave “None”, the app asks before the set starts. During the set it asks again only when the game captain leaves the court. This follows “Manage captain on court” in the options (on by default).",
-            "de": "Ist der Teamcaptain nicht unter den sechs, zeigt der Aufstellungsdialog «Spielkapitän» (optional): Wähle den Spieler, der als Captain amtet. Lässt du «Keiner», fragt die App vor Satzbeginn. Während des Satzes fragt sie nur wieder, wenn der Spielkapitän das Feld verlässt. Das folgt «Kapitän auf dem Feld verwalten» in den Optionen (standardmässig an).",
+            "de": "Ist der Mannschaftskapitän nicht unter den sechs, zeigt der Aufstellungsdialog «Spielkapitän» (optional): Wähle den Spieler, der als Kapitän amtet. Lässt du «Keiner», fragt die App vor Satzbeginn. Während des Satzes fragt sie nur wieder, wenn der Spielkapitän das Feld verlässt. Das folgt «Kapitän auf dem Feld verwalten» in den Optionen (standardmässig an).",
             "fr": "Quand le capitaine de l'équipe n'est pas parmi les six, la fenêtre de la formation propose « Capitaine de jeu » (facultatif) : choisis le joueur qui fait office de capitaine. Si tu laisses « Aucun », l'app demande avant le début du set. Pendant le set, elle redemande seulement quand le capitaine de jeu quitte le terrain. Cela suit « Gérer le capitaine de jeu » dans les options (activé par défaut).",
             "it": "Quando il capitano della squadra non è tra i sei, la finestra della formazione mostra «Capitano in gioco» (facoltativo): scegli il giocatore che fa da capitano. Se lasci «Nessuno», l'app chiede prima dell'inizio del set. Durante il set chiede di nuovo solo quando il capitano in gioco lascia il campo. Questo segue «Gestisci capitano in campo» nelle opzioni (attivo di base)."
           }
@@ -900,7 +900,7 @@
           },
           "answer": {
             "en": "Before “Confirm coin toss result”, just switch again. After it, the page is locked: change Team A or the first serve in Match › “Corrections”. Before the first rally of set 1, a new Team A there redoes the coin toss (Team A on the left).",
-            "de": "Vor «Seitenwahl bestätigen» wechselst du einfach nochmals. Danach ist die Seite gesperrt: Ändere Team A oder den ersten Aufschlag unter Spiel › «Korrekturen». Vor dem ersten Ballwechsel von Satz 1 wiederholt ein neues Team A dort die Auslosung (Team A links).",
+            "de": "Vor «Auslosung bestätigen» wechselst du einfach nochmals. Danach ist die Seite gesperrt: Ändere Team A oder den ersten Aufschlag unter Spiel › «Korrekturen». Vor dem ersten Spielzug von Satz 1 wiederholt ein neues Team A dort die Auslosung (Team A links).",
             "fr": "Avant « Confirmer le tirage au sort », change simplement à nouveau. Après, la page est verrouillée : change l'équipe A ou le premier service dans Match › « Corrections ». Avant le premier échange du set 1, une nouvelle équipe A y refait le tirage au sort (l'équipe A à gauche).",
             "it": "Prima di «Conferma il sorteggio», basta invertire di nuovo. Dopo, la pagina è bloccata: cambia la squadra A o il primo servizio in Partita › «Correzioni». Prima del primo scambio del set 1, una nuova squadra A lì rifà il sorteggio (squadra A a sinistra)."
           }
@@ -910,13 +910,13 @@
           "question": {
             "en": "Why is one team's court grey with “Line-up set”?",
             "de": "Warum ist das Feld eines Teams grau mit «Aufstellung gesetzt»?",
-            "fr": "Pourquoi le terrain d'une équipe est-il gris avec « Composition de l'équipe » ?",
+            "fr": "Pourquoi le terrain d'une équipe est-il gris avec « Formation de départ saisie » ?",
             "it": "Perché il campo di una squadra è grigio con «Formazione stabilita»?"
           },
           "answer": {
             "en": "Until both line-ups of the set are entered, the first one stays covered, so the other team cannot see it: its court shows “Line-up set”, and its bench, serve number and last action are hidden. “Show line-up” shows it to you, “Change line-up” edits it. Everything shows once the second line-up is in.",
             "de": "Bis beide Aufstellungen des Satzes eingegeben sind, bleibt die erste verdeckt, damit das andere Team sie nicht sieht: Das Feld dieses Teams zeigt «Aufstellung gesetzt», und seine Bank, die Aufschlagnummer und die letzte Aktion sind verborgen. «Aufstellung anzeigen» zeigt sie dir, «Aufstellung ändern» bearbeitet sie. Alles erscheint, sobald die zweite Aufstellung da ist.",
-            "fr": "Tant que les deux formations du set ne sont pas saisies, la première reste masquée pour que l'autre équipe ne la voie pas : son terrain affiche « Composition de l'équipe », et son banc, son numéro de service et sa dernière action sont cachés. « Afficher la composition » te la montre, « Modifier l'alignement » la modifie. Tout s'affiche dès que la deuxième formation est saisie.",
+            "fr": "Tant que les deux formations du set ne sont pas saisies, la première reste masquée pour que l'autre équipe ne la voie pas : son terrain affiche « Formation de départ saisie », et son banc, son numéro de service et sa dernière action sont cachés. « Afficher la formation » te la montre, « Modifier la formation » la modifie. Tout s'affiche dès que la deuxième formation est saisie.",
             "it": "Finché non sono inserite entrambe le formazioni del set, la prima resta coperta, così l'altra squadra non la vede: il suo campo mostra «Formazione stabilita», e la sua panchina, il numero al servizio e l'ultima azione sono nascosti. «Mostra formazione» te la mostra, «Cambio di formazione» la modifica. Tutto compare quando è inserita la seconda formazione."
           }
         },
@@ -930,8 +930,8 @@
           },
           "answer": {
             "en": "The coach or the captain of that team has not signed the roster yet. Tap it: the team's roster opens, they check it and sign, on the screen or on their own phone. “Start set” in set 1 waits until the coach and the captain of both teams have signed.",
-            "de": "Coach oder Captain dieses Teams haben den Kader noch nicht unterschrieben. Tippe darauf: Der Kader des Teams öffnet sich, sie prüfen ihn und unterschreiben, auf dem Bildschirm oder auf dem eigenen Handy. «Satz starten» im 1. Satz wartet, bis Coach und Captain beider Teams unterschrieben haben.",
-            "fr": "L'entraîneur ou le capitaine de cette équipe n'a pas encore signé l'effectif. Appuie dessus : l'effectif de l'équipe s'ouvre, ils le vérifient et signent, sur l'écran ou sur leur propre téléphone. « Démarrer le set » au set 1 attend que l'entraîneur et le capitaine des deux équipes aient signé.",
+            "de": "Trainer oder Kapitän dieses Teams haben den Kader noch nicht unterschrieben. Tippe darauf: Der Kader des Teams öffnet sich, sie prüfen ihn und unterschreiben, auf dem Bildschirm oder auf dem eigenen Handy. «Satz starten» im 1. Satz wartet, bis Trainer und Kapitän beider Teams unterschrieben haben.",
+            "fr": "Le coach ou le capitaine de cette équipe n'a pas encore signé l'effectif. Appuie dessus : l'effectif de l'équipe s'ouvre, ils le vérifient et signent, sur l'écran ou sur leur propre téléphone. « Démarrer le set » au set 1 attend que le coach et le capitaine des deux équipes aient signé.",
             "it": "L'allenatore o il capitano di quella squadra non ha ancora firmato la rosa. Toccalo: si apre la rosa della squadra, la controllano e firmano, sullo schermo o sul proprio telefono. «Inizia set» nel set 1 aspetta finché l'allenatore e il capitano di entrambe le squadre hanno firmato."
           }
         }
@@ -999,8 +999,8 @@
           },
           "answer": {
             "en": "Before the first rally of the set, tap “Line-up” on each team's side. Type the number for each position I to VI, or tap or drag a player from “Available players”, then tap “Confirm”. Both teams need all six positions. The first line-up stays covered (“Line-up set”) until the other team's line-up is in.",
-            "de": "Tippe vor dem ersten Ballwechsel des Satzes auf der Seite jedes Teams auf «Aufstellung». Tippe die Nummer für jede Position I bis VI ein, oder tippe oder ziehe einen Spieler aus «Verfügbare Spieler», dann auf «Bestätigen». Beide Teams brauchen alle sechs Positionen. Die erste Aufstellung bleibt verdeckt («Aufstellung gesetzt»), bis die Aufstellung des anderen Teams da ist.",
-            "fr": "Avant le premier échange du set, appuie sur « Position de base » du côté de chaque équipe. Saisis le numéro de chaque position I à VI, ou appuie sur un joueur de « Joueurs disponibles » ou fais-le glisser, puis appuie sur « Confirmer ». Les deux équipes ont besoin des six positions. La première formation reste masquée (« Composition de l'équipe ») jusqu'à ce que la formation de l'autre équipe soit saisie.",
+            "de": "Tippe vor dem ersten Spielzug des Satzes auf der Seite jedes Teams auf «Aufstellung». Tippe die Nummer für jede Position I bis VI ein, oder tippe oder ziehe einen Spieler aus «Verfügbare Spieler», dann auf «Bestätigen». Beide Teams brauchen alle sechs Positionen. Die erste Aufstellung bleibt verdeckt («Aufstellung gesetzt»), bis die Aufstellung des anderen Teams da ist.",
+            "fr": "Avant le premier échange du set, appuie sur « Formation de départ » du côté de chaque équipe. Saisis le numéro de chaque position I à VI, ou appuie sur un joueur de « Joueurs disponibles » ou fais-le glisser, puis appuie sur « Confirmer ». Les deux équipes ont besoin des six positions. La première formation reste masquée (« Formation de départ saisie ») jusqu'à ce que la formation de l'autre équipe soit saisie.",
             "it": "Prima del primo scambio del set, tocca «Formazione» dal lato di ogni squadra. Scrivi il numero per ogni posizione da I a VI, oppure tocca o trascina un giocatore da «Giocatori disponibili», poi tocca «Confermare». Le due squadre hanno bisogno di tutte e sei le posizioni. La prima formazione resta coperta («Formazione stabilita») finché non è inserita quella dell'altra squadra."
           }
         },
@@ -1008,13 +1008,13 @@
           "id": "startRally",
           "question": {
             "en": "How do I start the first rally?",
-            "de": "Wie starte ich den ersten Ballwechsel?",
+            "de": "Wie starte ich den ersten Spielzug?",
             "fr": "Comment démarrer le premier échange ?",
             "it": "Come avvio il primo scambio?"
           },
           "answer": {
             "en": "Enter both line-ups first. Tap “Start set” for the first rally of a set, then “Start rally” at each service whistle. In continuous play (in the options, “Point entry”) there is no “Start rally”: after “Start set”, Point A and Point B stay on screen.",
-            "de": "Trage zuerst beide Aufstellungen ein. Tippe beim ersten Ballwechsel eines Satzes auf «Satz starten», danach bei jedem Aufschlagpfiff auf «Ballwechsel starten». Bei fortlaufendem Spiel (in den Optionen, «Punkteingabe») gibt es kein «Ballwechsel starten»: Nach «Satz starten» bleiben Punkt A und Punkt B auf dem Bildschirm.",
+            "de": "Trage zuerst beide Aufstellungen ein. Tippe beim ersten Spielzug eines Satzes auf «Satz starten», danach bei jedem Aufschlagpfiff auf «Spielzug starten». Bei fortlaufendem Spiel (in den Optionen, «Punkteingabe») gibt es kein «Spielzug starten»: Nach «Satz starten» bleiben Punkt A und Punkt B auf dem Bildschirm.",
             "fr": "Saisis d'abord les deux formations. Appuie sur « Démarrer le set » pour le premier échange d'un set, puis sur « Lancer l'échange » à chaque coup de sifflet du service. En jeu continu (dans les options, « Saisie des points »), il n'y a pas de « Lancer l'échange » : après « Démarrer le set », Point A et Point B restent à l'écran.",
             "it": "Inserisci prima le due formazioni. Tocca «Inizia set» per il primo scambio di un set, poi «Inizia scambio» a ogni fischio del servizio. Nel gioco continuo (nelle opzioni, «Inserimento dei punti») non c'è «Inizia scambio»: dopo «Inizia set», Punto A e Punto B restano sullo schermo."
           }
@@ -1029,7 +1029,7 @@
           },
           "answer": {
             "en": "When the rally ends, tap the point button of the team that won it. The app adds the point, moves the service and rotates the team that wins the service back. In continuous play, hold the button for 2 seconds (it fills up and reads “Hold”): a short tap gives no point.",
-            "de": "Wenn der Ballwechsel vorbei ist, tippe auf die Punkt-Schaltfläche des Teams, das ihn gewonnen hat. Die App zählt den Punkt, gibt den Aufschlag weiter und lässt das Team rotieren, das den Aufschlag zurückgewinnt. Bei fortlaufendem Spiel hältst du die Schaltfläche 2 Sekunden gedrückt (sie füllt sich, darauf steht «Halten»): Ein kurzes Antippen gibt keinen Punkt.",
+            "de": "Wenn der Spielzug vorbei ist, tippe auf die Punkt-Schaltfläche des Teams, das ihn gewonnen hat. Die App zählt den Punkt, gibt den Aufschlag weiter und lässt das Team rotieren, das den Aufschlag zurückgewinnt. Bei fortlaufendem Spiel hältst du die Schaltfläche 2 Sekunden gedrückt (sie füllt sich, darauf steht «Halten»): Ein kurzes Antippen gibt keinen Punkt.",
             "fr": "À la fin de l'échange, appuie sur le bouton de point de l'équipe qui l'a gagné. L'app ajoute le point, passe le service et fait tourner l'équipe qui reprend le service. En jeu continu, maintiens le bouton 2 secondes (il se remplit et affiche « Maintenir ») : un appui bref ne donne pas de point.",
             "it": "Quando lo scambio finisce, tocca il pulsante del punto della squadra che l'ha vinto. L'app aggiunge il punto, passa il servizio e fa ruotare la squadra che riconquista il servizio. Nel gioco continuo, tieni premuto il pulsante per 2 secondi (si riempie e c'è scritto «Tieni premuto»): un tocco breve non dà il punto."
           }
@@ -1044,7 +1044,7 @@
           },
           "answer": {
             "en": "On “Start rally” and the point buttons, a second tap at the same place within 450 ms of the one before is taken as a double tap and ignored (“Not counted” shows): a double tap or a bouncing finger gives no second point and starts no new rally. A tap aimed at the other button counts as soon as you can see it. The keyboard keys act at once. The options also have “Check accidental rally start” and “Check accidental point award”. In continuous play a point needs a hold, so a double tap gives none.",
-            "de": "Auf «Ballwechsel starten» und den Punkt-Schaltflächen gilt ein zweites Antippen an derselben Stelle innerhalb von 450 ms als Doppeltipp und wird ignoriert («Nicht gezählt» erscheint): Ein Doppeltipp oder ein prellender Finger gibt keinen zweiten Punkt und startet keinen neuen Ballwechsel. Ein Tipp auf die andere Schaltfläche zählt, sobald sie zu sehen ist. Die Tasten der Tastatur wirken sofort. Die Optionen haben dazu «Versehentlichen Ballwechsel-Start prüfen» und «Versehentliche Punktvergabe prüfen». Bei fortlaufendem Spiel braucht ein Punkt Gedrückthalten: Ein Doppeltipp gibt keinen.",
+            "de": "Auf «Spielzug starten» und den Punkt-Schaltflächen gilt ein zweites Antippen an derselben Stelle innerhalb von 450 ms als Doppeltipp und wird ignoriert («Nicht gezählt» erscheint): Ein Doppeltipp oder ein prellender Finger gibt keinen zweiten Punkt und startet keinen neuen Spielzug. Ein Tipp auf die andere Schaltfläche zählt, sobald sie zu sehen ist. Die Tasten der Tastatur wirken sofort. Die Optionen haben dazu «Versehentlichen Spielzug-Start prüfen» und «Versehentliche Punktvergabe prüfen». Bei fortlaufendem Spiel braucht ein Punkt Gedrückthalten: Ein Doppeltipp gibt keinen.",
             "fr": "Sur « Lancer l'échange » et les boutons de point, un deuxième appui au même endroit moins de 450 ms après le précédent est pris pour un double appui et ignoré (« Non compté » s'affiche) : un double appui ou un doigt qui rebondit ne donne pas de deuxième point et ne lance pas de nouvel échange. Un appui visant l'autre bouton compte dès que celui-ci est visible. Les touches du clavier agissent tout de suite. Les options proposent aussi « Vérifier démarrage accidentel » et « Vérifier point accidentel ». En jeu continu, un point demande un appui maintenu : un double appui n'en donne aucun.",
             "it": "Su «Inizia scambio» e sui pulsanti del punto, un secondo tocco nello stesso punto entro 450 ms dal precedente è preso per un doppio tocco e ignorato (compare «Non contato»): un doppio tocco o un dito che rimbalza non dà un secondo punto e non fa partire un nuovo scambio. Un tocco rivolto all'altro pulsante conta appena è visibile. I tasti della tastiera agiscono subito. Le opzioni hanno anche «Controllo avvio accidentale» e «Controllo punto accidentale». Nel gioco continuo un punto richiede di tenere premuto: un doppio tocco non ne dà nessuno."
           }
@@ -1059,7 +1059,7 @@
           },
           "answer": {
             "en": "The “SERVE” box in the top corner of the serving team's side shows the number of the server; the ball is next to that player on court. The court shows each team's positions I to VI. The app rotates a team when it wins the service back. A wrong rotation is fixed in Match › Corrections with “Fix the line-up”.",
-            "de": "Das Kästchen «AUFSCHLAG» in der oberen Ecke auf der Seite des aufschlagenden Teams zeigt die Nummer des Aufschlägers; der Ball liegt neben diesem Spieler auf dem Feld. Das Feld zeigt die Positionen I bis VI jedes Teams. Die App lässt ein Team rotieren, wenn es den Aufschlag zurückgewinnt. Eine falsche Rotation korrigierst du unter Spiel › Korrekturen mit «Aufstellung korrigieren».",
+            "de": "Das Kästchen «AUFSCHLAG» in der oberen Ecke auf der Seite des aufschlagenden Teams zeigt die Nummer des Aufschlagspielers; der Ball liegt neben diesem Spieler auf dem Feld. Das Feld zeigt die Positionen I bis VI jedes Teams. Die App lässt ein Team rotieren, wenn es den Aufschlag zurückgewinnt. Eine falsche Rotation korrigierst du unter Spiel › Korrekturen mit «Aufstellung korrigieren».",
             "fr": "La case « SERVICE » dans le coin supérieur du côté de l'équipe au service indique le numéro du serveur ; le ballon est à côté de ce joueur sur le terrain. Le terrain montre les positions I à VI de chaque équipe. L'app fait tourner une équipe quand elle reprend le service. Une rotation fausse se corrige dans Match › Corrections avec « Corriger la formation ».",
             "it": "La casella «SERVIZIO» nell'angolo in alto dal lato della squadra al servizio mostra il numero di chi serve; il pallone è accanto a quel giocatore in campo. Il campo mostra le posizioni da I a VI di ogni squadra. L'app fa ruotare una squadra quando riconquista il servizio. Una rotazione sbagliata si corregge in Partita › Correzioni con «Correggi la formazione»."
           }
@@ -1074,8 +1074,8 @@
           },
           "answer": {
             "en": "Tap “Undo” and confirm. It takes back the last action of the current set: a point, a time-out, a substitution or a sanction. During a rally it takes back the rally start together with the last point. Tap it again to go further back.",
-            "de": "Tippe auf «Rückgängig» und bestätige. Das nimmt die letzte Aktion des laufenden Satzes zurück: einen Punkt, ein Timeout, einen Wechsel oder eine Sanktion. Während eines Ballwechsels nimmt es den Start des Ballwechsels zusammen mit dem letzten Punkt zurück. Tippe nochmals, um weiter zurückzugehen.",
-            "fr": "Appuie sur « Annuler » et confirme. Cela annule la dernière action du set en cours : un point, un temps mort, un remplacement ou une sanction. Pendant un échange, cela annule le début de l'échange avec le dernier point. Appuie encore pour remonter plus loin.",
+            "de": "Tippe auf «Rückgängig» und bestätige. Das nimmt die letzte Aktion des laufenden Satzes zurück: einen Punkt, eine Auszeit, eine Auswechslung oder eine Sanktion. Während eines Spielzugs nimmt es den Start des Spielzugs zusammen mit dem letzten Punkt zurück. Tippe nochmals, um weiter zurückzugehen.",
+            "fr": "Appuie sur « Annuler » et confirme. Cela annule la dernière action du set en cours : un point, un temps-mort, un remplacement ou une sanction. Pendant un échange, cela annule le début de l'échange avec le dernier point. Appuie encore pour remonter plus loin.",
             "it": "Tocca «Annulla» e conferma. Annulla l'ultima azione del set in corso: un punto, un timeout, una sostituzione o una sanzione. Durante uno scambio annulla l'inizio dello scambio insieme all'ultimo punto. Tocca di nuovo per tornare più indietro."
           }
         },
@@ -1089,8 +1089,8 @@
           },
           "answer": {
             "en": "After a point, tap “Decision change”: “Assign to other team” or “Replay the rally”; the dialog shows the new score and who serves. Time-outs, substitutions or a libero replacement recorded after that point are listed under “Taken back first” and undone with it. During a rally, “Replay rally” replays it. To take the game back further in this set, use Match › “Go back”; older mistakes are fixed in Match › Corrections. In continuous play the button is “Decision change / Replay”, with “Assign to other team”, “Replay” and a third option, “Rally replayed”: it records only the replay, and the last point stays. Nothing is chosen until you tap an option. After a replay, “Decision change” offers “Point A” or “Point B”: the referee gives the rally after all, and the point takes the replay’s place (“Undo” brings the replay back).",
-            "de": "Tippe nach einem Punkt auf «Entscheidungsänderung»: «Dem anderen Team geben» oder «Ballwechsel wiederholen»; der Dialog zeigt den neuen Spielstand und wer aufschlägt. Timeouts, Wechsel oder ein Libero-Wechsel, die nach diesem Punkt erfasst wurden, stehen unter «Wird zuerst zurückgenommen» und werden mit ihm rückgängig gemacht. Während eines Ballwechsels wiederholt «Ballwechsel wiederholen» ihn. Um das Spiel in diesem Satz weiter zurückzunehmen, nutze Spiel › «Zurück»; ältere Fehler korrigierst du unter Spiel › Korrekturen. Bei fortlaufendem Spiel heisst die Schaltfläche «Entscheidungsänderung / Wiederholung», mit «Dem anderen Team geben», «Wiederholen» und einer dritten Wahl, «Ballwechsel wiederholt»: Sie hält nur die Wiederholung fest, der letzte Punkt bleibt. Gewählt ist nichts, bis du eine Wahl antippst. Nach einer Wiederholung bietet «Entscheidungsänderung» «Punkt A» oder «Punkt B»: Der Schiedsrichter gibt den Ballwechsel doch, und der Punkt tritt an die Stelle der Wiederholung («Rückgängig» bringt die Wiederholung zurück).",
-            "fr": "Après un point, appuie sur « Changement de décision » : « Donner à l'autre équipe » ou « Rejouer l'échange » ; la fenêtre montre le nouveau score et qui sert. Les temps morts, les remplacements ou un remplacement de libéro enregistrés après ce point sont listés sous « Annulé d’abord » et annulés avec lui. Pendant un échange, « Rejouer l'échange » le fait rejouer. Pour revenir plus loin en arrière dans ce set, utilise Match › « Revenir en arrière » ; les erreurs plus anciennes se corrigent dans Match › Corrections. En jeu continu, le bouton s'appelle « Changement de décision / Rejouer », avec « Donner à l'autre équipe », « Rejouer » et un troisième choix, « Échange rejoué » : il n'enregistre que l'échange rejoué, et le dernier point reste. Rien n'est choisi tant que tu n'appuies pas sur un choix. Après un échange rejoué, « Changement de décision » propose « Point A » ou « Point B » : l'arbitre accorde finalement l'échange, et le point prend la place de l'échange rejoué (« Annuler » le remet).",
+            "de": "Tippe nach einem Punkt auf «Entscheidungsänderung»: «Dem anderen Team geben» oder «Spielzug wiederholen»; der Dialog zeigt den neuen Spielstand und wer aufschlägt. Auszeiten, Auswechslungen oder ein Libero-Austausch, die nach diesem Punkt erfasst wurden, stehen unter «Wird zuerst zurückgenommen» und werden mit ihm rückgängig gemacht. Während eines Spielzugs wiederholt «Spielzug wiederholen» ihn. Um das Spiel in diesem Satz weiter zurückzunehmen, nutze Spiel › «Zurück»; ältere Fehler korrigierst du unter Spiel › Korrekturen. Bei fortlaufendem Spiel heisst die Schaltfläche «Entscheidungsänderung / Wiederholung», mit «Dem anderen Team geben», «Wiederholen» und einer dritten Wahl, «Spielzug wiederholt»: Sie hält nur die Wiederholung fest, der letzte Punkt bleibt. Gewählt ist nichts, bis du eine Wahl antippst. Nach einer Wiederholung bietet «Entscheidungsänderung» «Punkt A» oder «Punkt B»: Der Schiedsrichter gibt den Spielzug doch, und der Punkt tritt an die Stelle der Wiederholung («Rückgängig» bringt die Wiederholung zurück).",
+            "fr": "Après un point, appuie sur « Changement de décision » : « Donner à l'autre équipe » ou « Rejouer l'échange » ; la fenêtre montre le nouveau score et qui sert. Les temps-morts, les remplacements ou un changement de libéro enregistrés après ce point sont listés sous « Annulé d’abord » et annulés avec lui. Pendant un échange, « Rejouer l'échange » le fait rejouer. Pour revenir plus loin en arrière dans ce set, utilise Match › « Revenir en arrière » ; les erreurs plus anciennes se corrigent dans Match › Corrections. En jeu continu, le bouton s'appelle « Changement de décision / Rejouer », avec « Donner à l'autre équipe », « Rejouer » et un troisième choix, « Échange rejoué » : il n'enregistre que l'échange rejoué, et le dernier point reste. Rien n'est choisi tant que tu n'appuies pas sur un choix. Après un échange rejoué, « Changement de décision » propose « Point A » ou « Point B » : l'arbitre accorde finalement l'échange, et le point prend la place de l'échange rejoué (« Annuler » le remet).",
             "it": "Dopo un punto, tocca «Cambio decisione»: «Assegna all'altra squadra» o «Ripeti lo scambio»; la finestra mostra il nuovo punteggio e chi serve. Timeout, sostituzioni o un cambio del libero registrati dopo quel punto sono elencati in «Annullato prima» e vengono annullati insieme. Durante uno scambio, «Ripeti scambio» lo fa ripetere. Per riportare la partita più indietro in questo set, usa Partita › «Tornare indietro»; gli errori più vecchi si correggono in Partita › Correzioni. Nel gioco continuo il pulsante si chiama «Cambio decisione / Ripeti», con «Assegna all'altra squadra», «Ripeti» e una terza scelta, «Scambio ripetuto»: registra solo la ripetizione, e l'ultimo punto resta. Nulla è scelto finché non tocchi una scelta. Dopo una ripetizione, «Cambio decisione» offre «Punto A» o «Punto B»: l'arbitro assegna comunque lo scambio, e il punto prende il posto della ripetizione («Annulla» riporta la ripetizione)."
           }
         },
@@ -1098,13 +1098,13 @@
           "id": "replay",
           "question": {
             "en": "How do I record a replayed rally?",
-            "de": "Wie erfasse ich einen wiederholten Ballwechsel?",
+            "de": "Wie erfasse ich einen wiederholten Spielzug?",
             "fr": "Comment enregistrer un échange rejoué ?",
             "it": "Come registro uno scambio ripetuto?"
           },
           "answer": {
             "en": "During a rally, “Replay rally” (on a phone “Replay”) replays it without a point. After a point, “Decision change” › “Replay the rally” takes it back; the dialog shows the score before and after each choice.",
-            "de": "Während eines Ballwechsels wiederholt „Ballwechsel wiederholen“ (auf dem Handy „Wiederholen“) ihn ohne Punkt. Nach einem Punkt nimmt „Entscheidungsänderung“ › „Ballwechsel wiederholen“ ihn zurück; das Fenster zeigt den Spielstand vor und nach jeder Wahl.",
+            "de": "Während eines Spielzugs wiederholt „Spielzug wiederholen“ (auf dem Handy „Wiederholen“) ihn ohne Punkt. Nach einem Punkt nimmt „Entscheidungsänderung“ › „Spielzug wiederholen“ ihn zurück; das Fenster zeigt den Spielstand vor und nach jeder Wahl.",
             "fr": "Pendant un échange, « Rejouer l'échange » (sur un téléphone « Rejouer ») le rejoue sans point. Après un point, « Changement de décision » › « Rejouer l'échange » le reprend ; la fenêtre montre le score avant et après chaque choix.",
             "it": "Durante uno scambio, «Ripeti scambio» (sul telefono «Ripeti») lo ripete senza punto. Dopo un punto, «Cambio decisione» › «Ripeti lo scambio» lo annulla; la finestra mostra il punteggio prima e dopo ogni scelta."
           }
@@ -1119,8 +1119,8 @@
           },
           "answer": {
             "en": "The points of the set, the sets won and the serving team. Each team's side shows its time-outs and substitutions in this set (“Time-out”, “Substitution”): tap them to record one. Match › Show sanctions and results lists every set. For more room, “Hide header” (the arrow under the header) and “Hide toolbar” fold them away; the arrow brings them back.",
-            "de": "Die Punkte des Satzes, die gewonnenen Sätze und das servierende Team. Die Seite jedes Teams zeigt seine Timeouts und Wechsel in diesem Satz („Timeout“, „Wechsel“): Tippe darauf, um einen zu erfassen. Spiel › Sanktionen und Ergebnisse anzeigen listet jeden Satz. Für mehr Platz klappen „Kopfzeile ausblenden“ (der Pfeil unter der Kopfzeile) und „Werkzeugleiste ausblenden“ sie weg; der Pfeil holt sie zurück.",
-            "fr": "Les points du set, les sets gagnés et l'équipe au service. Le côté de chaque équipe montre ses temps morts et remplacements dans ce set (« Temps mort », « Remplacement ») : touche-les pour en enregistrer un. Match › Afficher sanctions et résultats liste chaque set. Pour plus de place, « Masquer l'en-tête » (la flèche sous l'en-tête) et « Masquer la barre d'outils » les replient ; la flèche les ramène.",
+            "de": "Die Punkte des Satzes, die gewonnenen Sätze und das servierende Team. Die Seite jedes Teams zeigt seine Auszeiten und Auswechslungen in diesem Satz („Auszeit“, „Auswechslung“): Tippe darauf, um einen zu erfassen. Spiel › Sanktionen und Ergebnisse anzeigen listet jeden Satz. Für mehr Platz klappen „Kopfzeile ausblenden“ (der Pfeil unter der Kopfzeile) und „Werkzeugleiste ausblenden“ sie weg; der Pfeil holt sie zurück.",
+            "fr": "Les points du set, les sets gagnés et l'équipe au service. Le côté de chaque équipe montre ses temps-morts et remplacements dans ce set (« Temps-mort », « Remplacement ») : touche-les pour en enregistrer un. Match › Afficher sanctions et résultats liste chaque set. Pour plus de place, « Masquer l'en-tête » (la flèche sous l'en-tête) et « Masquer la barre d'outils » les replient ; la flèche les ramène.",
             "it": "I punti del set, i set vinti e la squadra al servizio. Il lato di ogni squadra mostra i suoi timeout e le sostituzioni in questo set («Timeout», «Sostituzione»): toccali per registrarne uno. Partita › Mostra sanzioni e risultati elenca ogni set. Per più spazio, «Nascondi intestazione» (la freccia sotto l'intestazione) e «Nascondi barra degli strumenti» le ripiegano; la freccia le fa tornare."
           }
         },
@@ -1134,7 +1134,7 @@
           },
           "answer": {
             "en": "“Match” on the scoring screen (on a phone ☰): “Show rosters”, “Show sanctions and results”, “History” (every rally and action), “Set preview” (the set as it prints), “Open remarks recording”, “Show match setup”, “Corrections”, “Go back”, “Options”, “Pair a phone (keyboard)” (type on your phone into this device's text fields), “Show on a scoreboard” (a TV, tablet or LED board follows the score with a code) and “Stop the match” (default, incomplete team or impossibility, with remarks).",
-            "de": "„Spiel“ im Schreibbildschirm (auf dem Handy ☰): „Kader anzeigen“, „Sanktionen und Ergebnisse anzeigen“, „Verlauf“ (jeder Ballwechsel und jede Aktion), „Satzvorschau“ (der Satz, wie er gedruckt wird), „Bemerkungen erfassen“, „Spieleinrichtung anzeigen“, „Korrekturen“, „Zurück“, „Optionen“, „Handy koppeln (Tastatur)“ (auf dem Handy in die Textfelder dieses Geräts tippen), „Auf einer Anzeigetafel zeigen“ (ein TV, Tablet oder LED-Board folgt dem Spielstand mit einem Code) und „Spiel abbrechen“ (Forfait, unvollständiges Team oder Unmöglichkeit, mit Bemerkungen).",
+            "de": "„Spiel“ im Schreibbildschirm (auf dem Handy ☰): „Kader anzeigen“, „Sanktionen und Ergebnisse anzeigen“, „Verlauf“ (jeder Spielzug und jede Aktion), „Satzvorschau“ (der Satz, wie er gedruckt wird), „Bemerkungen erfassen“, „Spieleinrichtung anzeigen“, „Korrekturen“, „Zurück“, „Optionen“, „Handy koppeln (Tastatur)“ (auf dem Handy in die Textfelder dieses Geräts tippen), „Auf einer Anzeigetafel zeigen“ (ein TV, Tablet oder LED-Board folgt dem Spielstand mit einem Code) und „Spiel abbrechen“ (Forfait, unvollständiges Team oder Unmöglichkeit, mit Bemerkungen).",
             "fr": "« Match » dans l'écran de marque (sur un téléphone ☰) : « Afficher les effectifs », « Afficher sanctions et résultats », « Historique » (chaque échange et action), « Aperçu du set » (le set tel qu'il s'imprime), « Ouvrir la saisie des remarques », « Configuration du match », « Corrections », « Revenir en arrière », « Options », « Coupler un téléphone (clavier) » (taper sur ton téléphone dans les champs de cet appareil), « Afficher sur un tableau » (une TV, une tablette ou un tableau LED suit le score avec un code) et « Arrêter le match » (forfait, équipe incomplète ou impossibilité, avec remarques).",
             "it": "«Partita» nella schermata di segnatura (sul telefono ☰): «Mostra rose», «Mostra sanzioni e risultati», «Cronologia» (ogni scambio e azione), «Anteprima del set» (il set come si stampa), «Apri la registrazione delle osservazioni», «Mostra impostazione partita», «Correzioni», «Tornare indietro», «Opzioni», «Collega un telefono (tastiera)» (scrivere sul telefono nei campi di questo dispositivo), «Mostra su un tabellone» (una TV, un tablet o un tabellone LED segue il punteggio con un codice) e «Interrompi partita» (forfait, squadra incompleta o impossibilità, con osservazioni)."
           }
@@ -1161,16 +1161,16 @@
       "url": "https://openvolley.app/support#subs-timeouts",
       "title": {
         "en": "Substitutions, time-outs and liberos",
-        "de": "Wechsel, Timeouts und Libero",
-        "fr": "Remplacements, temps morts et libéros",
+        "de": "Auswechslungen, Auszeiten und Libero",
+        "fr": "Remplacements, temps-morts et libéros",
         "it": "Sostituzioni, timeout e libero"
       },
       "video": {
         "id": "subs-timeouts",
         "title": {
           "en": "Substitutions, time-outs and liberos",
-          "de": "Wechsel, Auszeiten und Libero",
-          "fr": "Remplacements, temps morts et libéros",
+          "de": "Auswechslungen, Auszeiten und Libero",
+          "fr": "Remplacements, temps-morts et libéros",
           "it": "Sostituzioni, timeout e libero"
         },
         "durationSec": 38,
@@ -1203,13 +1203,13 @@
           "question": {
             "en": "How do I call a timeout?",
             "de": "Wie rufe ich eine Auszeit?",
-            "fr": "Comment demander un temps mort ?",
+            "fr": "Comment demander un temps-mort ?",
             "it": "Come chiamo un timeout?"
           },
           "answer": {
             "en": "Between rallies, tap the team's “TO” box. Check the dialog and tap “Confirm time-out”: a 30-second countdown starts. “Stop timeout” ends it early. Each team has 2 time-outs per set; for a third, the app opens a warning that records it as an improper request (or a delay if the time-out already started). No time-out during the interval between sets.",
-            "de": "Tippe zwischen zwei Ballwechseln auf das «TO»-Feld des Teams. Prüfe den Dialog und tippe auf «Timeout bestätigen»: Ein Countdown von 30 Sekunden startet. «Timeout beenden» beendet ihn früher. Jedes Team hat 2 Timeouts pro Satz; bei einem dritten öffnet die App eine Warnung, die es als nicht ordnungsgemässen Antrag erfasst (oder als Verzögerung, wenn das Timeout schon begonnen hat). Kein Timeout in der Pause zwischen den Sätzen.",
-            "fr": "Entre deux échanges, appuie sur la case « TM » de l'équipe. Vérifie la boîte de dialogue et appuie sur « Confirmer temps mort » : un compte à rebours de 30 secondes démarre. « Arrêter le temps mort » le termine plus tôt. Chaque équipe a 2 temps morts par set ; pour un troisième, l'app ouvre un avertissement qui l'enregistre comme demande irrégulière (ou comme retard si le temps mort a déjà commencé). Pas de temps mort pendant la pause entre les sets.",
+            "de": "Tippe zwischen zwei Spielzügen auf das «TO»-Feld des Teams. Prüfe den Dialog und tippe auf «Auszeit bestätigen»: Ein Countdown von 30 Sekunden startet. «Auszeit beenden» beendet ihn früher. Jedes Team hat 2 Auszeiten pro Satz; bei einer dritten öffnet die App eine Warnung, die sie als nicht ordnungsgemässen Antrag erfasst (oder als Verzögerung, wenn die Auszeit schon begonnen hat). Keine Auszeit in der Pause zwischen den Sätzen.",
+            "fr": "Entre deux échanges, appuie sur la case « TM » de l'équipe. Vérifie la boîte de dialogue et appuie sur « Confirmer temps-mort » : un compte à rebours de 30 secondes démarre. « Arrêter le temps-mort » le termine plus tôt. Chaque équipe a 2 temps-morts par set ; pour un troisième, l'app ouvre un avertissement qui l'enregistre comme demande non fondée (ou comme retard si le temps-mort a déjà commencé). Pas de temps-mort pendant la pause entre les sets.",
             "it": "Tra due scambi, tocca la casella «TO» della squadra. Controlla la finestra e tocca «Conferma timeout»: parte un conto alla rovescia di 30 secondi. «Ferma timeout» lo chiude prima. Ogni squadra ha 2 timeout per set; per un terzo, l'app apre un avviso che lo registra come richiesta impropria (o come ritardo se il timeout è già iniziato). Nessun timeout durante l'intervallo tra i set."
           }
         },
@@ -1223,8 +1223,8 @@
           },
           "answer": {
             "en": "Between rallies, tap the player on court and choose “Substitution”, then the player who comes in. Or drag a bench player onto the court player (long-press on a tablet). Then confirm. Players who may not come in are greyed, with the reason. Or tap the team’s “Substitution” box under the score: who comes in, then who goes out (several pairs at once), then Confirm.",
-            "de": "Tippe zwischen zwei Ballwechseln auf den Spieler auf dem Feld, wähle «Auswechslung» und dann den Spieler, der hineinkommt. Oder ziehe einen Bankspieler auf den Feldspieler (auf einem Tablet lange drücken). Dann bestätigen. Spieler, die nicht hineinkommen dürfen, sind ausgegraut, mit dem Grund. Oder tippe unter dem Spielstand auf «Wechsel» des Teams: wer reinkommt, dann wer rausgeht (auch mehrere Paare), dann bestätigen.",
-            "fr": "Entre deux échanges, appuie sur le joueur sur le terrain et choisis « Changement », puis le joueur qui entre. Ou fais glisser un joueur du banc sur le joueur du terrain (appui long sur une tablette). Confirme ensuite. Les joueurs qui ne peuvent pas entrer sont grisés, avec la raison. Ou appuie sur « Remplacement » sous le score de l’équipe : qui entre, puis qui sort (plusieurs paires possibles), puis confirme.",
+            "de": "Tippe zwischen zwei Spielzügen auf den Spieler auf dem Feld, wähle «Auswechslung» und dann den Spieler, der hineinkommt. Oder ziehe einen Bankspieler auf den Feldspieler (auf einem Tablet lange drücken). Dann bestätigen. Spieler, die nicht hineinkommen dürfen, sind ausgegraut, mit dem Grund. Oder tippe unter dem Spielstand auf «Auswechslung» des Teams: wer reinkommt, dann wer rausgeht (auch mehrere Paare), dann bestätigen.",
+            "fr": "Entre deux échanges, appuie sur le joueur sur le terrain et choisis « Remplacement », puis le joueur qui entre. Ou fais glisser un joueur du banc sur le joueur du terrain (appui long sur une tablette). Confirme ensuite. Les joueurs qui ne peuvent pas entrer sont grisés, avec la raison. Ou appuie sur « Remplacement » sous le score de l’équipe : qui entre, puis qui sort (plusieurs paires possibles), puis confirme.",
             "it": "Tra due scambi, tocca il giocatore in campo e scegli «Sostituzione», poi il giocatore che entra. Oppure trascina un giocatore della panchina sul giocatore in campo (pressione lunga su un tablet). Poi conferma. I giocatori che non possono entrare sono in grigio, con il motivo. Oppure tocca «Sostituzione» sotto il punteggio della squadra: chi entra, poi chi esce (anche più coppie), poi conferma."
           }
         },
@@ -1232,13 +1232,13 @@
           "id": "subDialog",
           "question": {
             "en": "How does the substitution dialog work?",
-            "de": "Wie funktioniert das Wechselfenster?",
+            "de": "Wie funktioniert das Auswechslungsfenster?",
             "fr": "Comment fonctionne la fenêtre de remplacement ?",
             "it": "Come funziona la finestra delle sostituzioni?"
           },
           "answer": {
             "en": "Tap the team's “Substitution” box (on a phone “SUB”). Tap who comes in, then who goes out: only legal players are shown (a substituted starter only for his substitute, never the libero). The pair goes into the list and the dialog asks for the next one; “Confirm” records them all, “Cancel” none. “Recorded” lists this set's substitutions; at 6 of 6 only “Injury / exceptional” is left. During a rally the box shows only that list.",
-            "de": "Tippe auf das Feld „Wechsel“ des Teams (auf dem Handy „AUS“). Tippe an, wer reinkommt, dann wer rausgeht: Es erscheinen nur erlaubte Spieler (ein ausgewechselter Stammspieler nur für seinen Ersatz, nie der Libero). Das Paar kommt in die Liste, und das Fenster fragt nach dem nächsten; „Bestätigen“ erfasst alle, „Abbrechen“ keinen. „Erfasst“ listet die Wechsel dieses Satzes; bei 6 von 6 bleibt nur „Verletzung / ausserordentlich“. Während eines Ballwechsels zeigt das Feld nur diese Liste.",
+            "de": "Tippe auf das Feld „Auswechslung“ des Teams (auf dem Handy „AUS“). Tippe an, wer reinkommt, dann wer rausgeht: Es erscheinen nur erlaubte Spieler (ein ausgewechselter Stammspieler nur für seinen Auswechselspieler, nie der Libero). Das Paar kommt in die Liste, und das Fenster fragt nach dem nächsten; „Bestätigen“ erfasst alle, „Abbrechen“ keinen. „Erfasst“ listet die Auswechslungen dieses Satzes; bei 6 von 6 bleibt nur „Verletzung / ausnahmsweise“. Während eines Spielzugs zeigt das Feld nur diese Liste.",
             "fr": "Touche la case « Remplacement » de l'équipe (sur un téléphone « RMP »). Touche qui entre, puis qui sort : seuls les joueurs autorisés s'affichent (un titulaire remplacé seulement pour son remplaçant, jamais le libéro). La paire va dans la liste et la fenêtre demande la suivante ; « Confirmer » les enregistre toutes, « Annuler » aucune. « Enregistrés » liste les remplacements de ce set ; à 6 sur 6, il ne reste que « Blessure / exceptionnel ». Pendant un échange, la case montre seulement cette liste.",
             "it": "Tocca la casella «Sostituzione» della squadra (sul telefono «SOS»). Tocca chi entra, poi chi esce: compaiono solo i giocatori ammessi (un titolare sostituito solo per il suo sostituto, mai il libero). La coppia va nell'elenco e la finestra chiede la prossima; «Conferma» le registra tutte, «Annulla» nessuna. «Registrate» elenca le sostituzioni di questo set; a 6 su 6 resta solo «Infortunio / eccezionale». Durante uno scambio la casella mostra solo quell'elenco."
           }
@@ -1247,14 +1247,14 @@
           "id": "subLimit",
           "question": {
             "en": "How many substitutions does a team have?",
-            "de": "Wie viele Wechsel hat ein Team?",
+            "de": "Wie viele Auswechslungen hat ein Team?",
             "fr": "Combien de remplacements une équipe a-t-elle ?",
             "it": "Quante sostituzioni ha una squadra?"
           },
           "answer": {
             "en": "Six per set. The “SUB” box counts them and turns amber at 5. A starting player can leave once and come back once, only for the player who replaced them. After the sixth, a further request is an improper request.",
             "de": "Sechs pro Satz. Das «AUS»-Feld zählt sie und wird bei 5 gelb. Ein Startspieler kann einmal hinaus und einmal zurück, nur für den Spieler, der ihn ersetzt hat. Nach dem sechsten ist eine weitere Anfrage ein nicht ordnungsgemässer Antrag.",
-            "fr": "Six par set. La case « RMP » les compte et devient orange à 5. Un joueur de départ peut sortir une fois et revenir une fois, seulement à la place du joueur qui l'a remplacé. Après le sixième, une nouvelle demande est une demande irrégulière.",
+            "fr": "Six par set. La case « RMP » les compte et devient orange à 5. Un joueur de départ peut sortir une fois et revenir une fois, seulement à la place du joueur qui l'a remplacé. Après le sixième, une nouvelle demande est une demande non fondée.",
             "it": "Sei per set. La casella «SOS» le conta e diventa gialla a 5. Un giocatore della formazione iniziale può uscire una volta e rientrare una volta, solo al posto di chi l'ha sostituito. Dopo la sesta, un'altra richiesta è una richiesta impropria."
           }
         },
@@ -1268,7 +1268,7 @@
           },
           "answer": {
             "en": "Tap the player on court and choose “Injury”, then a substitute. If no legal substitution is possible, the app offers an exceptional substitution. After an exceptional substitution, that player cannot play again in this match.",
-            "de": "Tippe auf den Spieler auf dem Feld, wähle die Verletzung und dann einen Ersatz. Ist kein regulärer Wechsel möglich, bietet die App einen Ausnahmewechsel an. Nach einem Ausnahmewechsel darf dieser Spieler im Spiel nicht mehr spielen.",
+            "de": "Tippe auf den Spieler auf dem Feld, wähle die Verletzung und dann einen Auswechselspieler. Ist keine reguläre Auswechslung möglich, bietet die App eine ausnahmsweise Auswechslung an. Nach einer ausnahmsweisen Auswechslung darf dieser Spieler im Spiel nicht mehr spielen.",
             "fr": "Appuie sur le joueur sur le terrain, choisis la blessure puis un remplaçant. Si aucun remplacement régulier n'est possible, l'app propose un remplacement exceptionnel. Après un remplacement exceptionnel, ce joueur ne peut plus jouer dans ce match.",
             "it": "Tocca il giocatore in campo, scegli l'infortunio e poi un sostituto. Se nessuna sostituzione regolare è possibile, l'app propone una sostituzione eccezionale. Dopo una sostituzione eccezionale, quel giocatore non può più giocare in questa partita."
           }
@@ -1283,8 +1283,8 @@
           },
           "answer": {
             "en": "Tap a back-row player (I, V or VI) and choose “Libero”, or drag the libero from the bench onto that player. Not the player who is about to serve. A rally must be played between two libero replacements. A replacement made before the whistle can still be entered after “Start rally”: tap the player, the menu then shows only “Libero”.",
-            "de": "Tippe auf einen Spieler der hinteren Reihe (I, V oder VI) und wähle «Libero», oder ziehe den Libero von der Bank auf diesen Spieler. Nicht auf den Spieler, der gleich aufschlägt. Zwischen zwei Libero-Wechseln muss ein Ballwechsel gespielt werden. Ein Wechsel vor dem Pfiff lässt sich auch nach «Ballwechsel starten» noch eingeben: Tippe auf den Spieler, das Menü zeigt dann nur «Libero».",
-            "fr": "Appuie sur un joueur de la ligne arrière (I, V ou VI) et choisis « Libéro », ou fais glisser le libéro du banc sur ce joueur. Pas sur le joueur qui va servir. Un échange doit être joué entre deux remplacements de libéro. Un remplacement fait avant le coup de sifflet peut encore être saisi après « Lancer l'échange » : appuie sur le joueur, le menu ne propose alors que « Libéro ».",
+            "de": "Tippe auf einen Spieler der hinteren Reihe (I, V oder VI) und wähle «Libero», oder ziehe den Libero von der Bank auf diesen Spieler. Nicht auf den Spieler, der gleich aufschlägt. Zwischen zwei Libero-Austauschen muss ein Spielzug gespielt werden. Ein Austausch vor dem Pfiff lässt sich auch nach «Spielzug starten» noch eingeben: Tippe auf den Spieler, das Menü zeigt dann nur «Libero».",
+            "fr": "Appuie sur un joueur de la ligne arrière (I, V ou VI) et choisis « Libéro », ou fais glisser le libéro du banc sur ce joueur. Pas sur le joueur qui va servir. Un échange doit être joué entre deux changements de libéro. Un changement fait avant le coup de sifflet peut encore être saisi après « Lancer l'échange » : appuie sur le joueur, le menu ne propose alors que « Libéro ».",
             "it": "Tocca un giocatore della seconda linea (I, V o VI) e scegli «Libero», oppure trascina il libero dalla panchina su quel giocatore. Non sul giocatore che sta per servire. Tra due sostituzioni del libero deve essere giocato uno scambio. Una sostituzione fatta prima del fischio si può ancora inserire dopo «Inizia scambio»: tocca il giocatore, il menu mostra allora solo «Libero»."
           }
         },
@@ -1298,7 +1298,7 @@
           },
           "answer": {
             "en": "Tap the libero on court and choose “Libero out”: the replaced player comes back. A rally must be finished first (“After finished rally”). When the libero rotates to the front row, the app takes the libero out and shows “Libero OUT”: tap “OK”. Later it asks “Libero IN?” for the back-row player; “Not now” stops this question for that team until the end of the set. “Exchange libero” swaps the two liberos.",
-            "de": "Tippe auf den Libero auf dem Feld und nimm ihn heraus: Der ersetzte Spieler kommt zurück. Zuerst muss ein Ballwechsel beendet sein („Nach beendetem Ballwechsel“). Rotiert der Libero in die vordere Reihe, nimmt ihn die App heraus und zeigt „Libero RAUS“: Tippe auf „OK“. Später fragt sie „Libero REIN?“ für den Spieler der hinteren Reihe; „Nicht jetzt“ stoppt diese Frage für das Team bis zum Satzende. Mit dem Libero-Tausch wechseln die beiden Liberos.",
+            "de": "Tippe auf den Libero auf dem Feld und nimm ihn heraus: Der ersetzte Spieler kommt zurück. Zuerst muss ein Spielzug beendet sein („Nach beendetem Spielzug“). Rotiert der Libero in die vordere Reihe, nimmt ihn die App heraus und zeigt „Libero RAUS“: Tippe auf „OK“. Später fragt sie „Libero REIN?“ für den Spieler der hinteren Reihe; „Nicht jetzt“ stoppt diese Frage für das Team bis zum Satzende. Mit dem Libero-Tausch wechseln die beiden Liberos.",
             "fr": "Appuie sur le libéro sur le terrain et fais-le sortir : le joueur remplacé revient. Un échange doit d'abord être terminé (« Après un échange terminé »). Quand le libéro tourne en ligne avant, l'app le fait sortir et affiche « Libéro SORT » : appuie sur « OK ». Plus tard, elle demande « Libéro ENTRE ? » pour le joueur de la ligne arrière ; « Pas maintenant » arrête cette question pour l'équipe jusqu'à la fin du set. L'échange de libéros fait permuter les deux libéros.",
             "it": "Tocca il libero in campo e fallo uscire: rientra il giocatore sostituito. Prima deve essere concluso uno scambio («Dopo uno scambio concluso»). Quando il libero ruota in prima linea, l'app lo fa uscire e mostra «Libero ESCE»: tocca «OK». Più tardi chiede «Libero ENTRA?» per il giocatore della seconda linea; «Non ora» ferma questa domanda per la squadra fino alla fine del set. Lo scambio dei libero fa cambiare posto ai due libero."
           }
@@ -1313,8 +1313,8 @@
           },
           "answer": {
             "en": "Tap the libero and choose “Unable to play”: declared unable, or injury or illness. If the team has no other libero, the app lets you designate another player as the new libero. An injured libero may play again (tap him: “Able to play again”) as long as no new libero was re-designated in his place.",
-            "de": "Tippe auf den Libero und wähle, dass er nicht mehr spielen kann: für spielunfähig erklärt oder Verletzung bzw. Krankheit. Hat das Team keinen anderen Libero, lässt dich die App einen anderen Spieler zum neuen Libero bestimmen. Ein verletzter Libero kann wieder spielen (auf ihn tippen: «Wieder spielfähig»), solange an seiner Stelle kein neuer Libero bezeichnet wurde.",
-            "fr": "Appuie sur le libéro et indique qu'il ne peut plus jouer : déclaré inapte, ou blessure ou maladie. Si l'équipe n'a pas d'autre libéro, l'app te laisse désigner un autre joueur comme nouveau libéro. Un libéro blessé peut rejouer (appuie sur lui : « De nouveau apte à jouer ») tant qu'aucun nouveau libéro n'a été désigné à sa place.",
+            "de": "Tippe auf den Libero und wähle, dass er nicht mehr spielen kann: für spielunfähig erklärt oder Verletzung bzw. Krankheit. Hat das Team keinen anderen Libero, lässt dich die App einen anderen Spieler als neuen Libero benennen. Ein verletzter Libero kann wieder spielen (auf ihn tippen: «Wieder spielfähig»), solange an seiner Stelle kein Libero neu benannt wurde.",
+            "fr": "Appuie sur le libéro et indique qu'il ne peut plus jouer : déclaré inapte, ou blessure ou maladie. Si l'équipe n'a pas d'autre libéro, l'app te laisse re-désigner un autre joueur comme libéro. Un libéro blessé peut rejouer (appuie sur lui : « De nouveau apte à jouer ») tant qu'aucun nouveau libéro n'a été re-désigné à sa place.",
             "it": "Tocca il libero e indica che non può più giocare: dichiarato inabile, oppure infortunio o malattia. Se la squadra non ha un altro libero, l'app ti fa designare un altro giocatore come nuovo libero. Un libero infortunato può tornare a giocare (toccalo: «Di nuovo in grado di giocare») finché non è stato designato un nuovo libero al suo posto."
           }
         },
@@ -1328,7 +1328,7 @@
           },
           "answer": {
             "en": "The circle marks the team captain, as on the paper scoresheet. A libero who is captain has the circle next to the L1 or L2 tag.",
-            "de": "Der Kreis markiert den Captain, wie auf dem Papier-Matchblatt. Ist ein Libero Captain, steht der Kreis neben dem L1- oder L2-Zeichen.",
+            "de": "Der Kreis markiert den Mannschaftskapitän, wie auf dem Papier-Matchblatt. Ist ein Libero Kapitän, steht der Kreis neben dem L1- oder L2-Zeichen.",
             "fr": "Le cercle marque le capitaine, comme sur la feuille de match papier. Si un libéro est capitaine, le cercle est à côté de la marque L1 ou L2.",
             "it": "Il cerchio indica il capitano, come sul referto cartaceo. Se il capitano è un libero, il cerchio è accanto al segno L1 o L2."
           }
@@ -1337,13 +1337,13 @@
           "id": "gameCaptain",
           "question": {
             "en": "The team captain went off court: who is game captain?",
-            "de": "Der Teamcaptain ist vom Feld gegangen: Wer ist Spielkapitän?",
+            "de": "Der Mannschaftskapitän ist vom Feld gegangen: Wer ist Spielkapitän?",
             "fr": "Le capitaine de l'équipe a quitté le terrain : qui est capitaine de jeu ?",
             "it": "Il capitano della squadra è uscito dal campo: chi è il capitano in gioco?"
           },
           "answer": {
             "en": "The app asks “Game captain”: tap the player on court who acts as captain (the last game captain is offered first, marked “Last”). Until one is chosen, a “Game captain” button shows on that team's side. The game captain stays until they leave the court, the team captain comes back or the set ends. This needs “Manage captain on court” in the options (on by default).",
-            "de": "Die App fragt «Spielkapitän»: Tippe auf den Spieler auf dem Feld, der als Captain amtet (der letzte Spielkapitän wird zuerst angeboten, mit «Zuletzt» markiert). Bis einer gewählt ist, zeigt die Seite dieses Teams eine Schaltfläche «Spielkapitän». Der Spielkapitän bleibt, bis er das Feld verlässt, der Teamcaptain zurückkommt oder der Satz endet. Dafür braucht es «Kapitän auf dem Feld verwalten» in den Optionen (standardmässig an).",
+            "de": "Die App fragt «Spielkapitän»: Tippe auf den Spieler auf dem Feld, der als Kapitän amtet (der letzte Spielkapitän wird zuerst angeboten, mit «Zuletzt» markiert). Bis einer gewählt ist, zeigt die Seite dieses Teams eine Schaltfläche «Spielkapitän». Der Spielkapitän bleibt, bis er das Feld verlässt, der Mannschaftskapitän zurückkommt oder der Satz endet. Dafür braucht es «Kapitän auf dem Feld verwalten» in den Optionen (standardmässig an).",
             "fr": "L'app demande « Capitaine de jeu » : appuie sur le joueur sur le terrain qui fait office de capitaine (le dernier capitaine de jeu est proposé en premier, marqué « Dernier »). Tant qu'aucun n'est choisi, un bouton « Capitaine de jeu » s'affiche du côté de cette équipe. Le capitaine de jeu le reste jusqu'à ce qu'il quitte le terrain, que le capitaine de l'équipe revienne ou que le set se termine. Il faut pour cela « Gérer le capitaine de jeu » dans les options (activé par défaut).",
             "it": "L'app chiede «Capitano in gioco»: tocca il giocatore in campo che fa da capitano (l'ultimo capitano in gioco è proposto per primo, segnato «Ultimo»). Finché non ne è scelto uno, dal lato di quella squadra c'è un pulsante «Capitano in gioco». Il capitano in gioco resta finché non lascia il campo, il capitano della squadra torna o il set finisce. Serve «Gestisci capitano in campo» nelle opzioni (attivo di base)."
           }
@@ -1352,14 +1352,14 @@
           "id": "benchRequests",
           "question": {
             "en": "A card says “Time-out request” or “Line-up for set 2”?",
-            "de": "Eine Karte zeigt «Time-out-Anfrage» oder «Aufstellung für Satz 2»?",
-            "fr": "Une carte indique « Demande de temps mort » ou « Composition du set 2 » ?",
+            "de": "Eine Karte zeigt «Auszeit-Anfrage» oder «Aufstellung für Satz 2»?",
+            "fr": "Une carte indique « Demande de temps-mort » ou « Formation de départ du set 2 » ?",
             "it": "Una scheda dice «Richiesta di time-out» o «Formazione per il set 2»?"
           },
           "answer": {
             "en": "The team's bench tablet sent a request. The cards stand in the top right corner and can be folded. “Grant time-out” opens the time-out dialog, “Substitute” the substitution of that pair, “Review and accept” the line-up dialog filled in by the bench: check it and tap “Confirm”. Granting waits while a rally is in play. “Decline” asks for a reason (optional), which the bench sees. You can also record it by hand as usual: the card closes once it is recorded.",
-            "de": "Das Bank-Tablet des Teams hat eine Anfrage geschickt. Die Karten stehen oben rechts und lassen sich zuklappen. «Time-out gewähren» öffnet den Timeout-Dialog, «Wechseln» den Wechsel dieses Paars, «Prüfen und annehmen» den Aufstellungsdialog, von der Bank ausgefüllt: Prüfe ihn und tippe auf «Bestätigen». Das Gewähren wartet, solange ein Ballwechsel läuft. «Ablehnen» fragt nach einem Grund (freiwillig), den die Bank sieht. Du kannst es auch wie gewohnt von Hand erfassen: Die Karte schliesst sich, sobald es erfasst ist.",
-            "fr": "La tablette du banc de l'équipe a envoyé une demande. Les cartes se trouvent dans le coin supérieur droit et peuvent être repliées. « Accorder le temps mort » ouvre la fenêtre du temps mort, « Remplacer » le remplacement de cette paire, « Vérifier et accepter » la fenêtre de la formation remplie par le banc : vérifie-la et appuie sur « Confirmer ». L'acceptation attend tant qu'un échange est en jeu. « Refuser » demande une raison (facultative), que le banc voit. Tu peux aussi l'enregistrer à la main comme d'habitude : la carte se ferme dès que c'est enregistré.",
+            "de": "Das Bank-Tablet des Teams hat eine Anfrage geschickt. Die Karten stehen oben rechts und lassen sich zuklappen. «Auszeit gewähren» öffnet den Auszeit-Dialog, «Auswechseln» die Auswechslung dieses Paars, «Prüfen und annehmen» den Aufstellungsdialog, von der Bank ausgefüllt: Prüfe ihn und tippe auf «Bestätigen». Das Gewähren wartet, solange ein Spielzug läuft. «Ablehnen» fragt nach einem Grund (freiwillig), den die Bank sieht. Du kannst es auch wie gewohnt von Hand erfassen: Die Karte schliesst sich, sobald es erfasst ist.",
+            "fr": "La tablette du banc de l'équipe a envoyé une demande. Les cartes se trouvent dans le coin supérieur droit et peuvent être repliées. « Accorder le temps-mort » ouvre la fenêtre du temps-mort, « Remplacer » le remplacement de cette paire, « Vérifier et accepter » la fenêtre de la formation remplie par le banc : vérifie-la et appuie sur « Confirmer ». L'acceptation attend tant qu'un échange est en jeu. « Refuser » demande une raison (facultative), que le banc voit. Tu peux aussi l'enregistrer à la main comme d'habitude : la carte se ferme dès que c'est enregistré.",
             "it": "Il tablet della panchina della squadra ha inviato una richiesta. Le schede stanno nell'angolo in alto a destra e si possono ripiegare. «Concedi il time-out» apre la finestra del timeout, «Sostituisci» la sostituzione di quella coppia, «Controlla e accetta» la finestra della formazione compilata dalla panchina: controllala e tocca «Confermare». La concessione aspetta mentre uno scambio è in gioco. «Rifiuta» chiede un motivo (facoltativo), che la panchina vede. Puoi anche registrarla a mano come al solito: la scheda si chiude appena è registrata."
           }
         },
@@ -1367,14 +1367,14 @@
           "id": "requestWarning",
           "question": {
             "en": "Why does a warning open when I record a time-out or a substitution?",
-            "de": "Warum öffnet sich eine Warnung, wenn ich ein Timeout oder einen Wechsel erfasse?",
-            "fr": "Pourquoi un avertissement s'ouvre-t-il quand j'enregistre un temps mort ou un remplacement ?",
+            "de": "Warum öffnet sich eine Warnung, wenn ich eine Auszeit oder eine Auswechslung erfasse?",
+            "fr": "Pourquoi un avertissement s'ouvre-t-il quand j'enregistre un temps-mort ou un remplacement ?",
             "it": "Perché si apre un avviso quando registro un timeout o una sostituzione?"
           },
           "answer": {
             "en": "The app checks the rules for requests: a third time-out, a seventh substitution, a second substitution request of the same team in one interruption, a player who may not come in, or a request after the team's delay warning. The warning says why and offers what to record, such as “Record as improper request” or a delay sanction. “Continue anyway” records nothing more when the referee allowed it (not offered for a third time-out or a seventh substitution).",
-            "de": "Die App prüft die Regeln für Anfragen: ein drittes Timeout, ein siebter Wechsel, eine zweite Wechselanfrage desselben Teams in derselben Unterbrechung, ein Spieler, der nicht hineinkommen darf, oder eine Anfrage nach der Verzögerungswarnung des Teams. Die Warnung sagt, warum, und bietet an, was erfasst werden soll, etwa «Als nicht ordnungsgemässen Antrag erfassen» oder eine Verzögerungssanktion. «Trotzdem weiter» erfasst nichts weiter, wenn der Schiedsrichter es erlaubt hat (nicht angeboten bei einem dritten Timeout oder einem siebten Wechsel).",
-            "fr": "L'app vérifie les règles des demandes : un troisième temps mort, un septième remplacement, une deuxième demande de remplacement de la même équipe dans une même interruption, un joueur qui ne peut pas entrer, ou une demande après l'avertissement pour retard de l'équipe. L'avertissement dit pourquoi et propose quoi enregistrer, comme « Enregistrer comme demande irrégulière » ou une sanction pour retard. « Continuer quand même » n'enregistre rien de plus quand l'arbitre l'a autorisé (pas proposé pour un troisième temps mort ni pour un septième remplacement).",
+            "de": "Die App prüft die Regeln für Anfragen: eine dritte Auszeit, eine siebte Auswechslung, ein zweiter Antrag auf Auswechslung desselben Teams in derselben Unterbrechung, ein Spieler, der nicht hineinkommen darf, oder eine Anfrage nach der Verwarnung wegen Verzögerung des Teams. Die Warnung sagt, warum, und bietet an, was erfasst werden soll, etwa «Als nicht ordnungsgemässen Antrag erfassen» oder eine Sanktion wegen Verzögerung. «Trotzdem weiter» erfasst nichts weiter, wenn der Schiedsrichter es erlaubt hat (nicht angeboten bei einer dritten Auszeit oder einer siebten Auswechslung).",
+            "fr": "L'app vérifie les règles des demandes : un troisième temps-mort, un septième remplacement, une deuxième demande de remplacement de la même équipe dans une même interruption, un joueur qui ne peut pas entrer, ou une demande après l'avertissement pour retard de l'équipe. L'avertissement dit pourquoi et propose quoi enregistrer, comme « Enregistrer comme demande non fondée » ou une sanction pour retard. « Continuer quand même » n'enregistre rien de plus quand l'arbitre l'a autorisé (pas proposé pour un troisième temps-mort ni pour un septième remplacement).",
             "it": "L'app controlla le regole delle richieste: un terzo timeout, una settima sostituzione, una seconda richiesta di sostituzione della stessa squadra nella stessa interruzione, un giocatore che non può entrare, o una richiesta dopo l'avvertimento per ritardo della squadra. L'avviso dice il motivo e propone cosa registrare, come «Registrare come richiesta impropria» o una sanzione per ritardo. «Continuare comunque» non registra nient'altro quando l'arbitro l'ha permesso (non proposto per un terzo timeout o una settima sostituzione)."
           }
         }
@@ -1442,8 +1442,8 @@
           },
           "answer": {
             "en": "Tap the player on court and choose “Sanction”: “Warning” (yellow), “Penalty” (red), “Expulsion” (red and yellow together) or “Disqualification” (red and yellow apart). For a bench player or a bench official, tap them in the bench list. Then confirm.",
-            "de": "Tippe auf den Spieler auf dem Feld und öffne die Sanktionen: Warnung (gelb), Strafe (rot), Ausschluss (rot und gelb zusammen) oder Disqualifikation (rot und gelb getrennt). Für einen Bankspieler oder einen Bankoffiziellen tippe ihn in der Bankliste an. Dann bestätigen.",
-            "fr": "Appuie sur le joueur sur le terrain et ouvre les sanctions : avertissement (jaune), pénalité (rouge), expulsion (rouge et jaune ensemble) ou disqualification (rouge et jaune séparés). Pour un joueur du banc ou un officiel du banc, appuie sur lui dans la liste du banc. Confirme ensuite.",
+            "de": "Tippe auf den Spieler auf dem Feld und öffne die Sanktionen: Verwarnung (gelb), Bestrafung (rot), Hinausstellung (rot und gelb zusammen) oder Disqualifikation (rot und gelb getrennt). Für einen Bankspieler oder einen Bankoffiziellen tippe ihn in der Bankliste an. Dann bestätigen.",
+            "fr": "Appuie sur le joueur sur le terrain et ouvre les sanctions : avertissement (jaune), pénalisation (rouge), expulsion (rouge et jaune ensemble) ou disqualification (rouge et jaune séparés). Pour un joueur du banc ou un officiel du banc, appuie sur lui dans la liste du banc. Confirme ensuite.",
             "it": "Tocca il giocatore in campo e apri le sanzioni: avvertimento (giallo), penalità (rosso), espulsione (rosso e giallo insieme) o squalifica (rosso e giallo separati). Per un giocatore in panchina o un ufficiale di panchina, toccalo nell'elenco della panchina. Poi conferma."
           }
         },
@@ -1452,13 +1452,13 @@
           "question": {
             "en": "How do I record an improper request or a delay?",
             "de": "Wie erfasse ich einen nicht ordnungsgemässen Antrag oder eine Verzögerung?",
-            "fr": "Comment saisir une demande irrégulière ou un retard ?",
+            "fr": "Comment saisir une demande non fondée ou un retard ?",
             "it": "Come registro una richiesta impropria o un ritardo?"
           },
           "answer": {
             "en": "Under each team's “TO” and “SUB” boxes are “Improper request” and “Delay warning” (on a small screen under “IR & delays”). A team has one improper request: then the button gives way to an “Improper request” box. After the delay warning the button becomes “Delay penalty”: point and service to the opponent. The app writes them on the scoresheet.",
-            "de": "Unter den Feldern «TO» und «AUS» jedes Teams stehen «Nicht ordnungsgemässe Anträge» und «Verzögerungswarnung» (auf einem kleinen Bildschirm unter «NOA & Verzög.»). Ein Team hat einen nicht ordnungsgemässen Antrag: Danach weicht die Schaltfläche einem Feld «Nicht ordnungsgemässer Antrag». Nach der Verzögerungswarnung wird die Schaltfläche zu «Verzögerungsstrafe»: Punkt und Aufschlag für den Gegner. Die App trägt sie ins Matchblatt ein.",
-            "fr": "Sous les cases « TM » et « RMP » de chaque équipe se trouvent « Demande irrégulière » et « Avertissement pour retard » (sur un petit écran, sous « DI & retards »). Une équipe a une seule demande irrégulière : ensuite le bouton laisse la place à une case « Demande irrégulière ». Après l'avertissement pour retard, le bouton devient « Pénalité pour retard » : point et service à l'adversaire. L'app les inscrit sur la feuille de match.",
+            "de": "Unter den Feldern «TO» und «AUS» jedes Teams stehen «Nicht ordnungsgemässe Anträge» und «Verwarnung wegen Verzögerung» (auf einem kleinen Bildschirm unter «NOA & Verzög.»). Ein Team hat einen nicht ordnungsgemässen Antrag: Danach weicht die Schaltfläche einem Feld «Nicht ordnungsgemässer Antrag». Nach der Verwarnung wegen Verzögerung wird die Schaltfläche zu «Bestrafung wegen Verzögerung»: Punkt und Aufschlag für den Gegner. Die App trägt sie ins Matchblatt ein.",
+            "fr": "Sous les cases « TM » et « RMP » de chaque équipe se trouvent « Demande non fondée » et « Avertissement pour retard » (sur un petit écran, sous « Dem. non fondée & retards »). Une équipe a une seule demande non fondée : ensuite le bouton laisse la place à une case « Demande non fondée ». Après l'avertissement pour retard, le bouton devient « Pénalisation pour retard » : point et service à l'adversaire. L'app les inscrit sur la feuille de match.",
             "it": "Sotto le caselle «TO» e «SOS» di ogni squadra ci sono «Richiesta impropria» e «Avvertimento per ritardo» (su uno schermo piccolo sotto «RI & ritardi»). Una squadra ha una sola richiesta impropria: poi il pulsante lascia il posto a una casella «Richiesta impropria». Dopo l'avvertimento per ritardo il pulsante diventa «Penalità per ritardo»: punto e servizio all'avversario. L'app li scrive sul referto."
           }
         },
@@ -1466,14 +1466,14 @@
           "id": "ladder",
           "question": {
             "en": "Why did my delay warning become a penalty?",
-            "de": "Warum wurde meine Verzögerungswarnung zur Strafe?",
-            "fr": "Pourquoi mon avertissement pour retard est-il devenu une pénalité ?",
+            "de": "Warum wurde meine Verwarnung wegen Verzögerung zur Bestrafung?",
+            "fr": "Pourquoi mon avertissement pour retard est-il devenu une pénalisation ?",
             "it": "Perché il mio avvertimento per ritardo è diventato una penalità?"
           },
           "answer": {
             "en": "The sanctions follow the rules. A second improper request counts as a delay. A delay after a delay warning is a delay penalty. The dialog tells you before you confirm.",
-            "de": "Die Sanktionen folgen den Regeln. Ein zweiter nicht ordnungsgemässer Antrag zählt als Verzögerung. Eine Verzögerung nach einer Verzögerungswarnung ist eine Verzögerungsstrafe. Der Dialog sagt es dir, bevor du bestätigst.",
-            "fr": "Les sanctions suivent les règles. Une deuxième demande irrégulière compte comme un retard. Un retard après un avertissement pour retard est une pénalité pour retard. La boîte de dialogue te le dit avant que tu confirmes.",
+            "de": "Die Sanktionen folgen den Regeln. Ein zweiter nicht ordnungsgemässer Antrag zählt als Verzögerung. Eine Verzögerung nach einer Verwarnung wegen Verzögerung ist eine Bestrafung wegen Verzögerung. Der Dialog sagt es dir, bevor du bestätigst.",
+            "fr": "Les sanctions suivent les règles. Une deuxième demande non fondée compte comme un retard. Un retard après un avertissement pour retard est une pénalisation pour retard. La boîte de dialogue te le dit avant que tu confirmes.",
             "it": "Le sanzioni seguono le regole. Una seconda richiesta impropria conta come ritardo. Un ritardo dopo un avvertimento per ritardo è una penalità per ritardo. La finestra te lo dice prima che tu confermi."
           }
         },
@@ -1481,14 +1481,14 @@
           "id": "penaltyPoint",
           "question": {
             "en": "Who gets the point after a penalty?",
-            "de": "Wer bekommt nach einer Strafe den Punkt?",
-            "fr": "Qui reçoit le point après une pénalité ?",
+            "de": "Wer bekommt nach einer Bestrafung den Punkt?",
+            "fr": "Qui reçoit le point après une pénalisation ?",
             "it": "Chi riceve il punto dopo una penalità?"
           },
           "answer": {
             "en": "The opponent gets the point and the service. The app adds them and rotates the team if needed. A delay penalty given before the line-ups are entered is added once both line-ups are in.",
-            "de": "Der Gegner bekommt Punkt und Aufschlag. Die App trägt beides ein und lässt das Team wenn nötig rotieren. Eine Verzögerungsstrafe vor den Aufstellungen wird vergeben, sobald beide Aufstellungen eingetragen sind.",
-            "fr": "L'adversaire reçoit le point et le service. L'app les ajoute et fait tourner l'équipe si nécessaire. Une pénalité pour retard donnée avant les formations est ajoutée dès que les deux formations sont saisies.",
+            "de": "Der Gegner bekommt Punkt und Aufschlag. Die App trägt beides ein und lässt das Team wenn nötig rotieren. Eine Bestrafung wegen Verzögerung vor den Aufstellungen wird vergeben, sobald beide Aufstellungen eingetragen sind.",
+            "fr": "L'adversaire reçoit le point et le service. L'app les ajoute et fait tourner l'équipe si nécessaire. Une pénalisation pour retard donnée avant les formations est ajoutée dès que les deux formations sont saisies.",
             "it": "L'avversario riceve il punto e il servizio. L'app li aggiunge e fa ruotare la squadra se serve. Una penalità per ritardo data prima delle formazioni viene assegnata appena le due formazioni sono inserite."
           }
         },
@@ -1496,13 +1496,13 @@
           "id": "expulsion",
           "question": {
             "en": "What happens after an expulsion or a disqualification?",
-            "de": "Was passiert nach einem Ausschluss oder einer Disqualifikation?",
+            "de": "Was passiert nach einer Hinausstellung oder einer Disqualifikation?",
             "fr": "Que se passe-t-il après une expulsion ou une disqualification ?",
             "it": "Cosa succede dopo un'espulsione o una squalifica?"
           },
           "answer": {
             "en": "An expelled player sits out the rest of the set, a disqualified one the rest of the match. A player on court must be replaced: the app asks for the substitution, an exceptional one if no legal one is left (then he cannot play again in this match).",
-            "de": "Ein ausgeschlossener Spieler fehlt für den Rest des Satzes, ein disqualifizierter für den Rest des Spiels. Ein Spieler auf dem Feld muss ersetzt werden: Die App fragt nach dem Wechsel, einem Ausnahmewechsel, wenn kein regulärer mehr möglich ist (dann darf er im Spiel nicht mehr spielen).",
+            "de": "Ein hinausgestellter Spieler fehlt für den Rest des Satzes, ein disqualifizierter für den Rest des Spiels. Ein Spieler auf dem Feld muss ersetzt werden: Die App fragt nach der Auswechslung, einer ausnahmsweisen Auswechslung, wenn keine reguläre mehr möglich ist (dann darf er im Spiel nicht mehr spielen).",
             "fr": "Un joueur expulsé ne joue plus jusqu'à la fin du set, un joueur disqualifié jusqu'à la fin du match. Un joueur sur le terrain doit être remplacé : l'app demande le remplacement, exceptionnel si aucun remplacement régulier n'est possible (il ne peut alors plus jouer dans ce match).",
             "it": "Un giocatore espulso resta fuori fino alla fine del set, uno squalificato fino alla fine della partita. Un giocatore in campo deve essere sostituito: l'app chiede la sostituzione, eccezionale se non ne resta una regolare (poi non può più giocare in questa partita)."
           }
@@ -1511,14 +1511,14 @@
           "id": "warningOnce",
           "question": {
             "en": "Why is “Warning” greyed out?",
-            "de": "Warum ist «Warnung» grau?",
+            "de": "Warum ist «Verwarnung» grau?",
             "fr": "Pourquoi « Avertissement » est-il grisé ?",
             "it": "Perché «Avvertimento» è grigio?"
           },
           "answer": {
             "en": "A team gets one warning per match. After it, “Warning” is greyed out for every member of that team. Further misconduct is a penalty or more.",
-            "de": "Ein Team bekommt eine Warnung pro Spiel. Danach ist «Warnung» für alle Mitglieder dieses Teams grau. Weiteres Fehlverhalten ist eine Strafe oder mehr.",
-            "fr": "Une équipe reçoit un seul avertissement par match. Ensuite, l'avertissement est grisé pour tous les membres de cette équipe. Toute autre faute de conduite est une pénalité ou plus.",
+            "de": "Ein Team bekommt eine Verwarnung pro Spiel. Danach ist «Verwarnung» für alle Mitglieder dieses Teams grau. Weiteres unkorrektes Verhalten ist eine Bestrafung oder mehr.",
+            "fr": "Une équipe reçoit un seul avertissement par match. Ensuite, l'avertissement est grisé pour tous les membres de cette équipe. Tout autre comportement incorrect est une pénalisation ou plus.",
             "it": "Una squadra riceve un solo avvertimento per partita. Dopo, l'avvertimento è grigio per tutti i membri di quella squadra. Ogni altra scorrettezza è una penalità o di più."
           }
         },
@@ -1541,14 +1541,14 @@
           "id": "lateRequest",
           "question": {
             "en": "The rally was stopped because of a late request: how do I record it?",
-            "de": "Der Ballwechsel wurde wegen eines verspäteten Antrags unterbrochen: Wie erfasse ich das?",
+            "de": "Der Spielzug wurde wegen eines verspäteten Antrags unterbrochen: Wie erfasse ich das?",
             "fr": "L'échange a été interrompu à cause d'une demande tardive : comment l'enregistrer ?",
             "it": "Lo scambio è stato interrotto per una richiesta tardiva: come lo registro?"
           },
           "answer": {
             "en": "During the rally, tap “Replay rally”: it records only the replay. Then give the delay sanction with that team's “Delay warning” button (or “Delay penalty” if it already has a warning).",
-            "de": "Tippe während des Ballwechsels auf «Ballwechsel wiederholen»: Das erfasst nur die Wiederholung. Gib danach die Verzögerungssanktion mit dem Knopf «Verzögerungswarnung» des Teams (oder «Verzögerungsstrafe», wenn es schon eine Warnung hat).",
-            "fr": "Pendant l'échange, appuie sur « Rejouer l'échange » : cela enregistre seulement l'échange rejoué. Donne ensuite la sanction pour retard avec le bouton « Avertissement pour retard » de l'équipe (ou « Pénalité pour retard » si elle a déjà un avertissement).",
+            "de": "Tippe während des Spielzugs auf «Spielzug wiederholen»: Das erfasst nur die Wiederholung. Gib danach die Sanktion wegen Verzögerung mit dem Knopf «Verwarnung wegen Verzögerung» des Teams (oder «Bestrafung wegen Verzögerung», wenn es schon eine Verwarnung hat).",
+            "fr": "Pendant l'échange, appuie sur « Rejouer l'échange » : cela enregistre seulement l'échange rejoué. Donne ensuite la sanction pour retard avec le bouton « Avertissement pour retard » de l'équipe (ou « Pénalisation pour retard » si elle a déjà un avertissement).",
             "it": "Durante lo scambio, tocca «Ripeti scambio»: registra solo la ripetizione. Poi dai la sanzione per ritardo con il pulsante «Avvertimento per ritardo» della squadra (o «Penalità per ritardo» se ha già un avvertimento)."
           }
         }
@@ -1568,7 +1568,7 @@
         "title": {
           "en": "Set end, interval and tie-break",
           "de": "Satzende, Satzpause und Entscheidungssatz",
-          "fr": "Fin de set, pause et tie-break",
+          "fr": "Fin de set, pause et set décisif",
           "it": "Fine set, intervallo e tie-break"
         },
         "durationSec": 36.3,
@@ -1655,14 +1655,14 @@
           "id": "set5",
           "question": {
             "en": "What happens in set 5 (tie-break)?",
-            "de": "Was passiert im 5. Satz (Tiebreak)?",
-            "fr": "Que se passe-t-il au 5e set (tie-break) ?",
+            "de": "Was passiert im 5. Satz (Entscheidungssatz)?",
+            "fr": "Que se passe-t-il au 5e set (set décisif) ?",
             "it": "Cosa succede nel 5° set (tie-break)?"
           },
           "answer": {
             "en": "The deciding set (set 5, or set 3 in a best of 3) goes to 15 points with a 2-point lead. Toss the coin again before it: “Switch sides” and “Switch serve” set the sides and the service (the “SERVE” ball beside the buttons shows who serves), then tap “Confirm set 5 setup” (“Confirm set 3 setup” in a best of 3). At 8 points the teams change courts.",
             "de": "Der Entscheidungssatz (Satz 5, oder Satz 3 bei Best of 3) geht auf 15 Punkte mit 2 Punkten Vorsprung. Davor wird neu ausgelost: «Seiten wechseln» und «Aufschlag wechseln» legen Seiten und Aufschlag fest (der Ball «AUFSCHLAG» neben den Schaltflächen zeigt, wer aufschlägt), dann tippe auf «Satz 5 Einrichtung bestätigen» («Satz 3 Einrichtung bestätigen» bei Best of 3). Bei 8 Punkten wechseln die Teams das Feld.",
-            "fr": "Le set décisif (set 5, ou set 3 en deux sets gagnants) se joue en 15 points avec 2 points d'écart. Avant lui, refais le tirage au sort : « Changer de côté » et « Changer de service » règlent les côtés et le service (le ballon « SERVICE » à côté des boutons montre qui sert), puis appuie sur « Confirmer le set 5 » (« Confirmer le set 3 » en deux sets gagnants). À 8 points, les équipes changent de côté.",
+            "fr": "Le set décisif (set 5, ou set 3 en deux sets gagnants) se joue en 15 points avec 2 points d'écart. Avant lui, refais le tirage au sort : « Changer de côté » et « Changer de service » règlent les côtés et le service (le ballon « SERVICE » à côté des boutons montre qui sert), puis appuie sur « Confirmer le set 5 » (« Confirmer le set 3 » en deux sets gagnants). À 8 points, les équipes changent de camp.",
             "it": "Il set decisivo (set 5, o set 3 al meglio dei 3) va a 15 punti con 2 punti di vantaggio. Prima si rifà il sorteggio: «Inverti lati» e «Inverti servizio» impostano lati e servizio (il pallone «SERVIZIO» accanto ai pulsanti mostra chi serve), poi tocca «Conferma set 5» («Conferma set 3» al meglio dei 3). A 8 punti le squadre cambiano campo."
           }
         },
@@ -1671,13 +1671,13 @@
           "question": {
             "en": "How does the change of courts at 8 points work?",
             "de": "Wie läuft der Seitenwechsel bei 8 Punkten?",
-            "fr": "Comment se passe le changement de côté à 8 points ?",
+            "fr": "Comment se passe le changement de camp à 8 points ?",
             "it": "Come funziona il cambio campo a 8 punti?"
           },
           "answer": {
             "en": "When a team reaches 8 points in the deciding set, the app shows “Court switch required”. Let the teams change, then tap “Switch courts”. If a correction takes the score back below 8, the app asks to switch back.",
             "de": "Erreicht ein Team im Entscheidungssatz 8 Punkte, zeigt die App «Seitenwechsel erforderlich». Lass die Teams wechseln und tippe auf «Feld wechseln». Bringt eine Korrektur den Spielstand wieder unter 8, fragt die App, ob zurückgewechselt wird.",
-            "fr": "Quand une équipe atteint 8 points dans le set décisif, l'app affiche « Changement de côté requis ». Laisse les équipes changer, puis appuie sur « Changer de côté ». Si une correction ramène le score sous 8, l'app demande de revenir aux côtés d'avant.",
+            "fr": "Quand une équipe atteint 8 points dans le set décisif, l'app affiche « Changement de camp requis ». Laisse les équipes changer, puis appuie sur « Changer de camp ». Si une correction ramène le score sous 8, l'app demande de revenir aux camps d'avant.",
             "it": "Quando una squadra arriva a 8 punti nel set decisivo, l'app mostra «Cambio campo richiesto». Lascia che le squadre cambino, poi tocca «Inverti campo». Se una correzione riporta il punteggio sotto 8, l'app chiede di tornare ai lati di prima."
           }
         },
@@ -1706,7 +1706,7 @@
           },
           "answer": {
             "en": "The app shows the match end with the result. Confirm the end time: the match end page opens for the signatures and the approval.",
-            "de": "Die App zeigt das Spielende mit dem Ergebnis. Bestätige die Endzeit: Die Seite Spielende öffnet sich für die Unterschriften und die Genehmigung.",
+            "de": "Die App zeigt das Spielende mit dem Ergebnis. Bestätige die Endzeit: Die Seite Spielende öffnet sich für die Unterschriften und die Bestätigung.",
             "fr": "L'app affiche la fin du match avec le résultat. Confirme l'heure de fin : la page de fin du match s'ouvre pour les signatures et l'approbation.",
             "it": "L'app mostra la fine della partita con il risultato. Conferma l'ora di fine: si apre la pagina di fine partita per le firme e l'approvazione."
           }
@@ -1721,7 +1721,7 @@
           },
           "answer": {
             "en": "Tap “Reopen last set” to go back to the scoring screen. All signatures are cleared and must be collected again. After the approval, “Reopen match” reopens a test match, or a match whose approval has not reached the server yet. Once the server has closed it, only an admin can reopen it.",
-            "de": "Tippe auf «Letzten Satz wieder öffnen», um zum Erfassungsbildschirm zurückzukehren. Alle Unterschriften werden gelöscht und müssen neu gesammelt werden. Nach der Genehmigung öffnet «Spiel wieder öffnen» ein Testspiel wieder, oder ein Spiel, dessen Genehmigung den Server noch nicht erreicht hat. Hat der Server es abgeschlossen, kann nur noch ein Admin es wieder öffnen.",
+            "de": "Tippe auf «Letzten Satz wieder öffnen», um zum Erfassungsbildschirm zurückzukehren. Alle Unterschriften werden gelöscht und müssen neu gesammelt werden. Nach der Bestätigung öffnet «Spiel wieder öffnen» ein Testspiel wieder, oder ein Spiel, dessen Bestätigung den Server noch nicht erreicht hat. Hat der Server es abgeschlossen, kann nur noch ein Admin es wieder öffnen.",
             "fr": "Appuie sur « Rouvrir dernier set » pour revenir à l'écran de saisie. Toutes les signatures sont effacées et doivent être recueillies à nouveau. Après l'approbation, « Rouvrir le match » rouvre un match test, ou un match dont l'approbation n'a pas encore atteint le serveur. Une fois que le serveur l'a clôturé, seul un administrateur peut le rouvrir.",
             "it": "Tocca «Riapri ultimo set» per tornare alla schermata del punteggio. Tutte le firme vengono cancellate e vanno raccolte di nuovo. Dopo l'approvazione, «Riapri partita» riapre una partita test, o una partita la cui approvazione non è ancora arrivata al server. Una volta che il server l'ha chiusa, solo un amministratore può riaprirla."
           }
@@ -1791,7 +1791,7 @@
           "answer": {
             "en": "The results table shows set-by-set scores, timeouts used, substitutions per set, set durations, and total match duration.",
             "de": "Die Ergebnistabelle zeigt Satz-für-Satz-Ergebnisse, verwendete Auszeiten, Auswechslungen pro Satz, Satzdauer und Gesamtspieldauer.",
-            "fr": "Le tableau des résultats affiche les scores set par set, les temps morts utilisés, les remplacements par set, les durées des sets et la durée totale du match.",
+            "fr": "Le tableau des résultats affiche les scores set par set, les temps-morts utilisés, les remplacements par set, les durées des sets et la durée totale du match.",
             "it": "La tabella dei risultati mostra i punteggi set per set, i timeout utilizzati, le sostituzioni per set, le durate dei set e la durata totale della partita."
           }
         },
@@ -1805,8 +1805,8 @@
           },
           "answer": {
             "en": "First the two captains sign under “Team captains”. Then the officials sign in this order: assistant scorer (if any), scorer, 2nd referee (if any), 1st referee. Tap “Tap to sign” in each box.",
-            "de": "Zuerst unterschreiben die beiden Captains unter «Captains». Dann unterschreiben die Offiziellen in dieser Reihenfolge: Assistenz-Schreiber (falls vorhanden), Schreiber, 2. Schiedsrichter (falls vorhanden), 1. Schiedsrichter. Tippe in jedem Feld auf «Zum Unterschreiben tippen».",
-            "fr": "Les deux capitaines signent d'abord sous « Capitaines d'Équipe ». Puis les officiels signent dans cet ordre : marqueur adjoint (s'il y en a un), marqueur, 2nd arbitre (s'il y en a un), 1er arbitre. Appuie sur « Appuyer pour signer » dans chaque case.",
+            "de": "Zuerst unterschreiben die beiden Kapitäne unter «Mannschaftskapitäne». Dann unterschreiben die Offiziellen in dieser Reihenfolge: Schreiberassistent (falls vorhanden), Schreiber, 2. Schiedsrichter (falls vorhanden), 1. Schiedsrichter. Tippe in jedem Feld auf «Zum Unterschreiben tippen».",
+            "fr": "Les deux capitaines signent d'abord sous « Capitaines d'Équipe ». Puis les officiels signent dans cet ordre : marqueur adjoint (s'il y en a un), marqueur, second arbitre (s'il y en a un), premier arbitre. Appuie sur « Appuyer pour signer » dans chaque case.",
             "it": "Prima firmano i due capitani sotto «Capitani squadra». Poi firmano gli ufficiali in questo ordine: segnapunti assistente (se c'è), segnapunti, 2° arbitro (se c'è), 1° arbitro. Tocca «Tocca per firmare» in ogni casella."
           }
         },
@@ -1829,13 +1829,13 @@
           "id": "approve",
           "question": {
             "en": "What does “Confirm and approve” do?",
-            "de": "Was macht «Bestätigen und genehmigen»?",
+            "de": "Was macht «Matchblatt bestätigen»?",
             "fr": "Que fait « Confirmer et approuver » ?",
             "it": "Cosa fa «Conferma e approva»?"
           },
           "answer": {
             "en": "When every signature is in, tap “Confirm and approve”. If the sheet has something odd, the app lists it first: correct it or tap “Approve anyway”. The app downloads a ZIP with the match data and the scoresheet PDF: keep the scoresheet window open until the PDF is ready. The match is then approved and closed on the server.",
-            "de": "Wenn alle Unterschriften da sind, tippe auf «Bestätigen und genehmigen». Ist auf dem Matchblatt etwas ungewöhnlich, listet die App es zuerst auf: Korrigiere es oder tippe auf «Trotzdem genehmigen». Die App lädt ein ZIP mit den Spieldaten und dem Matchblatt als PDF herunter: Lass das Matchblatt-Fenster offen, bis das PDF fertig ist. Danach ist das Spiel genehmigt und auf dem Server abgeschlossen.",
+            "de": "Wenn alle Unterschriften da sind, tippe auf «Matchblatt bestätigen». Ist auf dem Matchblatt etwas ungewöhnlich, listet die App es zuerst auf: Korrigiere es oder tippe auf «Trotzdem bestätigen». Die App lädt ein ZIP mit den Spieldaten und dem Matchblatt als PDF herunter: Lass das Matchblatt-Fenster offen, bis das PDF fertig ist. Danach ist das Spiel bestätigt und auf dem Server abgeschlossen.",
             "fr": "Quand toutes les signatures sont là, appuie sur « Confirmer et approuver ». Si la feuille présente quelque chose d'inhabituel, l'app le liste d'abord : corrige-le ou appuie sur « Approuver quand même ». L'app télécharge un ZIP avec les données du match et la feuille de match en PDF : garde la fenêtre de la feuille de match ouverte jusqu'à ce que le PDF soit prêt. Le match est alors approuvé et clôturé sur le serveur.",
             "it": "Quando ci sono tutte le firme, tocca «Conferma e approva». Se nel referto c'è qualcosa di strano, l'app lo elenca prima: correggilo o tocca «Approva comunque». L'app scarica uno ZIP con i dati della partita e il referto in PDF: tieni aperta la finestra del referto finché il PDF è pronto. Poi la partita è approvata e chiusa sul server."
           }
@@ -1850,7 +1850,7 @@
           },
           "answer": {
             "en": "“Retry” makes the PDF again. “Approve without PDF” approves the match now: then create the PDF with “Create the PDF” before you close the match, so that it reaches the server. “Cancel” leaves the match not approved.",
-            "de": "«Erneut versuchen» erstellt das PDF nochmals. «Ohne PDF genehmigen» genehmigt das Spiel jetzt: Erstelle danach das PDF mit «PDF erstellen», bevor du das Spiel abschliesst, damit es den Server erreicht. «Abbrechen» lässt das Spiel ungenehmigt.",
+            "de": "«Erneut versuchen» erstellt das PDF nochmals. «Ohne PDF bestätigen» bestätigt das Spiel jetzt: Erstelle danach das PDF mit «PDF erstellen», bevor du das Spiel abschliesst, damit es den Server erreicht. «Abbrechen» lässt das Spiel unbestätigt.",
             "fr": "« Réessayer » recrée le PDF. « Approuver sans PDF » approuve le match tout de suite : crée ensuite le PDF avec « Créer le PDF » avant de fermer le match, pour qu’il parvienne au serveur. « Annuler » laisse le match non approuvé.",
             "it": "«Riprova» crea di nuovo il PDF. «Approva senza PDF» approva subito la partita: poi crea il PDF con «Crea il PDF» prima di chiudere la partita, così arriva al server. «Annulla» lascia la partita non approvata."
           }
@@ -1859,13 +1859,13 @@
           "id": "exportPdf",
           "question": {
             "en": "How do I export the scoresheet as PDF?",
-            "de": "Wie exportiere ich das Spielprotokoll als PDF?",
+            "de": "Wie exportiere ich das Matchblatt als PDF?",
             "fr": "Comment exporter la feuille de match en PDF ?",
             "it": "Come esporto il referto di gara in PDF?"
           },
           "answer": {
             "en": "Tap “Scoresheet” and choose “Preview”, “Print” or “Save PDF”. It works before and after the approval.",
-            "de": "Tippe auf «eScoresheet» und wähle «Vorschau», «Drucken» oder «PDF speichern». Das geht vor und nach der Genehmigung.",
+            "de": "Tippe auf «eScoresheet» und wähle «Vorschau», «Drucken» oder «PDF speichern». Das geht vor und nach der Bestätigung.",
             "fr": "Appuie sur « eScoresheet » et choisis « Aperçu », « Imprimer » ou « Enregistrer PDF ». Cela fonctionne avant et après l'approbation.",
             "it": "Tocca «eScoresheet» e scegli «Anteprima», «Stampa» o «Salva PDF». Funziona prima e dopo l'approvazione."
           }
@@ -1880,7 +1880,7 @@
           },
           "answer": {
             "en": "After the approval, “Close match” marks the match final on the server and removes it from this device. Save or print the PDF first if you need a copy on this device.",
-            "de": "Nach der Genehmigung markiert «Spiel abschliessen» das Spiel auf dem Server als final und entfernt es von diesem Gerät. Speichere oder drucke das PDF vorher, wenn du eine Kopie auf diesem Gerät brauchst.",
+            "de": "Nach der Bestätigung markiert «Spiel abschliessen» das Spiel auf dem Server als final und entfernt es von diesem Gerät. Speichere oder drucke das PDF vorher, wenn du eine Kopie auf diesem Gerät brauchst.",
             "fr": "Après l'approbation, « Fermer le match » marque le match comme final sur le serveur et le retire de cet appareil. Enregistre ou imprime d'abord le PDF si tu en veux une copie sur cet appareil.",
             "it": "Dopo l'approvazione, «Chiudi partita» segna la partita come definitiva sul server e la rimuove da questo dispositivo. Salva o stampa prima il PDF se ti serve una copia su questo dispositivo."
           }
@@ -1895,7 +1895,7 @@
           },
           "answer": {
             "en": "Where the league sends final scoresheets, the PDF is mailed a few minutes after the approval to the scorer, the referees (at the e-mail typed for them in the match setup) and each team's contact. Type a team's contact in the match setup (“Team contact email (optional)”) or later in Match › “Edit match info” › “Team contacts”.",
-            "de": "Wo der Verband endgültige Matchblätter verschickt, geht das PDF einige Minuten nach der Genehmigung per E-Mail an den Schreiber, die Schiedsrichter (an die für sie in der Spieleinrichtung eingetippte E-Mail) und den Kontakt jedes Teams. Den Kontakt eines Teams trägst du in der Spieleinrichtung ein («E-Mail Teamkontakt (freiwillig)») oder später unter Spiel › «Spielinfo bearbeiten» › «Teamkontakte».",
+            "de": "Wo der Verband endgültige Matchblätter verschickt, geht das PDF einige Minuten nach der Bestätigung per E-Mail an den Schreiber, die Schiedsrichter (an die für sie in der Spieleinrichtung eingetippte E-Mail) und den Kontakt jedes Teams. Den Kontakt eines Teams trägst du in der Spieleinrichtung ein («E-Mail Teamkontakt (freiwillig)») oder später unter Spiel › «Spielinfo bearbeiten» › «Teamkontakte».",
             "fr": "Là où la ligue envoie les feuilles de match finales, le PDF est envoyé par e-mail quelques minutes après l'approbation au marqueur, aux arbitres (à l'e-mail saisi pour eux dans la configuration du match) et au contact de chaque équipe. Saisis le contact d'une équipe dans la configuration du match (« E-mail du contact de l'équipe (facultatif) ») ou plus tard dans Match › « Modifier les infos du match » › « Contacts des équipes ».",
             "it": "Dove la lega invia i referti finali, il PDF viene spedito qualche minuto dopo l'approvazione al segnapunti, agli arbitri (all'e-mail inserita per loro nella configurazione della partita) e al contatto di ogni squadra. Inserisci il contatto di una squadra nella configurazione della partita («E-mail del contatto della squadra (facoltativa)») o più tardi in Partita › «Modifica info partita» › «Contatti delle squadre»."
           }
@@ -1925,7 +1925,7 @@
           },
           "answer": {
             "en": "At match end, “Add technical remark” records something for the administration (a device problem, a correction) that is not printed on the scoresheet: it is kept with the match and sent with the final scoresheet, and the signatures stay. “Edit remarks” changes the remarks printed on the sheet.",
-            "de": "Am Spielende erfasst „Technische Bemerkung hinzufügen“ etwas für die Administration (ein Geräteproblem, eine Korrektur), das nicht auf dem Spielbericht steht: Es bleibt beim Spiel und geht mit dem endgültigen Spielbericht mit, die Unterschriften bleiben. „Bemerkungen bearbeiten“ ändert die Bemerkungen auf dem Bericht.",
+            "de": "Am Spielende erfasst „Technische Bemerkung hinzufügen“ etwas für die Administration (ein Geräteproblem, eine Korrektur), das nicht auf dem Matchblatt steht: Es bleibt beim Spiel und geht mit dem endgültigen Matchblatt mit, die Unterschriften bleiben. „Bemerkungen bearbeiten“ ändert die Bemerkungen auf dem Matchblatt.",
             "fr": "À la fin du match, « Ajouter une remarque technique » note quelque chose pour l'administration (un problème d'appareil, une correction) qui n'est pas imprimé sur la feuille : elle reste avec le match et part avec la feuille finale, les signatures restent. « Modifier les remarques » change les remarques imprimées sur la feuille.",
             "it": "A fine partita, «Aggiungi osservazione tecnica» registra qualcosa per l'amministrazione (un problema del dispositivo, una correzione) che non è stampato sul referto: resta con la partita e parte con il referto finale, le firme restano. «Modifica osservazioni» cambia le osservazioni stampate sul referto."
           }
@@ -2045,7 +2045,7 @@
           "answer": {
             "en": "On a tablet in landscape or a computer, Match › “Corrections” opens the correction board: the scoreboard with every part correctable. “+” and “−” add or remove a point (or tap the score and type it: the difference goes in as the team’s points in a row), the time-out boxes add, move or remove a time-out, a tap on a player substitutes, sanctions or renumbers them, the arrows rotate a team and “Starting line-up” corrects the line-up. The board redraws at once and nothing is saved until you tap “Save”: then every change is written together and listed in the correction log. “Undo” takes back the last change, “Cancel” throws them all away. “List” shows the cards instead (phones always use them), with the event log and “Reopen set”. A point that would end the set is given with the point button.",
             "de": "Auf einem Tablet im Querformat oder einem Computer öffnet Spiel › «Korrekturen» das Korrektur-Board: das Scoreboard, auf dem du alles korrigieren kannst. «+» und «−» fügen einen Punkt hinzu oder entfernen ihn (oder tippe auf den Spielstand und gib ihn ein: die Differenz wird als Punkte des Teams nacheinander eingetragen), in den Auszeit-Feldern fügst du eine Auszeit hinzu, verschiebst oder entfernst sie, ein Tipp auf eine Spielerin oder einen Spieler wechselt aus, sanktioniert oder ändert die Nummer, die Pfeile rotieren ein Team und «Startaufstellung» korrigiert die Aufstellung. Das Board zeigt jede Änderung sofort, gespeichert wird aber erst, wenn du auf «Speichern» tippst: Dann werden alle Änderungen zusammen geschrieben und im Korrekturprotokoll aufgeführt. «Rückgängig» nimmt die letzte Änderung zurück, «Abbrechen» verwirft alle. «Liste» zeigt stattdessen die Karten (auf dem Handy immer), mit dem Ereignisprotokoll und «Satz wieder öffnen». Einen Punkt, der den Satz beendet, gibst du mit der Punkt-Schaltfläche.",
-            "fr": "Sur une tablette en mode paysage ou un ordinateur, Match › « Corrections » ouvre le tableau de correction : le tableau de marque où tout se corrige. « + » et « − » ajoutent ou retirent un point (ou appuie sur le score et saisis-le : la différence est enregistrée comme points de l’équipe à la suite), les cases de temps mort ajoutent, déplacent ou suppriment un temps mort, un appui sur une joueuse ou un joueur permet de le remplacer, de le sanctionner ou de changer son numéro, les flèches font tourner une équipe et « Formation de départ » corrige la formation. Le tableau se met à jour tout de suite et rien n’est enregistré tant que tu n’appuies pas sur « Enregistrer » : toutes les modifications sont alors écrites ensemble et figurent dans le journal des corrections. « Défaire » annule la dernière modification, « Annuler » les abandonne toutes. « Liste » affiche les cartes à la place (toujours sur un téléphone), avec le journal des événements et « Rouvrir le set ». Un point qui termine le set se donne avec le bouton de point.",
+            "fr": "Sur une tablette en mode paysage ou un ordinateur, Match › « Corrections » ouvre le tableau de correction : le tableau de marque où tout se corrige. « + » et « − » ajoutent ou retirent un point (ou appuie sur le score et saisis-le : la différence est enregistrée comme points de l’équipe à la suite), les cases de temps-mort ajoutent, déplacent ou suppriment un temps-mort, un appui sur une joueuse ou un joueur permet de le remplacer, de le sanctionner ou de changer son numéro, les flèches font tourner une équipe et « Formation de départ » corrige la formation. Le tableau se met à jour tout de suite et rien n’est enregistré tant que tu n’appuies pas sur « Enregistrer » : toutes les modifications sont alors écrites ensemble et figurent dans le journal des corrections. « Défaire » annule la dernière modification, « Annuler » les abandonne toutes. « Liste » affiche les cartes à la place (toujours sur un téléphone), avec le journal des événements et « Rouvrir le set ». Un point qui termine le set se donne avec le bouton de point.",
             "it": "Su un tablet in orizzontale o su un computer, Partita › «Correzioni» apre il tabellone delle correzioni: il tabellone segnapunti dove tutto si può correggere. «+» e «−» aggiungono o tolgono un punto (oppure tocca il punteggio e inseriscilo: la differenza viene registrata come punti della squadra di seguito), le caselle dei tempi di riposo aggiungono, spostano o tolgono un tempo di riposo, un tocco su una giocatrice o un giocatore permette di sostituirlo, sanzionarlo o cambiargli il numero, le frecce fanno ruotare una squadra e «Formazione iniziale» corregge la formazione. Il tabellone si aggiorna subito e niente viene salvato finché non tocchi «Salva»: allora tutte le modifiche vengono scritte insieme e compaiono nel registro delle correzioni. «Annulla ultima» toglie l’ultima modifica, «Annulla» le scarta tutte. «Elenco» mostra invece le schede (sul telefono sempre), con il registro degli eventi e «Riapri set». Un punto che chiude il set si assegna con il pulsante del punto."
           }
         },
@@ -2053,13 +2053,13 @@
           "id": "goBack",
           "question": {
             "en": "The referees take the game back (wrong server, wrong positions, illegal substitution)?",
-            "de": "Die Schiedsrichter nehmen das Spiel zurück (falscher Aufschläger, falsche Positionen, regelwidriger Wechsel)?",
+            "de": "Die Schiedsrichter nehmen das Spiel zurück (falscher Aufschlagspieler, falsche Positionen, irreguläre Auswechslung)?",
             "fr": "Les arbitres font revenir le jeu en arrière (mauvais serveur, mauvaises positions, remplacement irrégulier) ?",
             "it": "Gli arbitri riportano indietro la partita (servizio sbagliato, posizioni sbagliate, sostituzione irregolare)?"
           },
           "answer": {
             "en": "Between rallies, open Match › “Go back”. Choose the score where it went wrong, then what it was, whose points since then are cancelled and who gets the point and the service. Check the score, the serve and the line-ups, then tap “Resume”. The app writes the remark on the scoresheet; cancelled points pass the serve but do not count. It works only in the set being played; for an earlier set, use Corrections and tell the referee.",
-            "de": "Öffne zwischen zwei Ballwechseln Spiel › «Zurück». Wähle den Spielstand, bei dem es falsch lief, dann was es war, wessen Punkte seither gestrichen werden und wer Punkt und Aufschlag erhält. Prüfe Spielstand, Aufschlag und Aufstellungen und tippe dann auf «Weiterspielen». Die App schreibt die Bemerkung ins Matchblatt; gestrichene Punkte geben den Aufschlag weiter, zählen aber nicht. Das geht nur im laufenden Satz; für einen früheren Satz nutze die Korrekturen und informiere den Schiedsrichter.",
+            "de": "Öffne zwischen zwei Spielzügen Spiel › «Zurück». Wähle den Spielstand, bei dem es falsch lief, dann was es war, wessen Punkte seither gestrichen werden und wer Punkt und Aufschlag erhält. Prüfe Spielstand, Aufschlag und Aufstellungen und tippe dann auf «Weiterspielen». Die App schreibt die Bemerkung ins Matchblatt; gestrichene Punkte geben den Aufschlag weiter, zählen aber nicht. Das geht nur im laufenden Satz; für einen früheren Satz nutze die Korrekturen und informiere den Schiedsrichter.",
             "fr": "Entre deux échanges, ouvre Match › « Revenir en arrière ». Choisis le score où l'erreur s'est produite, puis ce que c'était, les points de quelle équipe sont annulés depuis et qui reçoit le point et le service. Vérifie le score, le service et les formations, puis appuie sur « Reprendre ». L'app inscrit la remarque sur la feuille de match ; les points annulés font passer le service mais ne comptent pas. Cela ne fonctionne que dans le set en cours ; pour un set précédent, utilise Corrections et préviens l'arbitre.",
             "it": "Tra due scambi, apri Partita › «Tornare indietro». Scegli il punteggio in cui è nato l'errore, poi di che errore si tratta, di chi sono i punti annullati da allora e chi riceve il punto e il servizio. Controlla punteggio, servizio e formazioni, poi tocca «Riprendere». L'app scrive l'osservazione sul referto; i punti annullati passano il servizio ma non contano. Funziona solo nel set in corso; per un set precedente, usa le Correzioni e avvisa l'arbitro."
           }
@@ -2113,14 +2113,14 @@
           "id": "editEvents",
           "question": {
             "en": "How do I correct a time-out, a substitution or a sanction?",
-            "de": "Wie korrigiere ich ein Timeout, einen Wechsel oder eine Sanktion?",
-            "fr": "Comment corriger un temps mort, un remplacement ou une sanction ?",
+            "de": "Wie korrigiere ich eine Auszeit, eine Auswechslung oder eine Sanktion?",
+            "fr": "Comment corriger un temps-mort, un remplacement ou une sanction ?",
             "it": "Come correggo un timeout, una sostituzione o una sanzione?"
           },
           "answer": {
             "en": "Use the “Time-outs”, “Substitutions”, “Sanctions”, “Libero” and “Line-up” cards, or “Advanced: event log” for any entry: each row has “Edit” and “Remove”. A preview shows what changes on the scoresheet before you confirm. What follows the entry is recalculated, and an entry that no longer fits is listed under “Check these entries”.",
-            "de": "Nutze die Karten «Auszeiten», «Spielerwechsel», «Sanktionen», «Libero» und «Aufstellung» oder für jeden Eintrag «Erweitert: Ereignisprotokoll»: Jede Zeile hat «Bearbeiten» und «Entfernen». Eine Vorschau zeigt, was sich auf dem Matchblatt ändert, bevor du bestätigst. Was danach kommt, wird neu berechnet; ein Eintrag, der nicht mehr passt, steht unter «Diese Einträge prüfen».",
-            "fr": "Utilise les cartes « Temps morts », « Remplacements », « Sanctions », « Libéro » et « Formation », ou « Avancé : journal des événements » pour n’importe quelle entrée : chaque ligne a « Modifier » et « Supprimer ». Un aperçu montre ce qui change sur la feuille de match avant que tu confirmes. Ce qui suit l’entrée est recalculé, et une entrée qui ne correspond plus est listée sous « Vérifier ces entrées ».",
+            "de": "Nutze die Karten «Auszeiten», «Auswechslungen», «Sanktionen», «Libero» und «Aufstellung» oder für jeden Eintrag «Erweitert: Ereignisprotokoll»: Jede Zeile hat «Bearbeiten» und «Entfernen». Eine Vorschau zeigt, was sich auf dem Matchblatt ändert, bevor du bestätigst. Was danach kommt, wird neu berechnet; ein Eintrag, der nicht mehr passt, steht unter «Diese Einträge prüfen».",
+            "fr": "Utilise les cartes « Temps-morts », « Remplacements », « Sanctions », « Libéro » et « Formation », ou « Avancé : journal des événements » pour n’importe quelle entrée : chaque ligne a « Modifier » et « Supprimer ». Un aperçu montre ce qui change sur la feuille de match avant que tu confirmes. Ce qui suit l’entrée est recalculé, et une entrée qui ne correspond plus est listée sous « Vérifier ces entrées ».",
             "it": "Usa le schede «Tempi di riposo», «Sostituzioni», «Sanzioni», «Libero» e «Formazione», o «Avanzate: registro eventi» per qualsiasi voce: ogni riga ha «Modifica» e «Rimuovi». Un’anteprima mostra cosa cambia sul referto prima che tu confermi. Ciò che segue la voce viene ricalcolato, e una voce che non corrisponde più è elencata in «Controlla queste voci»."
           }
         },
@@ -2134,7 +2134,7 @@
           },
           "answer": {
             "en": "In Corrections: “Change who serves first”, “Switch sides” and “Reopen set”, and the “Coin toss” card. “Fix the line-up” changes a starting line-up, also after rallies were played; “Forward” and “Back” rotate a team that stands one position off. The rotations after it are recalculated.",
-            "de": "In den Korrekturen: «Ersten Aufschlag ändern», «Seiten wechseln» und «Satz wieder öffnen» sowie die Karte «Seitenwahl». «Aufstellung korrigieren» ändert eine Startaufstellung, auch nach gespielten Ballwechseln; «Vorwärts» und «Zurück» rotieren ein Team, das eine Position verschoben steht. Die Rotationen danach werden neu berechnet.",
+            "de": "In den Korrekturen: «Ersten Aufschlag ändern», «Seiten wechseln» und «Satz wieder öffnen» sowie die Karte «Auslosung». «Aufstellung korrigieren» ändert eine Startaufstellung, auch nach gespielten Spielzügen; «Vorwärts» und «Zurück» rotieren ein Team, das eine Position verschoben steht. Die Rotationen danach werden neu berechnet.",
             "fr": "Dans les corrections : « Changer qui sert en premier », « Changer de côté » et « Rouvrir le set », et la carte « Tirage au sort ». « Corriger la formation » change une formation de départ, même après des échanges joués ; « En avant » et « En arrière » font tourner une équipe décalée d’une position. Les rotations qui suivent sont recalculées.",
             "it": "Nelle correzioni: «Cambia chi serve per primo», «Cambia campo» e «Riapri set», e la scheda «Sorteggio». «Correggi la formazione» cambia una formazione iniziale, anche dopo azioni giocate; «Avanti» e «Indietro» fanno ruotare una squadra spostata di una posizione. Le rotazioni successive vengono ricalcolate."
           }
@@ -2179,7 +2179,7 @@
           },
           "answer": {
             "en": "A correction that changes the scoresheet clears the signatures collected at the match end. Collect them again. An approved match is read-only: reopen it first.",
-            "de": "Eine Korrektur, die das Matchblatt ändert, löscht die am Spielende gesammelten Unterschriften. Sammle sie neu. Ein genehmigtes Spiel ist schreibgeschützt: Öffne es zuerst wieder.",
+            "de": "Eine Korrektur, die das Matchblatt ändert, löscht die am Spielende gesammelten Unterschriften. Sammle sie neu. Ein bestätigtes Spiel ist schreibgeschützt: Öffne es zuerst wieder.",
             "fr": "Une correction qui change la feuille de match efface les signatures recueillies à la fin du match. Recueille-les à nouveau. Un match approuvé est en lecture seule : rouvre-le d'abord.",
             "it": "Una correzione che cambia il referto cancella le firme raccolte a fine partita. Raccoglile di nuovo. Una partita approvata è in sola lettura: riaprila prima."
           }
@@ -2558,7 +2558,7 @@
           "answer": {
             "en": "They turn the court to match where you stand: 1 REF for the 1st referee on the stand, 2 REF for the 2nd referee on the scorer's side. The score and the data stay the same.",
             "de": "Sie drehen das Feld passend zu deinem Standort: 1 REF für den 1. Schiedsrichter auf dem Stuhl, 2 REF für den 2. Schiedsrichter auf der Seite des Schreibers. Spielstand und Daten bleiben gleich.",
-            "fr": "Ils tournent le terrain selon ta place : 1 REF pour le 1er arbitre sur sa chaise, 2 REF pour le 2nd arbitre du côté du marqueur. Le score et les données restent les mêmes.",
+            "fr": "Ils tournent le terrain selon ta place : 1 REF pour le premier arbitre sur sa chaise, 2 REF pour le second arbitre du côté du marqueur. Le score et les données restent les mêmes.",
             "it": "Girano il campo secondo dove ti trovi: 1 REF per il 1° arbitro sul seggiolone, 2 REF per il 2° arbitro dal lato del segnapunti. Punteggio e dati restano uguali."
           }
         },
@@ -2572,8 +2572,8 @@
           },
           "answer": {
             "en": "The score and the sets, the serving team, both line-ups with the rotation, the time-outs (TO) and substitutions (SUB), the sanctions of a team once it has one, and the last action. Time-outs and intervals show their countdown. “Scoresheet” and “Rosters” are in the header.",
-            "de": "Spielstand und Sätze, das aufschlagende Team, beide Aufstellungen mit der Rotation, die Timeouts (TO) und Wechsel (AUS), die Sanktionen eines Teams, sobald es eine hat, und die letzte Aktion. Timeouts und Pausen zeigen ihren Countdown. «Matchblatt» und «Kader» sind in der Kopfzeile.",
-            "fr": "Le score et les sets, l'équipe au service, les deux formations avec la rotation, les temps morts (TM) et les remplacements (RMP), les sanctions d'une équipe dès qu'elle en a une, et la dernière action. Les temps morts et les pauses montrent leur compte à rebours. « Feuille de match » et « Effectifs » sont dans l'en-tête.",
+            "de": "Spielstand und Sätze, das aufschlagende Team, beide Aufstellungen mit der Rotation, die Auszeiten (TO) und Auswechslungen (AUS), die Sanktionen eines Teams, sobald es eine hat, und die letzte Aktion. Auszeiten und Pausen zeigen ihren Countdown. «Matchblatt» und «Kader» sind in der Kopfzeile.",
+            "fr": "Le score et les sets, l'équipe au service, les deux formations avec la rotation, les temps-morts (TM) et les remplacements (RMP), les sanctions d'une équipe dès qu'elle en a une, et la dernière action. Les temps-morts et les pauses montrent leur compte à rebours. « Feuille de match » et « Effectifs » sont dans l'en-tête.",
             "it": "Il punteggio e i set, la squadra al servizio, le due formazioni con la rotazione, i timeout (TO) e le sostituzioni (SOS), le sanzioni di una squadra appena ne ha una, e l'ultima azione. Timeout e intervalli mostrano il loro conto alla rovescia. «Referto» e «Rose» sono nell'intestazione."
           }
         },
@@ -2587,8 +2587,8 @@
           },
           "answer": {
             "en": "When the scorer records a time-out, a substitution or a sanction, every referee tablet shows it in a popup, with the team, the set and the score. Tap “OK”, or it closes by itself after 10 seconds. What is recorded while it is open is added to it. During a time-out the countdown shows in the popup and moves to the court when it closes.",
-            "de": "Erfasst der Schreiber ein Timeout, einen Wechsel oder eine Sanktion, zeigt jedes Schiedsrichter-Tablet sie in einem Fenster an, mit Mannschaft, Satz und Spielstand. Auf «OK» tippen, oder es schliesst sich nach 10 Sekunden von selbst. Was erfasst wird, während es offen ist, kommt dazu. Während eines Timeouts zeigt es den Countdown, der beim Schliessen aufs Spielfeld wandert.",
-            "fr": "Quand le marqueur enregistre un temps mort, un remplacement ou une sanction, chaque tablette d'arbitre l'affiche dans une fenêtre, avec l'équipe, le set et le score. Touche « OK », ou elle se ferme seule après 10 secondes. Ce qui est enregistré pendant qu'elle est ouverte s'y ajoute. Pendant un temps mort, elle montre le compte à rebours, qui rejoint le terrain à la fermeture.",
+            "de": "Erfasst der Schreiber eine Auszeit, eine Auswechslung oder eine Sanktion, zeigt jedes Schiedsrichter-Tablet sie in einem Fenster an, mit Mannschaft, Satz und Spielstand. Auf «OK» tippen, oder es schliesst sich nach 10 Sekunden von selbst. Was erfasst wird, während es offen ist, kommt dazu. Während einer Auszeit zeigt es den Countdown, der beim Schliessen aufs Spielfeld wandert.",
+            "fr": "Quand le marqueur enregistre un temps-mort, un remplacement ou une sanction, chaque tablette d'arbitre l'affiche dans une fenêtre, avec l'équipe, le set et le score. Touche « OK », ou elle se ferme seule après 10 secondes. Ce qui est enregistré pendant qu'elle est ouverte s'y ajoute. Pendant un temps-mort, elle montre le compte à rebours, qui rejoint le terrain à la fermeture.",
             "it": "Quando il segnapunti registra un tempo di riposo, una sostituzione o una sanzione, ogni tablet dell'arbitro la mostra in una finestra, con la squadra, il set e il punteggio. Tocca «OK», oppure si chiude da sola dopo 10 secondi. Ciò che viene registrato mentre è aperta si aggiunge. Durante un tempo di riposo mostra il conto alla rovescia, che passa sul campo alla chiusura."
           }
         },
@@ -2656,14 +2656,14 @@
           "id": "benchRequests",
           "question": {
             "en": "What is “Bench asks for a time-out” at the bottom?",
-            "de": "Was ist «Bank fragt nach einem Time-out» unten?",
-            "fr": "Qu'est-ce que « Le banc demande un temps mort » en bas ?",
+            "de": "Was ist «Bank fragt nach einer Auszeit» unten?",
+            "fr": "Qu'est-ce que « Le banc demande un temps-mort » en bas ?",
             "it": "Cos'è «La panchina chiede un time-out» in basso?"
           },
           "answer": {
             "en": "A bench asked the scorer for a time-out or prepared a substitution on its tablet. It is a notice only: the coach still asks you as always, and the scorer records it. It goes away when the scorer answers or the bench cancels.",
-            "de": "Eine Bank hat den Schreiber auf ihrem Tablet um ein Timeout gebeten oder einen Wechsel vorbereitet. Es ist nur ein Hinweis: Der Coach fragt dich weiterhin wie immer, und der Schreiber erfasst es. Der Hinweis verschwindet, wenn der Schreiber antwortet oder die Bank abbricht.",
-            "fr": "Un banc a demandé un temps mort au marqueur ou préparé un remplacement sur sa tablette. C'est seulement une information : l'entraîneur te le demande toujours comme d'habitude, et le marqueur l'enregistre. Elle disparaît quand le marqueur répond ou que le banc annule.",
+            "de": "Eine Bank hat den Schreiber auf ihrem Tablet um eine Auszeit gebeten oder eine Auswechslung vorbereitet. Es ist nur ein Hinweis: Der Trainer fragt dich weiterhin wie immer, und der Schreiber erfasst es. Der Hinweis verschwindet, wenn der Schreiber antwortet oder die Bank abbricht.",
+            "fr": "Un banc a demandé un temps-mort au marqueur ou préparé un remplacement sur sa tablette. C'est seulement une information : le coach te le demande toujours comme d'habitude, et le marqueur l'enregistre. Elle disparaît quand le marqueur répond ou que le banc annule.",
             "it": "Una panchina ha chiesto un timeout al segnapunti o ha preparato una sostituzione sul suo tablet. È solo un avviso: l'allenatore te lo chiede comunque come sempre, e il segnapunti lo registra. Sparisce quando il segnapunti risponde o la panchina annulla."
           }
         },
@@ -2786,8 +2786,8 @@
           },
           "answer": {
             "en": "The score (your team first), the set and the sets, your time-outs (TO) and substitutions (SUB) used, your sanctions, your team on court with the captain, your bench and liberos, and the buttons to send requests to the scorer.",
-            "de": "Der Spielstand (dein Team zuerst), der Satz und die Sätze, deine bezogenen Timeouts (TO) und Wechsel (AUS), deine Sanktionen, dein Team auf dem Feld mit dem Captain, deine Bank und Liberos sowie die Schaltflächen, mit denen du dem Schreiber Anfragen schickst.",
-            "fr": "Le score (ton équipe en premier), le set et les sets, tes temps morts (TM) et remplacements (RMP) utilisés, tes sanctions, ton équipe sur le terrain avec le capitaine, ton banc et tes libéros, et les boutons pour envoyer des demandes au marqueur.",
+            "de": "Der Spielstand (dein Team zuerst), der Satz und die Sätze, deine bezogenen Auszeiten (TO) und Auswechslungen (AUS), deine Sanktionen, dein Team auf dem Feld mit dem Kapitän, deine Bank und Liberos sowie die Schaltflächen, mit denen du dem Schreiber Anfragen schickst.",
+            "fr": "Le score (ton équipe en premier), le set et les sets, tes temps-morts (TM) et remplacements (RMP) utilisés, tes sanctions, ton équipe sur le terrain avec le capitaine, ton banc et tes libéros, et les boutons pour envoyer des demandes au marqueur.",
             "it": "Il punteggio (prima la tua squadra), il set e i set, i tuoi timeout (TO) e sostituzioni (SOS) usati, le tue sanzioni, la tua squadra in campo con il capitano, la tua panchina e i liberi, e i pulsanti per inviare richieste al segnapunti."
           }
         },
@@ -2795,14 +2795,14 @@
           "id": "requests",
           "question": {
             "en": "Can the coach ask for a time-out or a substitution from the tablet?",
-            "de": "Kann der Coach am Tablet ein Timeout oder einen Wechsel verlangen?",
-            "fr": "L'entraîneur peut-il demander un temps mort ou un remplacement depuis la tablette ?",
+            "de": "Kann der Trainer am Tablet eine Auszeit oder eine Auswechslung verlangen?",
+            "fr": "Le coach peut-il demander un temps-mort ou un remplacement depuis la tablette ?",
             "it": "L'allenatore può chiedere un timeout o una sostituzione dal tablet?"
           },
           "answer": {
             "en": "Yes. “Time-out” sends a time-out request; “Substitution” › who goes off and who comes on › “Send”. The scorer sees it at once and records it, or declines it with a reason. It is an aid only: the coach still asks the referee as always. The × on a button cancels an open request.",
-            "de": "Ja. «Time-out» schickt eine Timeout-Anfrage; «Wechsel» › wer hinausgeht und wer hineinkommt › «Senden». Der Schreiber sieht sie sofort und erfasst sie oder lehnt sie mit einem Grund ab. Das ist nur eine Hilfe: Der Coach fragt den Schiedsrichter weiterhin wie immer. Das × auf einer Schaltfläche bricht eine offene Anfrage ab.",
-            "fr": "Oui. « Temps mort » envoie une demande de temps mort ; « Remplacement » › qui sort et qui entre › « Envoyer ». Le marqueur la voit tout de suite et l'enregistre, ou la refuse avec une raison. Ce n'est qu'une aide : l'entraîneur demande toujours à l'arbitre comme d'habitude. Le × sur un bouton annule une demande en cours.",
+            "de": "Ja. «Auszeit» schickt eine Auszeit-Anfrage; «Auswechslung» › wer hinausgeht und wer hineinkommt › «Senden». Der Schreiber sieht sie sofort und erfasst sie oder lehnt sie mit einem Grund ab. Das ist nur eine Hilfe: Der Trainer fragt den Schiedsrichter weiterhin wie immer. Das × auf einer Schaltfläche bricht eine offene Anfrage ab.",
+            "fr": "Oui. « Temps-mort » envoie une demande de temps-mort ; « Remplacement » › qui sort et qui entre › « Envoyer ». Le marqueur la voit tout de suite et l'enregistre, ou la refuse avec une raison. Ce n'est qu'une aide : le coach demande toujours à l'arbitre comme d'habitude. Le × sur un bouton annule une demande en cours.",
             "it": "Sì. «Time-out» invia una richiesta di timeout; «Sostituzione» › chi esce e chi entra › «Invia». Il segnapunti la vede subito e la registra, o la rifiuta con un motivo. È solo un aiuto: l'allenatore chiede comunque all'arbitro come sempre. La × su un pulsante annulla una richiesta aperta."
           }
         },
@@ -2810,14 +2810,14 @@
           "id": "lineup",
           "question": {
             "en": "How does the coach send the starting line-up?",
-            "de": "Wie schickt der Coach die Startaufstellung?",
-            "fr": "Comment l'entraîneur envoie-t-il la formation de départ ?",
+            "de": "Wie schickt der Trainer die Startaufstellung?",
+            "fr": "Comment le coach envoie-t-il la formation de départ ?",
             "it": "Come invia l'allenatore la formazione iniziale?"
           },
           "answer": {
             "en": "After the coin toss, tap “Line-up”, tap a position and then a player until all six are placed, and tap “Send line-up”. Only the scorer sees it until the set starts. The scorer checks it and confirms it; the button then says “Recorded by the scorer”.",
             "de": "Tippe nach der Auslosung auf «Aufstellung», tippe auf eine Position und dann auf einen Spieler, bis alle sechs gesetzt sind, und tippe auf «Aufstellung senden». Bis der Satz beginnt, sieht sie nur der Schreiber. Der Schreiber prüft und bestätigt sie; die Schaltfläche zeigt dann «Vom Schreiber erfasst».",
-            "fr": "Après le tirage au sort, appuie sur « Composition », appuie sur une position puis sur un joueur jusqu'à ce que les six soient placés, et appuie sur « Envoyer la composition ». Seul le marqueur la voit jusqu'au début du set. Le marqueur la vérifie et la confirme ; le bouton indique alors « Enregistrée par le marqueur ».",
+            "fr": "Après le tirage au sort, appuie sur « Formation de départ », appuie sur une position puis sur un joueur jusqu'à ce que les six soient placés, et appuie sur « Envoyer la formation de départ ». Seul le marqueur la voit jusqu'au début du set. Le marqueur la vérifie et la confirme ; le bouton indique alors « Enregistrée par le marqueur ».",
             "it": "Dopo il sorteggio, tocca «Formazione», tocca una posizione e poi un giocatore finché tutti e sei sono piazzati, e tocca «Invia la formazione». Solo il segnapunti la vede finché il set non inizia. Il segnapunti la controlla e la conferma; il pulsante dice allora «Registrata dal segnapunti»."
           }
         },
@@ -2846,8 +2846,8 @@
           },
           "answer": {
             "en": "Each button says when it works, for example “After the coin toss”, “After the line-up”, “The set has started”, “Both time-outs used” or “6 substitutions used”. The match shows on the tablet as soon as the scorer confirms the coin toss.",
-            "de": "Jede Schaltfläche sagt, wann sie funktioniert, zum Beispiel «Nach der Platzwahl», «Nach der Aufstellung», «Der Satz hat begonnen», «Beide Time-outs bezogen» oder «6 Wechsel gemacht». Das Spiel erscheint auf dem Tablet, sobald der Schreiber die Auslosung bestätigt.",
-            "fr": "Chaque bouton indique quand il fonctionne, par exemple « Après le tirage au sort », « Après la composition », « Le set a commencé », « Les deux temps morts sont pris » ou « 6 remplacements faits ». Le match s'affiche sur la tablette dès que le marqueur confirme le tirage au sort.",
+            "de": "Jede Schaltfläche sagt, wann sie funktioniert, zum Beispiel «Nach der Auslosung», «Nach der Aufstellung», «Der Satz hat begonnen», «Beide Auszeiten bezogen» oder «6 Auswechslungen gemacht». Das Spiel erscheint auf dem Tablet, sobald der Schreiber die Auslosung bestätigt.",
+            "fr": "Chaque bouton indique quand il fonctionne, par exemple « Après le tirage au sort », « Après la formation de départ », « Le set a commencé », « Les deux temps-morts sont pris » ou « 6 remplacements faits ». Le match s'affiche sur la tablette dès que le marqueur confirme le tirage au sort.",
             "it": "Ogni pulsante dice quando funziona, per esempio «Dopo il sorteggio», «Dopo la formazione», «Il set è iniziato», «Entrambi i time-out usati» o «6 sostituzioni fatte». La partita compare sul tablet appena il segnapunti conferma il sorteggio."
           }
         },
@@ -2900,8 +2900,8 @@
           "id": "roster",
           "question": {
             "en": "How does the coach send the roster?",
-            "de": "Wie schickt der Coach den Kader?",
-            "fr": "Comment l'entraîneur envoie-t-il l'effectif ?",
+            "de": "Wie schickt der Trainer den Kader?",
+            "fr": "Comment le coach envoie-t-il l'effectif ?",
             "it": "Come invia il roster l'allenatore?"
           },
           "answer": {
@@ -3100,7 +3100,7 @@
           },
           "answer": {
             "en": "A simple scoreboard for any game, without a scoresheet: “Point for Home” and “Point for Away” add a point, “One point off” takes one back, “Swap sides”, “Next set” and “New game”. Nothing is saved as a match. To show a scored match on a TV, use Match › “Show on a scoreboard” on the scoring screen.",
-            "de": "Eine einfache Anzeigetafel für jedes Spiel, ohne Spielbericht: „Punkt für …“ zählt einen Punkt, „Ein Punkt weniger für …“ nimmt einen zurück, dazu „Seiten wechseln“, „Nächster Satz“ und „Neues Spiel“. Nichts wird als Spiel gespeichert. Um ein geschriebenes Spiel auf einem TV zu zeigen, nimm im Schreibbildschirm Spiel › „Auf einer Anzeigetafel zeigen“.",
+            "de": "Eine einfache Anzeigetafel für jedes Spiel, ohne Matchblatt: „Punkt für …“ zählt einen Punkt, „Ein Punkt weniger für …“ nimmt einen zurück, dazu „Seiten wechseln“, „Nächster Satz“ und „Neues Spiel“. Nichts wird als Spiel gespeichert. Um ein geschriebenes Spiel auf einem TV zu zeigen, nimm im Schreibbildschirm Spiel › „Auf einer Anzeigetafel zeigen“.",
             "fr": "Un tableau de score simple pour n'importe quel match, sans feuille de match : « Point pour … » ajoute un point, « Un point de moins pour … » en retire un, plus « Changer de côté », « Set suivant » et « Nouveau match ». Rien n'est enregistré comme match. Pour montrer un match marqué sur une TV, utilise Match › « Afficher sur un tableau » dans l'écran de marque.",
             "it": "Un tabellone semplice per qualsiasi partita, senza referto: «Punto per …» aggiunge un punto, «Un punto in meno a …» ne toglie uno, più «Cambia campo», «Set successivo» e «Nuova partita». Niente viene salvato come partita. Per mostrare una partita segnata su una TV, usa Partita › «Mostra su un tabellone» nella schermata di segnatura."
           }
@@ -3374,7 +3374,7 @@
           },
           "answer": {
             "en": "“Confirm and approve” downloads a ZIP with the match data (JSON) and the PDF. During the match, Match › “Download game data (JSON)” saves this match's backup file, encrypted with the game PIN and the referee PIN. Both can restore the match (“Restore match” on Home).",
-            "de": "«Bestätigen und genehmigen» lädt ein ZIP mit den Spieldaten (JSON) und dem PDF herunter. Während des Spiels speichert Spiel › «Spieldaten herunterladen (JSON)» die Backup-Datei dieses Spiels, verschlüsselt mit der Spiel-PIN und der Schiedsrichter-PIN. Mit beiden lässt sich das Spiel wiederherstellen («Spiel wiederherstellen» auf der Startseite).",
+            "de": "«Matchblatt bestätigen» lädt ein ZIP mit den Spieldaten (JSON) und dem PDF herunter. Während des Spiels speichert Spiel › «Spieldaten herunterladen (JSON)» die Backup-Datei dieses Spiels, verschlüsselt mit der Spiel-PIN und der Schiedsrichter-PIN. Mit beiden lässt sich das Spiel wiederherstellen («Spiel wiederherstellen» auf der Startseite).",
             "fr": "« Confirmer et approuver » télécharge un ZIP avec les données du match (JSON) et le PDF. Pendant le match, Match › « Télécharger les données du match (JSON) » enregistre le fichier de sauvegarde de ce match, chiffré avec le PIN du match et le PIN arbitre. Les deux permettent de restaurer le match (« Restaurer le match » à l'accueil).",
             "it": "«Conferma e approva» scarica uno ZIP con i dati della partita (JSON) e il PDF. Durante la partita, Partita › «Scarica i dati della partita (JSON)» salva il file di backup di questa partita, cifrato con il PIN partita e il PIN arbitro. Con entrambi si può ripristinare la partita («Ripristina partita» sulla home)."
           }
@@ -3563,7 +3563,7 @@
           },
           "answer": {
             "en": "The match is approved or closed on the server. This copy can no longer be scored or synced. Open it read-only, load the official version, or remove it from this device. Only an admin can reopen the match.",
-            "de": "Das Spiel ist auf dem Server genehmigt oder abgeschlossen. Diese Kopie lässt sich nicht mehr erfassen oder synchronisieren. Öffne sie zum Lesen, lade die offizielle Version oder entferne sie von diesem Gerät. Nur ein Admin kann das Spiel wieder öffnen.",
+            "de": "Das Spiel ist auf dem Server bestätigt oder abgeschlossen. Diese Kopie lässt sich nicht mehr erfassen oder synchronisieren. Öffne sie zum Lesen, lade die offizielle Version oder entferne sie von diesem Gerät. Nur ein Admin kann das Spiel wieder öffnen.",
             "fr": "Le match est approuvé ou clôturé sur le serveur. Cette copie ne peut plus être tenue ni synchronisée. Ouvre-la en lecture seule, charge la version officielle ou retire-la de cet appareil. Seul un administrateur peut rouvrir le match.",
             "it": "La partita è approvata o chiusa sul server. Questa copia non si può più refertare né sincronizzare. Aprila in sola lettura, carica la versione ufficiale o rimuovila da questo dispositivo. Solo un amministratore può riaprire la partita."
           }
@@ -3782,7 +3782,7 @@
           },
           "answer": {
             "en": "This version is too old for the server. Your changes stay on this device and are sent after the update. In a browser, refresh after this rally; in the app, install the update after this match.",
-            "de": "Diese Version ist zu alt für den Server. Deine Änderungen bleiben auf diesem Gerät und werden nach dem Update gesendet. Im Browser aktualisierst du nach diesem Ballwechsel; in der App installierst du das Update nach diesem Spiel.",
+            "de": "Diese Version ist zu alt für den Server. Deine Änderungen bleiben auf diesem Gerät und werden nach dem Update gesendet. Im Browser aktualisierst du nach diesem Spielzug; in der App installierst du das Update nach diesem Spiel.",
             "fr": "Cette version est trop ancienne pour le serveur. Tes modifications restent sur cet appareil et sont envoyées après la mise à jour. Dans un navigateur, actualise après cet échange ; dans l'app, installe la mise à jour après ce match.",
             "it": "Questa versione è troppo vecchia per il server. Le tue modifiche restano su questo dispositivo e vengono inviate dopo l'aggiornamento. In un browser, ricarica dopo questo scambio; nell'app, installa l'aggiornamento dopo questa partita."
           }
@@ -3797,7 +3797,7 @@
           },
           "answer": {
             "en": "Options › “Effects and speed”: “Check this device” measures how fast it is (about a second, nothing leaves the device) and recommends lighter settings. You can also switch off “Blur behind dialogs” and “Animations”, turn off “Seconds on the clock”, and turn off “Sharp PDF” for a faster scoresheet preview. Home offers the check once; run it again any time from Options on Home.",
-            "de": "Optionen › „Effekte und Tempo“: „Dieses Gerät testen“ misst, wie schnell es ist (etwa eine Sekunde, nichts verlässt das Gerät), und empfiehlt leichtere Einstellungen. Du kannst auch „Unschärfe hinter Dialogen“ und „Animationen“ ausschalten, „Sekunden auf der Uhr“ ausschalten und „Scharfes PDF“ ausschalten, damit die Spielberichtsvorschau schneller kommt. Home bietet den Test einmal an; du kannst ihn jederzeit in den Optionen auf Home wiederholen.",
+            "de": "Optionen › „Effekte und Tempo“: „Dieses Gerät testen“ misst, wie schnell es ist (etwa eine Sekunde, nichts verlässt das Gerät), und empfiehlt leichtere Einstellungen. Du kannst auch „Unschärfe hinter Dialogen“ und „Animationen“ ausschalten, „Sekunden auf der Uhr“ ausschalten und „Scharfes PDF“ ausschalten, damit die Matchblatt-Vorschau schneller kommt. Home bietet den Test einmal an; du kannst ihn jederzeit in den Optionen auf Home wiederholen.",
             "fr": "Options › « Effets et rapidité » : « Tester cet appareil » mesure sa vitesse (environ une seconde, rien ne quitte l'appareil) et recommande des réglages plus légers. Tu peux aussi désactiver « Flou derrière les dialogues » et « Animations », « Secondes sur l'horloge » et « PDF net » pour un aperçu de la feuille plus rapide. L'accueil propose le test une fois ; refais-le quand tu veux depuis les options de l'accueil.",
             "it": "Opzioni › «Effetti e velocità»: «Testa questo dispositivo» misura quanto è veloce (circa un secondo, niente lascia il dispositivo) e consiglia impostazioni più leggere. Puoi anche disattivare «Sfocatura dietro le finestre» e «Animazioni», «Secondi sull'orologio» e «PDF nitido» per un'anteprima del referto più veloce. La pagina iniziale propone il test una volta; ripetilo quando vuoi dalle opzioni della pagina iniziale."
           }
@@ -3827,8 +3827,8 @@
           },
           "answer": {
             "en": "Yes. In the options, set “Screen mode” to “Auto” or “Smartphone”, and hold the phone upright. The score, the court, the time-outs, the substitutions and the point buttons fit on one screen. On a tablet, scoring is in landscape: held upright, it asks you to turn it.",
-            "de": "Ja. Stelle in den Optionen den «Bildschirmmodus» auf «Auto» oder «Smartphone» und halte das Handy hochkant. Spielstand, Feld, Timeouts, Wechsel und Punkt-Schaltflächen passen auf einen Bildschirm. Auf einem Tablet erfasst du im Querformat: Hältst du es hochkant, bittet es dich, es zu drehen.",
-            "fr": "Oui. Dans les options, règle le « Mode d'écran » sur « Auto » ou « Smartphone », et tiens le téléphone à la verticale. Le score, le terrain, les temps morts, les remplacements et les boutons de point tiennent sur un seul écran. Sur une tablette, la saisie se fait en mode paysage : tenue à la verticale, elle te demande de la tourner.",
+            "de": "Ja. Stelle in den Optionen den «Bildschirmmodus» auf «Auto» oder «Smartphone» und halte das Handy hochkant. Spielstand, Feld, Auszeiten, Auswechslungen und Punkt-Schaltflächen passen auf einen Bildschirm. Auf einem Tablet erfasst du im Querformat: Hältst du es hochkant, bittet es dich, es zu drehen.",
+            "fr": "Oui. Dans les options, règle le « Mode d'écran » sur « Auto » ou « Smartphone », et tiens le téléphone à la verticale. Le score, le terrain, les temps-morts, les remplacements et les boutons de point tiennent sur un seul écran. Sur une tablette, la saisie se fait en mode paysage : tenue à la verticale, elle te demande de la tourner.",
             "it": "Sì. Nelle opzioni imposta la «Modalita schermo» su «Auto» o «Phone», e tieni il telefono in verticale. Punteggio, campo, timeout, sostituzioni e pulsanti del punto stanno in un'unica schermata. Su un tablet, il punteggio si tiene in orizzontale: se lo tieni in verticale, ti chiede di girarlo."
           }
         },
@@ -3842,8 +3842,8 @@
           },
           "answer": {
             "en": "Switch on “Keyboard shortcuts” in the options. The keys are A and L for a point to the left or right team, Q and P for a time-out, X and N to exchange the liberos, Backspace for undo, Enter to start the rally or confirm, and Escape to cancel. Change them with “Configure keys” in the scoring screen's options. In continuous play, hold A or L for 2 seconds; Enter only starts the set.",
-            "de": "Schalte «Tastaturkürzel» in den Optionen ein. Die Tasten sind A und L für einen Punkt des linken oder rechten Teams, Q und P für ein Timeout, X und N zum Tauschen der Liberos, Backspace für Rückgängig, Enter zum Starten des Ballwechsels oder Bestätigen und Escape zum Abbrechen. Ändere sie mit «Tasten konfigurieren» in den Optionen des Erfassungsbildschirms. Bei fortlaufendem Spiel hältst du A oder L 2 Sekunden gedrückt; Enter startet nur den Satz.",
-            "fr": "Active les « Raccourcis clavier » dans les options. Les touches sont A et L pour un point à l'équipe de gauche ou de droite, Q et P pour un temps mort, X et N pour échanger les libéros, Retour arrière pour annuler, Entrée pour lancer l'échange ou confirmer, et Échap pour annuler une fenêtre. Change-les avec « Configuration des clés » dans les options de l'écran de saisie. En jeu continu, maintiens A ou L 2 secondes ; Entrée ne fait que démarrer le set.",
+            "de": "Schalte «Tastaturkürzel» in den Optionen ein. Die Tasten sind A und L für einen Punkt des linken oder rechten Teams, Q und P für eine Auszeit, X und N zum Tauschen der Liberos, Backspace für Rückgängig, Enter zum Starten des Spielzugs oder Bestätigen und Escape zum Abbrechen. Ändere sie mit «Tasten konfigurieren» in den Optionen des Erfassungsbildschirms. Bei fortlaufendem Spiel hältst du A oder L 2 Sekunden gedrückt; Enter startet nur den Satz.",
+            "fr": "Active les « Raccourcis clavier » dans les options. Les touches sont A et L pour un point à l'équipe de gauche ou de droite, Q et P pour un temps-mort, X et N pour échanger les libéros, Retour arrière pour annuler, Entrée pour lancer l'échange ou confirmer, et Échap pour annuler une fenêtre. Change-les avec « Configuration des clés » dans les options de l'écran de saisie. En jeu continu, maintiens A ou L 2 secondes ; Entrée ne fait que démarrer le set.",
             "it": "Attiva le «Scorciatoie tastiera» nelle opzioni. I tasti sono A e L per un punto alla squadra di sinistra o di destra, Q e P per un timeout, X e N per scambiare i libero, Backspace per annullare, Invio per iniziare lo scambio o confermare ed Esc per chiudere. Cambiali con «Configurazione delle chiavi» nelle opzioni della schermata del punteggio. Nel gioco continuo, tieni premuto A o L per 2 secondi; Invio avvia solo il set."
           }
         }
@@ -4172,8 +4172,8 @@
           },
           "answer": {
             "en": "It gets the final scoresheets of your club's games, for your coaches. Change it and tap “Save”.",
-            "de": "Sie erhält die endgültigen Matchblätter der Spiele deines Vereins, für deine Coaches. Ändere sie und tippe auf «Speichern».",
-            "fr": "Il reçoit les feuilles de match finales des matchs de ton club, pour tes entraîneurs. Modifie-le et appuie sur « Enregistrer ».",
+            "de": "Sie erhält die endgültigen Matchblätter der Spiele deines Vereins, für deine Trainer. Ändere sie und tippe auf «Speichern».",
+            "fr": "Il reçoit les feuilles de match finales des matchs de ton club, pour tes coachs. Modifie-le et appuie sur « Enregistrer ».",
             "it": "Riceve i referti finali delle partite della tua società, per i tuoi allenatori. Cambiala e tocca «Salva»."
           }
         },
@@ -4332,8 +4332,8 @@
           },
           "answer": {
             "en": "A link for a team's coach or manager. Whoever opens it and signs in becomes team manager of that team: they keep its players up to date and send each game's roster ahead.",
-            "de": "Ein Link für den Coach oder die verantwortliche Person eines Teams. Wer ihn öffnet und sich anmeldet, wird Teamverantwortliche/r dieses Teams: hält dessen Spieler aktuell und schickt den Kader jedes Spiels vorab.",
-            "fr": "Un lien pour l'entraîneur ou le responsable d'une équipe. Quiconque l'ouvre et se connecte devient responsable d'équipe de cette équipe : il tient ses joueurs à jour et envoie à l'avance la liste de chaque match.",
+            "de": "Ein Link für den Trainer oder die verantwortliche Person eines Teams. Wer ihn öffnet und sich anmeldet, wird Teamverantwortliche/r dieses Teams: hält dessen Spieler aktuell und schickt den Kader jedes Spiels vorab.",
+            "fr": "Un lien pour le coach ou le responsable d'une équipe. Quiconque l'ouvre et se connecte devient responsable d'équipe de cette équipe : il tient ses joueurs à jour et envoie à l'avance la liste de chaque match.",
             "it": "Un link per l'allenatore o il responsabile di una squadra. Chi lo apre ed effettua l'accesso diventa responsabile di quella squadra: tiene aggiornati i suoi giocatori e invia in anticipo l'elenco di ogni partita."
           }
         },
@@ -4502,8 +4502,8 @@
           },
           "answer": {
             "en": "At sign-up a person can tick what they do: scorer of a club, referee, team manager or coach of a team, club manager. Each part waits under Requests until someone approves it.",
-            "de": "Bei der Registrierung kann eine Person ankreuzen, was sie macht: Schreiber eines Vereins, Schiedsrichter, Teamverantwortliche/r oder Coach eines Teams, Vereinsverantwortliche/r. Jeder Teil wartet unter Anfragen, bis jemand ihn freigibt.",
-            "fr": "À l'inscription, une personne peut cocher ce qu'elle fait : marqueur d'un club, arbitre, responsable d'équipe ou entraîneur d'une équipe, responsable du club. Chaque partie attend sous Demandes jusqu'à ce que quelqu'un la valide.",
+            "de": "Bei der Registrierung kann eine Person ankreuzen, was sie macht: Schreiber eines Vereins, Schiedsrichter, Teamverantwortliche/r oder Trainer eines Teams, Vereinsverantwortliche/r. Jeder Teil wartet unter Anfragen, bis jemand ihn freigibt.",
+            "fr": "À l'inscription, une personne peut cocher ce qu'elle fait : marqueur d'un club, arbitre, responsable d'équipe ou coach d'une équipe, responsable du club. Chaque partie attend sous Demandes jusqu'à ce que quelqu'un la valide.",
             "it": "Alla registrazione una persona può spuntare cosa fa: segnapunti di una società, arbitro, responsabile o allenatore di una squadra, responsabile della società. Ogni parte aspetta in Richieste finché qualcuno non la approva."
           }
         },
@@ -4667,7 +4667,7 @@
           },
           "answer": {
             "en": "Tap “Prepare roster” at the game. Its page shows when, where, the league and the referees. Untick who does not play, check the numbers, mark C (captain) and L (libero), and tick the officials. Then tap “Send roster”.",
-            "de": "Tippe beim Spiel auf «Kader zusammenstellen». Seine Seite zeigt wann, wo, die Liga und die Schiedsrichter. Entferne das Häkchen bei allen, die nicht spielen, prüfe die Nummern, markiere K (Captain) und L (Libero) und kreuze die Offiziellen an. Tippe dann auf «Kader schicken».",
+            "de": "Tippe beim Spiel auf «Kader zusammenstellen». Seine Seite zeigt wann, wo, die Liga und die Schiedsrichter. Entferne das Häkchen bei allen, die nicht spielen, prüfe die Nummern, markiere K (Kapitän) und L (Libero) und kreuze die Offiziellen an. Tippe dann auf «Kader schicken».",
             "fr": "Appuie sur « Préparer la liste » à côté du match. Sa page indique quand, où, la ligue et les arbitres. Décoche ceux qui ne jouent pas, vérifie les numéros, marque C (capitaine) et L (libéro), et coche les officiels. Appuie ensuite sur « Envoyer la liste ».",
             "it": "Tocca «Prepara elenco» accanto alla partita. La sua pagina mostra quando, dove, il campionato e gli arbitri. Togli la spunta a chi non gioca, controlla i numeri, segna C (capitano) e L (libero) e spunta gli ufficiali. Poi tocca «Invia elenco»."
           }
@@ -4682,7 +4682,7 @@
           },
           "answer": {
             "en": "At most 14, and 13 or 14 only with two liberos; at most 2 liberos. One captain, and each number and each official role only once. Fewer than 6 players besides the liberos is only a warning.",
-            "de": "Höchstens 14, und 13 oder 14 nur mit zwei Liberos; höchstens 2 Liberos. Ein Captain, und jede Nummer und jede Offiziellen-Rolle nur einmal. Weniger als 6 Spieler neben den Liberos ist nur eine Warnung.",
+            "de": "Höchstens 14, und 13 oder 14 nur mit zwei Liberos; höchstens 2 Liberos. Ein Kapitän, und jede Nummer und jede Offiziellen-Rolle nur einmal. Weniger als 6 Spieler neben den Liberos ist nur eine Warnung.",
             "fr": "Au plus 14, et 13 ou 14 seulement avec deux libéros ; au plus 2 libéros. Un seul capitaine, et chaque numéro et chaque fonction d'officiel une seule fois. Moins de 6 joueurs en plus des libéros n'est qu'un avertissement.",
             "it": "Al massimo 14, e 13 o 14 solo con due liberi; al massimo 2 liberi. Un solo capitano, e ogni numero e ogni funzione di ufficiale una sola volta. Meno di 6 giocatori oltre ai liberi è solo un avviso."
           }
@@ -4706,8 +4706,8 @@
           "id": "signatures",
           "question": {
             "en": "Do the coach and the captain have to sign here?",
-            "de": "Müssen Coach und Captain hier unterschreiben?",
-            "fr": "L'entraîneur et le capitaine doivent-ils signer ici ?",
+            "de": "Müssen Trainer und Kapitän hier unterschreiben?",
+            "fr": "Le coach et le capitaine doivent-ils signer ici ?",
             "it": "L'allenatore e il capitano devono firmare qui?"
           },
           "answer": {
@@ -4757,8 +4757,8 @@
           },
           "answer": {
             "en": "In Match setup, inside your team's card: “Roster sent by …” with “Accept”, “Show” and “Not now”. “Accept” loads it, and the scorer checks it with the coach.",
-            "de": "In der Spieleinrichtung, in der Karte deines Teams: «Kader von … geschickt» mit «Akzeptieren», «Anzeigen» und «Nicht jetzt». «Akzeptieren» lädt ihn, und der Schreiber prüft ihn mit dem Coach.",
-            "fr": "Dans la configuration du match, dans la carte de ton équipe : « Liste envoyée par … » avec « Accepter », « Afficher » et « Pas maintenant ». « Accepter » la charge, et le marqueur la vérifie avec l'entraîneur.",
+            "de": "In der Spieleinrichtung, in der Karte deines Teams: «Kader von … geschickt» mit «Akzeptieren», «Anzeigen» und «Nicht jetzt». «Akzeptieren» lädt ihn, und der Schreiber prüft ihn mit dem Trainer.",
+            "fr": "Dans la configuration du match, dans la carte de ton équipe : « Liste envoyée par … » avec « Accepter », « Afficher » et « Pas maintenant ». « Accepter » la charge, et le marqueur la vérifie avec le coach.",
             "it": "Nella configurazione della partita, nella scheda della tua squadra: «Elenco inviato da …» con «Accetta», «Mostra» e «Non ora». «Accetta» lo carica, e il segnapunti lo controlla con l'allenatore."
           }
         },
@@ -4833,7 +4833,7 @@
           "answer": {
             "en": "The players, scorers and coaches lists from Swiss Volley's club administration. With them, “Add from club” offers your club's people, and green shields mark people who are in the lists.",
             "de": "Die Listen der Spieler, Schreiber und Trainer aus der Vereinsverwaltung von Swiss Volley. Mit ihnen bietet «Aus dem Verein hinzufügen» die Leute deines Vereins an, und grüne Schilder markieren Personen, die in den Listen sind.",
-            "fr": "Les listes des joueurs, des marqueurs et des entraîneurs de l'administration du club de Swiss Volley. Grâce à elles, « Ajouter du club » propose les personnes de ton club, et des écussons verts marquent les personnes qui figurent dans les listes.",
+            "fr": "Les listes des joueurs, des marqueurs et des coachs de l'administration du club de Swiss Volley. Grâce à elles, « Ajouter du club » propose les personnes de ton club, et des écussons verts marquent les personnes qui figurent dans les listes.",
             "it": "Gli elenchi di giocatori, segnapunti e allenatori dell'amministrazione della società di Swiss Volley. Con questi, «Aggiungi dalla società» propone le persone della tua società, e gli scudi verdi segnano le persone che sono negli elenchi."
           }
         },
@@ -4848,7 +4848,7 @@
           "answer": {
             "en": "My Club › Licences. Pick the list (Players, Scorers or Coaches), tap “Choose Excel file” and pick the .xlsx export. Check the preview and tap “Save list”. Each upload replaces that list.",
             "de": "Mein Verein › Lizenzen. Wähle die Liste (Spieler, Schreiber oder Trainer), tippe auf «Excel-Datei wählen» und wähle den .xlsx-Export. Prüfe die Vorschau und tippe auf «Liste speichern». Jeder Upload ersetzt diese Liste.",
-            "fr": "Mon club › Licences. Choisis la liste (Joueurs, Marqueurs ou Entraîneurs), appuie sur « Choisir un fichier Excel » et choisis l'export .xlsx. Vérifie l'aperçu et appuie sur « Enregistrer la liste ». Chaque chargement remplace cette liste.",
+            "fr": "Mon club › Licences. Choisis la liste (Joueurs, Marqueurs ou Coachs), appuie sur « Choisir un fichier Excel » et choisis l'export .xlsx. Vérifie l'aperçu et appuie sur « Enregistrer la liste ». Chaque chargement remplace cette liste.",
             "it": "La mia società › Licenze. Scegli l'elenco (Giocatori, Segnapunti o Allenatori), tocca «Scegli file Excel» e scegli l'esportazione .xlsx. Controlla l'anteprima e tocca «Salva elenco». Ogni caricamento sostituisce quell'elenco."
           }
         },
