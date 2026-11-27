@@ -1,5 +1,5 @@
 // openvolley.app/support (the pages come from support/build.mjs): the
-// question search, "Ask about this", the language switch, the video
+// question search, the contents that follow the scroll, "Ask about this", the language switch, the video
 // posters, and the contact form, which posts to the backend's /api/contact
 // (escoresheet/backend/lib/contact.js in the openvolley repository). No
 // dependencies; the page works without it except for the search and the form
@@ -91,6 +91,48 @@
   };
   window.addEventListener('hashchange', openFromHash);
   openFromHash();
+
+  // ---------- Contents: the part being read is marked and kept in view ----------
+
+  const toc = document.querySelector('.toc');
+  if (toc) {
+    const parts = [...toc.querySelectorAll('a[href^="#"]')]
+      .map((a) => ({ a, el: document.getElementById(a.getAttribute('href').slice(1)) }))
+      .filter((p) => p.el);
+    let current = null;
+    const mark = () => {
+      // The last part whose top has passed the upper quarter of the window.
+      // A part hidden by the search has no box and is skipped.
+      const line = window.innerHeight / 4;
+      let now = null;
+      for (const p of parts) {
+        if (p.el.getClientRects().length && p.el.getBoundingClientRect().top <= line) now = p;
+      }
+      if (now === current) return;
+      if (current) current.a.removeAttribute('aria-current');
+      current = now;
+      if (!now) return;
+      now.a.setAttribute('aria-current', 'location');
+      // Only the list scrolls (it has its own scrollbar from 1024px), never the page
+      const box = toc.getBoundingClientRect();
+      const link = now.a.getBoundingClientRect();
+      if (link.height && (link.top < box.top + 48 || link.bottom > box.bottom - 16)) {
+        toc.scrollTop += link.top - box.top - toc.clientHeight / 2;
+      }
+    };
+    let queued = false;
+    const onScroll = () => {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(() => {
+        queued = false;
+        mark();
+      });
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    mark();
+  }
 
   // ---------- Search: every word in the question, its answer or the section title ----------
 

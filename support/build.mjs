@@ -70,6 +70,33 @@ const GUIDES = [
   })),
 ];
 
+// The help sections in groups, in page order: a title above each group on the
+// page and in the contents. A section the app adds later and no group names
+// yet goes to the last group (the build warns), so it is never lost.
+const GROUPS = [
+  { id: 'before', title: { de: 'Vor dem Spiel', en: 'Before the match', fr: 'Avant le match', it: 'Prima della partita' },
+    sections: ['home', 'setup', 'rosters', 'roster-details', 'coin-toss'] },
+  { id: 'match', title: { de: 'Während und nach dem Spiel', en: 'During and after the match', fr: 'Pendant et après le match', it: 'Durante e dopo la partita' },
+    sections: ['scoring', 'subs-timeouts', 'sanctions', 'set-end', 'match-end', 'corrections'] },
+  { id: 'tablets', title: { de: 'Tablets und Anzeigen', en: 'Tablets and screens', fr: 'Tablettes et écrans', it: 'Tablet e schermi' },
+    sections: ['connections', 'referee', 'bench', 'livescore'] },
+  { id: 'devices', title: { de: 'Geräte, offline und Updates', en: 'Devices, offline and updates', fr: 'Appareils, hors ligne et mises à jour', it: 'Dispositivi, offline e aggiornamenti' },
+    sections: ['handover', 'sync-offline', 'install-updates'] },
+  { id: 'clubs', title: { de: 'Vereine und Teams', en: 'Clubs and teams', fr: 'Clubs et équipes', it: 'Società e squadre' },
+    sections: ['club-manager', 'team-links', 'requests', 'team-manager', 'club-licences', 'club-api', 'manager-accounts'] },
+  { id: 'more', title: { de: 'Weitere Werkzeuge', en: 'More tools', fr: 'Autres outils', it: 'Altri strumenti' },
+    sections: ['global'] },
+];
+const GROUPED = new Set(GROUPS.flatMap((g) => g.sections));
+
+/** The groups with their sections of this help (empty groups left out). */
+function sectionGroups(help) {
+  const byId = new Map(help.sections.map((s) => [s.id, s]));
+  const groups = GROUPS.map((g) => ({ ...g, list: g.sections.map((id) => byId.get(id)).filter(Boolean) }));
+  groups[groups.length - 1].list.push(...help.sections.filter((s) => !GROUPED.has(s.id)));
+  return groups.filter((g) => g.list.length);
+}
+
 const DOWNLOADS = [
   { label: 'Windows', href: 'https://get.openvolley.app/#windows', icon: 'monitor' },
   { label: 'macOS', href: 'https://get.openvolley.app/#macos', icon: 'laptop' },
@@ -608,6 +635,7 @@ function loadData() {
         if (!f.question?.[lang] || !f.answer?.[lang]) throw new Error(`support/help.json: ${s.id}/${f.id} has no ${lang} text`);
       }
     }
+    if (!GROUPED.has(s.id)) console.warn(`WARNING: section "${s.id}" is in no group (GROUPS in support/build.mjs); it is listed in the last one`);
     const v = videos.get(s.id);
     if (!v) {
       console.warn(`WARNING: no video for section "${s.id}" in support/videos/manifest.json`);
@@ -697,10 +725,12 @@ function firstMatchHtml(v, lang, ui) {
         </div>
         <p class="first-match-lead">${t(fill(ui.firstMatch.lead, { title }), lang)}</p>
         ${videoHtml({ title: v.title }, v, lang, ui, true)}
+        <div class="help-qa">
         <h3 class="faq-title">${t(ui.firstMatch.chapters, lang)}</h3>
         <ol class="chapter-list">
             ${chapters}
         </ol>
+        </div>
       </section>`;
 }
 
@@ -724,10 +754,12 @@ function sectionHtml(section, v, lang, ui, first) {
           <a class="btn btn-ghost btn-sm" href="#contact" data-area="${esc(section.id)}">${icon('message-circle-question-mark')}${t(ui.ask, lang)}</a>
         </div>
         ${v ? videoHtml(section, v, lang, ui, first) : ''}
+        <div class="help-qa">
         <h3 class="faq-title">${t(ui.questions, lang)}</h3>
         <div class="faq">
           ${faq}
         </div>${inApp}
+        </div>
       </section>`;
 }
 
@@ -908,13 +940,21 @@ function page(lang, data) {
     const cur = l === lang ? ' aria-current="page"' : '';
     return `<a href="${ROUTES[l]}" lang="${l}" hreflang="${l}" title="${UI[l].name}"${cur}>${l.toUpperCase()}</a>`;
   }).join('');
+  const groups = sectionGroups(help);
   const toc = [
     ...(firstMatch ? [`<li><a href="#${FIRST_MATCH}">${t(firstMatch.title[lang], lang)}</a></li>`] : []),
-    ...help.sections.map((s, i) => `<li${firstMatch && i === 0 ? ' class="toc-sep"' : ''}><a href="#${esc(s.id)}">${t(s.title[lang], lang)}</a></li>`),
+    ...groups.map((g) => `<li class="toc-sep toc-group"><a class="toc-group-title" href="#group-${g.id}">${t(g.title[lang], lang)}</a>
+            <ol>
+              ${g.list.map((s) => `<li><a href="#${esc(s.id)}">${t(s.title[lang], lang)}</a></li>`).join('\n              ')}
+            </ol>
+          </li>`),
     `<li class="toc-sep"><a href="#guides">${t(ui.guidesTitle, lang)}</a></li>`,
     `<li><a href="#contact">${t(ui.contactTitle, lang)}</a></li>`,
   ].join('\n          ');
-  const sections = help.sections.map((s, i) => sectionHtml(s, videos.get(s.id), lang, ui, i === 0)).join('\n\n      ');
+  const sections = groups.map((g, gi) => `<section class="help-group" id="group-${g.id}" aria-labelledby="group-${g.id}-title">
+        <h2 class="group-title" id="group-${g.id}-title">${t(g.title[lang], lang)}</h2>
+        ${g.list.map((s, i) => sectionHtml(s, videos.get(s.id), lang, ui, gi === 0 && i === 0)).join('\n\n        ')}
+      </section>`).join('\n\n      ');
   // What support.js needs: its texts, the limits and where the form goes
   const config = {
     lang,
@@ -958,7 +998,7 @@ ${alternates}
   <script src="/support.js" defer></script>
 </head>
 
-<body>
+<body class="support-page">
   <a class="skip-link" href="#main">${esc(ui.skip)}</a>
 
   <header class="topbar">

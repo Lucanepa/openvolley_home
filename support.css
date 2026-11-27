@@ -113,6 +113,51 @@
   border-top: 1px solid var(--stone-100);
 }
 
+/* The whole window: this page has no 64rem column (the other pages keep it) */
+
+.support-page .wrap {
+  max-width: none;
+}
+
+/* The part being read, marked by support.js as the page scrolls */
+
+.toc a[aria-current] {
+  background: var(--stone-100);
+  color: var(--stone-900);
+  font-weight: 600;
+}
+
+/* The sections in groups: a title above each group, the same in the contents */
+
+.toc .toc-group ol {
+  padding: 0 0 0 8px;
+}
+
+.toc .toc-group-title {
+  font-weight: 600;
+  color: var(--stone-900);
+}
+
+.help-group {
+  display: grid;
+  gap: 16px;
+  scroll-margin-top: 16px;
+}
+
+.group-title {
+  margin: 20px 4px -4px;
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--stone-900);
+}
+
+/* While searching, a group without a hit hides with its title */
+.help-group:not(:has(.help-section:not([hidden]))) {
+  display: none;
+}
+
 .search-status:empty {
   display: none;
 }
@@ -773,6 +818,40 @@
 
   .support-hero h1 {
     font-size: 38px;
+  }
+}
+
+/* Wide: the video stays beside its questions (not while searching: the videos
+   are hidden then) */
+@media (min-width: 1280px) {
+  .support-page .wrap {
+    padding-left: max(24px, env(safe-area-inset-left, 0px));
+    padding-right: max(24px, env(safe-area-inset-right, 0px));
+  }
+
+  .support-content:not(.is-searching) .help-section:has(.help-video) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 32px;
+    align-items: start;
+  }
+
+  .support-content:not(.is-searching) .help-section:has(.help-video) > .help-head,
+  .support-content:not(.is-searching) .help-section:has(.help-video) > .first-match-lead {
+    grid-column: 1 / -1;
+  }
+
+  .support-content:not(.is-searching) .help-section:has(.help-video) > .help-video {
+    position: sticky;
+    top: 16px;
+  }
+
+  .support-content:not(.is-searching) .help-section:has(.help-video) .faq-title {
+    margin-top: 14px;
+  }
+
+  .support-content:not(.is-searching) .first-match .chapter-list {
+    columns: 1;
   }
 }
 
