@@ -796,7 +796,7 @@ function guidesHtml(lang, ui) {
           <h2 id="guides-title">${t(ui.guidesTitle, lang)}</h2>
           <p class="section-lead">${t(ui.guidesLead, lang)}</p>
         </div>
-        ${guideRows ? `<div class="card">
+        ${guideRows ? `<div class="card guide-list">
           <ul class="rows">
             ${guideRows}
           </ul>
@@ -842,6 +842,8 @@ function contactHtml(sections, lang, ui) {
           <form id="contact-form" class="contact-form" method="post" enctype="multipart/form-data" novalidate>
             <input type="hidden" name="source" value="website">
             <input type="hidden" name="language" value="${lang}">
+            <div class="form-cols">
+            <div class="form-col">
             <div class="field">
               <label for="cf-type">${t(f.type, lang)}</label>
               <select id="cf-type" name="contactType" required aria-describedby="cf-type-error">
@@ -879,6 +881,8 @@ function contactHtml(sections, lang, ui) {
               <input id="cf-email" name="email" type="email" required autocomplete="email" inputmode="email" maxlength="254" placeholder="${esc(f.emailPlaceholder)}" aria-describedby="cf-email-error">
               <p class="field-error" id="cf-email-error" hidden></p>
             </div>
+            </div>
+            <div class="form-col">
             <div class="field">
               <label for="cf-message">${t(f.message, lang)}</label>
               <textarea id="cf-message" name="comments" required rows="6" maxlength="${MAX_COMMENTS}" placeholder="${esc(typo(f.messagePlaceholder, lang))}" aria-describedby="cf-message-hint cf-message-error"></textarea>
@@ -891,6 +895,8 @@ function contactHtml(sections, lang, ui) {
               <ul class="file-list" id="cf-file-list" hidden></ul>
               <p class="field-hint" id="cf-files-hint">${t(fill(f.attachHint, { max: MAX_FILES, mb: MAX_FILES_MB }), lang)}</p>
               <p class="field-error" id="cf-files-error" hidden></p>
+            </div>
+            </div>
             </div>
             <div class="hp" aria-hidden="true">
               <label for="cf-website">${t(f.honeypot, lang)}</label>
