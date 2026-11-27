@@ -285,6 +285,29 @@
   color: var(--stone-700);
 }
 
+/* Running text (answers, descriptions): hyphenated in the page's language
+   (html lang), justified once the column is wide enough (see "Justified text
+   and the wide cards"). Headings, questions, buttons, captions and the form
+   stay left. */
+.faq-item p,
+.first-match-lead,
+.row-desc,
+.downloads-card p {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.row-desc {
+  display: block;
+}
+
+.faq-item p a,
+.row-desc a,
+.downloads-card p a {
+  -webkit-hyphens: manual;
+  hyphens: manual;
+}
+
 .faq-item a,
 .help-screens a,
 .consent a,
@@ -490,6 +513,16 @@
   display: grid;
   gap: 18px;
   max-width: 40rem;
+}
+
+/* The choices and the address, then the message and the files: one below
+   the other, side by side when the card is wide */
+.form-cols,
+.form-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+  align-content: start;
 }
 
 .field {
@@ -852,6 +885,105 @@
 
   .support-content:not(.is-searching) .first-match .chapter-list {
     columns: 1;
+  }
+
+  /* No video: the questions in two columns, one half of the list each
+     (build.mjs), at the width the videos go beside their questions */
+  .support-content:not(.is-searching) .help-section:not(:has(.help-video)) .faq {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 32px;
+    align-items: start;
+  }
+}
+
+/* ---------- Justified text and the wide cards ---------- */
+
+/* The content column is the container these measure against (the page's
+   width and the video beside its questions are the media queries above) */
+.support-content {
+  container: support / inline-size;
+}
+
+/* Justified only where a line holds enough words: on phones the column is
+   too narrow and justifying opens gaps, so it stays left there. The short
+   descriptions in "Which app for what" (narrow tiles) stay left too. */
+@container support (min-width: 560px) {
+  .faq-item p,
+  .first-match-lead,
+  .guide-list .row-desc,
+  .downloads-card p {
+    text-align: justify;
+  }
+}
+
+@container support (min-width: 900px) {
+  /* The guides two by two */
+  .guide-list .rows {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 4px;
+    padding: 4px;
+  }
+
+  .guide-list .rows li + li .row {
+    border-top: 0;
+  }
+
+  .guide-list .rows li:nth-child(n + 3) {
+    border-top: 1px solid var(--stone-100);
+  }
+
+  .guide-list .rows li:only-child {
+    grid-column: 1 / -1;
+  }
+
+  .guide-list .rows .row,
+  .guide-list .rows li:last-child .row {
+    border-radius: 12px;
+  }
+
+  /* Which app for what: two columns */
+  .app-rows {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .app-row + .app-row {
+    border-top: 0;
+  }
+
+  .app-row:nth-child(n + 3) {
+    border-top: 1px solid var(--stone-100);
+  }
+
+  /* The form: the choices and the address beside the message and the files */
+  .contact-form {
+    max-width: none;
+  }
+
+  .form-cols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 32px;
+  }
+
+  .consent {
+    max-width: 44rem;
+  }
+}
+
+/* Which app for what: three columns on the widest screens */
+@container support (min-width: 1300px) {
+  .app-rows {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .app-row:nth-child(n + 3) {
+    border-top: 0;
+  }
+
+  .app-row:nth-child(n + 4) {
+    border-top: 1px solid var(--stone-100);
   }
 }
 

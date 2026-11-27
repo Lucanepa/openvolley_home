@@ -736,14 +736,22 @@ function firstMatchHtml(v, lang, ui) {
 
 function sectionHtml(section, v, lang, ui, first) {
   const title = section.title[lang];
-  const faq = section.faq
-    .map(
-      (f) => `<details class="faq-item" id="q-${esc(section.id)}-${esc(f.id)}">
+  const item = (f) => `<details class="faq-item" id="q-${esc(section.id)}-${esc(f.id)}">
             <summary><span>${t(f.question[lang], lang)}</span>${icon('chevron-down', 'faq-chevron')}</summary>
             <p>${richText(f.answer[lang], lang)}</p>
-          </details>`,
-    )
-    .join('\n          ');
+          </details>`;
+  // Without a video the questions get two columns on wide screens
+  // (support.css): one half of the list in each, in order, so opening an
+  // answer never moves questions from one column to the other
+  const half = Math.ceil(section.faq.length / 2);
+  const faq = v
+    ? section.faq.map(item).join('\n          ')
+    : [section.faq.slice(0, half), section.faq.slice(half)]
+      .filter((col) => col.length)
+      .map((col) => `<div class="faq-col">
+          ${col.map(item).join('\n          ')}
+          </div>`)
+      .join('\n          ');
   const screens = [...new Set((section.screens || []).map((s) => s.name?.[lang]).filter(Boolean))];
   const inApp = screens.length
     ? `\n        <p class="help-screens">${icon('circle-help')}<span>${t(ui.inApp, lang)} ${screens.map((n) => `<strong>${t(n, lang)}</strong>`).join(', ')}</span></p>`
@@ -796,7 +804,7 @@ function guidesHtml(lang, ui) {
           <h2 id="guides-title">${t(ui.guidesTitle, lang)}</h2>
           <p class="section-lead">${t(ui.guidesLead, lang)}</p>
         </div>
-        ${guideRows ? `<div class="card">
+        ${guideRows ? `<div class="card guide-list">
           <ul class="rows">
             ${guideRows}
           </ul>
@@ -842,6 +850,8 @@ function contactHtml(sections, lang, ui) {
           <form id="contact-form" class="contact-form" method="post" enctype="multipart/form-data" novalidate>
             <input type="hidden" name="source" value="website">
             <input type="hidden" name="language" value="${lang}">
+            <div class="form-cols">
+            <div class="form-col">
             <div class="field">
               <label for="cf-type">${t(f.type, lang)}</label>
               <select id="cf-type" name="contactType" required aria-describedby="cf-type-error">
@@ -879,6 +889,8 @@ function contactHtml(sections, lang, ui) {
               <input id="cf-email" name="email" type="email" required autocomplete="email" inputmode="email" maxlength="254" placeholder="${esc(f.emailPlaceholder)}" aria-describedby="cf-email-error">
               <p class="field-error" id="cf-email-error" hidden></p>
             </div>
+            </div>
+            <div class="form-col">
             <div class="field">
               <label for="cf-message">${t(f.message, lang)}</label>
               <textarea id="cf-message" name="comments" required rows="6" maxlength="${MAX_COMMENTS}" placeholder="${esc(typo(f.messagePlaceholder, lang))}" aria-describedby="cf-message-hint cf-message-error"></textarea>
@@ -891,6 +903,8 @@ function contactHtml(sections, lang, ui) {
               <ul class="file-list" id="cf-file-list" hidden></ul>
               <p class="field-hint" id="cf-files-hint">${t(fill(f.attachHint, { max: MAX_FILES, mb: MAX_FILES_MB }), lang)}</p>
               <p class="field-error" id="cf-files-error" hidden></p>
+            </div>
+            </div>
             </div>
             <div class="hp" aria-hidden="true">
               <label for="cf-website">${t(f.honeypot, lang)}</label>
