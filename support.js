@@ -51,6 +51,33 @@
     for (const v of document.querySelectorAll('video')) if (v !== e.target) v.pause();
   }, true);
 
+  // "Your first match": a chapter starts the video there; the playing one is marked
+  for (const list of document.querySelectorAll('.chapter-list')) {
+    const video = list.closest('section')?.querySelector('video');
+    const links = [...list.querySelectorAll('a[data-seek]')];
+    if (!video || !links.length) continue;
+    for (const a of links) {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const at = Number(a.dataset.seek) || 0;
+        const seek = () => { video.currentTime = at; };
+        if (video.readyState >= 1) seek();
+        else video.addEventListener('loadedmetadata', seek, { once: true });
+        video.play().catch(() => {});
+        video.scrollIntoView({ block: 'nearest' });
+      });
+    }
+    video.addEventListener('timeupdate', () => {
+      let current = null;
+      for (const a of links) if (video.currentTime + 0.3 >= Number(a.dataset.seek)) current = a;
+      for (const a of links) {
+        a.classList.toggle('is-current', a === current);
+        if (a === current) a.setAttribute('aria-current', 'true');
+        else a.removeAttribute('aria-current');
+      }
+    });
+  }
+
   // A link to one question (#q-<section>-<id>) opens it
   const openFromHash = () => {
     let id = '';

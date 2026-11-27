@@ -334,5 +334,32 @@
     },
     "appVersion": "26.11.6",
     "recordedAt": "2026-11-24T12:30:51.431Z"
+  },
+  {
+    "id": "first-match",
+    "title": {
+      "en": "Your first match",
+      "de": "Dein erstes Spiel",
+      "fr": "Ton premier match",
+      "it": "La tua prima partita"
+    },
+    "durationSec": 449.1,
+    "sizeBytes": 10339944,
+    "file": "first-match.mp4",
+    "poster": "first-match.jpg",
+    "tracks": {
+      "en": "first-match.en.vtt",
+      "de": "first-match.de.vtt",
+      "fr": "first-match.fr.vtt",
+      "it": "first-match.it.vtt"
+    },
+    "chapters": {
+      "en": "first-match.chapters.en.vtt",
+      "de": "first-match.chapters.de.vtt",
+      "fr": "first-match.chapters.fr.vtt",
+      "it": "first-match.chapters.it.vtt"
+    },
+    "appVersion": "26.11.7",
+    "recordedAt": "2026-11-26T19:10:23.937Z"
   }
 ]
