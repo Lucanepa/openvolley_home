@@ -1,45 +1,61 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:02.755
+00:00:00.001 --> 00:00:02.807
 Spiel einrichten: Spielinfo, beide Teams, dann die Auslosung.
 
 2
-00:00:02.805 --> 00:00:05.383
+00:00:02.857 --> 00:00:05.477
 Offizielles Spiel: "Spiel aus dem Spielplan laden" füllt alles aus.
 
 3
-00:00:05.433 --> 00:00:12.433
+00:00:05.527 --> 00:00:12.527
 "Bearbeiten": Datum, Halle, Schiedsrichter, Schreiber, Linienrichter und Spielmodus.
 
 4
-00:00:14.488 --> 00:00:16.809
+00:00:14.702 --> 00:00:17.123
 "Kader bearbeiten": Spieler, Liberos, Kapitän und Bankoffizielle.
 
 5
-00:00:16.859 --> 00:00:23.859
+00:00:17.173 --> 00:00:24.173
 Neuer Spieler: Nummer, Name, Lizenznummer (oder Geburtsdatum), dann "Hinzufügen".
 
 6
-00:00:26.290 --> 00:00:29.732
+00:00:26.876 --> 00:00:30.346
 In der Libero-Spalte stehen L1 und L2, "C" markiert den Kapitän.
 
 7
-00:00:29.782 --> 00:00:36.104
-Trainer können ihren Kader selbst senden: "Remote" zeigt die Upload-PIN.
+00:00:30.396 --> 00:00:33.383
+"Kader-Import": ein Schalter, "Remote", "PDF" oder "Foto". Nur der gewählte Weg wird angezeigt.
 
 8
-00:00:36.154 --> 00:00:39.447
-Unter den Spielern: die Bankoffiziellen.
+00:00:33.433 --> 00:00:37.633
+"PDF": Das Kader-PDF des Teams oder die Einsatzliste, von diesem Gerät.
 
 9
-00:00:39.497 --> 00:00:41.750
-"Bestätigen" speichert den Kader.
+00:00:37.683 --> 00:00:42.691
+"Foto": zuerst die "Sprache der Liste", dann "Foto aufnehmen" oder "Bild wählen".
 
 10
-00:00:41.800 --> 00:00:46.458
-Tippe auf ein Trikot, um die Teamfarbe zu ändern.
+00:00:42.741 --> 00:00:47.044
+Die Spieler kommen direkt in den Kader, zu prüfende Felder sind markiert.
 
 11
-00:00:46.508 --> 00:00:50.505
+00:00:47.094 --> 00:00:51.603
+Trainer können ihren Kader selbst senden: "Remote" zeigt die Upload-PIN.
+
+12
+00:00:51.653 --> 00:00:54.979
+Unter den Spielern: die Bankoffiziellen.
+
+13
+00:00:55.029 --> 00:00:57.327
+"Bestätigen" speichert den Kader.
+
+14
+00:00:57.377 --> 00:01:02.259
+Tippe auf ein Trikot, um die Teamfarbe zu ändern.
+
+15
+00:01:02.309 --> 00:01:06.507
 Alles bereit: "Auslosung".

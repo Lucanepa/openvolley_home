@@ -1,45 +1,61 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:02.755
+00:00:00.001 --> 00:00:02.807
 Preparazione: info partita, le due squadre, poi il sorteggio.
 
 2
-00:00:02.805 --> 00:00:05.383
+00:00:02.857 --> 00:00:05.477
 Partita ufficiale: "Carica partita dal calendario" compila tutto.
 
 3
-00:00:05.433 --> 00:00:12.433
+00:00:05.527 --> 00:00:12.527
 "Modifica": data, palestra, arbitri, segnapunti, giudici di linea e formula.
 
 4
-00:00:14.488 --> 00:00:16.809
+00:00:14.702 --> 00:00:17.123
 "Modifica roster": giocatori, libero, capitano e ufficiali in panchina.
 
 5
-00:00:16.859 --> 00:00:23.859
+00:00:17.173 --> 00:00:24.173
 Nuovo giocatore: numero, nome, numero di licenza (o data di nascita), poi "Aggiungi".
 
 6
-00:00:26.290 --> 00:00:29.732
+00:00:26.876 --> 00:00:30.346
 La colonna libero indica L1 e L2, "C" indica il capitano.
 
 7
-00:00:29.782 --> 00:00:36.104
-Gli allenatori possono inviare la propria rosa: "Remoto" mostra il PIN per upload.
+00:00:30.396 --> 00:00:33.383
+"Importazione rosa": un solo selettore, "Remoto", "PDF" o "Foto". Si vede solo il modo scelto.
 
 8
-00:00:36.154 --> 00:00:39.447
-Sotto i giocatori: gli ufficiali in panchina.
+00:00:33.433 --> 00:00:37.633
+"PDF": Il PDF della rosa della squadra o l'Einsatzliste, da questo dispositivo.
 
 9
-00:00:39.497 --> 00:00:41.750
-"Conferma" salva la rosa.
+00:00:37.683 --> 00:00:42.691
+"Foto": prima la "Lingua della lista", poi "Scatta una foto" o "Scegli un’immagine".
 
 10
-00:00:41.800 --> 00:00:46.458
-Tocca una maglia per cambiare il colore della squadra.
+00:00:42.741 --> 00:00:47.044
+I giocatori vanno direttamente nella rosa, i campi da controllare sono segnati.
 
 11
-00:00:46.508 --> 00:00:50.505
+00:00:47.094 --> 00:00:51.603
+Gli allenatori possono inviare la propria rosa: "Remoto" mostra il PIN per upload.
+
+12
+00:00:51.653 --> 00:00:54.979
+Sotto i giocatori: gli ufficiali in panchina.
+
+13
+00:00:55.029 --> 00:00:57.327
+"Conferma" salva la rosa.
+
+14
+00:00:57.377 --> 00:01:02.259
+Tocca una maglia per cambiare il colore della squadra.
+
+15
+00:01:02.309 --> 00:01:06.507
 Tutto pronto: "Sorteggio".

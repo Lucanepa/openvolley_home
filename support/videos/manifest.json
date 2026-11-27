@@ -28,8 +28,8 @@
       "fr": "Préparer le match",
       "it": "Preparare la partita"
     },
-    "durationSec": 50.6,
-    "sizeBytes": 1291730,
+    "durationSec": 66.6,
+    "sizeBytes": 1528607,
     "file": "setup.mp4",
     "poster": "setup.jpg",
     "tracks": {
@@ -38,8 +38,8 @@
       "fr": "setup.fr.vtt",
       "it": "setup.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T12:34:37.320Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:24:23.092Z"
   },
   {
     "id": "coin-toss",
@@ -49,8 +49,8 @@
       "fr": "Tirage au sort et compositions",
       "it": "Sorteggio e formazioni"
     },
-    "durationSec": 66.5,
-    "sizeBytes": 1661602,
+    "durationSec": 66.4,
+    "sizeBytes": 1674870,
     "file": "coin-toss.mp4",
     "poster": "coin-toss.jpg",
     "tracks": {
@@ -59,8 +59,8 @@
       "fr": "coin-toss.fr.vtt",
       "it": "coin-toss.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T14:34:32.042Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T20:53:07.688Z"
   },
   {
     "id": "scoring",
@@ -71,7 +71,7 @@
       "it": "Segnare i punti"
     },
     "durationSec": 49.6,
-    "sizeBytes": 1748406,
+    "sizeBytes": 1774142,
     "file": "scoring.mp4",
     "poster": "scoring.jpg",
     "tracks": {
@@ -80,8 +80,8 @@
       "fr": "scoring.fr.vtt",
       "it": "scoring.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T12:17:24.088Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T20:54:06.426Z"
   },
   {
     "id": "subs-timeouts",
@@ -91,8 +91,8 @@
       "fr": "Remplacements, temps morts et libéros",
       "it": "Sostituzioni, timeout e libero"
     },
-    "durationSec": 37.5,
-    "sizeBytes": 1269335,
+    "durationSec": 37.3,
+    "sizeBytes": 1281840,
     "file": "subs-timeouts.mp4",
     "poster": "subs-timeouts.jpg",
     "tracks": {
@@ -101,8 +101,8 @@
       "fr": "subs-timeouts.fr.vtt",
       "it": "subs-timeouts.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T14:09:59.387Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T20:54:55.094Z"
   },
   {
     "id": "sanctions",
@@ -112,8 +112,8 @@
       "fr": "Sanctions",
       "it": "Sanzioni"
     },
-    "durationSec": 58.2,
-    "sizeBytes": 2039094,
+    "durationSec": 58.3,
+    "sizeBytes": 2068564,
     "file": "sanctions.mp4",
     "poster": "sanctions.jpg",
     "tracks": {
@@ -122,8 +122,8 @@
       "fr": "sanctions.fr.vtt",
       "it": "sanctions.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T12:18:47.527Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T20:56:03.931Z"
   },
   {
     "id": "set-end",
@@ -133,8 +133,8 @@
       "fr": "Fin de set, pause et tie-break",
       "it": "Fine set, intervallo e tie-break"
     },
-    "durationSec": 35.6,
-    "sizeBytes": 1471649,
+    "durationSec": 38.1,
+    "sizeBytes": 1618640,
     "file": "set-end.mp4",
     "poster": "set-end.jpg",
     "tracks": {
@@ -143,8 +143,8 @@
       "fr": "set-end.fr.vtt",
       "it": "set-end.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T12:23:47.680Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:00:26.054Z"
   },
   {
     "id": "match-end",
@@ -155,7 +155,7 @@
       "it": "Fine partita"
     },
     "durationSec": 37.4,
-    "sizeBytes": 990055,
+    "sizeBytes": 1003504,
     "file": "match-end.mp4",
     "poster": "match-end.jpg",
     "tracks": {
@@ -164,8 +164,8 @@
       "fr": "match-end.fr.vtt",
       "it": "match-end.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T12:27:29.859Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:04:11.835Z"
   },
   {
     "id": "corrections",
@@ -176,7 +176,7 @@
       "it": "Correzioni"
     },
     "durationSec": 49.2,
-    "sizeBytes": 1313154,
+    "sizeBytes": 1327961,
     "file": "corrections.mp4",
     "poster": "corrections.jpg",
     "tracks": {
@@ -185,8 +185,8 @@
       "fr": "corrections.fr.vtt",
       "it": "corrections.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T14:23:03.284Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:05:58.701Z"
   },
   {
     "id": "connections",
@@ -196,8 +196,8 @@
       "fr": "Connecter les tablettes",
       "it": "Collegare i tablet"
     },
-    "durationSec": 36.8,
-    "sizeBytes": 1279255,
+    "durationSec": 37,
+    "sizeBytes": 1253151,
     "file": "connections.mp4",
     "poster": "connections.jpg",
     "tracks": {
@@ -206,8 +206,8 @@
       "fr": "connections.fr.vtt",
       "it": "connections.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T14:35:42.450Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:07:09.519Z"
   },
   {
     "id": "referee",
@@ -217,8 +217,8 @@
       "fr": "La tablette de l'arbitre",
       "it": "Il tablet dell'arbitro"
     },
-    "durationSec": 46.2,
-    "sizeBytes": 2299142,
+    "durationSec": 46.3,
+    "sizeBytes": 2315753,
     "file": "referee.mp4",
     "poster": "referee.jpg",
     "tracks": {
@@ -227,8 +227,8 @@
       "fr": "referee.fr.vtt",
       "it": "referee.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T14:37:03.215Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:08:30.976Z"
   },
   {
     "id": "bench",
@@ -238,8 +238,8 @@
       "fr": "La tablette du banc",
       "it": "Il tablet della panchina"
     },
-    "durationSec": 48.7,
-    "sizeBytes": 2151302,
+    "durationSec": 48.6,
+    "sizeBytes": 2156851,
     "file": "bench.mp4",
     "poster": "bench.jpg",
     "tracks": {
@@ -248,8 +248,8 @@
       "fr": "bench.fr.vtt",
       "it": "bench.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T14:38:27.139Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:09:54.112Z"
   },
   {
     "id": "livescore",
@@ -259,8 +259,8 @@
       "fr": "Livescore et tableau d'affichage",
       "it": "Livescore e tabellone"
     },
-    "durationSec": 33,
-    "sizeBytes": 999952,
+    "durationSec": 33.2,
+    "sizeBytes": 1002008,
     "file": "livescore.mp4",
     "poster": "livescore.jpg",
     "tracks": {
@@ -269,8 +269,8 @@
       "fr": "livescore.fr.vtt",
       "it": "livescore.it.vtt"
     },
-    "appVersion": "26.11.6",
-    "recordedAt": "2026-11-24T14:39:36.055Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:11:02.469Z"
   },
   {
     "id": "handover",
@@ -343,8 +343,8 @@
       "fr": "Ton premier match",
       "it": "La tua prima partita"
     },
-    "durationSec": 449.1,
-    "sizeBytes": 10339944,
+    "durationSec": 472.8,
+    "sizeBytes": 10813579,
     "file": "first-match.mp4",
     "poster": "first-match.jpg",
     "tracks": {
@@ -359,7 +359,7 @@
       "fr": "first-match.chapters.fr.vtt",
       "it": "first-match.chapters.it.vtt"
     },
-    "appVersion": "26.11.7",
-    "recordedAt": "2026-11-26T19:10:23.937Z"
+    "appVersion": "26.11.9",
+    "recordedAt": "2026-11-27T21:20:44.123Z"
   }
 ]
