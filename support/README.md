@@ -12,6 +12,11 @@ in four languages and copies the videos (and the guide PDFs listed in
 | FR | /fr/support |
 | IT | /it/support |
 
+The sections are in groups (`GROUPS` in `build.mjs`: before the match, during
+and after it, tablets and screens, devices, clubs and teams, more tools), with
+the group's title above them (`#group-<id>`) and in the contents. A section the
+app adds later goes to the last group until `GROUPS` names it (the build warns).
+
 Each page has one section per help section of the app, with the anchor
 `#<id>` (`home`, `setup`, `coin-toss`, `scoring`, `subs-timeouts`,
 `sanctions`, `set-end`, `match-end`, `corrections`, `connections`, `referee`,
