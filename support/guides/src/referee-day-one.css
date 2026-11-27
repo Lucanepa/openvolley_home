@@ -21,7 +21,8 @@ h1 { font-size: 19pt; line-height: 1.15; margin: 0 0 2mm; letter-spacing: -0.015
 .lead { font-size: 10pt; color: #44403c; margin: 0 0 3mm; }
 h2 { font-size: 12pt; margin: 4mm 0 1.5mm; letter-spacing: -0.01em; break-after: avoid; }
 h3 { font-size: 9pt; margin: 2.5mm 0 1mm; color: #e2001a; break-after: avoid; }
-p, li { text-align: justify; hyphens: auto; }
+/* Soft hyphens and breaks after slashes come from hyphenate.mjs (render.sh) */
+p, li { text-align: justify; hyphens: manual; }
 p { margin: 0 0 2mm; }
 .lead { text-align: left; }
 ul, ol { margin: 0 0 2mm; padding-left: 5mm; }

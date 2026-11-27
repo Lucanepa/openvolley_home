@@ -17,6 +17,7 @@ import { readFileSync, writeFileSync, mkdirSync, copyFileSync, statSync, existsS
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { ROUTES as LEGAL_ROUTES, legalLinksHtml, slug } from '../legal/build.mjs';
+import { hyphenate } from './hyphenate.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
@@ -566,9 +567,17 @@ function fill(html, values) {
   return html.replace(/\{(\w+)\}/g, (all, key) => (key in values ? values[key] : all));
 }
 
-/** An FAQ answer: escaped, the openvolley.app hosts and addresses linked. */
+/**
+ * Justified running text to HTML: soft hyphens in the page's language and a
+ * break opportunity (<wbr>) after a slash between letters (support/
+ * hyphenate.mjs), then escaped. Quoted labels, addresses and links stay whole.
+ */
+const WBR = '\uE000';
+const prose = (text, lang) => t(hyphenate(text, lang, { wbr: WBR }), lang).replaceAll(WBR, '<wbr>');
+
+/** An FAQ answer: hyphenated and escaped, the openvolley.app hosts and addresses linked. */
 function richText(text, lang) {
-  return t(text, lang).replace(
+  return prose(text, lang).replace(
     /\b([a-z0-9._-]+@)?((?:[a-z0-9-]+\.)*openvolley\.app)\b/gi,
     (all, user, host) => (user ? `<a href="mailto:${all}">${all}</a>` : `<a href="https://${host}">${host}</a>`),
   );
@@ -723,7 +732,7 @@ function firstMatchHtml(v, lang, ui) {
         <div class="help-head">
           <h2 id="${FIRST_MATCH}-title">${t(title, lang)}</h2>
         </div>
-        <p class="first-match-lead">${t(fill(ui.firstMatch.lead, { title }), lang)}</p>
+        <p class="first-match-lead">${prose(fill(ui.firstMatch.lead, { title }), lang)}</p>
         ${videoHtml({ title: v.title }, v, lang, ui, true)}
         <div class="help-qa">
         <h3 class="faq-title">${t(ui.firstMatch.chapters, lang)}</h3>
@@ -780,7 +789,7 @@ function guidesHtml(lang, ui) {
                 <span class="row-icon">${icon('file-text')}</span>
                 <span class="row-body">
                   <span class="row-title">${t(ui.guides[g.key].title, lang)} <span class="row-host">${t(meta, lang)}</span></span>
-                  <span class="row-desc">${t(ui.guides[g.key].desc, lang)}</span>
+                  <span class="row-desc">${prose(ui.guides[g.key].desc, lang)}</span>
                 </span>
                 ${icon('download', 'row-go')}
               </a>
@@ -811,7 +820,7 @@ function guidesHtml(lang, ui) {
         </div>` : ''}
         <div class="card downloads-card">
           <h3>${t(ui.downloadsTitle, lang)}</h3>
-          <p>${t(ui.downloadsLead, lang).replace('get.openvolley.app', '<a href="https://get.openvolley.app">get.openvolley.app</a>')}</p>
+          <p>${prose(ui.downloadsLead, lang).replace('get.openvolley.app', '<a href="https://get.openvolley.app">get.openvolley.app</a>')}</p>
           <div class="actions">
             ${downloads}
           </div>

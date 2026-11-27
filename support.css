@@ -285,27 +285,23 @@
   color: var(--stone-700);
 }
 
-/* Running text (answers, descriptions): hyphenated in the page's language
-   (html lang), justified once the column is wide enough (see "Justified text
-   and the wide cards"). Headings, questions, buttons, captions and the form
-   stay left. */
+/* Running text (answers, descriptions): the soft hyphens and the breaks
+   after a slash come from the build (support/hyphenate.mjs), in the page's
+   language, so every browser breaks the same way and quoted labels, links
+   and addresses stay whole: "manual", not the browser's own dictionary.
+   Justified once the column is wide enough (see "Justified text and the
+   wide cards"). Headings, questions, buttons, captions and the form stay
+   left. */
 .faq-item p,
 .first-match-lead,
 .row-desc,
 .downloads-card p {
-  -webkit-hyphens: auto;
-  hyphens: auto;
+  -webkit-hyphens: manual;
+  hyphens: manual;
 }
 
 .row-desc {
   display: block;
-}
-
-.faq-item p a,
-.row-desc a,
-.downloads-card p a {
-  -webkit-hyphens: manual;
-  hyphens: manual;
 }
 
 .faq-item a,
