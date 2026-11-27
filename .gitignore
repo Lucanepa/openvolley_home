@@ -17,3 +17,6 @@ dist/
 .claude/settings.local.json
 .claude/plans/
 CLAUDE.md
+
+# Guide copies with soft hyphens, printed by support/guides/src/render.sh
+support/guides/src/*.print.html
