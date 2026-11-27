@@ -35,3 +35,4 @@ td { width: 40.5%; }
 .page2 { break-before: page; }
 .box { background: #f5f5f4; border-radius: 2mm; padding: 2.5mm 4mm 1mm; margin-top: 3mm; break-inside: avoid; }
 .box h2 { margin-top: 0; }
+.scope { border-left: 3px solid #e2001a; padding: 1mm 0 1mm 3mm; margin: 0 0 3mm; text-align: left; }
