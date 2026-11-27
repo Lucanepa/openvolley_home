@@ -40,6 +40,7 @@ language, unless they picked one with the language switch.
 | `guides/openvolley-quick-guide-<lang>.pdf`, `GUIDES` in `build.mjs` | The Quick guide of 3.2.5 per language (built in the openvolley repository, `escoresheet/docs/guides/quick-guide`, invented names only); each page lists its own language's. The roll-out deck is the January plan and stays unlisted | /support/guides/ |
 | `guides/openvolley-club-day-one-<lang>.pdf`, `guides/src/` | "Day one for clubs", two pages in de and en (the fr and it pages list none). Sources are `guides/src/club-day-one-<lang>.html` + `.css`; after a change run `bash support/guides/src/render.sh` (needs `npm ci` for the font and google-chrome) | /support/guides/ |
 | `guides/openvolley-referee-day-one-<lang>.pdf` | "eScoresheet for referees", de and en; sources `guides/src/referee-day-one-<lang>.html` + `.css`, printed by the same `render.sh` | /support/guides/ |
+| `guides/openvolley-scorer-day-one-<lang>.pdf` | "Day one for scorers", one page in de and en; sources `guides/src/scorer-day-one-<lang>.html` with the referee page's `.css`. It repeats the scorers' part of "Day one for clubs": change both | /support/guides/ |
 | `../support.css`, `../support.js` | Style, search and contact form | /support.css, /support.js |
 
 The app streams the videos from `/support/videos/` too, so keep those names.
