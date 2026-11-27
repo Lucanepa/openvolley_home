@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T22:20:38.735Z",
-  "appVersion": "26.11.7",
+  "generatedAt": "2026-11-27T12:05:31.721Z",
+  "appVersion": "26.11.8",
   "languages": [
     "en",
     "de",
@@ -315,10 +315,10 @@
             "it": "Come compilo le informazioni della partita?"
           },
           "answer": {
-            "en": "On the “Match info” card, tap “Create match” (later “Edit”). Enter the game number, date, time, city, hall and league, the match format, and both team names with their short names. All of them are needed. The referees' e-mail and each team's contact e-mail are optional. After the coin toss, Match › “Edit match info” changes the match details, the officials, the team contacts and each team's short name and shirt colour; the team names stay as they are.",
-            "de": "Tippe auf der Karte «Spielinfo» auf «Spiel erstellen» (später «Bearbeiten»). Gib Spielnummer, Datum, Zeit, Ort, Halle und Liga, das Spielformat sowie beide Teamnamen mit ihren Kurznamen ein. Alle Angaben sind nötig. Die E-Mail der Schiedsrichter und die Kontakt-E-Mail jedes Teams sind freiwillig. Nach der Auslosung änderst du unter Spiel › «Spielinfo bearbeiten» die Spielangaben, die Offiziellen, die Teamkontakte sowie Kurzname und Trikotfarbe jedes Teams; die Teamnamen bleiben, wie sie sind.",
-            "fr": "Sur la carte « Information match », appuie sur « Créer le match » (plus tard « Modifier »). Saisis le numéro du match, la date, l'heure, la ville, la salle et la ligue, le format du match, et les noms des deux équipes avec leurs noms courts. Tout est obligatoire. L'e-mail des arbitres et l'e-mail de contact de chaque équipe sont facultatifs. Après le tirage au sort, Match › « Modifier les infos du match » change les données du match, les officiels, les contacts des équipes ainsi que le nom court et la couleur du maillot de chaque équipe ; les noms des équipes restent tels quels.",
-            "it": "Sulla scheda «Info partita», tocca «Crea partita» (più tardi «Modifica»). Inserisci numero partita, data, ora, città, palestra e campionato, il formato della partita e i nomi delle due squadre con i loro nomi brevi. Servono tutti. Le e-mail degli arbitri e l'e-mail di contatto di ogni squadra sono facoltative. Dopo il sorteggio, Partita › «Modifica info partita» cambia i dati della partita, gli ufficiali di gara, i contatti delle squadre e il nome breve e il colore della maglia di ogni squadra; i nomi delle squadre restano come sono."
+            "en": "On the “Match info” card, tap “Create match” (later “Edit”). Enter the game number, date, time, city, hall and league, the match format, and both team names. All of them are needed. The referees' e-mail and each team's contact e-mail are optional. After the coin toss, Match › “Edit match info” changes the match details, the officials, the team contacts and each team's shirt colour; the team names stay as they are.",
+            "de": "Tippe auf der Karte «Spielinfo» auf «Spiel erstellen» (später «Bearbeiten»). Gib Spielnummer, Datum, Zeit, Ort, Halle und Liga, das Spielformat sowie beide Teamnamen ein. Alle Angaben sind nötig. Die E-Mail der Schiedsrichter und die Kontakt-E-Mail jedes Teams sind freiwillig. Nach der Auslosung änderst du unter Spiel › «Spielinfo bearbeiten» die Spielangaben, die Offiziellen, die Teamkontakte sowie die Trikotfarbe jedes Teams; die Teamnamen bleiben, wie sie sind.",
+            "fr": "Sur la carte « Information match », appuie sur « Créer le match » (plus tard « Modifier »). Saisis le numéro du match, la date, l'heure, la ville, la salle et la ligue, le format du match, et les noms des deux équipes. Tout est obligatoire. L'e-mail des arbitres et l'e-mail de contact de chaque équipe sont facultatifs. Après le tirage au sort, Match › « Modifier les infos du match » change les données du match, les officiels, les contacts des équipes ainsi que la couleur du maillot de chaque équipe ; les noms des équipes restent tels quels.",
+            "it": "Sulla scheda «Info partita», tocca «Crea partita» (più tardi «Modifica»). Inserisci numero partita, data, ora, città, palestra e campionato, il formato della partita e i nomi delle due squadre. Servono tutti. Le e-mail degli arbitri e l'e-mail di contatto di ogni squadra sono facoltative. Dopo il sorteggio, Partita › «Modifica info partita» cambia i dati della partita, gli ufficiali di gara, i contatti delle squadre e il colore della maglia di ogni squadra; i nomi delle squadre restano come sono."
           }
         },
         {
@@ -345,10 +345,10 @@
             "it": "Come imposto nomi e colori delle squadre?"
           },
           "answer": {
-            "en": "The team names and short names are in the match info. On each team's card, tap the shirt next to “Select colour” to pick the shirt colour. The app warns you when the two colours are close.",
-            "de": "Teamnamen und Kurznamen stehen in der Spielinfo. Tippe auf der Karte jedes Teams auf das Trikot neben «Farbe wählen», um die Trikotfarbe festzulegen. Die App warnt, wenn die beiden Farben sich ähneln.",
-            "fr": "Les noms et les noms courts des équipes se saisissent dans les informations du match. Sur la carte de chaque équipe, appuie sur le maillot à côté de « Couleur de l'équipe » pour choisir sa couleur. L'app t'avertit si les deux couleurs se ressemblent.",
-            "it": "I nomi e i nomi brevi delle squadre sono nelle info partita. Sulla scheda di ogni squadra tocca la maglia accanto a «Seleziona colore» per sceglierne il colore. L'app ti avvisa se i due colori sono troppo simili."
+            "en": "The team names are in the match info. On each team's card, tap the shirt next to “Select colour” to pick the shirt colour. The app warns you when the two colours are close.",
+            "de": "Die Teamnamen stehen in der Spielinfo. Tippe auf der Karte jedes Teams auf das Trikot neben «Farbe wählen», um die Trikotfarbe festzulegen. Die App warnt, wenn die beiden Farben sich ähneln.",
+            "fr": "Les noms des équipes se saisissent dans les informations du match. Sur la carte de chaque équipe, appuie sur le maillot à côté de « Couleur de l'équipe » pour choisir sa couleur. L'app t'avertit si les deux couleurs se ressemblent.",
+            "it": "I nomi delle squadre sono nelle info partita. Sulla scheda di ogni squadra tocca la maglia accanto a «Seleziona colore» per sceglierne il colore. L'app ti avvisa se i due colori sono troppo simili."
           }
         },
         {
@@ -565,10 +565,10 @@
             "it": "Posso importare l'Einsatzliste da una foto?"
           },
           "answer": {
-            "en": "Yes. In “Edit roster”, keep “Local” selected and tap “Photo of the list”. Take a photo of the printed list or choose a picture of it (a screenshot works too; zoom in so the table fills it). Drag the four corners onto the page, then tap “Read the list”: the photo is read on this device, not sent and not kept. Check the rows: a red field must be fixed, an amber one checked. Shirt numbers, the captain (C, K or a circled number) and liberos (L) written on the list are taken for this game; numbers left blank come from the saved team. Nothing changes until you tap “Use”. A PDF of the list is read more reliably than a photo.",
-            "de": "Ja. Lass in «Kader bearbeiten» «Lokal» ausgewählt und tippe auf «Foto der Liste». Fotografiere die ausgedruckte Liste oder wähle ein Bild davon (auch ein Screenshot geht; zoome hinein, bis die Tabelle ihn füllt). Zieh die vier Ecken auf die Seite und tippe auf «Liste lesen»: Das Foto wird auf diesem Gerät gelesen, nicht gesendet und nicht gespeichert. Prüfe die Zeilen: Ein rotes Feld musst du korrigieren, ein gelbes prüfen. Trikotnummern, Kapitän (C, K oder eine eingekreiste Nummer) und Liberos (L), die auf der Liste stehen, gelten für dieses Spiel; leere Nummern kommen aus dem gespeicherten Team. Erst mit «Übernehmen» ändert sich etwas. Ein PDF der Liste wird zuverlässiger gelesen als ein Foto.",
-            "fr": "Oui. Dans « Modifier l'effectif », laisse « Local » choisi et appuie sur « Photo de la liste ». Prends en photo la liste imprimée ou choisis une image de la liste (une capture d'écran fonctionne aussi ; zoome jusqu'à ce que le tableau la remplisse). Glisse les quatre coins sur la page, puis appuie sur « Lire la liste » : la photo est lue sur cet appareil, ni envoyée ni gardée. Vérifie les lignes : un champ rouge doit être corrigé, un champ orange vérifié. Les numéros de maillot, le capitaine (C, K ou un numéro entouré) et les libéros (L) inscrits sur la liste valent pour ce match ; les numéros laissés vides viennent de l'équipe enregistrée. Rien ne change avant « Utiliser ». Le PDF de la liste est lu de façon plus fiable qu'une photo.",
-            "it": "Sì. In «Modifica roster», lascia selezionato «Locale» e tocca «Foto della lista». Fotografa la lista stampata o scegli un'immagine della lista (va bene anche uno screenshot; ingrandisci finché la tabella lo riempie). Trascina i quattro angoli sulla pagina, poi tocca «Leggi la lista»: la foto viene letta su questo dispositivo, non inviata né conservata. Controlla le righe: un campo rosso va corretto, uno giallo controllato. I numeri di maglia, il capitano (C, K o un numero cerchiato) e i liberi (L) scritti sulla lista valgono per questa partita; i numeri lasciati vuoti vengono dalla squadra salvata. Nulla cambia prima di «Usa». Il PDF della lista viene letto in modo più affidabile di una foto."
+            "en": "Yes. In “Edit roster”, keep “Local” selected and tap “Photo of the list”. Take a photo of the printed list or choose a picture of it (a screenshot works too; zoom in so the table fills it). Drag the four corners onto the page, then tap “Read the list”. Check the rows: a red field must be fixed, an amber one checked. Shirt numbers, the captain (C, K or a circled number) and liberos (L) written on the list are taken for this game; numbers left blank come from the saved team. Nothing changes until you tap “Use”. A PDF of the list is read more reliably than a photo.",
+            "de": "Ja. Lass in «Kader bearbeiten» «Lokal» ausgewählt und tippe auf «Foto der Liste». Fotografiere die ausgedruckte Liste oder wähle ein Bild davon (auch ein Screenshot geht; zoome hinein, bis die Tabelle ihn füllt). Zieh die vier Ecken auf die Seite und tippe auf «Liste lesen». Prüfe die Zeilen: Ein rotes Feld musst du korrigieren, ein gelbes prüfen. Trikotnummern, Kapitän (C, K oder eine eingekreiste Nummer) und Liberos (L), die auf der Liste stehen, gelten für dieses Spiel; leere Nummern kommen aus dem gespeicherten Team. Erst mit «Übernehmen» ändert sich etwas. Ein PDF der Liste wird zuverlässiger gelesen als ein Foto.",
+            "fr": "Oui. Dans « Modifier l'effectif », laisse « Local » choisi et appuie sur « Photo de la liste ». Prends en photo la liste imprimée ou choisis une image de la liste (une capture d'écran fonctionne aussi ; zoome jusqu'à ce que le tableau la remplisse). Glisse les quatre coins sur la page, puis appuie sur « Lire la liste ». Vérifie les lignes : un champ rouge doit être corrigé, un champ orange vérifié. Les numéros de maillot, le capitaine (C, K ou un numéro entouré) et les libéros (L) inscrits sur la liste valent pour ce match ; les numéros laissés vides viennent de l'équipe enregistrée. Rien ne change avant « Utiliser ». Le PDF de la liste est lu de façon plus fiable qu'une photo.",
+            "it": "Sì. In «Modifica roster», lascia selezionato «Locale» e tocca «Foto della lista». Fotografa la lista stampata o scegli un'immagine della lista (va bene anche uno screenshot; ingrandisci finché la tabella lo riempie). Trascina i quattro angoli sulla pagina, poi tocca «Leggi la lista». Controlla le righe: un campo rosso va corretto, uno giallo controllato. I numeri di maglia, il capitano (C, K o un numero cerchiato) e i liberi (L) scritti sulla lista valgono per questa partita; i numeri lasciati vuoti vengono dalla squadra salvata. Nulla cambia prima di «Usa». Il PDF della lista viene letto in modo più affidabile di una foto."
           }
         },
         {
@@ -1826,21 +1826,6 @@
           }
         },
         {
-          "id": "approveWithPin",
-          "question": {
-            "en": "Can a referee approve without drawing a signature?",
-            "de": "Kann ein Schiedsrichter genehmigen, ohne zu unterschreiben?",
-            "fr": "Un arbitre peut-il approuver sans dessiner de signature ?",
-            "it": "Un arbitro può approvare senza disegnare la firma?"
-          },
-          "answer": {
-            "en": "Yes, with an OpenVolley account. Tap “Approve with PIN” under the box: the official types their own approval PIN. For a referee, their account's e-mail must be entered for them in the match setup (“Email (optional)” under the referee). It needs an internet connection and a match saved online.",
-            "de": "Ja, mit einem OpenVolley-Konto. Tippe unter dem Feld auf «Mit PIN genehmigen»: Der Offizielle gibt seine eigene Genehmigungs-PIN ein. Bei einem Schiedsrichter muss die E-Mail seines Kontos in der Spieleinrichtung eingetragen sein («E-Mail (freiwillig)» beim Schiedsrichter). Dafür braucht es eine Internetverbindung und ein online gespeichertes Spiel.",
-            "fr": "Oui, avec un compte OpenVolley. Appuie sur « Approuver avec le PIN » sous la case : l'officiel saisit son propre PIN d'approbation. Pour un arbitre, l'e-mail de son compte doit être saisi pour lui dans la configuration du match (« E-mail (facultatif) » sous l'arbitre). Il faut une connexion internet et un match enregistré en ligne.",
-            "it": "Sì, con un account OpenVolley. Tocca «Approva con PIN» sotto la casella: l'ufficiale inserisce il proprio PIN di approvazione. Per un arbitro, l'e-mail del suo account deve essere inserita nella configurazione della partita («E-mail (facoltativa)» sotto l'arbitro). Servono una connessione internet e una partita salvata online."
-          }
-        },
-        {
           "id": "approve",
           "question": {
             "en": "What does “Confirm and approve” do?",
@@ -1909,10 +1894,10 @@
             "it": "Chi riceve il referto finale via e-mail?"
           },
           "answer": {
-            "en": "Where the league sends final scoresheets, the PDF is mailed a few minutes after the approval to the scorer, the referees (their accounts, or the e-mail typed for them in the match setup) and each team's contact. Type a team's contact in the match setup (“Team contact email (optional)”) or later in Match › “Edit match info” › “Team contacts”.",
-            "de": "Wo der Verband endgültige Matchblätter verschickt, geht das PDF einige Minuten nach der Genehmigung per E-Mail an den Schreiber, die Schiedsrichter (an ihr Konto oder an die für sie in der Spieleinrichtung eingetippte E-Mail) und den Kontakt jedes Teams. Den Kontakt eines Teams trägst du in der Spieleinrichtung ein («E-Mail Teamkontakt (freiwillig)») oder später unter Spiel › «Spielinfo bearbeiten» › «Teamkontakte».",
-            "fr": "Là où la ligue envoie les feuilles de match finales, le PDF est envoyé par e-mail quelques minutes après l'approbation au marqueur, aux arbitres (à leurs comptes, ou à l'e-mail saisi pour eux dans la configuration du match) et au contact de chaque équipe. Saisis le contact d'une équipe dans la configuration du match (« E-mail du contact de l'équipe (facultatif) ») ou plus tard dans Match › « Modifier les infos du match » › « Contacts des équipes ».",
-            "it": "Dove la lega invia i referti finali, il PDF viene spedito qualche minuto dopo l'approvazione al segnapunti, agli arbitri (al loro account, o all'e-mail inserita per loro nella configurazione della partita) e al contatto di ogni squadra. Inserisci il contatto di una squadra nella configurazione della partita («E-mail del contatto della squadra (facoltativa)») o più tardi in Partita › «Modifica info partita» › «Contatti delle squadre»."
+            "en": "Where the league sends final scoresheets, the PDF is mailed a few minutes after the approval to the scorer, the referees (at the e-mail typed for them in the match setup) and each team's contact. Type a team's contact in the match setup (“Team contact email (optional)”) or later in Match › “Edit match info” › “Team contacts”.",
+            "de": "Wo der Verband endgültige Matchblätter verschickt, geht das PDF einige Minuten nach der Genehmigung per E-Mail an den Schreiber, die Schiedsrichter (an die für sie in der Spieleinrichtung eingetippte E-Mail) und den Kontakt jedes Teams. Den Kontakt eines Teams trägst du in der Spieleinrichtung ein («E-Mail Teamkontakt (freiwillig)») oder später unter Spiel › «Spielinfo bearbeiten» › «Teamkontakte».",
+            "fr": "Là où la ligue envoie les feuilles de match finales, le PDF est envoyé par e-mail quelques minutes après l'approbation au marqueur, aux arbitres (à l'e-mail saisi pour eux dans la configuration du match) et au contact de chaque équipe. Saisis le contact d'une équipe dans la configuration du match (« E-mail du contact de l'équipe (facultatif) ») ou plus tard dans Match › « Modifier les infos du match » › « Contacts des équipes ».",
+            "it": "Dove la lega invia i referti finali, il PDF viene spedito qualche minuto dopo l'approvazione al segnapunti, agli arbitri (all'e-mail inserita per loro nella configurazione della partita) e al contatto di ogni squadra. Inserisci il contatto di una squadra nella configurazione della partita («E-mail del contatto della squadra (facoltativa)») o più tardi in Partita › «Modifica info partita» › «Contatti delle squadre»."
           }
         },
         {
@@ -2088,10 +2073,10 @@
             "it": "Come correggo la palestra, la data o un ufficiale di gara durante la partita?"
           },
           "answer": {
-            "en": "Match › “Edit match info”: hall, city, league, game number, match type, date, team contacts and officials, and each team's short name and shirt colour (the team names stay as on the scoresheet). Tap “Save changes”; “Close” goes back to the match.",
-            "de": "Spiel › «Spielinfo bearbeiten»: Halle, Ort, Liga, Spielnummer, Spieltyp, Datum, Teamkontakte und Offizielle sowie Kurzname und Trikotfarbe jedes Teams (die Teamnamen bleiben wie auf dem Matchblatt). Tippe auf «Änderungen speichern»; «Schliessen» führt zurück zum Spiel.",
-            "fr": "Match › « Modifier les infos du match » : salle, ville, ligue, numéro du match, type de match, date, contacts des équipes et officiels, ainsi que le nom court et la couleur du maillot de chaque équipe (les noms des équipes restent ceux de la feuille de match). Appuie sur « Enregistrer les modifications » ; « Fermer » revient au match.",
-            "it": "Partita › «Modifica info partita»: palestra, città, campionato, numero partita, tipo di partita, data, contatti delle squadre e ufficiali di gara, e il nome breve e il colore della maglia di ogni squadra (i nomi delle squadre restano come sul referto). Tocca «Salva le modifiche»; «Chiudi» torna alla partita."
+            "en": "Match › “Edit match info”: hall, city, league, game number, match type, date, team contacts and officials, and each team's shirt colour (the team names stay as on the scoresheet). Tap “Save changes”; “Close” goes back to the match.",
+            "de": "Spiel › «Spielinfo bearbeiten»: Halle, Ort, Liga, Spielnummer, Spieltyp, Datum, Teamkontakte und Offizielle sowie die Trikotfarbe jedes Teams (die Teamnamen bleiben wie auf dem Matchblatt). Tippe auf «Änderungen speichern»; «Schliessen» führt zurück zum Spiel.",
+            "fr": "Match › « Modifier les infos du match » : salle, ville, ligue, numéro du match, type de match, date, contacts des équipes et officiels, ainsi que la couleur du maillot de chaque équipe (les noms des équipes restent ceux de la feuille de match). Appuie sur « Enregistrer les modifications » ; « Fermer » revient au match.",
+            "it": "Partita › «Modifica info partita»: palestra, città, campionato, numero partita, tipo di partita, data, contatti delle squadre e ufficiali di gara, e il colore della maglia di ogni squadra (i nomi delle squadre restano come sul referto). Tocca «Salva le modifiche»; «Chiudi» torna alla partita."
           }
         },
         {
@@ -2163,10 +2148,10 @@
             "it": "Come modifico le informazioni delle squadre?"
           },
           "answer": {
-            "en": "At the match end, open the “Teams” tab to change names, short names, colours, players and bench officials. The “Match info” tab holds the hall, the date, the officials and the team contacts; during the match it opens with Match › “Edit match info”, and there it also holds each team's short name and shirt colour. Then tap “Save changes”.",
-            "de": "Öffne am Spielende den Reiter «Teams», um Namen, Kurznamen, Farben, Spieler und Bankoffizielle zu ändern. Der Reiter «Spielinfo» enthält Halle, Datum, Offizielle und die Teamkontakte; während des Spiels öffnet er sich mit Spiel › «Spielinfo bearbeiten» und enthält dort auch Kurzname und Trikotfarbe jedes Teams. Tippe dann auf «Änderungen speichern».",
-            "fr": "À la fin du match, ouvre l'onglet « Équipes » pour changer les noms, les noms courts, les couleurs, les joueurs et les officiels du banc. L'onglet « Info match » contient la salle, la date, les officiels et les contacts des équipes ; pendant le match, il s'ouvre avec Match › « Modifier les infos du match » et contient là aussi le nom court et la couleur du maillot de chaque équipe. Appuie ensuite sur « Enregistrer les modifications ».",
-            "it": "A fine partita, apri la scheda «Squadre» per cambiare nomi, nomi brevi, colori, giocatori e ufficiali di panchina. La scheda «Info partita» contiene palestra, data, ufficiali di gara e contatti delle squadre; durante la partita si apre con Partita › «Modifica info partita» e lì contiene anche il nome breve e il colore della maglia di ogni squadra. Poi tocca «Salva le modifiche»."
+            "en": "At the match end, open the “Teams” tab to change names, colours, players and bench officials. The “Match info” tab holds the hall, the date, the officials and the team contacts; during the match it opens with Match › “Edit match info”, and there it also holds each team's shirt colour. Then tap “Save changes”.",
+            "de": "Öffne am Spielende den Reiter «Teams», um Namen, Farben, Spieler und Bankoffizielle zu ändern. Der Reiter «Spielinfo» enthält Halle, Datum, Offizielle und die Teamkontakte; während des Spiels öffnet er sich mit Spiel › «Spielinfo bearbeiten» und enthält dort auch die Trikotfarbe jedes Teams. Tippe dann auf «Änderungen speichern».",
+            "fr": "À la fin du match, ouvre l'onglet « Équipes » pour changer les noms, les couleurs, les joueurs et les officiels du banc. L'onglet « Info match » contient la salle, la date, les officiels et les contacts des équipes ; pendant le match, il s'ouvre avec Match › « Modifier les infos du match » et contient là aussi la couleur du maillot de chaque équipe. Appuie ensuite sur « Enregistrer les modifications ».",
+            "it": "A fine partita, apri la scheda «Squadre» per cambiare nomi, colori, giocatori e ufficiali di panchina. La scheda «Info partita» contiene palestra, data, ufficiali di gara e contatti delle squadre; durante la partita si apre con Partita › «Modifica info partita» e lì contiene anche il colore della maglia di ogni squadra. Poi tocca «Salva le modifiche»."
           }
         },
         {
