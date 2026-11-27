@@ -1,8 +1,8 @@
 #!/bin/bash
-# Prints the "Day one for clubs" pages to PDF (A4, two pages each).
+# Prints the guide pages in this folder to PDF (A4), one per <name>-<lang>.html.
 set -euo pipefail
 cd "$(dirname "$0")"
-for l in de en; do
+for f in club-day-one-de club-day-one-en referee-day-one-de referee-day-one-en; do
   google-chrome --headless --no-sandbox --disable-gpu --no-pdf-header-footer \
-    --print-to-pdf="../openvolley-club-day-one-$l.pdf" "club-day-one-$l.html"
+    --print-to-pdf="../openvolley-$f.pdf" "$f.html"
 done

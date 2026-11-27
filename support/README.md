@@ -39,6 +39,7 @@ language, unless they picked one with the language switch.
 | `videos/first-match.mp4`, `.jpg`, `.<lang>.vtt`, `.chapters.<lang>.vtt` | "Your first match": the video, its poster, subtitles and chapters (manifest id `first-match`, no help section; `chapters` in its manifest entry) | /support/videos/ |
 | `guides/openvolley-quick-guide-<lang>.pdf`, `GUIDES` in `build.mjs` | The Quick guide of 3.2.5 per language (built in the openvolley repository, `escoresheet/docs/guides/quick-guide`, invented names only); each page lists its own language's. The roll-out deck is the January plan and stays unlisted | /support/guides/ |
 | `guides/openvolley-club-day-one-<lang>.pdf`, `guides/src/` | "Day one for clubs", two pages in de and en (the fr and it pages list none). Sources are `guides/src/club-day-one-<lang>.html` + `.css`; after a change run `bash support/guides/src/render.sh` (needs `npm ci` for the font and google-chrome) | /support/guides/ |
+| `guides/openvolley-referee-day-one-<lang>.pdf` | "eScoresheet for referees", de and en; sources `guides/src/referee-day-one-<lang>.html` + `.css`, printed by the same `render.sh` | /support/guides/ |
 | `../support.css`, `../support.js` | Style, search and contact form | /support.css, /support.js |
 
 The app streams the videos from `/support/videos/` too, so keep those names.
