@@ -14,7 +14,7 @@ rm -rf "$OUTPUT_DIR"
 mkdir -p "$OUTPUT_DIR"
 
 # Page, styles and icons
-cp index.html landing.css legal.css support.css support.js _redirects "$OUTPUT_DIR/"
+cp index.html 404.html landing.css legal.css support.css support.js _redirects "$OUTPUT_DIR/"
 cp favicon.ico favicon.svg apple-touch-icon.png "$OUTPUT_DIR/"
 cp CNAME "$OUTPUT_DIR/" 2>/dev/null || true
 

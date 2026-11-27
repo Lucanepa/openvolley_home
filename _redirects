@@ -10,3 +10,9 @@
 /tv/       https://backend.openvolley.app/tv/        302
 /tv/:code  https://backend.openvolley.app/tv/:code  302
 /tv/:code/:court  https://backend.openvolley.app/tv/:code/:court  302
+# The guides' folder has no page of its own: its address goes to the list
+# of guides on the support page.
+/support/guides   /support#guides  302
+/support/guides/  /support#guides  302
+/guides           /support#guides  302
+/guides/          /support#guides  302

@@ -57,6 +57,10 @@ const GUIDES = [
   ...['en', 'de'].map((l) => ({
     key: 'clubs', src: `support/guides/openvolley-club-day-one-${l}.pdf`, file: `openvolley-club-day-one-${l}.pdf`, docLang: l,
   })),
+  // "Day one for scorers" (one page, de and en; sources in support/guides/src)
+  ...['en', 'de'].map((l) => ({
+    key: 'scorers', src: `support/guides/openvolley-scorer-day-one-${l}.pdf`, file: `openvolley-scorer-day-one-${l}.pdf`, docLang: l,
+  })),
   // "eScoresheet for referees" (de and en; sources in support/guides/src)
   ...['en', 'de'].map((l) => ({
     key: 'referees', src: `support/guides/openvolley-referee-day-one-${l}.pdf`, file: `openvolley-referee-day-one-${l}.pdf`, docLang: l,
@@ -119,7 +123,8 @@ const UI = {
     guidesTitle: 'Anleitungen und Downloads',
     guidesLead: 'Die Apps zum Installieren und welche App auf welches Gerät gehört.',
     guides: {
-      referees: { title: 'eScoresheet für Schiedsrichter:innen', desc: 'Was sich für Schiedsrichter:innen ändert: Kader, Schiedsrichter-Tablet, Rücknahmen, Unterschriften und wie das Matchblatt zu euch kommt.' },
+      referees: { title: 'eScoresheet für Schiedsrichter:innen', desc: 'Was sich für Schiedsrichter:innen ändert: Kader, Schiedsrichter-Tablet, Rücknahmen, Unterschriften und wo ihr das Matchblatt für den Upload findet.' },
+      scorers: { title: 'Tag 1 für Schreiber:innen', desc: 'Eine Seite für Schreiber:innen: zu Hause üben, das Spiel in der Halle erstellen, Kader, Auslosung, Unterschriften und Abschluss.' },
       clubs: { title: 'Tag 1 für Vereine', desc: 'Zwei Seiten für Vereine: was Schreiber:innen und Vereinsverantwortliche am ersten Tag tun, Konto ja oder nein, Datenschutz.' },
       quick: { title: 'Kurzanleitung', desc: 'Das eScoresheet Schritt für Schritt, vom ersten Öffnen bis zum Spielende (OpenVolley 3.2.5).' },
       rollout: { title: 'Roll-out-Info', desc: 'Was das eScoresheet bietet und die nächsten Schritte der Einführung.' },
@@ -226,7 +231,8 @@ const UI = {
     guidesTitle: 'Guides and downloads',
     guidesLead: 'The apps to install, and which app goes on which device.',
     guides: {
-      referees: { title: 'eScoresheet for referees', desc: 'What changes for referees: rosters, the referee tablet, taking a rally back, signatures and how the scoresheet reaches you.' },
+      referees: { title: 'eScoresheet for referees', desc: 'What changes for referees: rosters, the referee tablet, taking a rally back, signatures and where you find the scoresheet for the upload.' },
+      scorers: { title: 'Day one for scorers', desc: 'One page for scorers: practise at home, create the match in the hall, rosters, coin toss, signatures and closing the match.' },
       clubs: { title: 'Day one for clubs', desc: 'Two pages for clubs: what scorers and club managers do on day one, account or not, data protection.' },
       quick: { title: 'Quick guide', desc: 'The eScoresheet step by step, from the first open to the match end (OpenVolley 3.2.5).' },
       rollout: { title: 'Roll-out info', desc: 'What the eScoresheet offers and the next steps of the roll-out.' },
