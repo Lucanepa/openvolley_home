@@ -725,10 +725,12 @@ function firstMatchHtml(v, lang, ui) {
         </div>
         <p class="first-match-lead">${t(fill(ui.firstMatch.lead, { title }), lang)}</p>
         ${videoHtml({ title: v.title }, v, lang, ui, true)}
+        <div class="help-qa">
         <h3 class="faq-title">${t(ui.firstMatch.chapters, lang)}</h3>
         <ol class="chapter-list">
             ${chapters}
         </ol>
+        </div>
       </section>`;
 }
 
@@ -752,10 +754,12 @@ function sectionHtml(section, v, lang, ui, first) {
           <a class="btn btn-ghost btn-sm" href="#contact" data-area="${esc(section.id)}">${icon('message-circle-question-mark')}${t(ui.ask, lang)}</a>
         </div>
         ${v ? videoHtml(section, v, lang, ui, first) : ''}
+        <div class="help-qa">
         <h3 class="faq-title">${t(ui.questions, lang)}</h3>
         <div class="faq">
           ${faq}
         </div>${inApp}
+        </div>
       </section>`;
 }
 
@@ -994,7 +998,7 @@ ${alternates}
   <script src="/support.js" defer></script>
 </head>
 
-<body>
+<body class="support-page">
   <a class="skip-link" href="#main">${esc(ui.skip)}</a>
 
   <header class="topbar">

@@ -17,6 +17,10 @@ and after it, tablets and screens, devices, clubs and teams, more tools), with
 the group's title above them (`#group-<id>`) and in the contents. A section the
 app adds later goes to the last group until `GROUPS` names it (the build warns).
 
+The page uses the whole window (`body.support-page`). From 1280px a section
+shows its video beside its questions. The contents list marks the part being
+read and scrolls with the page (`support.js`).
+
 Each page has one section per help section of the app, with the anchor
 `#<id>` (`home`, `setup`, `coin-toss`, `scoring`, `subs-timeouts`,
 `sanctions`, `set-end`, `match-end`, `corrections`, `connections`, `referee`,
