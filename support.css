@@ -886,6 +886,15 @@
   .support-content:not(.is-searching) .first-match .chapter-list {
     columns: 1;
   }
+
+  /* No video: the questions in two columns, one half of the list each
+     (build.mjs), at the width the videos go beside their questions */
+  .support-content:not(.is-searching) .help-section:not(:has(.help-video)) .faq {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 32px;
+    align-items: start;
+  }
 }
 
 /* ---------- Justified text and the wide cards ---------- */

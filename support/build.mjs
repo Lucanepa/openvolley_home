@@ -736,14 +736,22 @@ function firstMatchHtml(v, lang, ui) {
 
 function sectionHtml(section, v, lang, ui, first) {
   const title = section.title[lang];
-  const faq = section.faq
-    .map(
-      (f) => `<details class="faq-item" id="q-${esc(section.id)}-${esc(f.id)}">
+  const item = (f) => `<details class="faq-item" id="q-${esc(section.id)}-${esc(f.id)}">
             <summary><span>${t(f.question[lang], lang)}</span>${icon('chevron-down', 'faq-chevron')}</summary>
             <p>${richText(f.answer[lang], lang)}</p>
-          </details>`,
-    )
-    .join('\n          ');
+          </details>`;
+  // Without a video the questions get two columns on wide screens
+  // (support.css): one half of the list in each, in order, so opening an
+  // answer never moves questions from one column to the other
+  const half = Math.ceil(section.faq.length / 2);
+  const faq = v
+    ? section.faq.map(item).join('\n          ')
+    : [section.faq.slice(0, half), section.faq.slice(half)]
+      .filter((col) => col.length)
+      .map((col) => `<div class="faq-col">
+          ${col.map(item).join('\n          ')}
+          </div>`)
+      .join('\n          ');
   const screens = [...new Set((section.screens || []).map((s) => s.name?.[lang]).filter(Boolean))];
   const inApp = screens.length
     ? `\n        <p class="help-screens">${icon('circle-help')}<span>${t(ui.inApp, lang)} ${screens.map((n) => `<strong>${t(n, lang)}</strong>`).join(', ')}</span></p>`
