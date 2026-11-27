@@ -1,19 +1,19 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.493
+00:00:00.000 --> 00:00:03.492
 The score is in the middle, both teams are on court.
 
 2
-00:00:03.543 --> 00:00:07.380
+00:00:03.542 --> 00:00:07.361
 Team A serves. Rally won by A: tap "Point A".
 
 3
-00:00:07.430 --> 00:00:10.298
+00:00:07.411 --> 00:00:10.297
 Before each serve, tap "Start rally".
 
 4
-00:00:10.348 --> 00:00:13.625
+00:00:10.347 --> 00:00:13.625
 Team B wins the rally: "Point B". B now serves and rotates.
 
 5
@@ -21,25 +21,25 @@ Team B wins the rally: "Point B". B now serves and rotates.
 Each rally: "Start rally", then the point for the winner.
 
 6
-00:00:23.677 --> 00:00:26.305
+00:00:23.644 --> 00:00:26.324
 Wrong point? Tap "Undo".
 
 7
-00:00:26.355 --> 00:00:29.030
+00:00:26.374 --> 00:00:29.028
 "Confirm undo": tap "Yes". The last point is gone.
 
 8
-00:00:29.080 --> 00:00:32.953
+00:00:29.078 --> 00:00:32.986
 With a keyboard: "Match" → "Options".
 
 9
-00:00:33.003 --> 00:00:40.003
+00:00:33.036 --> 00:00:40.036
 Turn on "Keyboard shortcuts". "Configure keys" lists the keys.
 
 10
-00:00:40.473 --> 00:00:46.730
+00:00:40.521 --> 00:00:46.774
 Enter starts the rally, A and L give the point to the left or right team.
 
 11
-00:00:46.780 --> 00:00:49.559
+00:00:46.824 --> 00:00:49.590
 Under each team: points (P), set won (W), substitutions (S), time-outs (T).

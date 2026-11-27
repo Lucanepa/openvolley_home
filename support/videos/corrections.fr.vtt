@@ -1,41 +1,41 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.829
+00:00:00.000 --> 00:00:04.840
 Une erreur ? "Match" → "Corrections".
 
 2
-00:00:04.879 --> 00:00:09.032
+00:00:04.890 --> 00:00:09.043
 Le "Tableau de correction" montre le match comme le tableau de score. Rien n'est enregistré avant "Enregistrer".
 
 3
-00:00:09.082 --> 00:00:12.603
+00:00:09.093 --> 00:00:12.567
 "Le dernier point a été donné à la mauvaise équipe" : le point passe à l'autre équipe.
 
 4
-00:00:12.653 --> 00:00:16.371
+00:00:12.617 --> 00:00:16.355
 Un échange n'a pas été saisi : "+" à côté du score de l'équipe ("−" en retire un).
 
 5
-00:00:16.421 --> 00:00:22.408
-Composition, temps morts et remplacements : touche-les sur le tableau. Sanctions, libéro, remarques, tirage au sort et numéros : les boutons en dessous.
+00:00:16.405 --> 00:00:22.390
+Formation, temps-morts et remplacements : touche-les sur le tableau. Sanctions, libéro, remarques, tirage au sort et numéros : les boutons en dessous.
 
 6
-00:00:22.458 --> 00:00:25.823
-Les changements sont listés en bas. "Défaire" annule le dernier.
+00:00:22.440 --> 00:00:25.806
+Les modifications sont listées en bas. "Défaire" annule la dernière.
 
 7
-00:00:25.873 --> 00:00:32.761
-"Enregistrer" : vérifie les changements, puis enregistre-les. L'arbitre les voit dans le journal des corrections.
+00:00:25.856 --> 00:00:32.727
+"Enregistrer" : vérifie les modifications, puis enregistre-les. L'arbitre les voit dans le journal des corrections.
 
 8
-00:00:32.811 --> 00:00:39.811
+00:00:32.777 --> 00:00:39.777
 Un set fermé trop tôt ? Sur le tableau, choisis le set, puis "Rouvrir le set". Les sets suivants sont supprimés.
 
 9
-00:00:44.122 --> 00:00:46.688
+00:00:44.120 --> 00:00:46.688
 Le set 1 est rouvert à 25-20 : "Changement de décision" corrige son dernier point.
 
 10
-00:00:46.738 --> 00:00:49.105
+00:00:46.738 --> 00:00:49.107
 Ou "Confirmer" le termine à nouveau.

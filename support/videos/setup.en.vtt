@@ -1,45 +1,61 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:02.755
+00:00:00.001 --> 00:00:02.807
 Match setup: the match info, both teams, then the coin toss.
 
 2
-00:00:02.805 --> 00:00:05.383
+00:00:02.857 --> 00:00:05.477
 Official match: "Load match from schedule" fills it in.
 
 3
-00:00:05.433 --> 00:00:12.433
+00:00:05.527 --> 00:00:12.527
 "Edit": date, hall, referees, scorer, line judges and the match format.
 
 4
-00:00:14.488 --> 00:00:16.809
+00:00:14.702 --> 00:00:17.123
 "Edit roster": players, liberos, captain and bench officials.
 
 5
-00:00:16.859 --> 00:00:23.859
+00:00:17.173 --> 00:00:24.173
 A new player: number, name, licence number (or date of birth), then "Add".
 
 6
-00:00:26.290 --> 00:00:29.732
+00:00:26.876 --> 00:00:30.346
 The libero column marks L1 and L2, "C" marks the captain.
 
 7
-00:00:29.782 --> 00:00:36.104
-Coaches can send their own roster: "Remote" shows the Upload PIN.
+00:00:30.396 --> 00:00:33.383
+"Roster import": one switch, "Remote", "PDF" or "Photo". Only the chosen way shows.
 
 8
-00:00:36.154 --> 00:00:39.447
-Below the players: the bench officials.
+00:00:33.433 --> 00:00:37.633
+"PDF": The team's roster PDF or the Einsatzliste, from this device.
 
 9
-00:00:39.497 --> 00:00:41.750
-"Confirm" saves the roster.
+00:00:37.683 --> 00:00:42.691
+"Photo": first the "Language of the list", then "Take a photo" or "Choose a picture".
 
 10
-00:00:41.800 --> 00:00:46.458
-Tap a shirt to change the team colour.
+00:00:42.741 --> 00:00:47.044
+The players go straight into the roster; the fields to check are marked.
 
 11
-00:00:46.508 --> 00:00:50.505
+00:00:47.094 --> 00:00:51.603
+Coaches can send their own roster: "Remote" shows the Upload PIN.
+
+12
+00:00:51.653 --> 00:00:54.979
+Below the players: the bench officials.
+
+13
+00:00:55.029 --> 00:00:57.327
+"Confirm" saves the roster.
+
+14
+00:00:57.377 --> 00:01:02.259
+Tap a shirt to change the team colour.
+
+15
+00:01:02.309 --> 00:01:06.507
 All set: "Coin toss".

@@ -1,41 +1,41 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.829
+00:00:00.000 --> 00:00:04.840
 Un errore? "Partita" → "Correzioni".
 
 2
-00:00:04.879 --> 00:00:09.032
+00:00:04.890 --> 00:00:09.043
 La "Tabellone delle correzioni" mostra la partita come il tabellone. Nulla viene salvato prima di "Salva".
 
 3
-00:00:09.082 --> 00:00:12.603
+00:00:09.093 --> 00:00:12.567
 "L'ultimo punto è andato alla squadra sbagliata": il punto passa all'altra squadra.
 
 4
-00:00:12.653 --> 00:00:16.371
+00:00:12.617 --> 00:00:16.355
 Uno scambio non è stato inserito: "+" accanto al punteggio della squadra ("−" ne toglie uno).
 
 5
-00:00:16.421 --> 00:00:22.408
+00:00:16.405 --> 00:00:22.390
 Formazione, timeout e sostituzioni: toccali sulla tavola. Sanzioni, libero, osservazioni, sorteggio e numeri: i pulsanti sotto.
 
 6
-00:00:22.458 --> 00:00:25.823
+00:00:22.440 --> 00:00:25.806
 Le modifiche sono elencate in basso. "Annulla ultima" annulla l'ultima.
 
 7
-00:00:25.873 --> 00:00:32.761
+00:00:25.856 --> 00:00:32.727
 "Salva": controlla le modifiche, poi salvale. L'arbitro le vede nel registro delle correzioni.
 
 8
-00:00:32.811 --> 00:00:39.811
+00:00:32.777 --> 00:00:39.777
 Un set chiuso troppo presto? Sulla tavola scegli il set, poi "Riapri set". I set successivi vengono eliminati.
 
 9
-00:00:44.122 --> 00:00:46.688
+00:00:44.120 --> 00:00:46.688
 Il set 1 è di nuovo aperto sul 25-20: "Cambio decisione" corregge l'ultimo punto.
 
 10
-00:00:46.738 --> 00:00:49.105
+00:00:46.738 --> 00:00:49.107
 Oppure "Conferma" lo chiude di nuovo.

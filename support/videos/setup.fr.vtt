@@ -1,45 +1,61 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:02.755
+00:00:00.001 --> 00:00:02.807
 Préparation : les informations du match, les deux équipes, puis le tirage au sort.
 
 2
-00:00:02.805 --> 00:00:05.383
+00:00:02.857 --> 00:00:05.477
 Match officiel : "Charger match depuis le calendrier" remplit tout.
 
 3
-00:00:05.433 --> 00:00:12.433
+00:00:05.527 --> 00:00:12.527
 "Modifier" : date, salle, arbitres, marqueur, juges de ligne et format du match.
 
 4
-00:00:14.488 --> 00:00:16.809
-"Modifier l'effectif" : joueurs, libéros, capitaine et officiels au banc.
+00:00:14.702 --> 00:00:17.123
+"Modifier l'effectif" : joueurs, libéros, capitaine et officiels de banc.
 
 5
-00:00:16.859 --> 00:00:23.859
+00:00:17.173 --> 00:00:24.173
 Nouveau joueur : numéro, nom, numéro de licence (ou date de naissance), puis "Ajouter".
 
 6
-00:00:26.290 --> 00:00:29.732
+00:00:26.876 --> 00:00:30.346
 La colonne libéro indique L1 et L2, "C" désigne le capitaine.
 
 7
-00:00:29.782 --> 00:00:36.104
-Les entraîneurs peuvent envoyer leur effectif : "Distant" affiche le Code PIN.
+00:00:30.396 --> 00:00:33.383
+"Import de l'effectif" : un seul sélecteur, "Distant", "PDF" ou "Photo". Seule la façon choisie s'affiche.
 
 8
-00:00:36.154 --> 00:00:39.447
-Sous les joueurs : les officiels au banc.
+00:00:33.433 --> 00:00:37.633
+"PDF" : Le PDF de l'effectif de l'équipe ou l'Einsatzliste, depuis cet appareil.
 
 9
-00:00:39.497 --> 00:00:41.750
-"Confirmer" enregistre l'effectif.
+00:00:37.683 --> 00:00:42.691
+"Photo" : d'abord la "Langue de la liste", puis "Prendre une photo" ou "Choisir une image".
 
 10
-00:00:41.800 --> 00:00:46.458
-Appuie sur un maillot pour changer la couleur de l'équipe.
+00:00:42.741 --> 00:00:47.044
+Les joueurs vont directement dans l'effectif, les champs à vérifier sont marqués.
 
 11
-00:00:46.508 --> 00:00:50.505
+00:00:47.094 --> 00:00:51.603
+Les coachs peuvent envoyer leur effectif : "Distant" affiche le Code PIN.
+
+12
+00:00:51.653 --> 00:00:54.979
+Sous les joueurs : les officiels de banc.
+
+13
+00:00:55.029 --> 00:00:57.327
+"Confirmer" enregistre l'effectif.
+
+14
+00:00:57.377 --> 00:01:02.259
+Appuie sur un maillot pour changer la couleur de l'équipe.
+
+15
+00:01:02.309 --> 00:01:06.507
 Tout est prêt : "Tirage au sort".
