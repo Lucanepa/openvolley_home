@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T14:52:40.484Z",
-  "appVersion": "26.11.6",
+  "generatedAt": "2026-11-26T22:20:38.735Z",
+  "appVersion": "26.11.7",
   "languages": [
     "en",
     "de",
@@ -557,6 +557,21 @@
           }
         },
         {
+          "id": "importPhoto",
+          "question": {
+            "en": "Can I import the Einsatzliste from a photo?",
+            "de": "Kann ich die Einsatzliste aus einem Foto importieren?",
+            "fr": "Puis-je importer l'Einsatzliste depuis une photo ?",
+            "it": "Posso importare l'Einsatzliste da una foto?"
+          },
+          "answer": {
+            "en": "Yes. In “Edit roster”, keep “Local” selected and tap “Photo of the list”. Take a photo of the printed list or choose a picture of it (a screenshot works too; zoom in so the table fills it). Drag the four corners onto the page, then tap “Read the list”: the photo is read on this device, not sent and not kept. Check the rows: a red field must be fixed, an amber one checked. Shirt numbers, the captain (C, K or a circled number) and liberos (L) written on the list are taken for this game; numbers left blank come from the saved team. Nothing changes until you tap “Use”. A PDF of the list is read more reliably than a photo.",
+            "de": "Ja. Lass in «Kader bearbeiten» «Lokal» ausgewählt und tippe auf «Foto der Liste». Fotografiere die ausgedruckte Liste oder wähle ein Bild davon (auch ein Screenshot geht; zoome hinein, bis die Tabelle ihn füllt). Zieh die vier Ecken auf die Seite und tippe auf «Liste lesen»: Das Foto wird auf diesem Gerät gelesen, nicht gesendet und nicht gespeichert. Prüfe die Zeilen: Ein rotes Feld musst du korrigieren, ein gelbes prüfen. Trikotnummern, Kapitän (C, K oder eine eingekreiste Nummer) und Liberos (L), die auf der Liste stehen, gelten für dieses Spiel; leere Nummern kommen aus dem gespeicherten Team. Erst mit «Übernehmen» ändert sich etwas. Ein PDF der Liste wird zuverlässiger gelesen als ein Foto.",
+            "fr": "Oui. Dans « Modifier l'effectif », laisse « Local » choisi et appuie sur « Photo de la liste ». Prends en photo la liste imprimée ou choisis une image de la liste (une capture d'écran fonctionne aussi ; zoome jusqu'à ce que le tableau la remplisse). Glisse les quatre coins sur la page, puis appuie sur « Lire la liste » : la photo est lue sur cet appareil, ni envoyée ni gardée. Vérifie les lignes : un champ rouge doit être corrigé, un champ orange vérifié. Les numéros de maillot, le capitaine (C, K ou un numéro entouré) et les libéros (L) inscrits sur la liste valent pour ce match ; les numéros laissés vides viennent de l'équipe enregistrée. Rien ne change avant « Utiliser ». Le PDF de la liste est lu de façon plus fiable qu'une photo.",
+            "it": "Sì. In «Modifica roster», lascia selezionato «Locale» e tocca «Foto della lista». Fotografa la lista stampata o scegli un'immagine della lista (va bene anche uno screenshot; ingrandisci finché la tabella lo riempie). Trascina i quattro angoli sulla pagina, poi tocca «Leggi la lista»: la foto viene letta su questo dispositivo, non inviata né conservata. Controlla le righe: un campo rosso va corretto, uno giallo controllato. I numeri di maglia, il capitano (C, K o un numero cerchiato) e i liberi (L) scritti sulla lista valgono per questa partita; i numeri lasciati vuoti vengono dalla squadra salvata. Nulla cambia prima di «Usa». Il PDF della lista viene letto in modo più affidabile di una foto."
+          }
+        },
+        {
           "id": "rosterUpload",
           "question": {
             "en": "Can the coach send the roster?",
@@ -586,6 +601,46 @@
             "it": "La sua scheda mostra «Elenco inviato da …». Tocca «Mostra» per guardarlo, poi «Accetta» per caricarlo, e controllalo con l'allenatore («Non ora» lo lascia per dopo). Se l'allenatore e il capitano hanno firmato in anticipo, le loro firme arrivano insieme."
           }
         },
+        {
+          "id": "clubPlayers",
+          "question": {
+            "en": "What do the green and gray shields mean?",
+            "de": "Was bedeuten die grünen und grauen Schilder?",
+            "fr": "Que signifient les écussons verts et gris ?",
+            "it": "Cosa significano gli scudi verdi e grigi?"
+          },
+          "answer": {
+            "en": "For a team of your club, each roster and bench row shows a shield (in landscape). Green: the person is in the club's licence lists; a dot means the club knows a first name or date of birth the row lacks: tap to fill it in. Gray: typed by hand: tap to link the row to someone in the club's lists. “Add from club” adds players from the lists.",
+            "de": "Bei einem Team deines Vereins zeigt jede Zeile des Kaders und der Bank ein Schild (im Querformat). Grün: Die Person ist in den Lizenzlisten des Vereins; ein Punkt heisst, der Verein kennt einen Vornamen oder ein Geburtsdatum, das in der Zeile fehlt: Tippe, um es einzutragen. Grau: von Hand eingetippt: Tippe, um die Zeile mit jemandem aus den Listen des Vereins zu verknüpfen. «Aus dem Verein hinzufügen» fügt Spieler aus den Listen hinzu.",
+            "fr": "Pour une équipe de ton club, chaque ligne de l'effectif et du banc montre un écusson (en mode paysage). Vert : la personne figure dans les listes de licences du club ; un point signifie que le club connaît un prénom ou une date de naissance qui manque à la ligne : appuie pour le compléter. Gris : saisi à la main : appuie pour relier la ligne à une personne des listes du club. « Ajouter du club » ajoute des joueurs depuis les listes.",
+            "it": "Per una squadra della tua società, ogni riga del roster e della panchina mostra uno scudo (in orizzontale). Verde: la persona è negli elenchi di licenze della società; un punto significa che la società conosce un nome o una data di nascita che manca nella riga: tocca per completarla. Grigio: inserito a mano: tocca per collegare la riga a qualcuno degli elenchi della società. «Aggiungi dalla società» aggiunge giocatori dagli elenchi."
+          }
+        }
+      ]
+    },
+    {
+      "id": "roster-details",
+      "url": "https://openvolley.app/support#roster-details",
+      "title": {
+        "en": "Roster details",
+        "de": "Kader: Details",
+        "fr": "Effectifs : détails",
+        "it": "Roster: dettagli"
+      },
+      "video": null,
+      "screens": [
+        {
+          "id": "matchSetup",
+          "app": "scorer",
+          "name": {
+            "en": "Match setup",
+            "de": "Spieleinrichtung",
+            "fr": "Configuration du match",
+            "it": "Configurazione partita"
+          }
+        }
+      ],
+      "faq": [
         {
           "id": "liberos",
           "question": {
@@ -644,21 +699,6 @@
             "de": "Ja, wenn du willst: «Kader bearbeiten» › «Unterschriften». Ändern sich nach dem Unterschreiben die Spieler oder die Bank dieses Teams, werden seine Unterschriften entfernt, und sie unterschreiben neu.",
             "fr": "Oui, si tu veux : « Modifier l'effectif » › « Signatures ». Si les joueurs ou le banc de cette équipe changent après la signature, ses signatures sont effacées et ils signent à nouveau.",
             "it": "Sì, se vuoi: «Modifica roster» › «Firme». Se i giocatori o la panchina di quella squadra cambiano dopo la firma, le sue firme vengono tolte e si firma di nuovo."
-          }
-        },
-        {
-          "id": "clubPlayers",
-          "question": {
-            "en": "What do the green and gray shields mean?",
-            "de": "Was bedeuten die grünen und grauen Schilder?",
-            "fr": "Que signifient les écussons verts et gris ?",
-            "it": "Cosa significano gli scudi verdi e grigi?"
-          },
-          "answer": {
-            "en": "For a team of your club, each roster and bench row shows a shield (in landscape). Green: the person is in the club's licence lists; a dot means the club knows a first name or date of birth the row lacks: tap to fill it in. Gray: typed by hand: tap to link the row to someone in the club's lists. “Add from club” adds players from the lists.",
-            "de": "Bei einem Team deines Vereins zeigt jede Zeile des Kaders und der Bank ein Schild (im Querformat). Grün: Die Person ist in den Lizenzlisten des Vereins; ein Punkt heisst, der Verein kennt einen Vornamen oder ein Geburtsdatum, das in der Zeile fehlt: Tippe, um es einzutragen. Grau: von Hand eingetippt: Tippe, um die Zeile mit jemandem aus den Listen des Vereins zu verknüpfen. «Aus dem Verein hinzufügen» fügt Spieler aus den Listen hinzu.",
-            "fr": "Pour une équipe de ton club, chaque ligne de l'effectif et du banc montre un écusson (en mode paysage). Vert : la personne figure dans les listes de licences du club ; un point signifie que le club connaît un prénom ou une date de naissance qui manque à la ligne : appuie pour le compléter. Gris : saisi à la main : appuie pour relier la ligne à une personne des listes du club. « Ajouter du club » ajoute des joueurs depuis les listes.",
-            "it": "Per una squadra della tua società, ogni riga del roster e della panchina mostra uno scudo (in orizzontale). Verde: la persona è negli elenchi di licenze della società; un punto significa che la società conosce un nome o una data di nascita che manca nella riga: tocca per completarla. Grigio: inserito a mano: tocca per collegare la riga a qualcuno degli elenchi della società. «Aggiungi dalla società» aggiunge giocatori dagli elenchi."
           }
         }
       ]
@@ -1033,10 +1073,10 @@
             "it": "Come annullo un'azione?"
           },
           "answer": {
-            "en": "Tap “Undo” and confirm. It takes back the last action of the current set: a point, a time-out, a substitution or a sanction. Tap it again to go further back.",
-            "de": "Tippe auf «Rückgängig» und bestätige. Das nimmt die letzte Aktion des laufenden Satzes zurück: einen Punkt, ein Timeout, einen Wechsel oder eine Sanktion. Tippe nochmals, um weiter zurückzugehen.",
-            "fr": "Appuie sur « Annuler » et confirme. Cela annule la dernière action du set en cours : un point, un temps mort, un remplacement ou une sanction. Appuie encore pour remonter plus loin.",
-            "it": "Tocca «Annulla» e conferma. Annulla l'ultima azione del set in corso: un punto, un timeout, una sostituzione o una sanzione. Tocca di nuovo per tornare più indietro."
+            "en": "Tap “Undo” and confirm. It takes back the last action of the current set: a point, a time-out, a substitution or a sanction. During a rally it takes back the rally start together with the last point. Tap it again to go further back.",
+            "de": "Tippe auf «Rückgängig» und bestätige. Das nimmt die letzte Aktion des laufenden Satzes zurück: einen Punkt, ein Timeout, einen Wechsel oder eine Sanktion. Während eines Ballwechsels nimmt es den Start des Ballwechsels zusammen mit dem letzten Punkt zurück. Tippe nochmals, um weiter zurückzugehen.",
+            "fr": "Appuie sur « Annuler » et confirme. Cela annule la dernière action du set en cours : un point, un temps mort, un remplacement ou une sanction. Pendant un échange, cela annule le début de l'échange avec le dernier point. Appuie encore pour remonter plus loin.",
+            "it": "Tocca «Annulla» e conferma. Annulla l'ultima azione del set in corso: un punto, un timeout, una sostituzione o una sanzione. Durante uno scambio annulla l'inizio dello scambio insieme all'ultimo punto. Tocca di nuovo per tornare più indietro."
           }
         },
         {
@@ -1257,10 +1297,10 @@
             "it": "Come esce il libero dal campo?"
           },
           "answer": {
-            "en": "Tap the libero on court and choose “Libero out”: the replaced player comes back. When the libero rotates to the front row, the app takes the libero out and asks you to confirm. “Exchange libero” swaps the two liberos.",
-            "de": "Tippe auf den Libero auf dem Feld und nimm ihn heraus: Der ersetzte Spieler kommt zurück. Rotiert der Libero in die vordere Reihe, nimmt ihn die App heraus und fragt dich zur Bestätigung. Mit dem Libero-Tausch wechseln die beiden Liberos.",
-            "fr": "Appuie sur le libéro sur le terrain et fais-le sortir : le joueur remplacé revient. Quand le libéro tourne en ligne avant, l'app le fait sortir et te demande de confirmer. L'échange de libéros fait permuter les deux libéros.",
-            "it": "Tocca il libero in campo e fallo uscire: rientra il giocatore sostituito. Quando il libero ruota in prima linea, l'app lo fa uscire e ti chiede di confermare. Lo scambio dei libero fa cambiare posto ai due libero."
+            "en": "Tap the libero on court and choose “Libero out”: the replaced player comes back. A rally must be finished first (“After finished rally”). When the libero rotates to the front row, the app takes the libero out and shows “Libero OUT”: tap “OK”. Later it asks “Libero IN?” for the back-row player; “Not now” stops this question for that team until the end of the set. “Exchange libero” swaps the two liberos.",
+            "de": "Tippe auf den Libero auf dem Feld und nimm ihn heraus: Der ersetzte Spieler kommt zurück. Zuerst muss ein Ballwechsel beendet sein („Nach beendetem Ballwechsel“). Rotiert der Libero in die vordere Reihe, nimmt ihn die App heraus und zeigt „Libero RAUS“: Tippe auf „OK“. Später fragt sie „Libero REIN?“ für den Spieler der hinteren Reihe; „Nicht jetzt“ stoppt diese Frage für das Team bis zum Satzende. Mit dem Libero-Tausch wechseln die beiden Liberos.",
+            "fr": "Appuie sur le libéro sur le terrain et fais-le sortir : le joueur remplacé revient. Un échange doit d'abord être terminé (« Après un échange terminé »). Quand le libéro tourne en ligne avant, l'app le fait sortir et affiche « Libéro SORT » : appuie sur « OK ». Plus tard, elle demande « Libéro ENTRE ? » pour le joueur de la ligne arrière ; « Pas maintenant » arrête cette question pour l'équipe jusqu'à la fin du set. L'échange de libéros fait permuter les deux libéros.",
+            "it": "Tocca il libero in campo e fallo uscire: rientra il giocatore sostituito. Prima deve essere concluso uno scambio («Dopo uno scambio concluso»). Quando il libero ruota in prima linea, l'app lo fa uscire e mostra «Libero ESCE»: tocca «OK». Più tardi chiede «Libero ENTRA?» per il giocatore della seconda linea; «Non ora» ferma questa domanda per la squadra fino alla fine del set. Lo scambio dei libero fa cambiare posto ai due libero."
           }
         },
         {
@@ -4236,10 +4276,10 @@
             "it": "Manca una squadra della mia società."
           },
           "answer": {
-            "en": "The club's teams are VolleyManager's team names; an admin adds them in the Clubs tab. Write to support@openvolley.app.",
-            "de": "Die Teams des Vereins sind die Teamnamen aus VolleyManager; ein Admin fügt sie im Reiter Vereine hinzu. Schreibe an support@openvolley.app.",
-            "fr": "Les équipes du club sont les noms d'équipe de VolleyManager ; un administrateur les ajoute dans l'onglet Clubs. Écris à support@openvolley.app.",
-            "it": "Le squadre della società sono i nomi delle squadre di VolleyManager; un amministratore le aggiunge nella scheda Società. Scrivi a support@openvolley.app."
+            "en": "The club's teams are the team names of the official schedule; an admin adds them in the Clubs tab. Write to support@openvolley.app.",
+            "de": "Die Teams des Vereins sind die Teamnamen aus dem offiziellen Spielplan; ein Admin fügt sie im Reiter Vereine hinzu. Schreibe an support@openvolley.app.",
+            "fr": "Les équipes du club sont les noms d'équipe du calendrier officiel ; un administrateur les ajoute dans l'onglet Clubs. Écris à support@openvolley.app.",
+            "it": "Le squadre della società sono i nomi delle squadre del calendario ufficiale; un amministratore le aggiunge nella scheda Società. Scrivi a support@openvolley.app."
           }
         }
       ]
@@ -4611,10 +4651,10 @@
             "it": "Cos'è la rosa della stagione?"
           },
           "answer": {
-            "en": "Everyone who may play this season, with number and licence. Add them with “Add player”, “Import Einsatzliste” (the PDF from VolleyManager) or “Add from club”, then tap “Save roster”. Scorers can load this squad in Match setup.",
-            "de": "Alle, die diese Saison spielen dürfen, mit Nummer und Lizenz. Füge sie mit «Spieler hinzufügen», «Einsatzliste importieren» (das PDF aus VolleyManager) oder «Aus dem Verein hinzufügen» hinzu und tippe dann auf «Kader speichern». Schreiber können diesen Kader in der Spieleinrichtung laden.",
-            "fr": "Toutes les personnes qui peuvent jouer cette saison, avec numéro et licence. Ajoute-les avec « Ajouter un joueur », « Importer l’Einsatzliste » (le PDF de VolleyManager) ou « Ajouter du club », puis appuie sur « Enregistrer l’effectif ». Les marqueurs peuvent charger cet effectif dans la configuration du match.",
-            "it": "Tutti quelli che possono giocare in questa stagione, con numero e licenza. Aggiungili con «Aggiungi giocatore», «Importa Einsatzliste» (il PDF di VolleyManager) o «Aggiungi dalla società», poi tocca «Salva la rosa». I segnapunti possono caricare questa rosa nella configurazione della partita."
+            "en": "Everyone who may play this season, with number and licence. Add them with “Add player”, “Import Einsatzliste” (the PDF from Swiss Volley) or “Add from club”, then tap “Save roster”. Scorers can load this squad in Match setup.",
+            "de": "Alle, die diese Saison spielen dürfen, mit Nummer und Lizenz. Füge sie mit «Spieler hinzufügen», «Einsatzliste importieren» (das PDF von Swiss Volley) oder «Aus dem Verein hinzufügen» hinzu und tippe dann auf «Kader speichern». Schreiber können diesen Kader in der Spieleinrichtung laden.",
+            "fr": "Toutes les personnes qui peuvent jouer cette saison, avec numéro et licence. Ajoute-les avec « Ajouter un joueur », « Importer l’Einsatzliste » (le PDF de Swiss Volley) ou « Ajouter du club », puis appuie sur « Enregistrer l’effectif ». Les marqueurs peuvent charger cet effectif dans la configuration du match.",
+            "it": "Tutti quelli che possono giocare in questa stagione, con numero e licenza. Aggiungili con «Aggiungi giocatore», «Importa Einsatzliste» (il PDF di Swiss Volley) o «Aggiungi dalla società», poi tocca «Salva la rosa». I segnapunti possono caricare questa rosa nella configurazione della partita."
           }
         },
         {
@@ -4806,10 +4846,10 @@
             "it": "Cosa sono gli elenchi di licenze?"
           },
           "answer": {
-            "en": "The players, scorers and coaches lists from VolleyManager's club administration. With them, “Add from club” offers your club's people, and green shields mark people who are in the lists.",
-            "de": "Die Listen der Spieler, Schreiber und Trainer aus der Vereinsverwaltung von VolleyManager. Mit ihnen bietet «Aus dem Verein hinzufügen» die Leute deines Vereins an, und grüne Schilder markieren Personen, die in den Listen sind.",
-            "fr": "Les listes des joueurs, des marqueurs et des entraîneurs de l'administration du club de VolleyManager. Grâce à elles, « Ajouter du club » propose les personnes de ton club, et des écussons verts marquent les personnes qui figurent dans les listes.",
-            "it": "Gli elenchi di giocatori, segnapunti e allenatori dell'amministrazione della società di VolleyManager. Con questi, «Aggiungi dalla società» propone le persone della tua società, e gli scudi verdi segnano le persone che sono negli elenchi."
+            "en": "The players, scorers and coaches lists from Swiss Volley's club administration. With them, “Add from club” offers your club's people, and green shields mark people who are in the lists.",
+            "de": "Die Listen der Spieler, Schreiber und Trainer aus der Vereinsverwaltung von Swiss Volley. Mit ihnen bietet «Aus dem Verein hinzufügen» die Leute deines Vereins an, und grüne Schilder markieren Personen, die in den Listen sind.",
+            "fr": "Les listes des joueurs, des marqueurs et des entraîneurs de l'administration du club de Swiss Volley. Grâce à elles, « Ajouter du club » propose les personnes de ton club, et des écussons verts marquent les personnes qui figurent dans les listes.",
+            "it": "Gli elenchi di giocatori, segnapunti e allenatori dell'amministrazione della società di Swiss Volley. Con questi, «Aggiungi dalla società» propone le persone della tua società, e gli scudi verdi segnano le persone che sono negli elenchi."
           }
         },
         {
@@ -5131,10 +5171,10 @@
             "it": "Come configuro una società? (amministratori)"
           },
           "answer": {
-            "en": "Clubs › “New club”: name, contact e-mail and the club's VolleyManager teams. Save it, then pick its club managers from its accounts, or send a club manager link.",
-            "de": "Vereine › «Neuer Verein»: Name, Kontakt-E-Mail und die VolleyManager-Teams des Vereins. Speichere ihn, wähle dann seine Vereinsverantwortlichen aus seinen Konten oder schicke einen Link als Vereinsverantwortliche/r.",
-            "fr": "Clubs › « Nouveau club » : nom, e-mail de contact et les équipes VolleyManager du club. Enregistre-le, puis choisis ses responsables du club parmi ses comptes, ou envoie un lien de responsable du club.",
-            "it": "Società › «Nuova società»: nome, e-mail di contatto e le squadre VolleyManager della società. Salvala, poi scegli i suoi responsabili tra i suoi account, o invia un link da responsabile della società."
+            "en": "Clubs › “New club”: name, contact e-mail and the club's teams as in the official schedule. Save it, then pick its club managers from its accounts, or send a club manager link.",
+            "de": "Vereine › «Neuer Verein»: Name, Kontakt-E-Mail und die Teams des Vereins, wie im offiziellen Spielplan. Speichere ihn, wähle dann seine Vereinsverantwortlichen aus seinen Konten oder schicke einen Link als Vereinsverantwortliche/r.",
+            "fr": "Clubs › « Nouveau club » : nom, e-mail de contact et les équipes du club, comme dans le calendrier officiel. Enregistre-le, puis choisis ses responsables du club parmi ses comptes, ou envoie un lien de responsable du club.",
+            "it": "Società › «Nuova società»: nome, e-mail di contatto e le squadre della società, come nel calendario ufficiale. Salvala, poi scegli i suoi responsabili tra i suoi account, o invia un link da responsabile della società."
           }
         },
         {
@@ -5185,6 +5225,7 @@
       "sections": [
         "setup",
         "rosters",
+        "roster-details",
         "global",
         "connections",
         "handover"
