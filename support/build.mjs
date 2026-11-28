@@ -50,7 +50,7 @@ const FIRST_MATCH = 'first-match';
 const FIRST_MATCH_TARGET_BYTES = 24 * 1000 * 1000;
 
 // The guide PDFs listed in the guides block and copied to /support/guides:
-// the Quick guide of 3.2.5 (openvolley repository, escoresheet/docs/guides/
+// the Quick guide of 26.11.9 (openvolley repository, escoresheet/docs/guides/
 // quick-guide, invented names only), one per language; each page lists the
 // one in its own language.
 const GUIDES = [
@@ -154,7 +154,7 @@ const UI = {
       referees: { title: 'eScoresheet für Schiedsrichter:innen', desc: 'Was sich für Schiedsrichter:innen ändert: Kader, Schiedsrichter-Tablet, Rücknahmen, Unterschriften und wo ihr das Matchblatt für den Upload findet.' },
       scorers: { title: 'Tag 1 für Schreiber:innen', desc: 'Eine Seite für Schreiber:innen: zu Hause üben, das Spiel in der Halle erstellen, Kader, Auslosung, Unterschriften und Abschluss.' },
       clubs: { title: 'Tag 1 für Vereine', desc: 'Für Vereinsverantwortliche: Konto ja oder nein, einmal einrichten, Schreiber:innen einladen, Datenschutz.' },
-      quick: { title: 'Kurzanleitung', desc: 'Das eScoresheet Schritt für Schritt, vom ersten Öffnen bis zum Spielende (OpenVolley 3.2.5).' },
+      quick: { title: 'Kurzanleitung', desc: 'Das eScoresheet Schritt für Schritt, vom ersten Öffnen bis zum Spielende (OpenVolley 26.11.9).' },
       rollout: { title: 'Roll-out-Info', desc: 'Was das eScoresheet bietet und die nächsten Schritte der Einführung.' },
     },
     docLang: { en: 'Englisch', de: 'Deutsch', fr: 'Französisch', it: 'Italienisch' },
@@ -262,7 +262,7 @@ const UI = {
       referees: { title: 'eScoresheet for referees', desc: 'What changes for referees: rosters, the referee tablet, taking a rally back, signatures and where you find the scoresheet for the upload.' },
       scorers: { title: 'Day one for scorers', desc: 'One page for scorers: practise at home, create the match in the hall, rosters, coin toss, signatures and closing the match.' },
       clubs: { title: 'Day one for clubs', desc: 'For club managers: account or not, the one-time setup, inviting scorers, data protection.' },
-      quick: { title: 'Quick guide', desc: 'The eScoresheet step by step, from the first open to the match end (OpenVolley 3.2.5).' },
+      quick: { title: 'Quick guide', desc: 'The eScoresheet step by step, from the first open to the match end (OpenVolley 26.11.9).' },
       rollout: { title: 'Roll-out info', desc: 'What the eScoresheet offers and the next steps of the roll-out.' },
     },
     docLang: { en: 'English', de: 'German', fr: 'French', it: 'Italian' },
@@ -367,7 +367,7 @@ const UI = {
     guidesTitle: 'Guides et téléchargements',
     guidesLead: 'Les applications à installer et quelle application va sur quel appareil.',
     guides: {
-      quick: { title: 'Guide rapide', desc: 'L’eScoresheet pas à pas, de la première ouverture à la fin du match (OpenVolley 3.2.5).' },
+      quick: { title: 'Guide rapide', desc: 'L’eScoresheet pas à pas, de la première ouverture à la fin du match (OpenVolley 26.11.9).' },
       rollout: { title: 'Infos sur le déploiement', desc: 'Ce que propose l’eScoresheet et les prochaines étapes du déploiement.' },
     },
     docLang: { en: 'anglais', de: 'allemand', fr: 'français', it: 'italien' },
@@ -472,7 +472,7 @@ const UI = {
     guidesTitle: 'Guide e download',
     guidesLead: 'Le app da installare e quale app va su quale dispositivo.',
     guides: {
-      quick: { title: 'Guida rapida', desc: 'L’eScoresheet passo per passo, dalla prima apertura alla fine della partita (OpenVolley 3.2.5).' },
+      quick: { title: 'Guida rapida', desc: 'L’eScoresheet passo per passo, dalla prima apertura alla fine della partita (OpenVolley 26.11.9).' },
       rollout: { title: 'Info sull’introduzione', desc: 'Cosa offre l’eScoresheet e i prossimi passi dell’introduzione.' },
     },
     docLang: { en: 'inglese', de: 'tedesco', fr: 'francese', it: 'italiano' },
